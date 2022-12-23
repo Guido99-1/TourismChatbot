@@ -1166,3 +1166,10 @@ stories:
   - action: utter_happy # grandioso
   - intent: actividades_centro_banios
   - action: centro_list
+  
+- story: pies de dios ingles
+  steps: 
+  - intent: saludo
+  - action: utter_saludo
+  - intent: The_god_feet
+  - action: utter_piesDios_Ingles

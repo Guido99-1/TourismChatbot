@@ -227,8 +227,6 @@ rules:
 
 - rule: los pies de dios viewpoint
   steps: 
-  - intent: saludo
-  - action: utter_saludo
   - intent: The_god_feet
   - action: utter_piesDios_Ingles
 
