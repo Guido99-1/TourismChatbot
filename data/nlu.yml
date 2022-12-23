@@ -1,0 +1,4277 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hola
+    - buenas
+    - buenos dias
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - vamos
+    - que tal
+    - hola bot
+    - hola amigo
+    - que tal
+
+- intent: saludo
+  examples: |
+    - hi there
+    - good morning
+    - good morning
+    - good morning
+    - good evening
+    - good evening
+    - let's go
+    - how are you
+    - hi
+    - hello bot
+    - hello friend
+    - howdy
+
+- intent: goodbye
+  examples: |
+    - adiós
+    - que tengas un buen día
+    - nos vemos
+    - hasta luego
+    - chao
+
+- intent: despedida
+  examples: |
+    - goodbye
+    - have a nice day
+    - see you later
+    - see you later
+    - bye
+
+- intent: clima 
+  examples: |
+    - clima  
+    - cual es el clima
+    - cual es la temperatura 
+    - quiero saber cual es el clima 
+    - dime la temperatura actual
+    - cual es el clima para
+    - ¿Qué tiempo hace?
+    - ¿Cuál es la temperatura hoy?
+    - ¿Cuál es la temperatura?
+    - Quiero saber la temperatura
+    - Quiero saber el tiempo de hoy
+    - Dime el pronóstico del tiempo
+    - ¿Cómo está el clima hoy?
+
+- intent: mapa
+  examples: |
+    - Mapa
+    - mapas
+    - mapa de baños
+    - necesito el mapa de baños
+    - baños mapa
+    - Mapa turistico de baños de agua santa
+  
+- intent: recomendaciones
+  examples: |
+    - recomendaciones
+    - recomendaciones de viaje
+    - necesito recomendaciones antes de viajar a baños
+    - recomendaciones en baños
+    - recomendaciones para visitar baños
+    - me ayudan con recomendaciones
+
+- intent: mood_great
+  examples: |
+    - perfecto
+    - genial
+    - increíble
+    - sentirse como un rey
+    - maravilloso
+    - Me siento muy bien
+    - Estoy muy bien
+    - Soy increíble
+    - Voy a salvar el mundo
+    - súper entusiasmado
+    - extremadamente bien
+    - tan perfecto
+    - tan bueno
+    - tan perfecto
+    - bien
+    - muy bien
+    - estupendo
+    - fabuloso
+  
+- intent: contestar_bien
+  examples: |
+    - great
+    - great
+    - amazing
+    - feel like a king
+    - wonderful
+    - I feel great
+    - I am great
+    - I am amazing
+    - I'm going to save the world
+    - super excited
+    - extremely well
+    - so perfect
+    - so good
+    - so perfect
+    - ok
+    - very good
+    - very good
+    - great
+    - fabulous
+  
+- intent: mood_unhappy
+  examples: |
+    - mi día fue horrible
+    - Estoy triste
+    - No me siento muy bien
+    - Estoy decepcionado
+    - súper triste
+    - Estoy muy triste
+    - triste
+    - muy triste
+    - infeliz
+    - no es bueno
+    - no muy bien
+    - extremadamente triste
+    - tan triste
+    - muy triste
+    - mal 
+    - fatal
+
+- intent: contestar_mal
+  examples: |
+    - my day was horrible
+    - I'm sad
+    - I don't feel very good
+    - I'm disappointed
+    - super sad
+    - I am very sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so sad
+    - very sad
+    - bad 
+
+- intent: bot_challenge
+  examples: |
+    - ¿eres un bot?
+    - ¿eres un humano?
+    - ¿estoy hablando con un bot?
+    - ¿estoy hablando con un humano?
+    - eres un bot?
+    - eres un humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+    - eres un bot
+    - eres un humano
+    - estoy hablando con un bot
+    - estoy hablando con un humano
+
+- intent: que_eres
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am i talking to a bot?
+    - am i talking to a human?
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am i talking to a human?
+    - you are a bot
+    - are you a human
+    - I am talking to a bot
+    - I am talking to a human
+    - What are you?
+
+- intent: atractivos
+  examples: |
+    - atractivos baños 
+    - atractivos de la ciudad de Baños
+    - atractivos
+    - conocer lugares de baños
+    - que puedo hacer en baños
+    - cuáles son los atractivos de baños
+    - los atractivos de baños
+    - cuantos atractivos hay en baños
+    - lugares por visitar de baños
+    - sitios turísticos
+    - lugares turísticos
+    - atractivos turísticos
+    - lugares por visitar 
+    - quiero visitar atractivos de Baños 
+    - atractivos turisticos
+    - necesito información 
+    - informacion 
+    - información 
+    - busco información 
+    - estoy buscando información 
+    - quiero información
+    - solicito informacion 
+    - requiero información
+    - espero información 
+    - deseo información 
+    - me gustaria información 
+    - buscaba información
+    - dame información 
+
+- intent: Puentes
+  examples: |
+    - puentes
+    - atractivos puentes
+    - lugares con puentes
+    - puentes
+    - sitios puentes
+    - puent
+    - ubicación puentes
+    - precios puentes
+    - dirección puentes
+    - información puentes en baños
+    
+- intent: Columpios
+  examples: |
+    - columpios
+    - atractivos columpios
+    - lugares con columpios
+    - columpio
+    - sitios columpios
+    - columpi
+    - ubicación columpios
+    - precios columpios
+    - dirección columpios
+    - información columpios en baños
+
+- intent: actividades_extremas
+  examples: |
+    - actividades extremas
+    - hacer actividades extremas
+    - lugares para hacer actividades extremas
+    - extremos
+    - sitios extremos
+    - deportes extremos en baños
+    - extremos deportes
+    - ubicación actividades extremas
+    - precios actividades extremas
+    - dirección actividades extremas
+    - información actividades extremas en baños
+
+- intent: cascadas
+  examples: |
+    - cascada
+    - cascadas
+    - visitar las cascadas de baños
+    - cuales son las cascadas de baños
+    - sitios con cascadas
+    - las cascadas de baños
+    - ubicación cascadas
+    - precios cascadas
+    - dirección cascadas
+    - información cascadas en baños
+    - tarabitas
+    - canopy
+    - tarabitas de baños
+    - hacer canopy en baños
+  
+- intent: zoologicos
+  examples: |
+    - zologico
+    - zoológico
+    - zoologicos
+    - zoológicos
+    - visitar zologicos
+    - ubicación zoologicos
+    - donde estan los zoologicos
+    - ubicación zoologicos
+    - precios zoologicos
+    - dirección zoologicos
+    - información de zoologicos en baños 
+
+- intent: lugares_gastronomia
+  examples: |
+    - gastronomia
+    - gastronomía 
+    - gastronomicos
+    - atractivos gastronomicos
+    - gastronomicos atractivos
+    - visitar lugares gastronomicos
+    - gastronomia
+    - ubicación lugares gastronomicos
+    - precios lugares gastronomicos
+    - dirección lugares gastronomicos
+    - información lugares gastronomicos en baños
+
+- intent: museos
+  examples: |
+    - museos baños 
+    - museo en baños
+    - hay museos en baños
+    - visitar museos 
+    - quiero visitar museos en baños
+    - existen museos
+    - museos 
+    - museo
+    - visitar museo
+    - ubiacion museos
+    - precios museos
+    - informacion museos
+    - información museos
+    - ¿Atractivos culturales en Baños?
+    - lugares culturales 
+    - cuáles son las activiades culturales
+    - existen activiades culturales 
+    - atractivos cualturales
+    - visitar atractivos culturales
+    - hay atractivos culturales
+    - tiene lugares culturales baños 
+    - posee baños atractivos culturales 
+    - atracciones culturales 
+    - quiero visitar atractivos culturales 
+    - recomendación de lugares culturales 
+    - cultura
+
+- intent: parques_tematicos
+  examples: |
+    - parques tematicos
+    - parques temáticos
+    - cuantos parques tematios tiene Baños
+    - hay parques tematicos en baños 
+    - visitar parques tematicos 
+    - ubicacion parques tematicos 
+    - informacion parques tematicos en baños
+    - precios parques tematicos
+    - parques
+    - PARQUES
+    - Parques
+
+- intent: miradores
+  examples: |
+    - miradores
+    - miradores
+    - cuantos miradores tiene Baños
+    - hay miradores en baños 
+    - visitar miradores 
+    - ubicacion miradores 
+    - informacion miradores
+    - precios miradores
+
+- intent: piscinas_banios
+  examples: |
+    - Piscinas
+    - pisinas
+    - balnearios
+    - balneario
+    - balnearios en baños
+    - los balnearios de baños
+    - información de los balnearios de baños
+    - baños balnearios
+    - Piscinas en Baños
+    - cuantos piscinas tiene Baños
+    - hay piscinas en baños 
+    - visitar piscinas 
+    - ubicacion piscinas 
+    - informacion piscinas
+    - precios piscinas
+    - quiero conocer las piscinas de baños
+
+- intent: sincosto_lugares
+  examples: |
+    - gratis
+    - gratis
+    - atractivos gratis
+    - lugares gratis
+    - atractivos gratis
+    - lugares gratis
+    - gratis en Baños
+    - cuantos lugares gratis tiene Baños
+    - hay atractivos o lugares gratis en baños 
+    - visitar lugares gratis 
+    - ubicacion lugares gratis  
+    - ubicacion lugares gratis 
+    - informacion atractivos gratis
+    - informacion lugares gratis
+    - quiero conocer lugares gratis de baños
+    - quiero conocer atractivos gratis en baños
+    - lugares gratis para conocer en baños
+    - lugares gratis para visitar
+    - ¿Cuáles son los lugares o atractivos gratis en la ciudad?
+    - luagres que visitar gratis
+    - atractivos gratis
+    - buscar lugares gratis
+    - visitar lugares sin pagar
+    - entrar sin pagar a lugares 
+
+- intent: manos_de_dios
+  examples: |
+    - información manos de dios 
+    - informacion manos de dios 
+    - manos de dios 
+    - Manos de dios 
+    - más informacion de las manos de dios
+    - informacion manos de dios
+    - Más información de las manos de dios
+    - manos de dios 
+    - manos dios
+    - Manos de Dios
+
+- intent: precio_dios
+  examples: |
+    - Precio manos de dios
+    - cuanto cuesta la entrada a las manos de dios 
+    - tarifa a las manos de dios
+    - precio a las manos de dios 
+    - valor a las manos de dios 
+    - cuanto cuenta por persona entrar a las manos de dios
+
+- intent: horario_manos_dios
+  examples: |
+    - horarios manos de dios
+    - programa de atencion a las manos de dios
+    - cual es el horario de antencion manos de dios
+    - horario de atencion manos de dios
+
+- intent: pacha_mama
+  examples: |
+    - información manos de la pacha mama
+    - informacion manos de pachamama
+    - pacha mama
+    - pachamama
+    - más informacion de las manos de la pachamama
+    - Pachamama
+    - Pacha mama
+    - Más información manos de la Pachamama
+    - Pachamama
+    - manos pachamama
+
+- intent: valor_pachamama
+  examples: |
+    - Precio pachamama
+    - valor de entrada pachamama
+    - cuanto cuesta la entrada la pachamama 
+    - tarifa de las entradas a la pachamama
+    - precio a la pachamama
+    - valor a la pachamama 
+    - cuanto cuenta por persona entrar a la pachamama
+    - Precio de la Pachamama
+
+- intent: pachamama_horario
+  examples: |
+    - Horarios manos de la Pachamama
+    - horarios pachamama
+    - pachamama horarios
+    - pachamama horario de atención
+
+- intent: punte_cristal
+  examples: |
+    - mas infromación puente de cristal
+    - Mega Adventure Park Río Blanco
+    - punte de cristal
+    - mega park rio blanco 
+    - punte cristal rios blanco
+    - mega park rio blanco 
+    - Más información puente de cristal
+
+- intent: tarifa_Precio_Mega_adventure_Park
+  examples: |
+    - Precio Mega adventure Park
+    - valor Mega adventure Park
+    - tarifa Mega adventure Park
+    - Precio punte de cristal
+    - valor punte de cristal
+    - tarifa punte de cristal
+    - valor del punte de cristal 
+    - cuanto cuesta el punte de cristal
+    - precio entrada al mega adventure park
+    - valor al puente de cristal rio blanco 
+    - rio blanco puente de cistal precio
+    - tarifa de cruzar el puente de cristal rio blanco
+    - valor puente cristal
+    - precio puente cristal 
+    - tarifa puente cristal
+
+- intent: inicio_mega_park
+  examples: |
+    - horario Mega adventure Park
+    - Horario Mega adventure Park
+    - Inicio actividades Mega adventure Park
+    - apertura punte de cristal
+    - horario punte de cristal
+    - a que hora abre el punte de cristal
+    - hora de apertura del punte de cristal 
+    - hora de cierre del punte de cristal
+    - fin de actividades del puente de cristal rio blanco 
+    - rio blanco puente de cistal horario
+    - horario parael puente de cristal rio blanco
+    - apertura puente cristal
+    - horario puente cristal 
+    - inicio puente cristal
+
+- intent: fantasias_volar
+  examples: |
+    - Columpio fantasías de volar
+    - fantasias de volar
+    - atractivo fantasias de volar
+    - lugar fantasias de volar
+    - columpio fantasías de volar
+
+- intent: cuesta_columpio_fantasías_Volar
+  examples: |
+    - Precio columpio fantasias de volar
+    - precio columpio fantasías de volar
+    - cuanto cuesta la entrada a las columpio fantasías de volar
+    - tarifa del columpio fantasias de volar
+    - precio de columpio fantasias de volar 
+    - valor al columpio fantasias de volar
+    - cuanto cuenta por persona entrar al columpio fantasías de volar
+
+- intent: horario_fantasías_Volar
+  examples: |
+    - horarios columpio fantasias de volar
+    - programa de atencion del columpio fantasias de volar
+    - cual es el horario de antencion columpio fantasías de volar
+    - horario de atención columpio fantasias de volar
+    - horario fantasias
+    - a que hora abre el columpio fantasias de volar
+    - inicio de actividades columpio fantasias de volar
+    - horarios columpio fantasias de volar
+
+- intent: casa_del_arbol
+  examples: |
+    - Columpio la casa del arbol
+    - casa del árbol
+    - atractivo la casa del árbol
+    - lugar casa del arbol
+    - columpio casa del arbol
+    - casa albol
+    - la casa en el arbol
+
+- intent: valor_casa_arbol
+  examples: |
+    - Precio la casa del árbol
+    - precio la casa del arbol
+    - cuanto cuesta la entrada a la casa del arbol
+    - tarifa de la casa del árbol
+    - precio la casa del arbol 
+    - valor a la casa del árbol
+    - cuanto cuenta por persona entrar a la casa del arbol
+
+- intent: hora_casaarbol
+  examples: |
+    - horarios de la casa del arbol
+    - programa de atencion la casa del arbol
+    - cual es el horario de antencion cla casa del arbol
+    - horario de atención la casa del arbol
+    - a que hora abre la casa del arbol
+    - a que hora cierra la casa del arbol
+    - hora apertura la casa del arbol
+    - hora cierre de la casa del arbol
+
+- intent: vuelo_del_condor
+  examples: |
+    - Columpio vuelo del condor
+    - vuelo del condor
+    - Vuelo del cóndor
+    - atractivo el vuelo del condor
+    - lugar vuelo del condor
+    - columpio vuelo del cóndor
+    - el vuelo del condor
+
+- intent: entrada_vuelodelcondor
+  examples: |
+    - Precio del vuelo del condor
+    - precio al vuelo del cóndor
+    - cuanto cuesta la entrada al vuelo del condor
+    - tarifa de la vuelo del condor
+    - precio la vuelo del cóndor
+    - valor a la vuelo del condor
+    - cuanto cuenta por persona entrar al vuelo del condor
+
+- intent: horarios_vuelo_condor
+  examples: |
+    - horarios del vuelo del condor
+    - programa de atencion la vuelo del condor
+    - cual es el horario de antencion cla vuelo del condor
+    - horario de atención del vuelo del condor
+    - a que hora abre del vuelo del condor
+    - a que hora cierra el vuelo del condor
+    - hora apertura del vuelo del condor
+    - hora cierre del vuelo del condor
+
+- intent: columpio_abismo_del_diablo
+  examples: |
+    - Columpio extremo el abismo del diablo
+    - el abismo del diablo
+    - abismo del diablo
+    - columpio extremo el abismo
+    - extremo el abismo del diablo
+    - atractivo columpio extremo el abismo del diablo
+    - lugar columpio extremo el abismo del diablo
+    - columpio extremo del diablo
+    - el abismo extremo del diablo
+
+- intent: entrada_abismo
+  examples: |
+    - Precio del columpio extremo del diablo
+    - precio al columpio extremo del diablo
+    - cuanto cuesta la entrada al columpio extremo el abismo del diablo
+    - tarifa del columpio extremo del diablo
+    - precio columpio extremo el abismo del diablo
+    - valor al columpio extremo el abismo del diablo
+    - cuanto cuenta por persona entrar al columpio extremo el abismo del diablo
+
+- intent: horarios_columpio_diablo
+  examples: |
+    - horarios del columpio extremo el abismo del diablo
+    - programa de atencion al columpio extremo del diablo
+    - cual es el horario de antencion columpio extremo del diablo
+    - horario de atención del columpio extremo del diablo
+    - a que hora abre del columpio extremo del diablo
+    - a que hora cierra el columpio extremo el abismo del diablo
+    - hora apertura del columpio extremo del diablo
+    - hora cierre del columpio extremo el abismo del diablo
+
+
+- intent: rafting
+  examples: |
+    - rafting
+    - Rafting
+    - actividad extrema rafting
+    - descenso de ríos
+    - descenso de rio
+    - actividad descenso de rio
+
+- intent: contrata_rafting
+  examples: |
+    - contratar rafting
+    - donde puedo contratar rafting
+    - deseo contratar rafting
+    - hacer Rafting
+    - hacer rafting
+    - quiero hacer rafting
+    - contratar descenso de ríos
+    - hacer descenso de rio
+
+- intent: precio_rafting
+  examples: |
+    - Precio del rafting
+    - precio rafting
+    - precio al rafting
+    - cuanto cuesta el rafting
+    - tarifa de rafting
+    - precio rafting
+    - valor descenso de rio
+
+- intent: Canyoning
+  examples: |
+    - canyoning
+    - Canyoning
+    - actividad extrema canyoning
+    - descenso de barrancos
+    - descenso de cañones
+    - como puedo hacer canyoning en baños
+
+- intent: contratar_Canyoning
+  examples: |
+    - contratar canyoning
+    - donde puedo contratar canyoning
+    - deseo contratar canyoning
+    - hacer canyoning
+    - hacer canyoning
+    - quiero hacer canyoning
+    - contratar canyoning
+    - hacer canyoning
+
+- intent: precio_Canyoning
+  examples: |
+    - Precio del canyoning
+    - precio canyoning
+    - precio al canyoning
+    - cuanto cuesta el canyoning
+    - tarifa de canyoning
+    - precio canyoning
+    - valor canyoning
+    - canyoning precio
+    - canyoning valor 
+    - canyoning tarifa
+
+- intent: escalada_roca
+  examples: |
+    - escalada en roca   
+    - escalar
+    - escalada de roca
+    - actividad extrema escalada de roca
+    - escalada en roca 
+    - como puedo hacer escalada en roca en baños
+
+- intent: contrato_escaladaroca
+  examples: |
+    - contratar escalada en roca 
+    - donde puedo contratar escalada en roca 
+    - deseo contratar escalada en roca 
+    - hacer escalada en roca 
+    - como hacer escalada en roca 
+    - quiero hacer escalada en roca 
+    - contratar escalada en roca 
+    - hacer escalada en roca 
+
+- intent: cuesta_escalar
+  examples: |
+    - Precio de escalar en roca  
+    - precio escalada en roca  
+    - precio de escalada en roca  
+    - cuanto cuesta escalar en roca  
+    - tarifa de la escalada en roca  
+    - precio escalada en roca  
+    - valor escalada en roca  
+    - escalada en roca precio
+    - escalada en roca valor 
+    - escalada en roca tarifa
+
+- intent: Salto_puente
+  examples: |
+    - salto de puente  
+    - salto del puente
+    - Salto de puente
+    - actividad extrema salto de puente
+    - saltar de puentes
+    - como puedo hacer salto de puente en baños
+
+- intent: precticar_salto_puente
+  examples: |
+    - contratar salto de puente  
+    - donde puedo contratar salto de puente  
+    - deseo contratar salto de puente   
+    - hacer salto de puente   
+    - como hacer salto de puente   
+    - quiero hacer salto de puente   
+    - contratar salto de puente   
+    - hacer salto de puente  
+    - precticar salto de puente   
+
+- intent: salto_puente_valor
+  examples: |
+    - Precio de salto de puente  
+    - precio salto de puente    
+    - precio de salto de puente   
+    - cuanto cuesta saltar del puente   
+    - tarifa del salto de puente  
+    - precio salto de puente    
+    - valor salto de puente    
+    - salto de puente precio
+    - salto de puente valor 
+    - salto de puente tarifa
+
+- intent: manto_dela_novia
+  examples: |
+    - Cascada el manto de la novia
+    - cascada manto de la novia
+    - manto de la novia
+    - atractivo el manto de la novia
+    - lugar cascada manto de la novia
+    - la cascada el manto de la novia
+
+- intent: precios_manto_novia
+  examples: |
+    - Precio de la cascada el manto de la novia
+    - precio a la cascada manto de la novia
+    - cuanto cuesta la entrada a la cascada manto de la novia
+    - tarifa de la cascada manto de la novia
+    - precio cascada manto de la novia
+    - valor cascada manto de la novia
+    - cuanto cuenta por persona entrar a la cascada manto de la novia
+
+- intent: cascada_agoyan
+  examples: |
+    - Cascada de Agoyan
+    - cascada de agoyan
+    - cascada de agoyán
+    - atractivo la cascada de agoyan
+    - lugar cascada de agoyan
+    - la cascada de agoyan
+
+- intent: valores_cascada_del_agoyan
+  examples: |
+    - Precio de la cascada de agoyan
+    - precio a la cascada de agoyan
+    - cuanto cuesta la entrada a la cascada de agoyan
+    - tarifa de la cascada de agoyan
+    - precio cascada de agoyan
+    - valor cascada de agoyan
+    - cuanto cuenta por persona entrar a la cascada de agoyan
+
+- intent: el_pailon
+  examples: |
+    - El pailón del diablo
+    - más información del pailón del diablo
+    - Casada el pailón del diablo
+    - el pailon del diablo
+    - atractivo el el pailon del diablo
+    - lugar el pailon del diablo
+    - el pailon del diablo
+
+- intent: entrada_pailon_deldiablo
+  examples: |
+    - Precio del pailon del diablo
+    - precio el pailon del diablo
+    - cuanto cuesta el pailon del diablo
+    - tarifa del pailon del diablo
+    - precio del pailon del diablo
+    - valor el pailon del diablo
+    - cuanto cuenta por persona entrar al pailon del diablo
+    - el pailon del diablo precio 
+    - el pailon del diablo valor
+    - el pailon del diablo tarifa
+
+- intent: horarios_cascada_pailon
+  examples: |
+    - horarios del pailon del diablo
+    - programa de atencion el pailon del diablo
+    - cual es el horario de antencion el pailon del diablo
+    - horario de atención del pailon del diablo
+    - a que hora abre el pailon del diablo
+    - a que hora cierra el pailon del diablo
+    - hora apertura del pailon del diablo
+    - hora cierre el pailon del diablo
+
+- intent: cascada_virgen
+  examples: |
+    - Cascada de la virgen
+    - cascada de la virgen
+    - cascada de la virgen
+    - atractivo la cascada de la virgen
+    - lugar la cascada de la virgen
+    - la cascada de la virgen
+
+- intent: precios_cascada_virgen
+  examples: |
+    - Precio de la cascada de la virgen
+    - precio a la cascada de la virgen
+    - cuanto cuesta la entrada a la cascada de la virgen
+    - tarifa de la cascada de la virgen
+    - precio cascada de la virgen
+    - valor cascada de la virgen
+    - cuanto cuenta por persona entrar a la cascada de la virgen
+    - cascada de la virgen precios 
+    - cascada de la virgen valor 
+    - cascada de la virgen tarifa
+
+- intent: ines_maria_cascada
+  examples: |
+    - Cascada de Inés María
+    - cascada de ines maría
+    - la cascada de ines maria
+    - en cascada de ines maría
+    - atractivo la cascada de ines maría
+    - lugar la cascada de ines maría
+
+- intent: tarifas_inesmaria
+  examples: |
+    - Precio de la cascada de ines maría
+    - precio a la cascada de ines maría
+    - cuanto cuesta la entrada a la cascada de ines maría
+    - tarifa de la cascada de ines maría
+    - precio cascada de ines maría
+    - valor cascada de ines maría
+    - cuanto cuenta por persona entrar a la cascada de ines maría
+    - cascada de ines maría precios 
+    - cascada de ines maría valor 
+    - cascada de ines maría tarifa
+
+- intent: san_Antonio
+  examples: |
+    - Cascada San Antonio
+    - cascada san antonio
+    - la cascada de san antonio
+    - en san antonio
+    - san antonio
+    - atractivo la cascada de san antonio
+    - lugar la cascada de san antonio
+
+- intent: precio_antonio
+  examples: |
+    - Precio de la cascada san antonio
+    - precio cascada san antonio
+    - cuanto cuesta la entrada a la cascada san antonio
+    - tarifa de la cascada san antonio
+    - precio cascada san antonio
+    - valor cascada san antonio
+    - cuanto cuenta por persona entrar a la cascada san antonio
+    - cascada san antonio precios 
+    - cascada san antonio valor 
+    - cascada de san antonio tarifa
+
+- intent: chamana
+  examples: |
+    - Cascada de Chamana
+    - cascada de chamana
+    - la cascada de chamana
+    - cascada de chamana
+    - chamana
+    - atractivo la cascada de chamana
+    - lugar cascada de chamana
+
+- intent: valor_cascada_chamana
+  examples: |
+    - Precio de la cascada de chamana
+    - precio cascada de chamana
+    - cuanto cuesta la entrada a la cascada de chamana
+    - tarifa de la cascada de chamana
+    - precio cascada de chamana
+    - valor ccascada de chamana
+    - cuanto cuenta por persona entrar a la cascada de chamana
+    - cascada de chamana precios 
+    - cascada de chamana valor 
+    - cascada de chamana tarifa
+
+- intent: zoo_san_martin
+  examples: |
+    - Eco Zoológico San Martín
+    - zoo San Martin
+    - El zoológico san martin
+    - El zoologico san martin
+    - lugar zoologico san martin
+    - El zoologico san martin
+    - zoologico san martin
+
+- intent: precios_san_martin
+  examples: |
+    - Precio zoologico san martin
+    - precio zoologico san martin
+    - cuanto cuesta la entrada al zoologico san martin
+    - tarifa del zoologico san martin
+    - precio al zoologico san martin
+    - valor zoologico san martin
+    - cuanto cuenta por persona entrar al zoologico san martin
+    - zoologico san martin valor
+    - zoologico san martin precios
+    - zoologico san martin tarifas
+
+- intent: hora_zoo_san_martin
+  examples: |
+    - horarios del zoologico san martin
+    - programa de atencion al zoologico san martin
+    - cual es el horario de antencion del zoologico san martin
+    - horario de atención zoologico san martin
+    - a que hora abre el zoologico san martin
+    - a que hora cierra el zoologico san martin
+    - hora apertura zoologico san martin
+    - hora cierre del zoologico san martin
+
+- intent: vida_exotica
+  examples: |
+    - Zoo Vida Exótica San Martín
+    - zoo vida exótica san martín
+    - zoo vida exotica san martin
+    - El zoológico vida exotica 
+    - El zoologico vida exotica 
+    - lugar zoologico vida exotica 
+    - sitio zoologico vida exotica 
+    - zoologico vida exotica 
+    - vida exotica 
+
+- intent: precios_vida_exotica 
+  examples: |
+    - Precio zoologico vida exotica 
+    - precio zoologico vida exotica
+    - cuanto cuesta la entrada al zoologico vida exotica 
+    - tarifa del zoologico vida exotica 
+    - precio al zoologico vida exotica 
+    - valor zoologico vida exotica 
+    - cuanto cuenta por persona entrar al zoologico vida exotica 
+    - zoologico vida exotica valor
+    - zoologico vida exotica precios
+    - zoologico vida exotica tarifas
+
+- intent: horariosvida_exotica 
+  examples: |
+    - horarios del zoologico vida exotica 
+    - programa de atencion al zoologico vida exotica 
+    - cual es el horario de antencion del zoologico vida exotica 
+    - horario de atención zoologico vida exotica 
+    - a que hora abre el zoologico vida exotica 
+    - a que hora cierra el zoologico vida exotica 
+    - hora apertura zoologico vida exotica 
+    - hora cierre del zoologico vida exotica 
+
+- intent: fabrica_chocolate
+  examples: |
+    - La fábrica de chocolate
+    - fábrica de chocolate
+    - chocolate
+    - fabrica de chocolate
+    - lugar fabrica de chocolate
+    - la fabrica de chocolate
+    - fabrica de chocolate
+    - fabrica 
+
+- intent: precios_fabrica
+  examples: |
+    - Precio fabrica de chocolate
+    - precio fabrica de chocolate
+    - cuanto cuesta la entrada a la fabrica de chocolate
+    - tarifa de la fabrica de chocolate
+    - precio fabrica de chocolate
+    - valor fabrica de chocolate
+    - cuanto cuenta por persona entrar a la fabrica de chocolate
+    - fabrica de chocolate valor
+    - fabrica de chocolate precios
+    - fabrica de chocolate tarifas
+
+- intent: horarios_chocolate
+  examples: |
+    - horarios fabrica de chocolate
+    - programa de atencion fabrica de chocolate
+    - cual es el horario de antencion de la fabrica de chocolate
+    - horario de atención fabrica de chocolate
+    - a que hora abre la fabrica de chocolate
+    - a que hora cierra la fabrica de chocolate
+    - hora apertura fabrica de chocolate
+    - hora cierre la fabrica de chocolate
+# piscinas
+- intent: Piscina_Virgen
+  examples: |
+    - piscinas de la virgen
+    - Piscinas de la Virgen
+    - piscinas de la virgen baños
+    - lugar piscinas de la virgen
+    - piscina de la virgen
+
+- intent: precios_Piscina_Virgen
+  examples: |
+    - Precio piscinas de la virgen
+    - precio piscinas de la virgen
+    - cuanto cuesta la entrada a las piscinas de la virgen
+    - tarifa de las piscinas de la virgen
+    - precio piscinas de la virgen
+    - valor de las piscinas de la virgen
+    - cuanto cuenta por persona entrar a la piscinas de la virgen
+    - piscinas de la virgen valor
+    - piscinas de la virgen precios
+    - piscinas de la virgen tarifas
+
+- intent: horarios_Piscina_Virgen
+  examples: |
+    - horarios piscinas de la virgen
+    - horario de piscinas de la virgen
+    - programa de atencion de las piscinas de la virgen
+    - cual es el horario de antencion de las piscinas de la virgen
+    - horario de atención piscinas de la virgen
+    - a que hora abre la piscinas de la virgen
+    - a que hora cierra la piscinas de la virgen
+    - hora apertura piscinas de la virgen
+    - hora cierre las piscinas de la virgen
+
+- intent: Termas_dela_virgen
+  examples: |
+    - Termas de la virgen
+    - termas de la virgen
+    - piscinas de las termas de la virgen
+    - lugar de termas de la virgen
+    - piscina de las termas de la virgen
+
+- intent: precio_Termas_dela_virgen
+  examples: |
+    - Precio termas de la virgen
+    - precio de las termas de la virgen
+    - cuanto cuesta la entrada a las termas de la virgen
+    - tarifa de las termas de la virgen
+    - precio termas de la virgen
+    - valor de las termas de la virgen
+    - cuanto cuenta por persona entrar a la termas de la virgen
+    - termas de la virgen valor
+    - ptermas de la virgen precios
+    - termas de la virgen tarifas
+
+- intent: horarios_Termas_dela_virgen
+  examples: |
+    - horarios termas de la virgen
+    - horario de las termas de la virgen
+    - programa de atencion de las termas de la virgen
+    - cual es el horario de antencion de las termas de la virgen
+    - horario de atención termas de la virgen
+    - a que hora abre la termas de la virgen
+    - a que hora cierra la termas de la virgen
+    - hora apertura termas de la virgen
+    - hora cierre las termas de la virgen
+
+- intent: Santa_Clara
+  examples: |
+    - Piscinas de santa clara
+    - piscinas de santa clara
+    - piscinas de Santa Clara
+    - piscinas de las piscinas de santa clara
+    - lugar de piscinas de santa clara
+
+- intent: precio_Santa_Clara
+  examples: |
+    - Precio piscinas de santa clara
+    - precio de las piscinas de santa clara
+    - cuanto cuesta la entrada a las piscinas de santa clara
+    - tarifa de las piscinas de santa clara
+    - precio piscinas de santa clara
+    - valor de las piscinas de santa clara
+    - cuanto cuenta por persona entrar a la piscinas de santa clara
+    - piscinas de santa clara valor
+    - piscinas de santa clara precios
+    - piscinas de santa clara tarifas
+
+- intent: horarios_Santa_Clara
+  examples: |
+    - horarios piscinas de santa clara
+    - horario de las piscinas de santa clara
+    - programa de atencion de las piscinas de santa clara
+    - cual es el horario de antencion de las piscinas de santa clara
+    - horario de atención piscinas de santa clara
+    - a que hora abre la piscinas de santa clara
+    - a que hora cierra la piscinas de santa clara
+    - hora apertura piscinas de santa clara
+    - hora cierre las piscinas de santa clara
+
+- intent: El_Salado
+  examples: |
+    - Piscinas del salado
+    - piscinas El salado
+    - las piscinas el salado
+    - piscinas piscinas del salado
+    - piscinas de las piscinas el salado
+    - lugar de psicinas el salado
+    - información de las piscinas del salado 
+    - informacion de las piscinas del salado 
+    - conocer piscinas el salado
+    - saber de las piscinas el salado
+
+- intent: precio_El_Salado
+  examples: |
+    - Precio piscinas el salado
+    - precio de las piscinas el salado
+    - cuanto cuesta la entrada a las piscinas el salado
+    - tarifa de las piscinas el salado
+    - precio piscinas el salado
+    - valor de las piscinas el salado
+    - cuanto cuenta por persona entrar a la piscinas el salado
+    - piscinas el salado valor
+    - piscinas el salado precios
+    - piscinas el salado tarifas
+
+- intent: horarios_El_Salado
+  examples: |
+    - horarios piscinas el salado
+    - horario de las piscinas el salado
+    - programa de atencion de las piscinas el salado
+    - cual es el horario de antencion de las piscinas el salado
+    - horario de atención piscinas el salado
+    - a que hora abre la piscinas el salado
+    - a que hora cierra la piscinas el salado
+    - hora apertura piscinas el salado
+    - hora cierre las piscinas el salado
+
+- intent: Piscinas_Santa_Ana
+  examples: |
+    - Piscinas de Santa Ana
+    - piscinas de santa ana
+    - las piscinas de santa ana
+    - piscinas de santa ana
+    - lugar de las piscinas de santa ana
+    - información de las piscinas de Santa Ana
+    - informacion de las piscinas de santa ana 
+    - conocer piscinas de Santa Ana
+    - saber de las piscinas de santa ana
+
+- intent: precio_Piscinas_Santa_Ana
+  examples: |
+    - Precio piscinas de Santa Ana
+    - precio de las piscinas de santa ana
+    - cuanto cuesta la entrada a las piscinas de Santa Ana
+    - tarifa de las piscinas de santa ana
+    - precio piscinas de Santa Ana
+    - valor de las piscinas de santa ana
+    - cuanto cuenta por persona entrar a la piscinas de santa ana
+    - piscinas de Santa Ana valor
+    - piscinas de santa ana precios
+    - piscinas de Santa Ana tarifas
+
+- intent: horarios_Piscinas_Santa_Ana
+  examples: |
+    - horarios piscinas de santa ana
+    - horario de las piscinas de santa ana
+    - programa de atencion de las piscinas de santa ana
+    - cual es el horario de antencion de las piscinas de santa anao
+    - horario de atención piscinas de santa ana
+    - a que hora abre la piscinas de santa ana
+    - a que hora cierra la piscinas de santa ana
+    - hora apertura piscinas de santa ana
+    - hora cierre las piscinas de santa ana
+
+  
+- intent: Museo_Fray_Enrique_Mideros
+  examples: |
+    - Museo Fray Enrique Mideros
+    - museo Fray Enrique Mideros
+    - museo fray enrique mideros
+    - informacion del museo fray enrique mideros
+    - información museo fray enrique mideros
+    - informacion museo fray enrique mideros
+    - conocer el museo fray enrique mideros
+    - saber del museo fray enrique mideros
+
+- intent: precio_Museo_Fray_Enrique_Mideros
+  examples: |
+    - Precio museo fray enrique mideros
+    - precio de las museo 
+    - precio de las museo fray enrique mideros
+    - cuanto cuesta la entrada a las museo fray enrique mideros
+    - tarifa de las museo fray enrique mideros
+    - precio museo fray enrique mideros
+    - valor de las museo fray enrique mideros
+    - cuanto cuenta por persona entrar a la museo fray enrique mideros
+    - museo fray enrique mideros valor
+    - museo fray enrique mideros precios
+    - museo fray enrique mideros tarifas
+
+- intent: horarios_Museo_Fray_Enrique_Mideros
+  examples: |
+    - horarios museo Fray Enrique Mideros
+    - horario de las museo
+    - horario de las museo Fray Enrique Mideros
+    - programa de atencion del museo Fray Enrique Mideros
+    - cual es el horario de antencion del museo Fray Enrique Mideros
+    - horario de atención museo Fray Enrique Mideros
+    - a que hora abre el museo Fray Enrique Mideros
+    - a que hora cierra el museo Fray Enrique Mideros
+    - hora apertura del museo Fray Enrique Mideros
+    - hora cierre el museo Fray Enrique Mideros
+
+- intent: bosque_encantado
+  examples: |
+    - El bosque encandado
+    - bosque encandado
+    - más información del bosque encantado
+    - atractivo el bosque encandado
+    - lugar el bosque encandado
+    - informacion del bosque encandado
+    - información del bosque encandado
+    - conocer mas del bosque encandado
+    - saber del bosque encandado
+    - conocer el bosque encandado
+    - bosque 
+    - encandado
+
+- intent: precios_bosque_encantado
+  examples: |
+    - Precio bosque encandado
+    - precio bosque encandado
+    - cuanto cuesta la entrada al bosque encandado
+    - tarifa del bosque encandado
+    - precios bosque encandado
+    - valor bosque encandado
+    - cuanto cuenta por persona entrar al bosque encandado
+    - bosque encandado valor
+    - bosque encandado precios
+    - el bosque encandado tarifas
+
+- intent: horarios_bosque_encantado
+  examples: |
+    - horarios bosque encandado
+    - horario bosque encandado
+    - programa de atencion del bosque encandado
+    - cual es el horario de antencion del bosque encandado
+    - horario de atención bosque encandado
+    - a que hora abre el bosque encandado
+    - a que hora cierra el bosque encandado
+    - hora apertura del bosque encandado
+    - hora que cierra el bosque encandado
+
+- intent: Animal_Park
+  examples: |
+    - Animal park
+    - animal park
+    - animal parque
+    - AnimalPark
+    - animalpark
+    - atractivo animal park
+    - lugar animal park
+    - informacion de animal park
+    - información de animal park
+    - conocer mas de animal park
+    - saber de animal park
+    - conocer animal park
+    - animal 
+    - park
+
+- intent: precio_animal_park
+  examples: |
+    - Precio de animal park
+    - precio de animal park
+    - precio animal park
+    - cuanto cuesta la entrada a animal park
+    - tarifa de animal park
+    - precios animal park
+    - valor de animal park
+    - cuanto cuenta por persona entrar a animal park
+    - animal park valor
+    - animal park precios
+    - animal park tarifas
+
+- intent: horario_animal_park
+  examples: |
+    - horarios animal park
+    - programa de atencion de animal park
+    - cual es el horario de antencion de animal park
+    - horario de atención animal park
+    - a que hora abre animal park
+    - a que hora cierra animal park
+    - hora apertura de animal park
+    - hora que cierra animal park
+
+- intent: Discovery_Baños
+  examples: |
+    - Discovery Baños
+    - discovery baños
+    - discoverybaños
+    - atractivo discovery baños
+    - lugar discovery baños
+    - informacion de discovery baños
+    - información de discovery baños
+    - conocer mas de discovery baños
+    - saber de discovery baños
+    - conocer discovery baños
+    - discovery 
+
+- intent: precio_discovery_baños
+  examples: |
+    - Precio de discovery baños
+    - precio de discovery baños
+    - cuanto cuesta la entrada a discovery baños
+    - tarifa de discovery baños
+    - precios discovery baños
+    - valor de discovery baños
+    - cuanto cuenta por persona entrar a discovery baños
+    - discovery baños valor
+    - discovery baños precios
+    - discovery baños tarifas
+
+- intent: horario_discovery_baños
+  examples: |
+    - horarios discovery baños
+    - programa de atencion de discovery baños
+    - cual es el horario de antencion de discovery baños
+    - horario de atención discovery baños
+    - a que hora abre discovery baños
+    - a que hora cierra discovery baños
+    - hora apertura de discovery baños
+    - hora que cierra discovery baños
+
+- intent: Parque_aventuras_San_Martín 
+  examples: |
+    - Parque de aventuras de San Martín 
+    - parque de aventuras de san martín 
+    - parque de aventuras de san martin 
+    - aventuras de san martín 
+    - atractivo parque de aventuras de san martín 
+    - lugar parque de aventuras de san martín 
+    - informacion del parque de aventuras de san martin 
+    - información del parque de aventuras de san martin 
+    - conocer mas del parque de aventuras de san martin 
+    - saber del parque de aventuras de san martin 
+    - conocer el parque de aventuras de san martin 
+    - parque de aventuras
+
+- intent: precio_parque_aventuras_San_Martín 
+  examples: |
+    - Precio de parque de aventuras de san martin 
+    - precio de parque de aventuras de san martín 
+    - cuanto cuesta la entrada al parque de aventuras de san martin 
+    - tarifa del parque de aventuras de san martin
+    - precios del parque de aventuras de san martin
+    - valor del parque de aventuras de san martín
+    - cuanto cuenta por persona entrar al parque de aventuras de san martín
+    - parque de aventuras de san martin valor
+    - parque de aventuras de san martín precios
+    - parque de aventuras de san martín tarifas
+
+- intent: horario_parque_aventuras_San_Martín 
+  examples: |
+    - horarios parque de aventuras de san martin
+    - horario parque de aventuras de san martin 
+    - programa de atencion del parque de aventuras de san martín 
+    - cual es el horario del antencion de parque de aventuras de san martin 
+    - horario de atención parque del aventuras de san martín 
+    - a que hora abre parque del aventuras de san martin 
+    - a que hora cierra parque del aventuras de san martín 
+    - hora apertura de parque del aventuras de san martin 
+    - hora que cierra parque del aventuras de san martín 
+  
+- intent: Dinosaurios_Park
+  examples: |
+    - Dinosaurios Park
+    - DinosauriosPark
+    - dinosaurios park
+    - dinosauriospark
+    - parque de dinosaurios
+    - el parque de dinosaurios
+    - atractivo dinosaurios park
+    - lugar dinosaurios park
+    - informacion de dinosaurios park
+    - información de parque de dinosaurios
+    - conocer mas de parque de dinosaurios
+    - saber de parque de dinosaurios
+    - conocer parque de dinosaurios
+    - dinosaurios
+
+- intent: precio_Dinosaurios_Park
+  examples: |
+    - Precio de dinosaurios park
+    - precio de parque de dinosaurios
+    - cuanto cuesta la entrada a dinosaurios park
+    - tarifa de dinosaurios park
+    - precios parque de dinosaurios
+    - valor de dinosaurios park
+    - cuanto cuenta por persona entrar a dinosaurios park
+    - dinosaurios park valor
+    - parque de dinosaurios precios
+    - dinosaurios park tarifas
+
+- intent: horario_Dinosaurios_Park
+  examples: |
+    - horarios dinosaurios park
+    - horario dinosaurios park
+    - programa de atencion de parque de dinosaurios
+    - cual es el horario de antencion de dinosaurios park
+    - horario de atención dinosaurios park
+    - a que hora abre parque de dinosaurios
+    - a que hora cierra dinosaurios park
+    - hora apertura de dinosaurios park
+    - hora que cierra parque de dinosaurios
+
+- intent: our_mundo_adventure
+  examples: |
+    - parque temático our mundo adventure
+    - Pueblo del Mundo
+    - pueblos del mundo
+    - parque temático pueblos del Mundo
+    - el parque pueblos del mundo
+    - atractivo pueblos del mundo
+    - lugar our mundo adventure
+    - informacion de our mundo adventure
+    - información de pueblos del mundo
+    - conocer mas de our mundo adventure
+    - saber de pueblos del mundo
+    - conocer parque our mundo adventure
+
+- intent: precios_our_mundo_adventure
+  examples: |
+    - Precio de pueblos del mundo
+    - precio de our mundo adventure
+    - cuanto cuesta la entrada a pueblos del mundo
+    - tarifa de our mundo adventure
+    - precios pueblos del mundo
+    - valor de our mundo adventure
+    - cuanto cuenta por persona entrar a pueblos del mundo
+    - our mundo adventurevalor
+    - pueblos del mundo precios
+    - our mundo adventure tarifas
+
+- intent: horarios_our_mundo_adventure
+  examples: |
+    - horarios pueblos del mundo
+    - horario pueblos del mundo
+    - programa de atencion de pueblos del mundo
+    - cual es el horario de antencion de pueblos del mundo
+    - horario de atención pueblos del mundo
+    - a que hora abre pueblos del mundo
+    - a que hora cierra pueblos del mundo
+    - hora apertura de pueblos del mundo
+    - hora que cierra pueblos del mundo
+    - horarios our mundo adventure
+    - programa de atencion de our mundo adventure
+    - cual es el horario de antencion de our mundo adventure
+    - horario de atención our mundo adventure
+    - a que hora abre our mundo adventure
+    - a que hora cierra our mundo adventure
+    - hora apertura de our mundo adventure
+    - hora que cierra our mundo adventure
+
+- intent: PiQchur
+  examples: |
+    - Parque fotográfico PiQchur
+    - PiQchur parque fotográfico
+    - piqchur parque fotográfico
+    - piqchur
+    - PiQchur
+    - piQchur
+    - parque fotográfico PiQchur
+    - atractivo parque fotográfico PiQchur
+    - lugar parque fotográfico PiQchur
+    - informacion del parque fotográfico PiQchur
+    - información del parque fotográfico PiQchur
+    - conocer mas del parque fotográfico PiQchur
+    - saber del parque fotográfico PiQchur
+    - conocer el parque fotográfico PiQchur
+    - informacion de piqchur
+    - información de PiQchur
+    - conocer mas de PiQchur
+    - saber de piQchur
+    - conocer PiQchur
+
+- intent: precioPiQchur
+  examples: |
+    - Precio de parque de parque fotográfico PiQchur
+    - precio de parque fotográfico PiQchur
+    - cuanto cuesta la entrada al parque fotográfico PiQchur
+    - tarifa del parque fotográfico PiQchur
+    - precios del parque fotográfico PiQchur
+    - valor del parque fotográfico PiQchur
+    - cuanto cuenta por persona entrar al parque fotográfico PiQchur
+    - parque fotográfico PiQchur valor
+    - parque fotográfico PiQchur precios
+    - parque fotográfico PiQchur tarifas
+    - Precio piqchur
+    - precio de piqchur
+    - cuanto cuesta piqchur
+    - tarifa de piqchur
+    - precios de piqchur
+    - valor piqchur
+    - cuanto cuenta por persona entrar a piqchur
+    - piqchur valor
+    - piqchur precios
+    - piqchur tarifas
+
+- intent: horarioPiQchur
+  examples: |
+    - horarios parque de parque fotográfico PiQchur
+    - programa de atencion del parque de parque fotográfico PiQchur
+    - cual es el horario del antencion de parque de parque fotográfico PiQchur 
+    - horario de atención parque de parque fotográfico PiQchur
+    - a que hora abre parque de parque fotográfico PiQchur
+    - a que hora cierra parque de parque fotográfico PiQchur
+    - hora apertura de parque de parque fotográfico PiQchur
+    - hora que cierra parque de parque fotográfico PiQchur 
+    - horarios piqchur
+    - programa de atencion piqchur
+    - cual es el horario de piqchur
+    - horario de atención piqchur
+    - a que hora abre piqchur
+    - a que hora cierra piqchur
+    - hora apertura de piqchur
+    - hora que cierra piqchur
+
+- intent: Aldea_Magica
+  examples: |
+    - La Aldea Magica
+    - La Aldea Mágica
+    - la aldea mágica
+    - la aldea magica
+    - atractivo la aldea mágica
+    - lugar la aldea mágica
+    - informacion de la aldea magica
+    - información de la aldea mágica
+    - conocer mas de la aldea magica
+    - saber de la aldea mágica
+    - conocer la aldea magica
+    - aldea mágica
+    - aldea
+    - La Aldea
+    
+- intent: precio_Aldea_Magica
+  examples: |
+    - Precio de la aldea mágica
+    - precio de la aldea magica
+    - cuanto cuesta la entrada a la aldea mágica
+    - precios la aldea mágica
+    - valor de la aldea mágica
+    - cuanto cuenta por persona entrar a la aldea magica
+    - la aldea mágica valor
+    - la aldea magica precios
+    - la aldea mágica tarifas
+
+- intent: horario_Aldea_Magica
+  examples: |
+    - horarios la aldea mágica
+    - horario la aldea mágica
+    - programa de atencion de la aldea magica
+    - cual es el horario de la aldea mágica
+    - horario de atención aldea mágica
+    - a que hora abre la aldea magica
+    - a que hora cierra la aldea mágica
+    - hora apertura de la aldea magica
+    - hora que cierra la aldea mágica
+    
+- intent: Troll_Mountain
+  examples: |
+    - Troll Mountain
+    - troll_Mountain
+    - Troll mountain
+    - troll mountain
+    - atractivo Troll mountain
+    - lugar Troll mountain
+    - informacion de Troll mountain
+    - información de Troll mountain
+    - conocer mas de Troll mountain
+    - saber de troll mountain
+    - conocer Troll mountain
+    - Trollmountain
+    - cine al aire libre
+    - cine
+    
+- intent: precioTroll_Mountain
+  examples: |
+    - Precio de Troll mountain
+    - precio de troll mountain
+    - cuanto cuesta la entrada a Troll mountain
+    - precios Troll mountain
+    - valor de troll mountain
+    - cuanto cuenta por persona entrar a Troll mountain
+    - Troll mountain valor
+    - troll mountain precios
+    - Troll mountain tarifas
+    - cine al aire libre valor
+    - cine al aire libre precios
+    - cine al aire libre tarifas
+
+- intent: horario_TrollMountain
+  examples: |
+    - horarios Troll mountain
+    - programa de troll mountain
+    - cual es el horario de Troll mountain
+    - horario de atención Troll mountain
+    - a que hora abre troll mountain
+    - a que hora cierra Troll mountain
+    - hora apertura de troll mountain
+    - hora que cierra Troll mountain
+    - horarios cine al aire libre
+    - hora apertura del cine al aire libre
+    - hora que cierra el cine al aire libre
+
+- intent: Cavernas_Sigsi_Huayco
+  examples: |
+    - Cavernas Sigsi Huayco
+    - cavernas Sigsi Huayco
+    - cavernas
+    - Cavernas sigsi
+    - atractivo las cavernas Sigsi Huayco
+    - lugar las cavernas Sigsi Huayco
+    - informacion de las cavernas sigsi huayco
+    - información de las cavernas Sigsi Huayco
+    - conocer mas de las cavernas Sigsi Huayco
+    - saber de las cavernas sigsi huayco
+    - conocer las cavernas Sigsi Huayco
+    
+- intent: precioCavernas_Sigsi_Huayco
+  examples: |
+    - Precio de las cavernas Sigsi Huayco
+    - precio de las cavernas sigsi huayco
+    - cuanto cuesta la entrada a las cavernas Sigsi Huayco
+    - precios las cavernas Sigsi Huayco
+    - valor de las cavernas sigsi huayco
+    - cuanto cuenta por persona entrar a las cavernas Sigsi Huayco
+    - cavernas Sigsi Huayco valor
+    - cavernas sigsi huayco precios
+    - cavernas Sigsi Huayco tarifas
+
+- intent: horarioCavernas
+  examples: |
+    - horarios las cavernas Sigsi Huayco 
+    - programa de atencion de las cavernas Sigsi Huayco 
+    - cual es el horario de las cavernas sigsi huayco
+    - horario de atención cavernas Sigsi Huayco 
+    - a que hora abre las cavernas sigsi huayco
+    - a que hora cierra las cavernas Sigsi Huayco 
+    - hora apertura de las cavernas sigsi huayco
+    - hora que cierra las cavernas Sigsi Huayco 
+    - horarios las cavernas
+    - horario caverna
+    - horario caverna
+
+- intent: Los_pies_dios 
+  examples: |
+    - Los pies de dios 
+    - los Pies de Dios 
+    - mirador los pies de Dios
+    - Mirador los pies de Dios
+    - Pies de Dios 
+    - los pies de dios 
+    - atractivo las cavernas los pies de Dios
+    - lugar mirador pies de Dios
+    - informacion del mirador los pies de dios
+    - información de los pies de Dios
+    - conocer mas de los pies de dios
+    - saber de los pies de Dios
+    - conocer los pies de dios
+    
+- intent: precio_Los_pies_dios 
+  examples: |
+    - Precio de los pies de Dios 
+    - precio de los pies de dios 
+    - cuanto cuesta la entrada a los pies de Dios 
+    - precios los pies de dios 
+    - valor de los pies de Dios 
+    - cuanto cuenta por persona entrar a los pies de dios 
+    - los pies de Dios valor
+    - los pies de dios precios
+    - los pies de Dios tarifas
+
+- intent: horarioLos_pies_dios 
+  examples: |
+    - horarios los pies de Dios
+    - horario los pies de Dios
+    - programa de atencion de los pies de dios
+    - cual es el horario de los pies de Dios
+    - horario de atención los pies de Dios
+    - a que hora abre los pies de dios
+    - a que hora cierra los pies de Dios
+    - hora apertura de los pies de Dios
+    - hora que cierra los pies de dios
+
+- intent: Sacha_360 
+  examples: |
+    - Mirador Sacha 360 
+    - Mirador Sacha 
+    - Sacha 360 
+    - sacha 360 
+    - mirador sacha 360 
+    - sacha 360 
+    - atractivo mirador sacha 360 
+    - lugar Sacha 360 
+    - informacion del mirador sacha 360 
+    - información de Sacha 360 
+    - conocer mas de sacha 360 
+    - saber de Sacha 360 
+    - conocer sacha 360 
+    
+- intent: precioSacha_360 
+  examples: |
+    - Precio de sacha 360 
+    - precio de Sacha 360 
+    - cuanto cuesta la entrada a sacha 360 
+    - precios sacha 360 
+    - valor de Sacha 360 
+    - cuanto cuenta por persona entrar a sacha 360 
+    - Sacha 360 valor
+    - sacha 360 precios
+    - Sacha 360 tarifas
+
+- intent: horario_Sacha_360  
+  examples: |
+    - horarios de sacha 360 
+    - programa de atencion de Sacha 360 
+    - cual es el horario de sacha 360 
+    - horario de atención de sacha 360 
+    - a que hora abre Sacha 360 
+    - a que hora cierra sacha 360 
+    - hora apertura de sacha 360 
+    - hora que cierra Sacha 360 
+
+- intent: mirador_Bellavista
+  examples: |
+    - Mirador de Bellavista
+    - Mirador Bellavista
+    - Bellavista
+    - mirador de la cruz de Bellavista
+    - Mirador de la cruz de bellavista
+    - la cruz de bellavista
+    - atractivo mirador Bellavista
+    - mirador Bellavista 
+    - informacion del mirador Bellavista
+    - información del mirador Bellavista
+    - conocer mas del mirador Bellavista
+    - saber del mirador Bellavista
+    - conocer mirador Bellavista 
+    
+- intent: precio_mirador_Bellavista
+  examples: |
+    - Precio del mirador Bellavista
+    - precio de mirador Bellavista
+    - cuanto cuesta la entrada al mirador Bellavista
+    - precios mirador Bellavista
+    - valor del mirador Bellavista
+    - cuanto cuenta por persona entrar al mirador Bellavista
+    - mirador Bellavistavalor
+    - Mirador Bellavista precios
+    - mirador Bellavista tarifas
+
+- intent: horario_mirador_Bellavista  
+  examples: |
+    - horarios del mirador Bellavista
+    - programa de atencion del mirador Bellavista
+    - cual es el horario del mirador Bellavista
+    - horario de atención de mirador Bellavista
+    - a que hora abre el mirador Bellavista
+    - a que hora cierra el mirador Bellavista
+    - hora apertura del mirador Bellavista
+    - hora que cierra el mirador Bellavista
+
+- intent: Cafe_Giratorio
+  examples: |
+    - Café Giratorio
+    - Cafe Giratorio
+    - cafe giratorio
+    - café giratorio
+    - Cafetería giratoria en Baños
+    - mirador de la cafetería giratoria en Baños
+    - Mirador cafe giratorio
+    - atractivo café giratorio
+    - cafe giratorio mirador
+    - informacion del mirador cafe giratorio
+    - información café giratorio
+    - conocer mas cafe giratorio
+    - saber del cafe giratorio
+    - conocer café giratorio
+    
+- intent: Giratorio_precio 
+  examples: |
+    - Precio del mirador cafe giratorio
+    - precio del café giratorio
+    - cuanto cuesta la entrada al cafe giratorio
+    - precios cafe giratorio
+    - valor del café giratorio
+    - cuanto cuenta por persona entrar al café giratorio
+    - cafe giratorio valor
+    - cafe giratorio precios
+    - café giratorio tarifas
+
+- intent: Cafe_Giratorio_horario 
+  examples: |
+    - horarios del café giratorio
+    - programa de atencion del cafe giratorio
+    - cual es el horario del cafe giratorio
+    - horario de atención de café giratorio
+    - a que hora abre el cafe giratorio
+    - a que hora cierra el café giratorio
+    - hora apertura del cafe giratorio
+    - hora que cierra el café giratorio
+
+- intent: besode_la_luna
+  examples: |
+    - El beso de la luna
+    - beso de la luna
+    - beso luna
+    - El beso de la luna Baños
+    - mirador el beso de la luna Baños
+    - Mirador el beso de la luna 
+    - atractivo beso de la luna 
+    - beso de la luna mirador
+    - informacion del mirador beso de la luna 
+    - información el beso de la luna 
+    - conocer beso de la luna 
+    - saber del mirador beso de la luna 
+    - conocer beso de la luna 
+    
+- intent: beso_de_la_luna_precio 
+  examples: |
+    - Precio del mirador beso de la luna 
+    - precio del beso de la luna 
+    - cuanto cuesta la entrada al beso de la luna 
+    - precios beso de la luna 
+    - valor del beso de la luna 
+    - cuanto cuenta por persona entrar al beso de la luna 
+    - el beso de la luna valor
+    - beso de la luna precios
+    - beso de la luna tarifas
+
+- intent: besode_luna_horario 
+  examples: |
+    - horarios del mirador beso de la luna 
+    - programa de atencion el beso de la luna 
+    - cual es el horario del beso de la luna 
+    - horario de atención de mirador beso de la luna 
+    - a que hora abre el beso de la luna 
+    - a que hora cierra el beso de la luna 
+    - hora apertura del beso de la luna 
+    - hora que cierra el beso de la luna 
+
+- intent: Los_ojos_volcán_nido_del_aguila
+  examples: |
+    - Los ojos de volcán nido del águila
+    - nido del águila
+    - Los ojos de volcán
+    - ojos de volcán
+    - ojos de volcan
+    - los ojos de volcán nido del águila
+    - los ojos de volcán nido del aguila
+    - aguila
+    - ojos de volcán 
+    - mirador los ojos de volcán nido del águila
+    - Mirador nido del águila
+    - atractivo los ojos de volcán
+    - los ojos de volcán nido del águila mirador
+    - informacion los ojos de volcán nido del águila
+    - información los ojos de volcán nido del aguila
+    - conocer mirador los ojos de volcán nido del águila
+    - saber del mirador los ojos de volcán nido del águila 
+    - conocer los ojos de volcán nido del águila
+    
+- intent: Los_ojos_volcán_precio 
+  examples: |
+    - Precio del mirador los ojos de volcán nido del águila
+    - precio del los ojos de volcán nido del águila
+    - cuanto cuesta la entrada al los ojos de volcán nido del águila
+    - precios los ojos de volcán nido del águila
+    - valor del los ojos de volcán nido del aguila
+    - cuanto cuenta por persona entrar al mirador los ojos de volcán nido del águila
+    - los ojos de volcán nido del aguila valor
+    - los ojos de volcán nido del águila precios
+    - los ojos de volcán nido del aguila tarifas
+
+- intent: nido_del_aguila_horario 
+  examples: |
+    - horarios del mirador los ojos de volcán nido del aguila
+    - programa de atencion el los ojos de volcán nido del águila
+    - cual es el horario del los ojos de volcán nido del aguila
+    - horario de atención de mirador los ojos de volcán nido del águila
+    - a que hora abre el los ojos de volcán nido del águila
+    - a que hora cierra el los ojos de volcán nido del aguila 
+    - hora apertura del blos ojos de volcán nido del águila 
+    - hora que cierra el los ojos de volcán nido del aguila
+
+- intent: El_Ventanal_Kong
+  examples: |
+    - El Ventanal de Kong
+    - Ventana de Kong
+    - Kong
+    - Ventanal de Kong
+    - el ventanal de kong
+    - el ventanal de kong Baños
+    - mirador el ventanal de kong Baños
+    - Mirador el ventanal de kong
+    - atractivo el ventanal de kong
+    - el ventanal de kong mirador
+    - informacion del mirador el ventanal de kong
+    - información eel ventanal de kong
+    - conocer el ventanal de kong
+    - saber del mirador el ventanal de kong
+    - conocer el ventanal de kong
+    
+- intent: precio_El_Ventanal_Kong
+  examples: |
+    - Precio del mirador el ventanal de kong
+    - precio del ventanal de kong
+    - cuanto cuesta la entrada al el ventanal de kong
+    - precios el ventanal de kong
+    - valor del el ventanal de kong
+    - cuanto cuenta por persona entrar al el ventanal de kong 
+    - el ventanal de kong valor
+    - el ventanal de kong precios
+    - el ventanal de kong tarifas
+
+- intent: horario_Ventanal_Kong
+  examples: |
+    - horarios del mirador ventanal de kong
+    - programa de atencion el ventanal de kong 
+    - cual es el horario del ventanal de kong
+    - horario de atención de mirador ventanal de kong
+    - a que hora abre el ventanal de kong
+    - a que hora cierra el ventanal de kong
+    - hora apertura del ventanal de kong
+    - hora que cierra el ventanal de kong
+
+- intent: Cristo_Redentor
+  examples: |
+    - Cristo Redentor
+    - cristo redentor
+    - Cristo
+    - Redentor
+    - cristo Redentor Baños
+    - mirador el cristo Redentor Baños
+    - Mirador cristo redentor
+    - atractivo cristo Redentor
+    - cristo redentor mirador
+    - informacion del mirador cristo Redentor
+    - información del cristo redentor
+    - conocer el cristo Redentor
+    - saber del mirador el cristo Redentor
+    - conocer el cristo redentor
+    
+- intent: precio_Cristo_Redentor
+  examples: |
+    - Precio del mirador cristo redentor
+    - precio del cristo Redentor
+    - cuanto cuesta la entrada al cristo redentor
+    - precios del cristo redentor
+    - valor del cristo Redentor
+    - cuanto cuenta por persona entrar al cristo redentor 
+    - cristo redentor valor
+    - cristo Redentor precios
+    - cristo redentor tarifas
+
+- intent: horarios_Cristo_Redentor
+  examples: |
+    - horarios del mirador cristo Redentor
+    - programa de atencion cristo redentor
+    - cual es el horario del cristo Redentor
+    - horario de atención de mirador cristo redentor
+    - a que hora abre el cristo redentor
+    - a que hora cierra el cristo Redentor
+    - hora apertura del cristo redentor
+    - hora que cierra el cristo Redentor
+
+- intent: Parque_familia
+  examples: |
+    - Parque de la Familia Baños de Agua Santa
+    - Parque de la Familia
+    - Parque de la Familia Baños
+    - parque de la familia 
+    - atractivo parque de la familia 
+    - informacion del parque de la familia 
+    - conocer el parque de la familia 
+    - saber del parque de la familia 
+    - conocer el parque de la familia 
+    
+- intent: precio_Parque_familia
+  examples: |
+    - Precio del parque de la familia 
+    - precio del parque de la familia 
+    - cuanto cuesta la entrada al parque de la familia 
+    - precios del parque de la familia 
+    - valor del parque de la familia 
+    - cuanto cuenta por persona entrar al parque de la familia 
+    - parque de la familia valor
+    - parque de la familia precios
+    - parque de la familia tarifas
+
+- intent: horario_Parque_familia
+  examples: |
+    - horarios del parque de la familia 
+    - programa de atencion parque de la familia 
+    - cual es el horario del parque de la familia 
+    - horario de atención de mirador parque de la familia 
+    - a que hora abre el parque de la familia 
+    - a que hora cierra el parque de la familia 
+    - hora apertura del parque de la familia 
+    - hora que cierra el parque de la familia 
+
+- intent: Santuario_Nuestra_Señora_Rosario
+  examples: |
+    - Santuario Nuestra Señora del Rosario de Agua Santa
+    - Santuario Nuestra Señora del Rosario
+    - La Basílica
+    - la basilica
+    - Santuario de la Virgen de Agua Santa
+    - atractivo iglesia de baños
+    - iglesia
+    - informacion de la iglesia
+    - información de la iglesia de baños
+    - conocer la iglesia de baños
+    - saber de la iglesia de baños
+    - conocer la iglesia de baños
+    - informacion de La Basílica de baños
+    - información de la la basilica
+    - conocer la la basilica
+    - saber de la la basilica
+    - conocer la la basilica de baños
+    - informacion del Santuario de la Virgen
+    - información del Santuario de la Virgen
+    - conocer el Santuario de la Virgen
+    - saber del Santuario de la Virgen
+    - conocer el Santuario de la Virgen
+    
+- intent: precio_iglesia_baños
+  examples: |
+    - Precio de la iglesia
+    - precio de la iglesia
+    - cuanto cuesta la entrada a la iglesia
+    - precios de la iglesia
+    - valor iglesia baños de agua santa
+    - cuanto cuenta por persona entrar a la iglesia
+    - la iglesia valor
+    - la iglesia precios
+    - la iglesia tarifas
+    - la basilica valor
+    - la basilica precios
+    - la basilica tarifas
+    - Santuario de la Virgen valor
+    - Santuario de la Virgen precios
+    - Santuario de la Virgen tarifas
+
+- intent: Balneario_Zuñag
+  examples: |
+    - Balneario Zuñag
+    - balneario zuñag
+    - atractivo balneario zuñag
+    - informacion del balneario zuñag
+    - información del balneario zuñag
+    - conocer el balneario zuñag
+    - saber del balneario zuñag
+    - conocer el balneario zuñag
+    
+- intent: precio_Balneario_Zuñag
+  examples: |
+    - Precio del balneario zuñag
+    - precio del balneario zuñag
+    - cuanto cuesta la entrada al balneario zuñag
+    - precios del balneario zuñag
+    - valor del balneario zuñag
+    - cuanto cuenta por persona entrar al balneario zuñag
+    - balneario zuñag valor
+    - balneario zuñag precios
+    - balneario zuñag tarifas
+
+- intent: malecon_rioVerde
+  examples: |
+    - Malecón de río Verde
+    - malecón de río verde
+    - malecon de rio verde
+    - atractivo malecón de río verde
+    - informacion del malecón de río verde
+    - información del malecón de río verde
+    - conocer el malecón de río verde
+    - saber del malecón de río verde
+    - conocer el malecón de río verde
+    
+- intent: precios_malecon_rioVerde
+  examples: |
+    - Precio del malecón de río verde
+    - precio del malecón de río verde
+    - cuanto cuesta la entrada al malecón de río verde
+    - precios del malecón de río verde
+    - valor del malecón de río verde
+    - cuanto cuenta por persona entrar al malecón de río verde
+    - malecón de río verde valor
+    - malecón de río verde precios
+    - malecón de río verde tarifas
+
+- intent: actividades_centro_banios
+  examples: |
+    - ¿Actividades recreativas en el centro de la ciudad?
+    - que hacen en el centro de baños
+    - actividades en baños
+    - que hacer en el interior de baños 
+    - ocupaciones en el centro de baños
+    - que puedo visitar en el centro de baños
+    - dime que hacer en el centro 
+    - cosas para hacer en el centro
+    - centro de baños 
+    - atractivos en el centro de baños
+
+- intent: principales_famosos
+  examples: |
+    - ¿Cuáles son los principales atractivos de la ciudad?
+    - principales atractivos 
+    - lugares mas importantes
+    - sitios mas populares 
+    - actractivos mas visitados 
+    - principales atractivos de baños
+    - que lugares son los mas importantes 
+    - atarcticos impotantes 
+    - atractivos emblematicos
+    - lugares mas famosos
+    - atrastivos mas famosos
+    - principales lugares
+    - mas famosos
+    - mas conocidos
+    - mas concurrentes
+    - mas visitados
+    - importantes
+    - princilales
+    - famosos
+
+- intent: medios_trasporte
+  examples: |
+    - ¿Cómo llegar a los diferentes atractivos?
+    - formas de llegar a los luegares turisticos 
+    - formas de trasporte en baños 
+    - para llegar a los miradores como puedo movilizarme 
+    - formas de movilizacion en baños
+    - trasporte hacia los atractivos
+    - en que puedo llegar a los sitios turisticos
+    - no tengo coche como puedo ir a los actractivos 
+    - medios de trasporte a los atractivos 
+    - trasporte de alquiler 
+    - cuadrones
+    - buggys
+    - motocicletas
+    - cuadrones
+    - bicicletas
+    - precio de cuadrones 
+    - existen vehiculos de alquiler 
+    - ¿Cuáles son los diferentes medios de trasporte hacia los atractivos?
+
+- intent: alquiler
+  examples: |
+    - cuanto cuesta alquiar una moto 
+    - donde puedo alquiler buggy
+    - quien alquila bicicletas
+    - alquiler bicicletas
+    - alquiler jeeps
+    - alquilar carro
+    - alquilar cuadrones
+    - donde puedo alquilar buggy
+
+- intent: mas_info_alqui
+  examples: |
+    - más información renta
+    - renta de medios de trasporte
+    - más informacion de medios de trasporte 
+    - medios de trasporte mas información
+
+- intent: senderos_ciudad
+  examples: |
+    - ¿Senderos que posee la ciudad?
+    - rutas en baños 
+    - caminos en baños 
+    - circuitos para caminar en baños 
+    - caminatas 
+    - paseos al aire libre 
+    - lugares para ir a caminar 
+    - caminata en baños
+    - pistas de caminata
+    - senderos 
+    - lugares para caminar
+    - cuales son los senderos 
+    - a donde puedo ir caminando 
+    - paseos 
+    - informacion de senderos
+    - deseo informacion de senderos
+    - quiero conocer cuales son los senderos en baños
+  
+- intent: Bellavista_camino
+  examples: |
+    - inforación sendero Bellavista
+    - sendero Bellavista
+    - camino a Bellavista
+    - ruta a Bellavista
+    - como llegar a Bellavista 
+    - caminata a Bellavista
+    - senderismo a Bellavista 
+    - caminando a Bellavista
+    - ir al sendero de Bellavista
+    - mas inforación sendero Bellavista
+    - necesito inforación sendero Bellavista
+
+- intent: info_pondoa
+  examples: |
+    - inforación sendero pondoa
+    - sendero pondoa
+    - camino a pondoa
+    - ruta a pondoa
+    - como llegar a pondoa 
+    - caminata a pondoa
+    - senderismo a pondoa 
+    - caminando a pondoa
+    - ir al sendero de Pondoa
+    - mas inforación sendero pondoa
+    - necesito inforación sendero pondoa
+
+- intent: mirador_virgen
+  examples: |
+    - mirador de la virgen
+    - caminata a la virgen
+    - información del camino a la virgen
+    - la virgen camino
+    - la virgen sendero
+    - sendero de la virgen
+    - camino hacia la virgen
+    - ruta a la virgen
+    - como llegar a la virgen
+    - ir al sendero de la virgen
+    - más información del mirador de la virgen
+    - necesito información del sendero de la virgen
+    - mas información del camino de la virgen
+
+- intent: los_sauces
+  examples: |
+    - sendero de illuchi y los sauces
+    - caminata a los sauces
+    - camino de los sauces
+    - ruta los sauces
+    - información del camino de illuchi y los sauces
+    - los sauces camino
+    - iluchi camino
+    - los sauces sendero
+    - illuchi camino
+    - sendero de los sauces
+    - camino hacia los sauces
+    - ruta de los sauces
+    - ruta illuchi los sauces
+    - como llegar a los sauces
+    - ir al sendero de illuchi y los sauces
+    - más información del sendero de los sauces
+    - necesito información del sendero de los sauces
+    - mas información del camino de los sauces
+
+- intent: ruta_lunavolcan
+  examples: |
+    - mirador luna volcan
+    - caminata a luna volcan
+    - información del camino a luna volcan
+    - luna volcan camino
+    - luna volcan sendero
+    - sendero de la virgen bellavista y luna volcan
+    - camino hacia luna volcan
+    - ruta a luna volcan
+    - como llegar a luna volcan
+    - ir al sendero de luna volcan y bellavista
+    - más información de luna volcan y bellavista
+    - necesito información del sendero de luna volcan y bellavista
+    - mas información del camino de luna volcan y bellavista
+
+- intent: sendero_casa_arbol
+  examples: |
+    - sendero a la casa del arbol
+    - caminata a la casa del arbol
+    - información del camino a la casa del arbol
+    - casa del arbol camino
+    - casa del arbol sendero
+    - sendero de la casa del arbol
+    - camino hacia la casa del arbol
+    - ruta a la casa del arbol
+    - como llegar a la casa del arbol
+    - ir al sendero de la casa del arbol
+    - más información del camino a la casa del arbol
+    - necesito información del sendero de la casa del arbol
+    - mas información del camino de la casa del arbol
+
+- intent: contabandistas
+  examples: |
+    - ruta de los contabandistas
+    - caminata contabandistas
+    - información de la ruta de los contabandistas
+    - sendero de los contabandistas
+    - como llegar al camino de los contabandistas
+    - contabandistas sendero
+    - contabandistas camino
+    - contabandistas ruta
+    - caminata de los contabandistas
+    - como llegar a la ruta de los contabandistas
+    - ruta de los contabandistas inicio 
+
+# - intent: seguridad_banios
+#   examples: |
+#     - ¿Baños es seguro? 
+#     - seguridas
+#     - que tan seguro es baños
+#     - es seguro baños
+#     - es inseguro baños
+#     - hay inseguridas en baños 
+#     - seguridad
+#     - la seguridad
+#     - informacion de seguridad 
+#     - como maneja baños la seguridad 
+#     - informacion de seguridad 
+#     - como asegura baños al turista 
+  
+- intent: cajeros_banios
+  examples: |
+    - ¿Ubicación de cajeros automáticos?
+    - donde quedan los cajeron automáticos
+    - lugares de cajeros automáticos 
+    - donde esta el cajero automáticos 
+    - donde esta el cajero
+    - en donde quedan los cajeros automáticos en baños
+    - donde estan situados los cajeros 
+    - sitio de los cajeros automáticos
+    - hay cajeros automáticos
+    - de que bancos hay cajeros automáticos
+    - cajeros automáticos de que bancos hay en baños
+    - cajero automáticos
+    - cajero
+    - cajeros 
+
+# - intent: festividades_banios
+#   examples: |
+#     - ¿Calendarios festivos?
+#     - fechas de las festividades de baños
+#     - calendario de fiestas
+#     - calendario festivo 
+#     - eventos baños 
+#     - agenda de fiestas 
+#     - acividades por fiestas de baños
+#     - fechas de eventos en baños 
+#     - dias festivos 
+#     - fechas festivas 
+#     - actividades festivas 
+#     - fiestas 
+#     - fiestas baños
+#     - que hace baños para sus fiestas 
+#     - festiviades en baños
+#     - días de fiesta 
+#     - festejos baños 
+#     - dias festivos
+
+
+# - intent: tradiciones_banios
+#   examples: |
+#     - ¿Tradiciones entre los Baneños?  
+#     - tradiciones 
+#     - tradiciones de los baneños 
+#     - tipicas tradiciones 
+#     - costumbres
+    
+
+- intent: actividades_nocturnas
+  examples: |
+    - ¿Actividades se puede realizar en la noche? 
+    - cosas para hacer en la noche
+    - actividades nocturnas
+    - que puedo hacer en la noche
+    - por la noche que se puede realizar 
+    - que hay en la noche
+    - atractivos nocturnos 
+    - activiades de noche
+    - salidas nocturnas 
+    - ocuapaciones nocturnas
+    - actividades para la noche 
+    - que hacer en la noche
+    - que hacer por la noche
+    - que hacer de noche 
+    - hacer por la noche
+    - durante la noche que puedo hacer
+    - baños nocturno
+    - atraciones nocturnas
+
+- intent: trayectos_buses
+  examples: |
+    - a que atractivos van los buses urbanos 
+    - buses urbanos 
+    - buses urbanos recorridos
+    - cuales son los recorridos de los buses urbanos 
+    - viajar en bus
+    - trasporte público 
+    - buses de baños
+
+- intent: denuncias
+  examples: |
+    - denuncias
+    - denunciar 
+    - denuncias de baños
+    - hacer una denuncias
+    - quejas
+    - reclamos
+    - reclamaciones
+    - demandas
+    - quiero hacer una denuncia
+
+- intent: nuevos_atractivos
+  examples: |
+    - ¿Cuáles son los nuevos atractivos en la ciudad?
+    - Que nuevos atractivos tiene baños 
+    - nuevos lugares para visitar 
+    - Baños agrego nuevos atractivos 
+    - hay nuevos atractios 
+    - busco nuevos atractivos
+    - existen nuevos atractivos
+    - abrieron nuevos atractivos
+    - quiero visitar los nuevos atractivos
+    - atractivos nuevos
+    - nuevas atraciones
+    - nuevos atractivos 
+    - las novedades de los atractivos 
+    - noticias de los nuevos atractivos 
+    - cuales son las nuevas atracciones 
+    - noticias de los nuevos atractivos
+    - cuales son las nuevas implementaciones de atractivos
+    - quiero visitar algo nuevo 
+    - lugares nuevos 
+    - las nuevas atracciones 
+    - quiero ir a las nuevas atracciones 
+
+- intent: sincosto
+  examples: |
+    - ¿Sitios y atractivos sin costo?
+    - sin costo
+    - lugares sin costo
+    - lugares sin costo
+    - sin costo de entrada
+    - sin costo
+    - lugares sin costo que visitra
+    - ingreso sin pagar
+    - conocer lugares sin costo 
+    - atrastivos sin costo
+    - atractivos sin costo
+    - actividades sin costo
+    - actividades que puedo hacer en baños sin costo
+    - que se puede hacer en baños sin dinero
+    - no costo
+    - no dinero
+    - lugares libres de costo
+
+
+##################################################
+
+- intent: Information_banios
+  examples: |
+    - Baños attractions 
+    - Baños city attractions
+    - attractions
+    - visit places in Baños
+    - what can i do in baños
+    - what are the attractions of baños
+    - the attractions of baños
+    - how many attractions are there in baños
+    - places to visit in baños
+    - tourist sites
+    - tourist sites
+    - tourist attractions
+    - places to visit 
+    - I want to visit Baños attractions 
+    - tourist attractions
+    - I need information 
+    - information 
+    - I am looking for information 
+    - I am looking for information 
+    - I want information
+    - I request information 
+    - I require information
+    - I am waiting for information 
+    - I want information 
+    - I would like information 
+    - I was looking for information
+    - give me information 
+
+- intent: waterfall
+  examples: |
+    - waterfall
+    - waterfalls
+    - visit the waterfalls of baños
+    - what are the waterfalls of baños
+    - sites with waterfalls
+    - the waterfalls of baños
+    - location waterfalls
+    - prices waterfalls
+    - address waterfalls
+    - information waterfalls in baños
+  
+- intent: viewpoints_text
+  examples: |
+    - viewpoints
+    - viewpoints
+    - how many viewpoints does Baños have?
+    - there are viewpoints in baños 
+    - visit viewpoints 
+    - location viewpoints 
+    - information viewpoints
+
+- intent: thematic_parks
+  examples: |
+    - thematic parks
+    - thematic parks
+    - Thematic parks
+    - theme parks 
+    - how many thematic parks does Baños have?
+    - there are thematic parks in baños 
+    - visit theme parks 
+    - Location of theme parks 
+    - Location of theme parks 
+    - information about thematic parks in baños
+    - parks
+    - Parks
+    - parks thematic 
+    - PARKS
+
+- intent: Free_places
+  examples: |
+    - What are the free places or attractions in the city?
+    - places to visit for free
+    - free attractions
+    - search for free places
+    - visit places without paying
+    - enter places without paying 
+    - free plases
+    - free sites
+    - free places
+    - Free Places
+    - free
+    - for free
+    - free of charge
+
+- intent: zoological
+  examples: |
+    - zoological
+    - zoological
+    - zoological
+    - zoos
+    - visit zoos
+    - location zoos
+    - where are the zoos
+    - location zoos
+    - zoo prices
+    - address zoos
+    - information about zoos in Baños
+    - zoo in town
+    - zoo in the city
+
+- intent: gastronomy_place
+  examples: |
+    - gastronomy
+    - Gastronomy 
+    - gastronomic
+    - gastronomic attractions
+    - Gastronomic attractions
+    - visit gastronomic places
+    - gastronomy
+    - location gastronomic places
+    - prices gastronomic places
+    - address gastronomic places
+    - information gastronomic places in baños
+
+- intent: extreme
+  examples: |
+    - extreme activities
+    - extreme activities
+    - places to do extreme activities
+    - extreme
+    - extreme places
+    - extreme sports in bathrooms
+    - extreme sports
+    - location extreme activities
+    - prices extreme activities
+    - address extreme activities
+    - information extreme activities in baños
+
+- intent: swings_text
+  examples: |
+    - swings
+    - attractive swings
+    - places with swings
+    - swings
+    - swing sites
+    - swings
+    - location swings
+    - prices swings
+    - address swings
+    - information swings in Baños
+  
+- intent: Bridges
+  examples: |
+    - bridges
+    - attractive bridges
+    - places with bridges
+    - bridges
+    - bridges sites bridges
+    - bridges
+    - location bridges
+    - prices bridges
+    - Get directions to bridges
+    - information bridges in Baños
+
+- intent: museums
+  examples: |
+    - museums bathrooms 
+    - museum in baños
+    - there are museums in baños
+    - visit museums 
+    - i want to visit museums in baños
+    - there are museums
+    - museums 
+    - museums
+    - visit museum
+    - location museums
+    - museum prices
+    - museum information
+    - museum information
+    - Cultural attractions in Baños?
+    - cultural places 
+    - what are the cultural activities
+    - there are cultural activities 
+    - cultural attractions
+    - visit cultural attractions
+    - there are cultural attractions
+    - has cultural places bathrooms 
+    - has bathrooms cultural attractions 
+    - cultural attractions 
+    - I want to visit cultural attractions 
+    - recommendation of cultural places 
+    - culture
+
+- intent: city_trails_waks
+  examples: |
+    - Trails that the city has?
+    - trails in baños 
+    - Trails
+    - trails
+    - trails in baños 
+    - walking trails in baños 
+    - walks 
+    - outdoor walks 
+    - places to go for a walk 
+    - hiking in baños
+    - walking trails
+    - hiking trails 
+    - places to hike
+    - what are the trails 
+    - where can I hike 
+    - hiking trails 
+    - information about trails
+    - I want information about trails
+    - i want to know which are the trails in baños
+
+- intent: novia_waterfall
+  examples: |
+    - manto de la novia waterfall
+    - manto de la novia waterfall
+    - attractive manto de la novia
+    - manto de la novia waterfall place
+    - waterfall the manto de la novia
+    - price waterfall manto de la novia
+    - price of the manto de la novia waterfall
+    - how much is the entrance fee to the manto de la novia waterfall?
+    - price of the manto de la novia waterfall
+    - price of the manto de la novia waterfall
+    - value of the manto de la novia waterfall
+    - how much does it cost per person to enter the manto de la novia waterfall?
+
+- intent: Waterfall_agoyan
+  examples: |
+    - Agoyan waterfall
+    - agoyan waterfall attraction
+    - agoyan waterfall place
+    - agoyan waterfall
+    - agoyan waterfall price
+    - agoyan waterfall price
+    - how much is the entrance fee to agoyan waterfall?
+    - agoyan waterfall entrance fee
+    - agoyan waterfall price
+    - agoyan waterfall value
+    - how much does it cost per person to enter agoyan waterfall?
+
+- intent: devil_pailon
+  examples: |
+    - El pailon del diablo waterfall
+    - pailon del diablo waterfall
+    - el pailon waterfall
+    - waterfall el pailon del diablo
+    - The devil's pailon
+    - more information about the pailon del diablo
+    - Married the devil's pailon
+    - The Devil's Pailon
+    - attractiveness of el pailon del diablo
+    - place el pailon del diablo
+    - price of the pailon del diablo
+    - price of the pailon del diablo
+    - how much does the pailon del diablo cost
+    - pailon del diablo price
+    - price of pailon del diablo
+    - value of the pailon del diablo
+    - how much does it cost per person to enter the pailon del diablo?
+    - the pailon del diablo price 
+    - the pailon del diablo value
+    - the pailon del diablo price
+    - schedules of the pailon del diablo
+    - el pailon del diablo's schedule of service
+    - what are the opening hours of el pailon del diablo?
+    - opening hours of the pailon del diablo
+    - what is the opening time of the pailon del diablo?
+    - what time does the pailon del diablo close?
+    - opening time of the pailon del diablo
+    - closing time of the pailon del diablo
+
+- intent: virgin_waterfall
+  examples: |
+    - virgin waterfall
+    - La virgen waterfall
+    - la virgen waterfall
+    - virgin waterfall attraction
+    - place la cascada de la virgen
+    - the waterfall of la virgen
+    - price of the virgin waterfall
+    - price of la virgen waterfall
+    - how much is the entrance fee to the virgin waterfall?
+    - how much is the entrance fee to la virgenwaterfall?
+    - price of the virgin waterfall
+    - virgin waterfall price
+    - value of the virgin waterfall
+    - how much does it cost per person to enter the virgin waterfall?
+    - virgin waterfall prices 
+    - virgin waterfall value 
+    - virgin waterfall price
+    - La virgen prices 
+    - la virgen value 
+    - La virgen price
+  
+- intent: ines_maria_ingles
+  examples: |
+    - Ines Maria Waterfall
+    - ines maria's waterfall
+    - ines maria's waterfall
+    - ines maria waterfall
+    - ines maria waterfall attraction
+    - place the waterfall of ines maria
+    - Price of the ines maria waterfall
+    - price of the ines maria waterfall
+    - how much is the entrance fee to the ines maria waterfall?
+    - ines maria waterfall entrance fee
+    - price ines maria waterfall
+    - value of ines maria waterfall
+    - how much does it cost per person to enter the ines maria waterfall?
+    - ines maria waterfall prices 
+    - ines maria waterfall value 
+    - ines maria waterfall price
+
+- intent: san_Antonio_ingles
+  examples: |
+    - San Antonio waterfall
+    - san antonio waterfall
+    - san antonio waterfall
+    - in san antonio
+    - san antonio waterfall attraction
+    - place san antonio waterfall
+    - san antonio waterfall price
+    - how much is the entrance fee to the san antonio waterfall?
+    - san antonio waterfall entrance fee
+    - san antonio waterfall price
+    - san antonio waterfall value
+    - how much does it cost per person to enter the san antonio waterfall?
+    - san antonio waterfall prices 
+    - san antonio waterfall value 
+    - san antonio waterfall price
+
+- intent: chamana_waterfall_ingles
+  examples: |
+    - Chamana Waterfall
+    - chamana waterfall
+    - in chamana
+    - chamana waterfall attraction
+    - place chamana waterfall
+    - chamana waterfall price
+    - how much is the entrance fee to the chamana waterfall?
+    - chamana waterfall fee
+    - chamana waterfall price
+    - value of the chamana waterfall
+    - how much does it cost per person to enter the chamana waterfall?
+    - chamana waterfall prices 
+    - chamana waterfall value 
+    - chamana waterfall price
+
+- intent: enchanted_forest
+  examples: |
+    - The enchanted forest
+    - enchanted forest
+    - more information about the enchanted forest
+    - attraction the enchanted forest
+    - place the enchanted forest
+    - information about the enchanted forest
+    - learn more about the enchanted forest
+    - learn more about the encandado forest
+    - forest 
+    - enchanted
+    - Price of the enchanted forest
+    - price of the enchanted forest
+    - how much is the entrance fee to the enchanted forest
+    - fee for the enchanted forest
+    - prices of the forest
+    - value of the encandado forest
+    - how much does it cost per person to enter the encandado forest?
+    - bosque encandado value
+    - the forest prices
+    - the enchanted forest prices
+    - timetable of the enchanted forest
+    - the enchanted forest schedule
+    - what are the opening hours of bosque encandado?
+    - opening hours of bosque encandado
+    - what time does the forest open
+    - what time does the forest close?
+    - opening time of the forest
+    - closing time of the enchanted forest
+
+- intent: Animal_Park_ingles
+  examples: |
+    - animal park attraction
+    - animal park location
+    - animal park information
+    - information animal park
+    - information Animal Park
+    - AnimalPark information
+    - learn more about animal park
+    - about animal park
+    - animal park price
+    - animal park price
+    - animal park price
+    - how much is the entrance fee to animal park
+    - animal park price
+    - animal park prices
+    - value of animal park
+    - how much does it cost per person to enter animal park
+    - animal park value
+    - animal park prices
+    - animal park fees
+    - animal park schedule
+    - animal park hours of operation
+    - animal park hours of operation
+    - animal park opening hours
+    - what time does animal park open
+    - animal park closes at what time
+    - opening time of animal park
+    - animal park closing time
+
+- intent: Discovery_ingles
+  examples: |
+    - attraction discovery bathrooms
+    - discovery baños location
+    - discovery baños information
+    - discovery baños information
+    - learn more about discovery baños
+    - learn more about discovery baños
+    - about discovery Baños
+    - price of discovery baños
+    - price of discovery baños
+    - how much is the entrance fee to discovery baños
+    - discovery baños price list
+    - discovery baños prices
+    - value of discovery baños
+    - how much does it cost per person to enter discovery baños
+    - discovery baños value
+    - discovery baños prices
+    - discovery baños rates
+    - discovery baños schedules
+    - discovery baños schedule of care
+    - what are discovery baños' hours of operation?
+    - discovery baños hours of operation
+    - what time does discovery baños open
+    - what time discovery baños closes
+    - opening time of discovery baños
+    - what time discovery baños closes
+
+- intent: Adventure_San_Martín_ingles
+  examples: |
+    - St. Martin Adventure Park 
+    - san martin adventure park 
+    - attractive san martin adventure park 
+    - san martin adventure park location 
+    - san martin adventure park information 
+    - learn more about the san martin adventure park 
+    - adventure park
+    - san martin adventure park price 
+    - how much is the entrance fee to the san martin adventure park? 
+    - san martin adventure park admission fee
+    - san martin adventure park prices
+    - value of the san martin adventure park
+    - how much does it cost per person to enter the san martin adventure park?
+    - san martin adventure park value
+    - san martin adventure park prices
+    - san martin adventure park rates
+    - san martin adventure park schedule
+    - san martin adventure park schedule 
+    - san martin adventure park opening hours 
+    - san martin adventure park's opening hours 
+    - san martin adventure park hours of operation 
+    - what time does san martin adventure park open? 
+    - what time does san martin adventure park close? 
+    - opening time of the san martin adventure park 
+    - closing time of San Martin Adventure Park
+
+- intent: Dinosaurs_Park_ingles
+  examples: |
+    - Dinosaur Park
+    - DinosaurPark
+    - dinosaur park
+    - dinosaur park
+    - dinosaur park attraction
+    - dinosaur park location
+    - dinosaur park information
+    - dinosaur park information
+    - learn more about dinosaur park
+    - dinosaur park information
+    - dinosaur park price
+    - how much is the entrance fee to dinosaurios park?
+    - dinosaur park prices
+    - how much does it cost per person to enter dinosaurios park?
+    - dinosaur park value
+    - dinosaur park prices
+    - dinosaurios park prices
+    - dinosaur park timetable
+    - dinosaur park schedule
+    - dinosaur park hours of operation
+    - what are the dinosaur park hours of operation?
+    - dinosaur park opening hours
+    - what time does dinosaurios park close
+    - opening time of dinosaurios park
+    - dinosaur park closing time
+
+- intent: ourworldadventure_ingles
+  examples: |
+    - Our Mundo Adventure
+    - adventure world
+    - our mundo adventure theme park
+    - our mundo adventure place
+    - information about our mundo adventure
+    - our mundo adventure theme park
+    - our mundo adventure place
+    - information about our mundo adventure
+    - the peoples of the world park
+    - our mundo adventure place
+    - information about our mundo adventure
+    - learn more about our mundo adventure
+    - learn more about towns of the world
+    - visit our mundo adventure park
+    - price of villages of the world
+    - our mundo adventure price
+    - our mundo adventure price
+    - our world adventure villages prices
+    - value of our mundo adventure
+    - how much does it cost per person to enter our mundo 
+    - our mundo adventure value
+    - our world adventure villages prices
+    - our mundo adventure rates
+    - world villages timetable
+    - world villages schedule
+    - our world villages schedule
+    - what are the opening hours of our mundo adventure?
+    - timetable of our mundo adventure
+    - what is the opening time of our mundo adventure
+    - what time do our mundo adventure closes
+    - opening time of our mundo adventure
+    - closing time of our mundo adventure
+    - our mundo adventure schedules
+    - our mundo adventure's schedule
+    - our mundo adventure's opening hours
+    - opening hours of our mundo adventure
+    - what time does our mundo adventure open
+    - what time does our mundo adventure close
+    - opening time of our mundo adventure
+#     - closing time of our mundo adventure
+
+- intent: PiQchur_ingles
+  examples: |
+    - PiQchur photo park
+    - piqchur photo park
+    - PiQchur photo park
+    - attractive PiQchur photo park
+    - location PiQchur photo park
+    - PiQchur photo park information
+    - information about the PiQchur photo park
+    - learn more about PiQchur photo park
+    - more about the PiQchur photo park
+    - more about the PiQchur photo park
+    - information about PiQchur
+    - PiQchur information
+    - more about PiQchur
+    - about PiQchur
+    - about PiQchur
+    - Price of PiQchur photo park park
+    - price of the PiQchur photo park
+    - how much is the entrance fee to PiQchur photo park?
+    - PiQchur photo park entrance fee
+    - PiQchur photo park prices
+    - PiQchur photo park entrance fee
+    - how much does it cost per person to enter the PiQchur photo park?
+    - PiQchur photo park value
+    - PiQchur photo park prices
+    - PiQchur photo park prices
+    - PiQchur price
+    - price of piqchur
+    - how much does piqchur cost
+    - piqchur price
+    - piqchur prices
+    - piqchur value
+    - how much does it cost per person to enter piqchur?
+    - piqchur value
+    - piqchur prices
+    - piqchur rates
+    - PiQchur photo park opening hours
+    - PiQchur photo park opening hours
+    - opening hours of the PiQchur photo park 
+    - opening hours of the PiQchur photo park
+    - opening hours of the PiQchur photo park
+    - closing time of PiQchur photo park
+    - opening time of the PiQchur photo park
+    - Closing time of PiQchur photo park 
+    - PiQchur opening hours
+    - piqchur schedule
+    - piqchur opening hours
+    - piqchur opening hours
+    - what time does piqchur open
+    - what time does piqchur close
+    - piqchur opening time
+    - closing time piqchur
+  
+- intent: Magic_Village_ingles
+  examples: |
+    - The Magic Village
+    - The Magic Village
+    - the magic village
+    - the magic village
+    - attraction the magic village
+    - place the magic village
+    - information about the magic village
+    - information about the magic village
+    - learn more about the magic village
+    - learn more about the magic village
+    - learn more about the magic village
+    - magic village
+    - village
+    - The Village
+    - magic village price
+    - price of the magic village
+    - how much is the entrance fee to the magic village
+    - magic village prices
+    - value of the magic village
+    - how much does it cost per person to enter the magic village?
+    - the magic village value
+    - the magic village prices
+    - the magic village prices
+    - magic village timetable
+    - magic village timetable
+    - schedule of the magic village
+    - what is the schedule of the magic village
+    - opening hours magic village
+    - what is the opening time of the magic village
+    - what time does the magic village close
+    - opening time of the magic village
+    - closing time of the magic village
+
+- intent: Troll_Mountain_ingles
+  examples: |
+    - Troll mountain attraction
+    - place Troll mountain
+    - information of Troll mountain
+    - Troll mountain information
+    - more about Troll mountain
+    - learn more about Troll mountain
+    - about Troll mountain
+    - outdoor cinema
+    - cinema
+    - Price of Troll mountain
+    - price of troll mountain
+    - how much is the entrance fee to Troll mountain
+    - Troll mountain prices
+    - value of troll mountain
+    - how much does it cost per person to enter Troll mountain
+    - Troll mountain value
+    - troll mountain prices
+    - Troll mountain prices
+    - open air cinema value
+    - open air cinema prices
+    - open air cinema prices
+    - Troll mountain schedule
+    - troll mountain schedule
+    - what are the opening hours of Troll mountain
+    - opening hours Troll mountain
+    - what time does troll mountain open
+    - what time Troll mountain closes
+    - opening time of Troll Mountain
+    - closing time Troll mountain
+    - open air cinema opening hours
+    - opening time of the open air cinema
+    - closing time of the open air cinema
+
+- intent: Caverns_Sigsi_Huayco_ingles
+  examples: |
+    - Sigsi Huayco Caves
+    - Sigsi Huayco Caverns
+    - caverns
+    - Sigsi Caverns
+    - attractive Sigsi Huayco caverns
+    - place the Sigsi Huayco Caverns
+    - information about the Sigsi Huayco caverns
+    - information of the Sigsi Huayco caverns
+    - more about the Sigsi Huayco Caves
+    - know more about the sigsi huayco caves
+    - learn more about Sigsi Huayco caves
+    - Price of the Sigsi Huayco caves
+    - price of sigsi huayco caves
+    - how much is the entrance fee to Sigsi Huayco Caves?
+    - Sigsi Huayco Caves prices
+    - value of the sigsi huayco caves
+    - how much does it cost per person to enter the Sigsi Huayco Caves?
+    - Sigsi Huayco caverns value
+    - sigsi huayco caverns prices
+    - Sigsi Huayco caverns prices
+    - Sigsi Huayco caverns timetable 
+    - schedule of the Sigsi Huayco Caverns 
+    - what are the opening hours of sigsi huayco caves?
+    - opening hours Sigsi Huayco Caves 
+    - what time does sigsi huayco caverns open?
+    - what time does Sigsi Huayco caves close? 
+    - opening time of sigsi huayco caverns
+    - closing time of Sigsi Huayco caves 
+    - caverns timetable
+    - cavern schedule
+    - CAVERNA HOURS
+
+- intent: The_god_feet 
+  examples: |
+    - The Feet of God 
+    - the Feet of God 
+    - The Feet of God viewer
+    - Mirador the Feet of God
+    - Feet of God 
+    - the feet of god 
+    - attractive the caves feet of God
+    - place viewpoint feet of God
+    - information of the viewpoint The Feet of God
+    - information about the feet of god
+    - learn more about the feet of god
+    - know about the feet of god
+    - know the feet of god
+    - price of the feet of god 
+    - price of the feet of god 
+    - how much is the entrance fee to the feet of god 
+    - price of the feet of god 
+    - value of the feet of god 
+    - how much does it cost per person to enter the Feet of God? 
+    - the feet of god value
+    - the feet of god prices
+    - the feet of god prices
+    - the feet of god timetable
+    - the feet of god schedule
+    - the feet of god schedule
+    - what is the schedule of the feet of God
+    - the feet of god schedule
+    - what time does the feet of god open
+    - what time God's feet closes
+    - opening time of the feet of God
+    - closing time of the feet of 
+
+- intent: Sacha_360_ingles
+  examples: |
+    - Sacha 360° viewpoint 
+    - Sacha Viewpoint 
+    - sacha 360 viewpoint 
+    - attractive viewpoint sacha 360 
+    - place Sacha 360 
+    - sacha 360 viewpoint information 
+    - information about Sacha 360 
+    - learn more about sacha 360 
+    - about Sacha 360 
+    - price of sacha 360 
+    - price of Sacha 360 
+    - how much is the entrance fee to sacha 360 
+    - sacha 360 prices 
+    - value of Sacha 360 
+    - how much does it cost per person to enter sacha 360 
+    - Sacha 360 value
+    - sacha 360 prices
+    - Sacha 360 rates
+    - sacha 360 schedule 
+    - Sacha 360 service schedule 
+    - what are the opening hours of sacha 360 
+    - sacha 360 opening hours 
+    - what time does Sacha 360 open 
+    - what time does sacha 360 close 
+    - opening time of sacha 360 
+    - closing time Sacha 360 
+
+- intent: mirador_Bellavista_ingles
+  examples: |
+    - Bellavista viewpoint
+    - Bellavista Viewpoint
+    - viewpoint of the cross of Bellavista
+    - bellavista cross viewpoint
+    - the cross of bellavista
+    - attractive Bellavista viewpoint
+    - Bellavista viewpoint 
+    - Bellavista viewpoint information
+    - Bellavista viewpoint information
+    - learn more about Bellavista viewpoint
+    - about the Bellavista viewpoint
+    - visit Bellavista viewpoint 
+    - Bellavista viewpoint price
+    - price of Bellavista viewpoint
+    - how much is the entrance fee to Bellavista viewpoint
+    - Bellavista viewpoint prices
+    - Bellavista viewpoint price
+    - how much does it cost per person to enter the Bellavista viewpoint?
+    - Bellavista viewpointvalue
+    - Bellavista viewpoint prices
+    - Bellavista viewpoint prices
+    - Bellavista viewpoint opening hours
+    - Bellavista viewpoint schedule
+    - what are the opening hours of Bellavista viewpoint
+    - opening hours of Bellavista viewpoint
+    - what time Bellavista viewpoint opens
+    - what time Bellavista viewpoint closes
+    - opening time of Bellavista viewpoint
+    - closing time of Bellavista viewpoint
+
+- intent: Coffee_Turning_giratorio
+  examples: |
+    - Revolving Coffee
+    - Revolving Coffee
+    - rotating coffee
+    - revolving cafe
+    - Revolving coffee shop in Baños
+    - viewpoint of the revolving cafe in Baños
+    - gazebo revolving cafe
+    - attractive revolving cafe
+    - revolving cafe gazebo
+    - information about the gazebo gyratory cafe
+    - information about the gyratory cafe
+    - learn more about gyratory coffee
+    - about gyratory coffee
+    - learn more about rotating coffee
+    - price of the gyratory coffee viewer
+    - price of the gyratory cafe
+    - how much is the entrance fee to the gyratory cafe
+    - gyratory cafe prices
+    - value of the gyratory cafe
+    - how much does it cost per person to enter the gyratory cafe
+    - rotating coffee value
+    - gyratory coffee prices
+    - rotating coffee rates
+    - revolving coffee hours
+    - schedule of the revolving coffee shop
+    - what are the opening hours of the revolving coffee shop
+    - opening hours of the revolving coffee shop
+    - what is the opening time of the revolving coffee shop
+    - what time does the revolving coffee shop close
+    - opening time of the revolving coffee shop
+    - closing time of the revolving coffee shop
+
+- intent: moon_kiss_mirador
+  examples: |
+    - The kiss of the moon
+    - moon kiss
+    - moon kiss
+    - lookout the kiss of the moon Baños
+    - attractive moon kiss 
+    - kiss of the moon gazebo
+    - information about the moon kiss lookout 
+    - information about the moon kiss 
+    - know moon kiss 
+    - moon kissing viewpoint information 
+    - know moon kiss 
+    - moon kiss viewpoint price 
+    - price of the moon kiss 
+    - how much is the entrance fee to the kiss of the moon 
+    - moon kiss prices 
+    - value of the kiss of the moon 
+    - how much does it cost per person to enter the kiss of the moon? 
+    - the kiss of the moon value
+    - kiss of the moon prices
+    - kiss of the moon rates
+    - moon kissing viewpoint timetable 
+    - moon kissing viewpoint schedule 
+    - what are the opening hours of the moon kiss 
+    - opening hours of mirador beso de la luna 
+    - what is the opening time of the kiss of the moon 
+    - what is the closing time of the kiss of the moon 
+    - opening time of the kiss of the moon 
+    - closing time of the kiss of the moon 
+
+- intent: The_eyes_volcano
+  examples: |
+    - The eagle's nest volcano eyes
+    - eagle's nest
+    - Volcano eyes
+    - volcano eyes eagle's nest volcano eyes
+    - eagle's nest volcano eyes
+    - eagle
+    - volcano eyes 
+    - viewpoint volcano eyes eagle's nest volcano eyes
+    - Eagle's nest viewpoint
+    - attractive volcano eyes
+    - the eyes of volcano eagle's nest lookout point
+    - information the eyes of volcano eagle's nest volcano
+    - information the eyes of volcano eagle's nest volcano
+    - know about the viewpoint the eyes of volcano eagle's nest volcano
+    - know about the viewpoint the eyes of eagle's nest volcano 
+    - know the eyes of eagle's nest volcano
+    - price of the volcano eagle's nest volcano eyes viewpoint
+    - price of the volcano eagle's nest volcano eyes
+    - how much is the entrance fee to the eagle's nest volcano eyes
+    - price of the volcano eyes eagle's nest volcano
+    - value of the volcano eyes nest of the eagle
+    - how much does it cost per person to enter the eagle's nest volcano eyes volcano viewpoint
+    - the eyes of eagle's nest volcano value
+    - the eyes of eagle's nest volcano prices
+    - the eyes of eagle's nest volcano rates
+    - eagle's nest volcano volcano eyes viewpoint timetable
+    - schedule of the volcano eyes of eagle's nest volcano
+    - what are the opening hours of los ojos de volcán nido del aguila?
+    - opening hours of the observatory los ojos de volcán nido del águila
+    - what is the opening time of the volcano eyes of the eagle's nest volcano
+    - closing time of the volcano eyes of eagle's nest volcano 
+    - opening time of the eagle's nest volcano eyes 
+    - closing time of eagle's nest volcano eyes
+
+- intent: The_Window_Kong
+  examples: |
+    - The Kong 
+    - the Ventanal de Kong
+    - the ventanal de Kong Baños
+    - belvedere the ventanal de Kong in Baños
+    - Viewing-point the ventanal de Kong
+    - attractive the ventanal de Kong
+    - the ventanal de kong viewpoint
+    - information about the viewpoint the ventanal de kong
+    - information about the ventanal de kong
+    - about the ventanal de kong
+    - information of the belvedere the ventanal de kong
+    - about the ventanal de kong
+    - Price of the belvedere the ventanal de kong
+    - price of theventanal de kong
+    - how much is the entrance fee to the ventanal de kong?
+    - ventanal de kong prices
+    - value of the ventanal de kong
+    - how much does it cost per person to enter the ventanal de kong
+    - the ventanal de kong value
+    - the ventanal de kong prices
+    - the ventanal de kong prices
+    - ventanal de kong opening hours
+    - el ventanal de kong schedule of services 
+    - what are the opening hours of the ventanal de kong?
+    - opening hours of the ventanal de kong
+    - at what time does the ventanal de kong open
+    - at what time does the ventanal de kong close?
+    - opening time of the ventanal de kong
+    - closing time of the ventanal de kong window
+
+- intent: Cristo_Redentor_ingles
+  examples: |
+    - Christ Redeemer
+    - christ the redeemer
+    - Christ
+    - Redeemer
+    - Christ Redeemer Baños
+    - viewpoint el cristo Redentor Baños
+    - viewpoint cristo redentor
+    - attractive cristo Redentor
+    - cristo redentor viewpoint
+    - information about the christ redeemer viewpoint
+    - information of the cristo redentor
+    - know the cristo Redentor
+    - know about the redeemer christ viewpoint
+    - know the christ redeemer
+    - price of the redeemer christ viewpoint
+    - price of the christ redeemer
+    - how much is the entrance fee to the christ redeemer?
+    - christ redeemer prices
+    - value of the christ redeemer
+    - how much does it cost per person to enter the christ redeemer? 
+    - christ redeemer value
+    - christ redeemer prices
+    - christ redeemer prices
+    - christ redeemer viewpoint timetable
+    - christ the redeemer schedule
+    - what are the opening hours of cristo redentor?
+    - opening hours of the christ redeemer lookout point
+    - what is the opening time of the christ redeemer?
+    - what time does christ redeemer close?
+    - opening time of the christ redeemer
+    - closing time of the christ redeemer
+
+- intent: hands_of_god
+  examples: |
+    - hands of god information 
+    - hands of god information 
+    - hands of god 
+    - Hands of god 
+    - more information about hands of god
+    - hands of god information
+    - More information about hands of god
+    - hands of god 
+    - HANDS OF GOD
+    - Hands of God
+    - Price hands of god
+    - how much is the entrance fee to hands of God
+    - fee to the hands of god
+    - price at the hands of god 
+    - value at the hands of god 
+    - how much does it cost per person to enter the hands of god?
+    - hands of god schedule
+    - hands of god schedule
+    - what is the hands of god schedule
+    - hands of god schedule
+
+- intent: pacha_mama_ingles
+  examples: |
+    - pacha mama's hands information
+    - pachamama hands information
+    - more information about pachamama's hands
+    - More information about the hands of Pachamama
+    - pachamama hands
+    - Price pachamama
+    - pachamama entrance fee
+    - how much is the pachamama entrance fee 
+    - pachamama entrance fees
+    - price to pachamama
+    - value to the pachamama 
+    - how much does it cost per person to enter the pachamama?
+    - Price of the Pachamama
+    - Pachamama's schedule
+    - pachamama schedules
+    - pachamama schedules
+    - pachamama opening hours
+
+- intent: punte_cristal_ingles
+  examples: |
+    - more information crystal bridge
+    - information crystal bridge
+    - crystal bridge information 
+    - Mega Adventure Park Rio Blanco
+    - crystal bridge
+    - mega adventure park rio blanco 
+    - rios blanco crystal bridge
+    - mega adventure
+    - More information about puente de cristal
+    - Price Mega adventure Park
+    - value Mega adventure Park
+    - Mega adventure Park price
+    - Price crystal point
+    - crystal point value
+    - crystal point price
+    - crystal point value 
+    - how much does the crystal point cost
+    - mega adventure park entrance fee
+    - rio blanco crystal bridge value 
+    - rio blanco crystal bridge price
+    - rate to cross the rio blanco crystal bridge
+    - value crystal bridge
+    - price crystal bridge 
+    - price crystal bridge
+    - Mega adventure Park schedule
+    - Mega adventure Park schedule
+    - Home activities Mega adventure Park
+    - opening punte de cristal
+    - crystal point timetable
+    - crystal point opening time
+    - opening time of the crystal point 
+    - closing time of the crystal bridge
+    - end of activities of the rio blanco crystal bridge 
+    - rio blanco crystal bridge schedule
+    - schedule for the rio blanco crystal bridge
+    - opening crystal bridge
+    - crystal bridge schedule 
+    - crystal bridge start
+  
+- intent: Family_park
+  examples: |
+    - Baños de Agua Santa Family Park
+    - Family Park
+    - Baños Family Park
+    - family park 
+    - attractive family park 
+    - information about the family park 
+    - about the family park 
+    - about the family park 
+    - visit the family park 
+    - Price of the family park 
+    - price of the family park 
+    - how much is the entrance fee to the family park 
+    - family park prices 
+    - value of the family park 
+    - how much does it cost per person to enter the family park? 
+    - family park value
+    - family park prices
+    - family park rates
+    - family park hours 
+    - family park schedule 
+    - family park hours of operation 
+    - family park hours of operation 
+    - what time does the family park open 
+    - what time does the family park close 
+    - opening time of the family park 
+    - closing time of the family park
+
+- intent: Sanctuary_Our_Lady_Rosary
+  examples: |
+    - Sanctuary Our Lady of the Rosary of Agua Santa
+    - Our Lady of the Rosary Shrine
+    - The Basilica
+    - the basilica
+    - Sanctuary of the Virgin of Agua Santa
+    - attractive church of baños
+    - church
+    - church information
+    - information about the church of baños
+    - about the church of baños
+    - know about the church of baños
+    - about the church of baños
+    - information about La Basilica de baños
+    - information about the basilica
+    - about the basilica
+    - information about the basilica of baños
+    - information of the Sanctuary of the Virgin
+    - information of the Sanctuary of the Virgin
+    - know the Sanctuary of the Virgin
+    - information about the Shrine of the Virgin
+    - to know the Sanctuary of the Virgin
+    - Price of the church
+    - price of the church
+    - how much is the entrance fee to the church
+    - church prices
+    - value of the church holy water baths
+    - how much does it cost per person to enter the church
+    - the church value
+    - the church prices
+    - the church prices
+    - the basilica value
+    - the basilica prices
+    - the basilica prices
+    - Sanctuary of the Virgin Mary value
+    - Sanctuary of the Virgin Mary prices
+    - CHURCH HOURS
+    - church schedule
+    - what is the church schedule
+    - church office hours
+    - what time does the church open
+    - what time church closes
+    - church opening time
+    - closing time of the church
+    - basilica schedule 
+    - basilica schedule 
+    - what is the schedule of the basilica 
+    - basilica opening hours 
+    - what time does the basilica open 
+    - what time does the basilica close 
+    - opening time of the basilica 
+    - closing time of the basilica 
+
+- intent: malecon_rioVerde_ingles
+  examples: |
+    - Green River Malecon
+    - malecon de rio verde attraction
+    - malecon de rio verde information
+    - information about the malecon of rio verde
+    - know the malecon of rio verde
+    - learn about the malecon of rio verde
+    - know the malecon of rio verde
+    - green river boardwalk price
+    - green river boardwalk price
+    - how much is the entrance fee to the malecon de rio verde?
+    - green river boardwalk prices
+    - value of the green river boardwalk
+    - how much does it cost per person to enter the malecon of río verde
+    - green river boardwalk value
+    - green river boardwalk prices
+    - malecon de rio verde prices
+
+- intent: zoo_vidaExotica
+  examples: |
+    - The zoo vida exotica
+    - The vida exotica zoo 
+    - vida exotica zoo site 
+    - vida exotica zoo site 
+    - zoo vida exotica
+    - exotic life 
+    - vida exotica zoo price 
+    - price vida exotica zoo
+    - how much does the entrance fee tovida exotica zoo cost? 
+    - vida exotica zoo entrance fee 
+    - vida exotica zoo price 
+    - vida exotica zoo value 
+    - how much does it cost per person to enter vida exotica zoo? 
+    - vida exotica zoo value
+    - vida exotica zoo prices
+    - zoologico vida exotica prices
+    - vida exotica zoo schedule 
+    - vida exotica zoo's opening hours 
+    - what are the opening hours of vida exotica zoo? 
+    - opening hours of vida exotica zoo 
+    - what time does vida exotica zoo open? 
+    - what time does vida exotica zoo close? 
+    - opening time vida exotica zoo 
+    - closing time of the zoo vida exotica zoo 
+
+- intent: zoo_san_martin_ingles
+  examples: |
+    - Eco Zoo San Martin
+    - San Martin Zoo
+    - San Martin Zoo
+    - San Martin Zoo
+    - place san martin zoo
+    - San Martin Zoo
+    - san martin zoo
+    - price san martin zoo
+    - san martin zoo price
+    - how much is the entrance fee to san martin zoo?
+    - san martin zoo admission fee
+    - san martin zoo price
+    - san martin zoo value
+    - how much does it cost per person to enter san martin zoo?
+    - san martin zoo value
+    - san martin zoo prices
+    - san martin zoo schedule
+    - san martin zoo hours of operation
+    - what are the opening hours of san martin zoo?
+    - opening hours san martin zoo
+    - what time does san martin zoo open?
+    - what time does san martin zoo close?
+    - opening time san martin zoo
+    - closing time san martin zoo
+
+- intent: Museum_ingles
+  examples: |
+    - Fray Enrique Mideros Museum
+    - Fray Enrique Mideros museum
+    - fray enrique mideros museum
+    - fray enrique mideros museum information
+    - fray enrique mideros museum information
+    - information about the fray enrique mideros museum
+    - about the fray enrique mideros museum
+    - about the fray enrique mideros museum
+    - fray enrique mideros museum price
+    - price of the museum 
+    - price of the fray enrique mideros museum
+    - how much is the entrance fee to the fray enrique mideros museum?
+    - price of the fray enrique mideros museum
+    - fray enrique mideros museum price
+    - fray enrique mideros museum value
+    - how much does it cost per person to enter the fray enrique mideros museum?
+    - fray enrique mideros museum value
+    - fray enrique mideros museum prices
+    - opening hours fray Enrique Mideros museum
+    - museum opening hours
+    - opening hours of the Fray Enrique Mideros Museum
+    - opening hours of the Fray Enrique Mideros museum
+    - what are the opening hours of the Fray Enrique Mideros Museum?
+    - opening hours of Fray Enrique Mideros Museum
+    - opening hours of the Fray Enrique Mideros Museum
+    - when does the Fray Enrique Mideros Museum close?
+    - opening time of the museum Fray Enrique Mideros
+    - closing time of Fray Enrique Mideros Museum
+
+- intent: chocolate_factory
+  examples: |
+    - The chocolate factory
+    - chocolate factory
+    - chocolate factory
+    - place chocolate factory
+    - chocolate factory
+    - chocolate factory
+    - factory 
+    - Chocolate Factory Price
+    - chocolate factory price
+    - how much is the entrance fee to the chocolate factory
+    - chocolate factory price
+    - chocolate factory price
+    - chocolate factory value
+    - how much does it cost per person to enter the chocolate factory?
+    - value chocolate factory
+    - chocolate factory prices
+    - chocolate factory prices
+    - chocolate factory schedules
+    - chocolate factory schedule
+    - what are the opening hours of the chocolate factory?
+    - chocolate factory opening hours
+    - what is the opening time of the chocolate factory
+    - what time chocolate factory closes
+    - opening time chocolate factory
+    - closing time chocolate factory
+
+- intent: rafting_ingles
+  examples: |
+    - extreme rafting activity
+    - rafting activity
+    - hire rafting
+    - where can i hire rafting
+    - i want to hire rafting
+    - do rafting
+    - I want to do rafting
+    - hire rafting
+    - do rafting
+    - Price of rafting
+    - rafting price
+    - rafting price
+    - how much does rafting cost
+    - rafting price
+    - rafting price
+    - value of rafting
+
+- intent: Canyoning_ingles
+  examples: |
+    - extreme activity canyoning
+    - how can i do canyoning in bathing
+    - hire canyoning
+    - where can I do canyoning
+    - I want to hire canyoning
+    - I want to go canyoning
+    - hire canyoning
+    - Price of canyoning
+    - canyoning price
+    - how much does canyoning cost
+    - canyoning fee
+    - canyoning price
+    - canyoning value
+    - canyoning price
+    - canyoning value 
+    - canyoning rate
+
+- intent: rock_climbing
+  examples: |
+    - rock climbing   
+    - climbing
+    - rock climbing
+    - extreme activity rock climbing
+    - rock climbing 
+    - how can i do rock climbing in bathrooms
+    - contract rock climbing 
+    - where can i do rock climbing 
+    - i want to contract rock climbing 
+    - how to do rock climbing 
+    - how to do rock climbing 
+    - I want to do rock climbing 
+    - hire rock climbing 
+    - do rock climbing 
+    - rock climbing price  
+    - rock climbing price  
+    - rock climbing price  
+    - how much does rock climbing cost  
+    - rock climbing price  
+    - rock climbing price  
+    - rock climbing value  
+    - rock climbing price
+    - rock climbing value 
+    - rock climbing price list
+
+- intent: Bridge_jumping
+  examples: |
+    - bridge jumping  
+    - bridge jump
+    - bridge jumping
+    - extreme activity bridge jumping
+    - bridge jumping
+    - how can i do bridge jumping in bathrooms
+    - hire bridge jumping  
+    - where can i hire bridge jumping  
+    - i want to hire bridge jumping   
+    - how to make a bridge jumping   
+    - how to do bridge jumping   
+    - I want to do a bridge jump   
+    - hire bridge jumping   
+    - how to make a bridge jump  
+    - how to make a bridge jump   
+    - Price of bridge jumping  
+    - bridge jump price    
+    - bridge jump price   
+    - how much does it cost to jump off the bridge   
+    - bridge jumping price  
+    - bridge jumping price    
+    - bridge jumping value    
+    - bridge jumping price
+    - bridge jump value 
+    - bridge jumping rate
+
+- intent: fantasias_volar_ingles
+  examples: |
+    - Fantasies of Flying Swing
+    - fantasies of flying swing
+    - fantasies of flying
+    - Swing fantasies of flying
+    - flying fantasies
+    - attractive flying fantasies
+    - place fantasies of flying
+    - swing flying fantasies
+    - price of the swing swing flying fantasies
+    - price of the flying fantasy swing
+    - how much is the entrance fee to the flying fantasy swing?
+    - price of the flying fantasy swing
+    - flying fantasy swing price 
+    - value of the flying fantasy swing
+    - how much does it cost per person to enter the flying fantasy swing?
+    - flying fantasy swing schedule
+    - schedule for the flying fantasy swing
+    - what are the opening hours of the flying fantasy swing?
+    - flying fantasy swing swing timetable
+    - Flying Fantasies Swing Schedule
+    - what is the opening time of the flying fantasy swing?
+    - start of activities at the flying fantasy swing set
+    - swing swing timetable fantasies of flying
+
+- intent: tree_house
+  examples: |
+    - Swing the tree house
+    - tree house
+    - attractive tree house
+    - tree house place
+    - tree house swing
+    - tree house
+    - tree house price
+    - tree house price
+    - how much is the entrance fee to the tree house?
+    - tree house fee
+    - tree house price 
+    - value of the tree house
+    - how much does it cost per person to enter the tree house?
+    - tree house hours
+    - tree house hours of operation
+    - what are the hours of operation of the tree house?
+    - opening hours la casa del arbol
+    - what time does the tree house open
+    - what time does the tree house close
+    - opening time tree house
+    - closing time of the tree house
+
+- intent: condor_flight
+  examples: |
+    - vuelo del condor swing
+    - Flight vuelo del condor
+    - attractive vuelo del condor
+    - place vuelo del condor
+    - swing vuelo del condor
+    - vuelo del condor price
+    - how much does the vuelo del condor ticket cost
+    - vuelo del condor fare
+    - vuelo del condor price
+    - value to the vuelo del condor
+    - how much does it cost per person to enter the vuelo del condor?
+    - vuelo del condor schedule
+    - what is the vuelo del condor?
+    - what is the opening time of thevuelo del condor
+    - vuelo del condor closing time
+    - vuelo del condor opening time
+    - vuelo del condor closing time
+
+- intent: Bellavista_trail
+  examples: |
+    - Bellavista trail information
+    - Bellavista trail
+    - road to Bellavista
+    - route to Bellavista
+    - how to get to Bellavista 
+    - hike to Bellavista
+    - hiking to Bellavista 
+    - walking to Bellavista
+    - go to Bellavista trail
+    - more information about Bellavista trail
+    - I need information about the Bellavista trail
+
+- intent: the_sauces_trail
+  examples: |
+    - illuchi and sauces trail
+    - hike to the sauces
+    - sauces trail
+    - the sauces trail
+    - illuchi and los sauces trail information
+    - the sauces trail
+    - illuchi trail
+    - the sauces trail
+    - illuchi trail
+    - los sauces trail
+    - road to los sauces
+    - route of the sauces
+    - route illuchi the sauces
+    - how to get to los sauces
+    - go to the illuchi and los sauces trail
+    - more information about the sauces trail
+    - i need information about the sauces trail
+    - more information about the sauces trail
+
+- intent: virgin_trail
+  examples: |
+    - viewpoint of la virgen
+    - walk to la virgen
+    - information about the path to la virgen
+    - la virgen trail
+    - la virgen trail
+    - trail to la virgen
+    - path to la virgen
+    - route to la virgen
+    - how to get to la virgen
+    - how to get to the trail to la virgen
+    - more information about la virgen viewpoint
+    - i need information about the trail to la virgen
+    - more information about the trail to la virgen
+
+- intent: pondoa_trail
+  examples: |
+    - pondoa trail info
+    - pondoa trail
+    - path to pondoa
+    - route to pondoa
+    - how to get to pondoa 
+    - walk to pondoa
+    - hiking to pondoa 
+    - walking to pondoa
+    - how to get to pondoa
+    - more information pondoa trail
+    - I need information about pondoa trail
+
+- intent: lunavolcan_trail
+  examples: |
+    - luna volcano viewpoint
+    - hike to luna volcan
+    - information about the road to luna volcan
+    - luna volcan trail
+    - luna volcano trail
+    - bellavista and luna volcan virgin trail
+    - road to luna volcan
+    - route to luna volcan
+    - how to get to luna volcan
+    - how to get to luna volcan and bellavista trail
+    - more information about luna volcan and bellavista
+    - i need information about the trail to luna volcan and bellavista
+    - more information about the trail to luna volcan and bellavista
+
+- intent: tree_house_path
+  examples: |
+    - trail to the tree house
+    - hike to the tree house
+    - tree house trail information
+    - tree house trail
+    - tree house trail
+    - tree house trail
+    - trail to the tree house
+    - route to the tree house
+    - how to get to the tree house
+    - how to get to the tree house trail
+    - more information about the trail to the tree house
+    - i need information about the tree house trail
+    - more information about the path to the tree house
+
+- intent: accountants
+  examples: |
+    - contabandistas route
+    - contabandistas hike
+    - contabandistas route information
+    - contabandistas trail
+    - how to get to the contabandistas trail
+    - contabandistas trail
+    - contabandistas trail
+    - contabandistas route
+    - contabandistas hike
+    - how to get to the contabandistas route
+    - route of the contabandistas start 
+  
+- intent: swimming
+  examples: |
+    - pools
+    - pools
+    - spas
+    - spa
+    - spas in baths
+    - the spas of baños
+    - information of the spas of baños
+    - baths spas
+    - Swimming pools in Baños
+    - how many pools in Baños
+    - there are pools in baños 
+    - visit swimming pools 
+    - location of swimming pools 
+    - swimming pools information
+    - prices swimming pools
+    - I want to know the swimming pools in baños
+
+- intent: Virgin_Pool
+  examples: |
+    - pools of la virgen
+    - swimming pools of la virgen Baños
+    - place swimming pools of la virgen
+    - swimming pool of la virgen
+    - Price swimming pools of la virgen
+    - price swimming pools of la virgen
+    - how much is the entrance fee to the swimming pools of la virgen?
+    - price of the swimming pools of la virgen
+    - la virgen swimming pools price
+    - value of the swimming pools of la virgen
+    - how much does it cost per person to enter the la virgen pools?
+    - swimming pools of la virgen value
+    - swimming pools of la virgen prices
+    - swimming pools of la virgen prices
+    - la virgen swimming pools timetable
+    - la virgen swimming pool schedule
+    - la virgen swimming pools opening hours
+    - what are the opening hours of the swimming pools of la virgen?
+    - opening hours of the swimming pools of la virgen
+    - what is the opening time of the swimming pools of la virgen
+    - what time does the swimming pools of la virgen close?
+    - opening time of the swimming pools of la virgen
+    - closing time of the swimming pools of la virgen
+
+- intent: Santa_Clara_en
+  examples: |
+    - Swimming pools of santa clara
+    - santa clara pools
+    - santa clara pools
+    - Santa Clara Swimming Pool
+    - Santa Clara swimming pool
+    - santa clara swimming pool
+    - santa clara pools swimming pools
+    - santa clara pools location
+    - santa clara swimming pools price
+    - price of santa clara swimming pools
+    - how much is the entrance fee to the santa clara swimming pools?
+    - santa clara swimming pools price
+    - santa clara swimming pools price
+    - value of the santa clara swimming pools
+    - how much does it cost per person to enter the santa clara swimming pools?
+    - santa clara pools value
+    - santa clara pools prices
+    - santa clara swimming pools prices
+    - santa clara swimming pools timetable
+    - santa clara swimming pool schedule
+    - santa clara swimming pools opening hours
+    - what are the opening hours of santa clara's swimming pools?
+    - santa clara swimming pools opening hours
+    - what is the opening time of the santa clara swimming pools?
+    - what time does santa clara swimming pools close?
+    - opening time santa clara swimming pools
+    - closing time santa clara swimming pools
+  
+- intent: Termas_dela_virgen_en
+  examples: |
+    - La virgen Thermal Pools
+    - la virgen thermal pools
+    - la virgen swimming pools
+    - Termas de la virgen hot springs
+    - termas de la virgen hot springs pools
+    - place of termas de la virgen
+    - swimming pool of termas de la virgen
+    - Termas de la virgen price
+    - price of la virgen hot springs
+    - how much is the entrance fee to termas de la virgen?
+    - price of termas de la virgen
+    - price of termas de la virgen
+    - how much does it cost per person to enter the termas de la virgen?
+    - termas de la virgen value
+    - termas de la virgen prices
+    - Thermal waters of the Termas de la Virgen hot springs
+    - termas de la virgen rates
+    - thermal baths of termas de la virgen
+    - schedule of termas de la virgen
+    - schedule of the termas de la virgen
+    - what are the opening hours of termas de la virgen?
+    - opening hours of termas de la virgen
+    - what time is the opening time of the termas de la virgen?
+    - what time does termas de la virgen close?
+    - opening time of la virgen hot springs
+    - closing time of la virgen hot springs
+
+- intent: The_Salado_thermal_pools
+  examples: |
+    - El Salado Swimming Pools
+    - El Salado pools
+    - El Salado thermal pools
+    - swimming pools el salado
+    - swimming pools swimming pools of the salty
+    - pools of the swimming pools el salado
+    - place of psicinas el salado
+    - information of the swimming pools of the salty one 
+    - information of the swimming pools of el salado 
+    - to know swimming pools the salty one
+    - to know about el salado swimming pools
+    - El Salado Swimming Pools Price
+    - price of el salado swimming pools
+    - how much is the entrance fee to el salado swimming pools?
+    - price of the swimming pools el salado
+    - el salado swimming pools price
+    - value of the swimming pools el salado
+    - how much does it cost per person to enter el salado swimming pools?
+    - el salado pools value
+    - pools el salado prices
+    - el salado swimming pools timetable
+    - el salado swimming pools timetable
+    - el salado swimming pools schedule of attention
+    - what are the opening hours of the swimming pools el salado?
+    - el salado swimming pools opening hours
+    - what is the opening time of el salado swimming pools?
+    - what time does el salado swimming pools close?
+    - opening time el salado swimming pools
+    - closing time el salado swimming pools
+
+- intent: Swimming_Pools_Santa_Ana
+  examples: |
+    - Santa Ana Swimming Pools
+    - santa ana swimming pools
+    - santa ana swimming pools location
+    - information of the swimming pools of Santa Ana
+    - santa ana swimming pools information 
+    - about santa ana swimming pools
+    - know about santa ana swimming pools
+    - Santa Ana Swimming Pools Price
+    - price of the santa ana swimming pools
+    - how much is the entrance fee to the swimming pools of Santa Ana?
+    - santa ana swimming pools prices
+    - Santa Ana Swimming Pools price
+    - value of the santa ana swimming pools
+    - how much does it cost per person to enter the santa ana swimming pools?
+    - santa ana pools value
+    - santa ana pools prices
+    - swimming pools of Santa Ana rates
+    - santa ana swimming pools timetable
+    - santa ana swimming pools timetable
+    - santa ana swimming pools opening hours
+    - what are the opening hours of the santa ana swimming pool?
+    - santa ana swimming pools opening hours
+    - what time does the santa ana swimming pool open?
+    - what time does the santa ana swimming pool close?
+    - opening time santa ana swimming pools
+    - closing time of santa ana swimming pools
+
+- intent: teller_banks
+  examples: |
+    - Where are the ATMs located?
+    - where ATMs are located
+    - ATM locations 
+    - where is the ATM 
+    - where is the ATM
+    - where are the ATMs located in restrooms
+    - where ATMs are located 
+    - where the ATMs are located
+    - where ATMs are located
+    - which banks have ATMs
+    - ATMs of which banks are there in Baths
+    - ATM machines
+    - ATM
+    - ATMs 
+
+- intent: complaints
+  examples: |
+    - denounces
+    - denounce 
+    - make a complaint
+    - complaints
+    - complaints
+    - claims
+    - complaints
+    - I want to make a complaint
+
+- intent: weather 
+  examples: |
+    - weather  
+    - what is the weather
+    - what is the temperature 
+    - i want to know what the weather is 
+    - tell me the current temperature
+    - what is the weather for
+    - What is the weather?
+    - What is the temperature today?
+    - What is the temperature?
+    - I want to know the temperature
+    - I want to know today's weather
+    - Tell me the weather forecast
+    - How is the weather today?
+
+- intent: map_Tourist
+  examples: |
+    - map
+    - maps
+    - Baños map
+    - I need the map of bathrooms
+    - baños map
+    - Tourist map of baños de agua santa
+
+- intent: recommendations
+  examples: |
+    - recommendations
+    - travel recommendations
+    - i need recommendations before traveling to baños
+    - recommendations in baños
+    - recommendations for visiting baños
+    - help me with recommendations
+  
+- intent: bus_paths
+  examples: |
+    - to which attractions do the city buses go 
+    - city buses 
+    - city bus routes
+    - what are the routes of the urban buses? 
+    - travel by bus
+    - public transportation 
+    - Baños on buses
+  
+- intent: night_activities
+  examples: |
+    - Can you do activities at night? 
+    - things to do at night
+    - night activities
+    - what can i do at night
+    - what can you do at night 
+    - what to do at night
+    - night attractions 
+    - night activities
+    - night outings 
+    - nightlife activities
+    - activities for the night 
+    - what to do at night
+    - what to do at night
+    - what to do at night 
+    - what to do at night
+    - what to do at night
+    - night bathing
+    - night attractions

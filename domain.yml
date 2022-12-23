@@ -1,0 +1,1339 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - principales_famosos
+  - medios_trasporte
+  - senderos_ciudad
+  - sincosto
+  - clima
+  - manos_de_dios
+  - pacha_mama
+  - punte_cristal
+  - precio_dios
+  - tarifa_Precio_Mega_adventure_Park
+  - horario_manos_dios
+  - valor_pachamama
+  - pachamama_horario
+  - inicio_mega_park
+  - info_pondoa
+  - mirador_virgen
+  - los_sauces
+  - ruta_lunavolcan
+  - sendero_casa_arbol
+  - contabandistas
+  - Bellavista_camino
+  - alquiler
+  - mas_info_alqui
+  - atractivos
+  - Puentes
+  - Columpios
+  - actividades_extremas
+  - cascadas
+  - zoologicos
+  - lugares_gastronomia
+  - museos
+  - parques_tematicos
+  - miradores
+  - piscinas_banios
+  - sincosto_lugares
+  - fantasias_volar
+  - cuesta_columpio_fantasías_Volar
+  - horario_fantasías_Volar
+  - hora_casaarbol
+  - valor_casa_arbol
+  - casa_del_arbol
+  - vuelo_del_condor
+  - entrada_vuelodelcondor
+  - horarios_vuelo_condor
+  - columpio_abismo_del_diablo
+  - entrada_abismo
+  - horarios_columpio_diablo
+  - rafting
+  - contrata_rafting
+  - precio_rafting
+  - Canyoning
+  - contratar_Canyoning
+  - precio_Canyoning
+  - escalada_roca
+  - contrato_escaladaroca
+  - cuesta_escalar
+  - Salto_puente
+  - precticar_salto_puente
+  - salto_puente_valor
+  - manto_dela_novia
+  - precios_manto_novia
+  - cascada_agoyan
+  - valores_cascada_del_agoyan
+  - el_pailon
+  - horarios_cascada_pailon
+  - entrada_pailon_deldiablo
+  - cascada_virgen
+  - precios_cascada_virgen
+  - ines_maria_cascada
+  - tarifas_inesmaria
+  - san_Antonio
+  - precio_antonio
+  - chamana
+  - valor_cascada_chamana
+  - zoo_san_martin
+  - precios_san_martin
+  - hora_zoo_san_martin
+  - vida_exotica
+  - precios_vida_exotica
+  - horariosvida_exotica
+  - fabrica_chocolate
+  - precios_fabrica
+  - horarios_chocolate
+  - bosque_encantado
+  - precios_bosque_encantado
+  - horarios_bosque_encantado
+  - Animal_Park
+  - precio_animal_park
+  - horario_animal_park
+  - Discovery_Baños
+  - precio_discovery_baños
+  - horario_discovery_baños
+  - Parque_aventuras_San_Martín
+  - precio_parque_aventuras_San_Martín
+  - horario_parque_aventuras_San_Martín
+  - Dinosaurios_Park
+  - precio_Dinosaurios_Park
+  - horario_Dinosaurios_Park
+  - our_mundo_adventure
+  - precios_our_mundo_adventure
+  - horarios_our_mundo_adventure
+  - PiQchur
+  - precioPiQchur
+  - horarioPiQchur
+  - Aldea_Magica
+  - precio_Aldea_Magica
+  - horario_Aldea_Magica
+  - Troll_Mountain
+  - precioTroll_Mountain
+  - horario_TrollMountain
+  - Cavernas_Sigsi_Huayco
+  - precioCavernas_Sigsi_Huayco
+  - horarioCavernas
+  - Los_pies_dios
+  - precio_Los_pies_dios
+  - horarioLos_pies_dios
+  - Sacha_360
+  - precioSacha_360
+  - horario_Sacha_360
+  - mirador_Bellavista
+  - precio_mirador_Bellavista
+  - horario_mirador_Bellavista
+  - Cafe_Giratorio
+  - Giratorio_precio
+  - Cafe_Giratorio_horario
+  - besode_la_luna
+  - beso_de_la_luna_precio
+  - besode_luna_horario
+  - Los_ojos_volcán_nido_del_aguila
+  - Los_ojos_volcán_precio
+  - nido_del_aguila_horario
+  - horario_Ventanal_Kong
+  - precio_El_Ventanal_Kong
+  - El_Ventanal_Kong
+  - Cristo_Redentor
+  - precio_Cristo_Redentor
+  - horarios_Cristo_Redentor
+  - Parque_familia
+  - precio_Parque_familia
+  - horario_Parque_familia
+  - Santuario_Nuestra_Señora_Rosario
+  - precio_iglesia_baños
+  - malecon_rioVerde
+  - precios_malecon_rioVerde
+  - horarios_Piscinas_Santa_Ana
+  - precio_Piscinas_Santa_Ana
+  - Piscinas_Santa_Ana
+  - El_Salado
+  - precio_El_Salado
+  - horarios_El_Salado
+  - horarios_Santa_Clara
+  - precio_Santa_Clara
+  - Santa_Clara
+  - horarios_Termas_dela_virgen
+  - precio_Termas_dela_virgen
+  - Termas_dela_virgen
+  - precios_Piscina_Virgen
+  - horarios_Piscina_Virgen
+  - Piscina_Virgen
+  - Museo_Fray_Enrique_Mideros
+  - precio_Museo_Fray_Enrique_Mideros
+  - horarios_Museo_Fray_Enrique_Mideros
+  - Balneario_Zuñag
+  - precio_Balneario_Zuñag
+  - nuevos_atractivos
+  - mapa
+  - recomendaciones
+  - trayectos_buses
+  - denuncias
+  - cajeros_banios
+  - actividades_centro_banios
+  - actividades_nocturnas
+  #####################################
+  - saludo
+  - contestar_bien
+  - contestar_mal
+  - que_eres
+  - despedida
+  - Information_banios
+  - waterfall
+  - viewpoints_text
+  - thematic_parks
+  - Free_places
+  - zoological
+  - gastronomy_place
+  - extreme
+  - swings_text
+  - Bridges
+  - museums
+  - city_trails_waks
+  - condor_flight
+  - tree_house
+  - fantasias_volar_ingles
+  - Bridge_jumping
+  - rock_climbing
+  - Canyoning_ingles
+  - rafting_ingles
+  - chocolate_factory
+  - Museum_ingles
+  - zoo_san_martin_ingles
+  - zoo_vidaExotica
+  - malecon_rioVerde_ingles
+  - Sanctuary_Our_Lady_Rosary
+  - Family_park
+  - punte_cristal_ingles
+  - pacha_mama_ingles
+  - hands_of_god
+  - Cristo_Redentor_ingles
+  - The_Window_Kong
+  - The_eyes_volcano
+  - moon_kiss_mirador
+  - Coffee_Turning_giratorio
+  - mirador_Bellavista_ingles
+  - Sacha_360_ingles
+  - The_god_feet
+  - Caverns_Sigsi_Huayco_ingles
+  - Troll_Mountain_ingles
+  - Magic_Village_ingles
+  - PiQchur_ingles
+  - ourworldadventure_ingles
+  - Dinosaurs_Park_ingles
+  - Adventure_San_Martín_ingles
+  - Discovery_ingles
+  - Animal_Park_ingles
+  - enchanted_forest
+  - chamana_waterfall_ingles
+  - san_Antonio_ingles
+  - ines_maria_ingles
+  - virgin_waterfall
+  - devil_pailon
+  - Waterfall_agoyan
+  - novia_waterfall
+  - tree_house_path
+  - lunavolcan_trail
+  - pondoa_trail
+  - virgin_trail
+  - the_sauces_trail
+  - Bellavista_trail
+  - accountants
+  - Santa_Clara_en
+  - swimming
+  - Virgin_Pool
+  - Termas_dela_virgen_en
+  - The_Salado_thermal_pools
+  - Swimming_Pools_Santa_Ana
+  - teller_banks
+  - complaints
+  - weather
+  - map_Tourist
+  - recommendations
+  - bus_paths
+  - night_activities
+
+actions:
+  - action_list
+  - utter_goodbye
+  - utter_iamabot
+  - utter_greet
+  - utter_cheer_up
+  - utter_happy
+  - action_weather
+  - action_carousels
+  - utter_sendero_casaarbol
+  - utter_info_manos_dios
+  - utter_info_manos_pachamama
+  - utter_Mega_Adventure_Park_rio_Blanco
+  - utter_precio_manos_dios
+  - utter_precio_pachamama
+  - utter_valor_mega_park_rioblanco
+  - utter_horario_pachamama
+  - medios_trasportes
+  - utter_apertura_manos
+  - utter_inicio_puenterioblanco
+  - utter_sin_costo
+  - senderos_banios
+  - utter_camino_pondoa
+  - utter_mirador_virgen
+  - utter_los_sauces
+  - utter_luna_volcan
+  - utter_contabandistas
+  - utter_camino_bellavista
+  - utter_ask_alquiler
+  - utter_mas_datos_renta
+  - utter_ask_atractivos
+  - list_puentes
+  - Columpios_lista
+  - extremo_list
+  - visitar_cascadas
+  - zoo_listas
+  - gastronomia
+  - List_parques
+  - listar_miradores
+  - existencia_piscinas
+  - conteo_museos
+  - listalugares_sincosto
+  - utter_fantasias_de_volar
+  - utter_tarifa_fantasias_volar
+  - utter_atencion_fantasias_volar
+  - utter_casa_en_arbol
+  - utter_precio_cadadelarbol
+  - utter_casadel_arbol
+  - utter_vuelo_del_condor
+  - utter_tarifa_vuelo_condor
+  - utter_horas_vuelo_delcondor
+  - utter_columpio_extremo_deldiablo
+  - utter_costo_abismo_del_diablo
+  - utter_horario_columpio_extremo
+  - utter_rafting
+  - utter_contratar_extremos
+  - utter_rafting_precio
+  - utter_canyoning
+  - utter_escalada_en_roca
+  - utter_salto_delpuente
+  - utter_saltopuente_precio
+  - utter_cascasa_manto_novia
+  - utter_precios_canopy_tarabita
+  - utter_precio_cascadas
+  - utter_agoyan_cascada
+  - utter_el_pailon_diablo
+  - utter_elpailon_precios
+  - utter_horario_pailon
+  - utter_cascada_virgen
+  - utter_ines_maria
+  - utter_san_antonio_cascada
+  - utter_chamana_cascada
+  - utter_San_Martin_Zoo
+  - utter_horario_zoo_martin
+  - utter_precio_San_martin
+  - utter_vida_exotica_zoo
+  - utter_horario_zoo_exotica
+  - utter_precio_exotica
+  - utter_fabrica_de_chocolate
+  - utter_precio_fabrica
+  - utter_horario_fabrica_chocolate
+  - utter_Pies_de_Dios
+  - utter_Sacha_360
+  - utter_Bellavista
+  - utter_Cafeteria_giratoria
+  - utter_Beso_dela_luna
+  - utter_Ojosvolcan_nidoAgila
+  - utter_Ventanal_Kong
+  - utter_Cristo_redentor
+  - utter_boque_encantado
+  - utter_Animal_Park
+  - utter_Discovery
+  - utter_parque_aventure_martin
+  - utter_dinos_park
+  - utter_Our_mundo
+  - utter_PiQchur
+  - utter_Pueblo_magicos
+  - utter_Troll_Mountain
+  - utter_Cavernas
+  - utter_malecon_rioVerde
+  - utter_Santuario_Nuestra_Señora_Rosario
+  - utter_parque_familia
+  - utter_balneario_Zuñag
+  - utter_precio_bosque_encatado
+  - utter_precio_AnimalPark
+  - utter_precio_Discovery
+  - utter_precio_DinoPark
+  - utter_precio_Pueblos_Mundo
+  - utter_precio_Pueblo_Magico
+  - utter_precio_Cavernas
+  - utter_precio_Pies_Dios
+  - utter_precio_Bellavista
+  - utter_precio_Cafe_giratorio
+  - utter_precio_Beso_luna
+  - utter_horario_piscina_Santa_Ana
+  - utter_horario_piscina_ElSalado
+  - utter_horario_Termas_Virgen
+  - utter_horario_piscina_Virgen
+  - utter_horario_cafe_giratorio
+  - utter_horario_Pies_Dios
+  - utter_horario_Caverna
+  - utter_horario_troll_Mountain
+  - utter_horario_Aldea_Magica
+  - utter_horario_Piqhur
+  - utter_horario_Discovery
+  - utter_horario_Animal_Park
+  - utter_horario_Bosque_encantado
+  - utter_piscinas_Virgen
+  - utter_Termas_virgen
+  - utter_Santa_clara
+  - utter_El_Salado
+  - utter_Santa_Ana
+  - utter_Fray_Enrique_Mideros
+  - utter_precio_parque_familia
+  - utter_horario_familia
+  - utter_precio_INgreso_gratis
+  - nuevos_atractivos
+  - utter_clima
+  - utter_mapa
+  - utter_recomendaciones
+  - utter_buses_urbanos_uno
+  - utter_denuncias
+  - utter_informacion_cajeros
+  - centro_list
+  - utter_Nocturnas
+  ##########################
+  - utter_saludo
+  - utter_animar_turista
+  - utter_invitacion
+  - utter_despedida_en
+  - utter_soy_en
+  - waterfall_lis
+  - thematic_parks_list
+  - viewpoints_ingles
+  - utter_ask_information_ingles
+  - swings_ingles_lis
+  - extreme_activities
+  - gastronomy_sites
+  - museum_banios
+  - zoo_englis
+  - free_list
+  - bridges_sites
+  - caminatas_ciudad
+  - utter_waterfall_virgen_en
+  - La virgen waterfall
+  - utter_san_antonio_en
+  - utter_chamana_waterfall_en
+  - utter_aldea_magica_Ingles
+  - utter_komg_ingles
+  - utter_ojosVolcan_ingles
+  - utter_luna_ingles
+  - utter_piqchur_ingles
+  - utter_pueblos_mundo_ingles
+  - utter_Dino_PArk
+  - utter_park_sanMartin
+  - utter_Discovery_atraction
+  - utter_park_AnimalPark_en
+  - utter_forest_enchanted
+  - utter_Troll_Mountain_en
+  - utter_Sacha_360_en
+  - utter_factory_chocolate
+  - utter_zoo_martin_en
+  - utter_vida_exo_zoo_en
+  - utter_rock_climbring
+  - utter_caypning_activity
+  - utter_rafting_practice
+  - utter_condor_flight
+  - utter_tree_house
+  - utter_fantasias_swing
+  - utter_mega_park_bridge
+  - utter_pachamama_hand
+  - utter_novia_waterfall
+  - utter_agoyan_waterfall
+  - utter_pailon_waterfalls
+  - utter_manos_viewpoint
+  - utter_piesDios_Ingles
+  - utter_cafe_giratorio_ingles
+  - utter_museo_ingles
+  - utter_cristo_ingles
+  - utter_caverba_ingles
+  - utter_Bellavista_en
+  - utter_bridge_jumping
+  - utter_santaAna_pool
+  - utter_Elsalado_pool
+  - utter_sanClara_pool
+  - utter_pool_virgen_en
+  - utter_pool_termas
+  - utter_camino_bellavista_en
+  - utter_contabandistas_en
+  - utter_sendero_casaarbol_en
+  - utter_luna_volcan_en
+  - utter_los_sauces_en
+  - utter_mirador_virgen_en
+  - utter_camino_pondoa_en
+  - utter_malecon_rioVerde_en
+  - utter_church_en
+  - utter_parque_familia_en
+  - swimming_pool
+  - utter_information_atm
+  - utter_denuncias_en
+  - utter_clima_en
+  - utter_mapa_en
+  - utter_recommendations_en
+  - utter_buses_urbanos_en
+  - utter_contratar_extremos_en
+  - utter_Nocturnas_en
+
+responses:
+  utter_greet:
+  - text: "¡Hola! ¿Cómo estás?"
+  utter_saludo:
+  - text: "Hello! How are you doing?"
+  utter_cheer_up:
+  - text: "Aquí tienes algo para animarte. Puedes visitar los diferentes atractivos de Baños para animarte aún más"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_animar_turista:
+  - text: "Here's something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_invitacion:
+  - text: "You can visit the different attractions in Baños to cheer yourself up!"
+  utter_happy:
+  - text: "¡Grandioso! Te sugiero que visites las atracciones turísticas de Baños."
+  utter_ingles_visitar:
+  - text: "Great! I suggest you to visit the tourist attractions of Baños."
+  utter_goodbye:
+  - text: "Adiós"
+  utter_despedida_en:
+  - text: "Goodbye"
+  utter_satisfación:
+  - text: "Indique cuál fue la satisfacción al utilizar el chatbot. [Calificar](https://forms.gle/g31JGuNbb1yCEYz8A)"
+  utter_calificar_en:
+  - text: "Please can you indicate your level of satisfaction with the chatbot. [Evaluate](https://forms.gle/g31JGuNbb1yCEYz8A)"
+  utter_iamabot:
+  - text: "Soy un bot, encargado de brindar información de los atractivos turísticos de la ciudad de Baños de Agua Santa"
+  utter_soy_en:
+  - text: "I am a bot, in charge of providing information about the tourist attractions of the city of Baños de Agua Santa"
+  utter_informacion_cajeros:
+  - text: "A continuacion te daremos la informacion sobre los cajeros automáticos: [Pichinca](https://www.google.com/maps/place/Cajero+Banco+Pichincha/@-1.3976431,-78.4235293,19.08z/data=!4m9!1m2!2m1!1scajeros+automaticos+ba%C3%B1os!3m5!1s0x91d39123cc951677:0x38da3fb380b713ad!8m2!3d-1.3977097!4d-78.4231316!15sChpjYWplcm9zIGF1dG9tYXRpY29zIGJhw7Fvc5IBA2F0beABAA), [Austro](https://www.google.com/maps/place/Banco+del+Austro/@-1.3974425,-78.4243496,19z/data=!4m9!1m2!2m1!1scajeros+automaticos+ba%C3%B1os!3m5!1s0x91d39123c3f39d47:0xc792b8e8d55f69b7!8m2!3d-1.3974425!4d-78.4233167!15sChpjYWplcm9zIGF1dG9tYXRpY29zIGJhw7Fvc5IBA2F0beABAA)
+  , [Pacífico](https://www.google.com/maps/place/Banco+del+Pac%C3%ADfico/@-1.3983798,-78.4252718,17z/data=!3m1!4b1!4m5!3m4!1s0x91d39123c5b6d427:0xcb16a03f02074947!8m2!3d-1.3983798!4d-78.4230831), [Produbanco](https://www.google.com/maps/place/Produbanco/@-1.3973256,-78.4252995,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3912233248519:0x226511389430f227!8m2!3d-1.3973256!4d-78.4231108), [Oscus](https://www.google.com/maps/place/Coop.+Oscus+Agencia+Ba%C3%B1os/@-1.3968087,-78.425673,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391223b5e960d:0xfb3a26d7facfdea2!8m2!3d-1.3968087!4d-78.4234843)" 
+  utter_information_atm:
+  - text: "Here is some information about ATMs: [Pichinca](https://www.google.com/maps/place/Cajero+Banco+Pichincha/@-1.3976431,-78.4235293,19.08z/data=!4m9!1m2!2m1!1scajeros+automaticos+ba%C3%B1os!3m5!1s0x91d39123cc951677:0x38da3fb380b713ad!8m2!3d-1.3977097!4d-78.4231316!15sChpjYWplcm9zIGF1dG9tYXRpY29zIGJhw7Fvc5IBA2F0beABAA), [Austro](https://www.google.com/maps/place/Banco+del+Austro/@-1.3974425,-78.4243496,19z/data=!4m9!1m2!2m1!1scajeros+automaticos+ba%C3%B1os!3m5!1s0x91d39123c3f39d47:0xc792b8e8d55f69b7!8m2!3d-1.3974425!4d-78.4233167!15sChpjYWplcm9zIGF1dG9tYXRpY29zIGJhw7Fvc5IBA2F0beABAA), [Pacífico](https://www.google.com/maps/place/Banco+del+Pac%C3%ADfico/@-1.3983798,-78.4252718,17z/data=!3m1!4b1!4m5!3m4!1s0x91d39123c5b6d427:0xcb16a03f02074947!8m2!3d-1.3983798!4d-78.4230831), [Produbanco](https://www.google.com/maps/place/Produbanco/@-1.3973256,-78.4252995,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3912233248519:0x226511389430f227!8m2!3d-1.3973256!4d-78.4231108), [Oscus](https://www.google.com/maps/place/Coop.+Oscus+Agencia+Ba%C3%B1os/@-1.3968087,-78.425673,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391223b5e960d:0xfb3a26d7facfdea2!8m2!3d-1.3968087!4d-78.4234843)"
+  utter_denuncias:
+  - text: "Si usted se siente perjudicado por algún provedor de servicios turísticos, por favor complete el [formulario](https://www.banos-ecuador.com/formulario-de-denuncias/) "
+  utter_denuncias_en:
+  - text: "If you feel aggrieved by any tourism service provider, please fill in the [form](https://www.banos-ecuador.com/formulario-de-denuncias/) "
+  utter_clima:
+  - text: "El clima de Baños es una razón más por la que deberías visitar este encanto, como es de esperarse el clima de Ecuador en sí siempre es muy variado puede pasar de un sol incandescente a una tarde lluviosa, pero esto es lo que lo hace ser único. Entonces debido a esto el clima promedio del lugar oscila entre los 28° y 82°. [predicciones del clima](https://forecast7.com/es/n1d39n78d43/banos/)"
+  utter_clima_en:
+  - text: "The climate of Baños is one more reason why you should visit this charm, as expected the climate of Ecuador itself is always very varied it can go from an incandescent sun to a rainy afternoon, but this is what makes it unique. So because of this the average climate of the place oscillates between 28° and 82°. [climatic conditions](https://forecast7.com/es/n1d39n78d43/banos/)"
+  utter_mapa:
+  - text: "Baños convertido en un pueblo mágido de Ecuador, donde te sorprenderá con los Lugares Turísticos de Baños de Agua Santa y déjate cautivar con esta maravillosa ciudad rica en tradición y sobre todo en biodiversidad. [Mapa de la ciudad](https://www.banos-ecuador.com/mapa-turistico-de-banos-de-agua-santa/)"
+  utter_mapa_en:
+  - text: "Baños has become a magical town of Ecuador, where you will be surprised with the Tourist Places of Baños de Agua Santa and let yourself be captivated by this wonderful city rich in tradition and above all in biodiversity. [Map of the town](https://www.banos-ecuador.com/mapa-turistico-de-banos-de-agua-santa/)"
+  utter_recomendaciones:
+  - text: "Tenga cuidado con todo tipo de personas que le ofrecen servicios de hospedaje, tours, recorridos, etc.; mismos que frecuentan el terminal terrestre, parques, calles u otros lugares, ya que no le brindan ninguna garantía y usted podría ser estafado y perder su dinero. Recuerde que las agencias operadoras de turismo autorizadas por el Ministerio de Turismo y por el Departamento de Turismo Municipal son las únicas autorizadas para ofrecer los servicios de los diferentes tours."
+  utter_recommendations_en:
+  - text: "Be careful with all kinds of people that offer you lodging services, tours, tours, etc.; same that frequent the terrestrial terminal, parks, streets or other places, since they do not offer you any guarantee and you could be swindled and lose your money. Remember that the tour operating agencies authorized by the Ministry of Tourism and the Municipal Tourism Department are the only ones authorized to offer the services of the different tours."
+  utter_buses_urbanos_uno:
+  - text: "Baños cuenta con una red de buses urbanos para los trayectos: Baños - Belllavista - Runtún - El Copete Alto / Baños - El Salado - Zoológico / Baños - Santa Ana - Ulba - Agoyán - Río Blanco - Río Verde /"
+  utter_buses_urbanos_en:
+  - text: "Baños has a network of urban buses to travel to and from the city of Baños: Baños - Belllavista - Runtún - El Copete Alto / Baños - El Salado - Zoológico / Baños - Santa Ana - Ulba - Agoyán - Río Blanco - Río Verde /"
+
+  utter_contratar_extremos:
+  - text: "Contrate este servicio por medio de una agencia autorizada"
+  utter_contratar_extremos_en:
+  - text: "Contract this service through an authorized agency"
+  utter_Nocturnas:
+  - text: "Al llegar la noche Baños de Agua Santa se transforma en una ciudad con nuevos atractivos, para disfrutar de un paseo nocturno en familia. Las cascadas como el Manto de la Novia, Cabellera de la Virgen, el Pailón del Diablo, multiples miradores y otros atractivos, que en la noche habían estado ocultas, ahora son visibles para los visitantes"
+  utter_Nocturnas_en:
+  - text: "At night Baños de Agua Santa is transformed into a city with new attractions to enjoy a night walk with the family. Waterfalls such as the Manto de la Novia, Cabellera de la Virgen, Pailón del Diablo, multiple viewpoints and other attractions, which had been hidden at night, are now visible to visitors."
+
+# clacificacion de atractivos
+
+  utter_ask_atractivos:
+  - text: "Baños de Agua Santa cuenta con múltiples atractivos turísticos, los cuales se clasifican en: puentes, columpios, extremo, cascadas, zoológico, gastronomía, parques, miradores, piscinas, museo y sin costo."
+    buttons:
+    - title: "Puentes"
+      payload: "puentes"
+      type: "postback"
+    - title: "Columpios"
+      payload: "columpios"
+      type: "postback"
+    - title: "Extremo"
+      payload: "actividades extremas"
+      type: "postback"
+    - title: "Cascadas"
+      payload: "cascadas"
+      type: "postback"
+    - title: "Zoológico"
+      payload: "zoologicos"
+      type: "postback"
+    - title: "Gastronomía"
+      payload: "lugares gastronomicos"
+      type: "postback"
+    - title: "Museo"
+      payload: "museos"
+      type: "postback"
+    - title: "Parques Temáticos"
+      payload: "parques tematicos"
+      type: "postback"
+    - title: "Miradores"
+      payload: "miradores"
+      type: "postback"
+    - title: "Sin costo"
+      payload: "sin costo"
+      type: "postback"
+# miradores
+  utter_boque_encantado:
+  - text: "El bosque encantado en Baños es un espacio al aire libre que tiene un tema mágico, inspirado en criaturas fantásticas, hadas, duendes, brujas, dragones. Los fines de semana se organizan espectáculos en vivo, bailes y presentaciones artísticasDentro del complejo encontrará un restaurante que sirve comida rápida y cervezas artesanales. El bosque encantado tiene 10 estaciones mágicas, en la ruta cada una es un espacio diferente. [Cómo llegar](https://www.google.com.ec/maps/place/El+Bosque+Encantado/@-1.4018859,-78.4231906,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3912542817999:0x210785788b6a7fb6!8m2!3d-1.4018859!4d-78.4231906?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio bosque encandado"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario bosque encandado"
+      type: "postback"
+  utter_Animal_Park:
+  - text: "Es un parque temático que le permite interactuar con animales. En el lugar hay vacas, caballos, leones, ponis, avestruces, conejos y más animales con los que puedes alimentarlos, acariciarlos, montar a caballo, por supuesto, tomar fotos. En el parque hay áreas para juegos, espectáculos en vivo, restaurantes,caminatas, miradores, juegos infantiles y el deslizadero extremo. Le incluye el uso de 4 miradores: El camino a la luna, el arcoiris de la luna, hama extrema, nido de Aveztrices. [Cómo llegar](https://www.google.com/maps/place/ANIMALPARK+PARQUE+TEM%C3%81TICO/@-1.4101985,-78.415867,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3916adbe54ee5:0x2f996013fff3d1a!8m2!3d-1.4101985!4d-78.415867)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de animal park"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario de animal park"
+      type: "postback"
+  utter_Discovery:
+  - text: "Discovery Baños es un parque de diversiones que cuenta con juegos mecánicos como el famoso anillo, autos chocadores, carruseles, botes acuáticos, juegos infantiles y su atracción principal KARTING. En Discovery Baños puedes alquilar un carrito de karting y correr en su propio mini circuito.[Cómo llegar](https://www.google.com/maps/place/Discovery+Ba%C3%B1os/@-1.3990065,-78.3801008,15z/data=!4m5!3m4!1s0x91d3936f1357ab43:0x853303c8b1a8dcdd!8m2!3d-1.398129!4d-78.3671952)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de discovery baños"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios discovery baños"
+      type: "postback"
+  utter_parque_aventure_martin:
+  - text: "El parque de aventuras de San Martín es el lugar ideal para la adrenalina, tiene varias atracciones como el puente tibetano, la vía ferrata, escaleras inclinadas, escalada, rappel, tirolesa. Estas actividades se llevan a cabo en el río Paztaza, al lado del cañón de San Martín. Todas las actividades tienen seguridad, lo que le permite disfrutar sin riesgos. [Cómo llegar](https://www.google.com/maps/place/PARQUE+AVENTURA+SAN+MARTIN/@-1.3949785,-78.4380035,17z/data=!3m1!4b1!4m5!3m4!1s0x91d390e7923fe599:0xcff71819fb57a886!8m2!3d-1.3949785!4d-78.4380035)"
+    buttons:
+    - title: "Precio"
+      payload: "/Precio de parque de aventuras de san martin"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario parque de aventuras de san martin"
+      type: "postback"
+  utter_dinos_park:
+  - text: "Dinosaurios Park en Baños es un complejo temático jurásico. Su atracciónprincipal son los dinosaurios a escala hechos de fibra de vidrio, estructura metálica y piezas mecánicas. Con una visita guiada se presentan los dinosaurios, el museo con huesos, ropa y objetos reales a la venta. El show en vivo con el Tyrannosaurus Rex es uno de los más esperados en el paseo en dinosaurio. [Cómo llegar](https://www.google.com/maps/place/Dinosaurios+Park/@-1.4007348,-78.4105307,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3916d35e154f9:0x6c309bd68abe918d!8m2!3d-1.4007348!4d-78.4105307)"
+    buttons:
+    - title: "Precio"
+      payload: "/Precio de dinosaurios park"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario dinosaurios park"
+      type: "postback"
+  utter_Our_mundo:
+  - text: "Pueblo del mundo es un complejo turístico con diferentes atracciones, como espacios fotográficos y senderos. El lugar reúne espacios temáticos como la estatua de Egipto, la prisión de El Chapo, ovnis, iglúes y más objetos que brindan una experiencia internacional. Un espacio perfecto para fotografías y recuerdos que sin duda se verán únicos en las redes sociales. [Cómo llegar](https://www.google.com/maps/place/Pueblo+del+Mundo/@-1.40267,-78.4220753,17.3z/data=!4m5!3m4!1s0x91d391e540402a3b:0x8441183467d3e76a!8m2!3d-1.4044933!4d-78.4146049?hl=es-EC)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de our mundo adventure"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario pueblos del mundo"
+      type: "postback"
+  utter_PiQchur:
+  - text: "PiQchur es un parque fotográfico que tiene escenarios fotográficos, su objetivo principal es capturar una memoria inolvidable en su galería de fotos. Una bicicleta que apunta al vacío, las puertas al infinito, televisores rotos y lugares más perfectos para tomarse una foto y compartirla en sus redes sociales. [Cómo llegar](https://www.google.com.ec/maps/place/piQchur/@-1.3808585,-78.4309264,15.74z/data=!4m5!3m4!1s0x91d3916227fcf88f:0x931dfc6c796985c6!8m2!3d-1.379453!4d-78.4364488?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/Precio piqchur"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario de atención piqchur"
+      type: "postback"
+  utter_Pueblo_magicos:
+  - text: "El pueblo mágico es un jardín de museos de duendes. Goblin Village ofrece una experiencia temática basada en duendes, gnomos, elfos y hadas. Puede tomar un taxi o caminar, está a solo 2 km del centro de la ciudad, cerca del coliseo municipal de Baños. [Cómo llegar](https://www.google.com/maps/place/La+Aldea+M%C3%A1gica/@-1.3922608,-78.4172929,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391bfa7b2cd93:0xb6f725d561390841!8m2!3d-1.3922608!4d-78.4172929)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de la aldea magica"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario la aldea mágica"
+      type: "postback"
+  utter_Troll_Mountain:
+  - text: "El primer cine al aire libre en Baños se encuentra en Troll Mountain. Puedes acomodarte en las butacas de madera o si decides en su cómodo césped. Para consultar la cartelera debes entrar en su perfil de [redes sociales](https://www.facebook.com/trollmountain.ec/). Las funciones son en horarios nocturnos a partir de las 19:00 empieza la proyección de películas en una pantalla gigante. Además, en sus sendero están ubicados trolls gigantes de madera, estos caracteres de origen fantástico dan la bienvenida al turista e invitan a tomarse fotos. [Cómo llegar](https://www.google.com/maps/place/Troll+Mountain/@-1.3927375,-78.4246551,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3912503a0a119:0x8ef81b133fb67ac2!8m2!3d-1.3927375!4d-78.4246551)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de troll mountain"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios Troll mountain"
+      type: "postback"
+  utter_Cavernas:
+  - text: "La Caverna es una cueva natural entre las rocas, restaurada y expuesta al cliente con decoraciones luminosas, fuentes de agua, senderos y lugares de descanso. Esta atracción cuenta leyendas e historias prehistóricas sobre el tesoro de Atahualpa. [Cómo llegar](https://www.google.com/maps/place/Caverna+Sigsi+-+Huayco/@-1.3943394,-78.421789,17z/data=!4m5!3m4!1s0x91d39165212546c9:0x42e1a13b977e0b55!8m2!3d-1.3943391!4d-78.4217909?hl=es-EC)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de las cavernas sigsi huayco"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios las cavernas Sigsi Huayco"
+      type: "postback"
+# miradores
+  utter_Pies_de_Dios:
+  - text: "Los Pies de Dios es un mirador restaurante. Tiene como principal atractivo su puente de crista el cual se extiende al abismo, sobresaliendo de la montaña, consiguiendo una increíble vista de la ciudad, del volcán y de la Cordillera de los Andes. Está ubicado en el sector de Las Antenas, a 10 minutos del centro de Baños. Dentro del lugar funciona un restaurante con platos a la carta, cafetería para amenizar su visita. [Cómo llegar](https://www.google.com/maps/place/Mirador+Los+Pies+de+Dios/@-1.3801102,-78.4362743,18z/data=!4m5!3m4!1s0x91d391879e7356d7:0x3db0a0abbdc09796!8m2!3d-1.3797852!4d-78.4358587)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de los pies de dios"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario los pies de Dios"
+      type: "postback"
+  utter_Sacha_360:
+  - text: "Este mirador y cafetería cuenta con un balcón de cristal que muestra la ciudad y sus montañas, cafetería al aire libre, espacios cerrados y algunos detalles especiales para tomarse fotografías. Este mirador cuenta con un garaje, está situado a 15 minutos del centro de la ciudad en el sector de Bellavista. [Cómo llegar](https://www.google.com.ec/maps/place/Mirador+Bellavista/@-1.4000673,-78.4141538,17.74z/data=!4m5!3m4!1s0x91d3913c1d36eb8b:0x2c9e1347581728e7!8m2!3d-1.3998779!4d-78.4145889?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de Sacha 360"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios de sacha 360"
+      type: "postback"
+  utter_Bellavista:
+  - text: "Ubicado en el sector de Bellavista, Runtún, donde podrá contemplar la vista panorámica de la ciudad de Baños. Por la noche incluye un canelazo, show de comedia y puedes admirar la ciudad alrededor de una fogata. Baños. Por la noche incluye un canelazo, show de comedia y puedes admirar la ciudad alrededor de una fogata. Se encuentra ubicado a 15 minutos del centro de la ciudad. Podrá visitarlo en chivas, para ello acercarse a cualquier servidor turístico para la compra de tikerts. [Cómo llegar](https://www.google.com.ec/maps/place/Mirador+Bellavista/@-1.4000673,-78.4141538,17.74z/data=!4m5!3m4!1s0x91d3913c1d36eb8b:0x2c9e1347581728e7!8m2!3d-1.3998779!4d-78.4145889?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de mirador Bellavista"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del mirador Bellavista"
+      type: "postback"
+  utter_Cafeteria_giratoria:
+  - text: "La cafetería giratoria de Baños es una atracción nueva. Está construida sobre una base giratoria, lo que significa que al sentarse a tomar un café con vistas a la ciudad, al cabo de 2 minutos. La cafetería giratoria de Baños es una atracción nueva. Está construida sobre una base giratoria, lo que significa que al sentarse a tomar un café con vistas a la ciudad, al cabo de 2 minutos para 40 personas. [Cómo llegar](https://www.google.com.ec/maps/place/Caf%C3%A9+Giratorio/@-1.3974038,-78.4170547,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391aae1cbe637:0x217849fcd907495d!8m2!3d-1.3974038!4d-78.4148607?hl=es&shorturl=1)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio del café giratorio"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del café giratorio"
+      type: "postback"
+  utter_Beso_dela_luna:
+  - text: "Un mirador y restaurante ubicado en el sector de Las Antenas. La atracción cuenta con una luna con el fondo de la ciudad o del volcán Tungurahua. Puede ser visitado de día como de noche y está iluminado con luces LED. Es posible llegar al Beso de la Luna en taxi o comprando un ticket para las chivas. Puede comprar los tickets en la oficina de una agencia. [Cómo llegar](https://www.google.com.ec/maps/place/El+Beso+de+la+Luna/@-1.3788181,-78.4392336,17z/data=!4m5!3m4!1s0x91d391e38590ac21:0xb4f3a3c3f315ba41!8m2!3d-1.3788181!4d-78.4370449?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio del beso de la luna"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del mirador beso de la luna"
+      type: "postback"
+  utter_Ojosvolcan_nidoAgila:
+  - text: "Es un mirador situado en el sector de Las Antenas. Además, cuenta con un restaurante que sirve platos a la carta, bebidas calientes y aperitivos. Se puede llegar en vehículo privado o en un tour con una chiva. Acoge a los visitantes con atractivos turísticos como el columpio del ala del águila, el corazón del amor, el nido del águila y otros espacios ideales para sacar fotos con el volcán Tungurahua o la ciudad de fondo. [Cómo llegar](https://www.google.com/maps/place/Mirador+ojos+del+volcan-nido+del+%C3%A1guila/@-1.3841049,-78.4375218,20z/data=!4m5!3m4!1s0x91d391beeaec81b5:0xa4dc9d7b99120599!8m2!3d-1.3839639!4d-78.4375822)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio del los ojos de volcán nido del águila"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del mirador los ojos de volcán nido del aguila"
+      type: "postback"
+  utter_Ventanal_Kong:
+  - text: "Este lugar es un mirador, con un restaurante que sirve café, bolones de verde y otras delicias mientras se disfruta de la vista. Se encuentra en el sector de Las Antenas, a 20 minutos de la ciudad Ofrece una gran vista de Baños de Santa con la compañía de un gorila gigante. Los visitantes pueden subirse a la mano yhacerse una foto en la mano de King Kong. [Cómo llegar](https://www.google.com.ec/maps/place/El+Ventanal+de+Kong/@-1.3838545,-78.4369699,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391870480f17f:0x81915689d7b2ce1f!8m2!3d-1.3838545!4d-78.4369699?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio del ventanal de kong"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del mirador ventanal de kong"
+      type: "postback"
+  utter_Cristo_redentor:
+  - text: "El Cristo Redentor es un monumento religioso que contiene la escultura de Jesús. El lugar está ubicado en el sector de las Antenas, existen espacios decorativos como murales y lugares donde se pueden tomar fotos teniendo como fondo a ciudad o el volcán Tungurahua. Esta estatua de Jesús es un gran monumento con más de 2 metros de altura, que se asienta sobre un edificio que sobresale del borde de la montaña. [Cómo llegar](https://www.google.com/maps/place/Cristo+Redentor+de+Ba%C3%B1os+de+Agua+Santa/@-1.3829375,-78.4360625,17z/data=!4m5!3m4!1s0x91d3917bd42d0fcd:0x778f7ccec5dde38c!8m2!3d-1.3829375!4d-78.4360625?shorturl=1)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio del cristo Redentor"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del mirador cristo Redentor"
+      type: "postback"
+# sin costo
+  utter_balneario_Zuñag:
+  - image: "https://img.goraymi.com/2018/06/04/2ac2ffa27055f37f200054fe03610312_xl.jpg"
+    text: "Un Balneario con gran diversidad de flora y fauna endémica. Ubicado en la parroquia de Río Negro, en el caserío El Topo, sector La Guatemala, se encuentra un lugar para disfrutar de un baño en medio de la naturaleza. [Cómo llegar](https://www.google.com/maps/place/Riverside+Eco+Resort/@-1.407416,-78.192198,1555m/data=!3m1!1e3!4m8!3m7!1s0x0:0xea9332f8a65e1244!5m2!4m1!1i2!8m2!3d-1.408801!4d-78.192779?hl=es-419)"
+  
+  utter_parque_familia:
+  - image: "https://turismobanos2020.files.wordpress.com/2020/08/familia12.jpg?w=560"
+    text: "Ubicado la vía Baños-Puyo, a solo 10 minutos desde el centro de la ciudad de Baños, en el sector Agoyán.  Se puede apreciar mirador al embalse de la represa Agoyán, observación de aves, animales menores, espacios verdes, área de pic-nic. Si ingresa sin vehículo no tiene ningún precio, pero si ingresa con su vehículo le cobraran una pequeña tarifa. Ofrece granja Agroecológica,Crianza de Animales y senderos hermosos [Cómo llegar](https://www.google.com.ec/maps/place/Parque+de+la+Familia+Ba%C3%B1os/@-1.3973445,-78.3816562,18z/data=!3m1!4b1!4m12!1m6!3m5!1s0x91d393e0df5e73a7:0x7ea2c1b415c3f560!2sParque+de+la+Familia+Ba%C3%B1os!8m2!3d-1.3973445!4d-78.3805619!3m4!1s0x91d393e0df5e73a7:0x7ea2c1b415c3f560!8m2!3d-1.3973445!4d-78.3805619?hl=es)"
+
+  utter_Santuario_Nuestra_Señora_Rosario:
+  - image: "http://static1.squarespace.com/static/605242bb8e9617719570c243/6089b5916b664907705470f6/625ee6c97523946fc8e8310e/1663070715278/Iglesia%2Bde%2BBanos%2BEcuador%2B-%2BBasilica%2Bde%2Bla%2BVirgen%2Bde%2BAgua%2BSanta.jpg?format=1500w"
+    text: "La Basílica o Santuario de la Virgen de Agua Santa representa una de las infraestructuras arquitectónicas de mayor importancia en el cantón. Tiene un estilo semigótico, la decoración y los lienzos con que se adornan las paredes han sido trabajados por el fray Enrique Mideros. Cuadros que describen los milagros locales atribuidos a la Virgen de Agua Santa. [Cómo llegar](https://www.google.com.ec/maps/place/Santuario+y+Bas%C3%ADlica+Cat%C3%B3lica+Nuestra+Se%C3%B1ora+del+Rosario+de+Agua+Santa+de+Ba%C3%B1os/@-1.3974067,-78.4229707,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3912257227d11:0xa2908f10209f3f74!8m2!3d-1.3974067!4d-78.420782?hl=es) "
+
+  utter_malecon_rioVerde:
+  - image: "https://www.eluniverso.com/resizer/Ys1FwVC7b3VqzdTQsZpQLeckuys=/1435x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/CKHAHQVMVJHBXEADYI6RKQR22Q.jpg"
+    text: "En la parroquia de Río Verde, aproximadamente a 25 minutos. Las comidas típicas del lugar resultan idóneas para recargar las energías después de disfrutar de las diversas atraccionesde Rio Verde. Podrá realizardegustaciones culinarias, disfrute de las embarcaciones y de los lugares de recreo [Cómo llegar](https://www.google.com.ec/maps/place/R%C3%ADo+Verde/@-1.4031057,-78.3015991,18z/data=!3m1!4b1!4m6!3m5!1s0x91d3934e3e855e95:0x983621474f652d95!8m2!3d-1.40344!4d-78.3009985!16s%2Fg%2F1tfpwbl7?hl=es)"
+# gastronomia 
+  utter_fabrica_de_chocolate:
+  - text: "La fábria de chocolate está ubicada en el Hotel Monte Selva, es ideal para las familias que quieran pasear con los más pequeños, hay espacios únicos para las fotos y los recuerdos. Para los turistas es una oportunidad de conocer todo el proceso de elaboración de chocolates, bebidas y postres. "
+    buttons:
+    - title: "Precio"
+      payload: "/precio fabrica de chocolate"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios fabrica de chocolate"
+      type: "postback"
+# zoos
+  utter_San_Martin_Zoo:
+  - text: "El zoológico más antiguo de Baños, es un centro de conservación y gestión de la vida silvestre que preserva muchas especies silvestres. Se encuentra a sólo 5 minutos desde el centro de Baños. Puede ir en bus a un costo de 30 centavos y en taxi a 1,50 dólares. podrá conocer a distintos animales repartidos en diferentes zonas, ambientes y jaulas. [Cómo llegar](https://www.google.com/maps/place/Eco+zool%C3%B3gico+San+Mart%C3%ADn/@-1.396424,-78.4390858,17z/data=!3m1!4b1!4m5!3m4!1s0x91d39169fd59315f:0xd51a7cbb561db913!8m2!3d-1.396424!4d-78.4368971)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio zoologico san martin"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del zoologico san martin"
+      type: "postback"
+  utter_vida_exotica_zoo:
+  - text: "Este zoológico presenta otra variedad de especies animales, en la entrada encontrará el serpentario, donde podrá observarserpientes, reptiles, arácnidos y peces. Siguiendo con el recorrido, encontrará aves, mamíferos,entre ellos una familia de leones africanos que residen en un gran espacio. [Cómo llegar](https://www.google.com.ec/maps/place/Zoo+Vida+Ex%C3%B3tica/@-1.3964769,-78.4371854,17z/data=!3m1!4b1!4m5!3m4!1s0x91d39132e15856eb:0x3d22b5c776b39ea5!8m2!3d-1.3964769!4d-78.4371854?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio zoologico vida exotica"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del zoologico vida exotica"
+      type: "postback"
+# cascadas 
+  utter_cascasa_manto_novia:
+  - text: "La cascada se encuentra a 11 km de la terminal terrestre de Baños. En el trayecto se puede ver la cascada, puedes parar en las zonas de estacionamiento y posar para las fotos, pero lo mejor es detenerse en la tarabita y canopy, que son empresas privadas que ofrecen estos servicios. [Cómo llegar](https://www.google.com.ec/maps/place/Cascada+Manto+de+la+Novia/@-1.4038417,-78.3355075,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3935b9ecfb70b:0xc1dfa16ac3d791df!8m2!3d-1.4038417!4d-78.3355075?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio a la cascada manto de la novia"
+      type: "postback"
+  utter_agoyan_cascada:
+  - text: "Se encuentra a 7 km en la carretera de Puyo. El caudal de la cascada pude variar debido a que depende de las compuertas de la represa. Puede estacionar su vehículo, tomar fotos, cuando vaya en una chiva tendrá de 15 a 20 minutos y seguirá hasta el siguiente destino. En la Cascada de Agoyán puede cruzar por tarabita y canopy. [Cómo llegar](https://www.google.com.ec/maps/place/1%C2%B023'56.7%22S+78%C2%B022'10.6%22W/@-1.3990833,-78.3696111,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0xcca17d10913a164e!7e2!8m2!3d-1.3990876!4d-78.3696065?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/Precio de la cascada de agoyan"
+      type: "postback"
+  utter_el_pailon_diablo:
+  - text: "La cascada más popular y que se ha convertido en un ícono del turismo. Esta cascada se encuentra a 15,8 km de baños, en la parroquia de Río Verde. Posee dos accesos, por la parte superior de la cascada y un sendero natural. tiene puentes colgantes y lugares impresionantes para tomar fotos.Además, de una cafetería con vista a la castada siendo así un sitio perfecto y mágico. [Cómo llegar](https://www.google.com/maps/place/Cascada+El+Pailon+(del+Diablo)/@-1.4044668,-78.297827,17z/data=!3m1!4b1!4m5!3m4!1s0x91d393fc6b20ad6d:0xbfc06a78c4bded53!8m2!3d-1.4044668!4d-78.297827)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio el pailon del diablo"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del pailon del diablo"
+      type: "postback"
+  utter_cascada_virgen:
+  - text: "En el centro de la ciudad de Baños de Agua Santa se encuentra La Cascada de la Virgen. Está situada junto a las aguas termales y en las inmediaciones del hotel Sanga. Una vista increíble de la cascada idónea para fotografías. [Cómo llegar](https://www.google.com/maps/place/Cascada+de+la+Virgen/@-1.3991067,-78.4196862,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3913cba4fe99f:0x9098e08ddb2d3d9f!8m2!3d-1.3991067!4d-78.4174975?hl=es-419)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio a la cascada de la virgen"
+      type: "postback"
+  utter_ines_maria:
+  - text: "De las aguas del río Pastaza emerge una bella cascada, cuyo paisaje armonioso nos invita a un paseo, durante la caminata podemos apreciar la naturaleza existente en los alrededores de la cascada. Se puede apreciar el hermoso paisaje óptimo para fotografías. [Cómo llegar](https://www.google.com/maps/place/Cascada+In%C3%A9s+Mar%C3%ADa+Ba%C3%B1os+Tungurahua/@-1.3957613,-78.4359408,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391f086f24d7b:0x9276d5515be8279!8m2!3d-1.3957613!4d-78.4359408?hl=es-419)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio a la cascada de ines maría"
+      type: "postback"
+  utter_san_antonio_cascada:
+  - text: "La cascada ubicada en Baños de Agua Santa tiene como característica el imponente salto de agua que se armoniza con la dulzura de la flora y la fauna circundante, generando un entorno favorable a la relajación. Podrá disfrutar de un baño y de la naturaleza. [Cómo llegar](https://www.google.com/maps/place/Cascada+del+Silencio/@-1.4004158,-78.402847,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3914274759349:0x6bbf01636ad0542e!8m2!3d-1.4004158!4d-78.4006583?hl=es-419)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio cascada san antonio"
+      type: "postback"
+  utter_chamana_cascada:
+  - text: "Se trata de un grupo de 7 cascadas, que se forman a partir de las aguas del río Chamana, tiene un salto de 42 m de altitud, en sus alrededores abunda la flora y la fauna. El ingreso al lugar es libre y no hay horario de entrada o salida. Podrá disfrutar de un baño reconfortante en sus orillas. [Cómo llegar](https://www.google.com/maps/place/Cascada+del+Silencio/@-1.4004158,-78.402847,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3914274759349:0x6bbf01636ad0542e!8m2!3d-1.4004158!4d-78.4006583?hl=es-419)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio cascada de chamana"
+      type: "postback"
+# medios de trasporte
+  utter_ask_alquiler:
+  - text: "Renta y alquiler de cuadrones, jeeps, motos, cuatrimotos, buggys y bicicletas. Puede hacerlo en las múltiples agencias de los diversos operadores turísticos de la ciudad de Baños de Agua Santa"
+    buttons:
+    - title: "Precio"
+      payload: "formas de movilizacion en baños"
+      type: "postback"
+
+  utter_mas_datos_renta:
+  - text: "Baños ofrece el servicio de alquiler y renta  de cuadrones, Jeeps, buggys, motos con conductor o sin conductor, si requiere el servicio de un guía lo ayudamos también. Podrá disfrutar de los espectaculares paisajes y conocer varios atractivos turísticos. Los valores varían dependiendo de a agencia y operador turístico"
+    buttons:
+    - title: "Precio"
+      payload: "formas de movilizacion en baños"
+      type: "postback"
+    - title: "Alguiler"
+      payload: "alquiler"
+      type: "postback"
+# extemo
+  utter_rafting:
+  - text: "El rafting en Baños de Agua Santa es un deporte extremo que se practica en grandes ríos. El rafting consiste en subirse a una embarcación junto con otras personas y uno o dos guías, se baja por el río hasta un puntodeterminado, hay que remar para evitar obstáculos y dar dirección a la embarcación, es un trabajo en equipo que disfrutarás. Durante el descenso irás acompañado de kayaks encargados en recoger a todo aquel que se caiga de la embarcación. La duración del rafting es de 5 horas aproximadamente"
+    buttons:
+    - title: "Precio"
+      payload: "/precio rafting"
+      type: "postback"
+    - title: "Contratar"
+      payload: "/contratar rafting"
+      type: "postback"
+  utter_canyoning:
+  - text: "El canyoning en Baños tiene lugar en varias cascadas de la ciudad. El canyoning consta de un descenso en rappel por una cascada, descenderá por las rocas de la cascada con la vigilancia y ayuda del guía."
+    buttons:
+    - title: "Precio"
+      payload: "/canyoning"
+      type: "postback"
+    - title: "Contratar"
+      payload: "/contratar canyoning"
+      type: "postback"
+  utter_escalada_en_roca:
+  - text: "Para realizar escalada en roca en Baños de Agua Santa, es necesario contratar a un guía especializado que le proporcione todo el equipamiento de seguridad, tales como cuerdas, zapatos, arneses, mosquetones y demás material."
+    buttons:
+    - title: "Precio"
+      payload: "/precio escalada en roca "
+      type: "postback"
+    - title: "Contratar"
+      payload: "/contratar escalada en roca"
+      type: "postback"
+  utter_salto_delpuente:
+  - text: "La adrenalina se desborda con tan solo mirar del puente hacia el abismo, no obstante, no te rindas, hazlo y experimenta la mejor aventura. Se trata de una actividad extrema y no se debe considerar apta para personas con miedo a las alturas, la edad mínima es de 14 años, con un peso máximo de 90 kilogramos. Se aconseja informar si se padece algunas afecciones"
+    buttons:
+    - title: "Precio"
+      payload: "/precio salto de puente"
+      type: "postback"
+    - title: "Contratar"
+      payload: "/contratar salto de puente"
+      type: "postback"
+#  informacion atractivos
+#precios
+  utter_precio_manos_dios:
+  - text: "El precio es de $ 2,00 adultos y $ 1,00 niños"
+  utter_precio_pachamama:
+  - text: "El precio es de $ 5 adultos y $ 2,50 niños"
+  utter_valor_mega_park_rioblanco:
+  - text: "El precio es de $ 7 por persona"
+  utter_tarifa_fantasias_volar:
+  - text: "El precio es de $ 10 por persona"
+  utter_precio_cadadelarbol:
+  - text: "El precio es de $ 1 a $ 2 por persona"
+  utter_tarifa_vuelo_condor:
+  - text: "El precio es de $ 10 por persona"
+  utter_costo_abismo_del_diablo:
+  - text: "El precio es de $ 10 por persona"
+  utter_rafting_precio:
+  - text: "El precio es de $ 30 por persona"
+  utter_saltopuente_precio:
+  - text: "El precio es de $ 20 por persona"
+  utter_precios_canopy_tarabita:
+  - text: "Canopy varía de $ 10 por persona y cruzar por tarabita cuesta de $ 3 a $ 5"
+  utter_precio_cascadas:
+  - text: "Visitar las distintas cascadas no tiene ningún precio"
+  utter_elpailon_precios:
+  - text: "El precio en la mañana varía entre $ 2 más el garaje si va en vehículo. En la noche el valor es de $5 por persona"
+  utter_precio_San_martin:
+  - text: "El costo de la entrada es de $ 4 para adultos y $ 3 para niños"
+  utter_precio_bosque_encatado:
+  - text: "El costo de la entrada es de $ 4 para adultos y $ 2 para niños"
+  utter_precio_exotica:
+  - text: "El costo de la entrada es de $ 3 para adultos y $ 2 para niños"
+  utter_precio_AnimalPark:
+  - text: "El costo de la entrada es de $ 6 para adultos y $ 3 para niños"
+  utter_precio_DinoPark:
+  - text: "El costo de la entrada es de $ 6 para adultos y $ 3,50 para niños"
+  utter_precio_Pueblos_Mundo:
+  - text: "La entrada cuesta 3 dólares y tiene acceso a todos los espacios"
+  utter_precio_Pueblo_Magico:
+  - text: "El costo del boleto es $ 3 adultos y $ 1.5 niños y adultos mayores"
+  utter_precio_Discovery:
+  - text: "El rango de precios es de $ 1 a $ 5"
+  utter_precio_Cavernas:
+  - text: "El rango de precios es de $ 3"
+  utter_precio_Pies_Dios:
+  - text: "El rango de precios es de $ 2"
+  utter_precio_Bellavista:
+  - text: "El rango de precios es de 50 centavos"
+  utter_precio_fabrica:
+  - text: "No tiene ningún costo el ingreso a la fábrica de chocolate"
+  utter_precio_Cafe_giratorio:
+  - text: "El costo del boleto para el lugar es $ 1, si desea ingresar a la cafetería cuesta $ 3 e incluye un café simple."
+  utter_precio_Beso_luna:
+  - text: "El rango de precios es de $ 1"
+  utter_precio_parque_familia:
+  - text: "No tiene ningún costo el ingreso, pero si ingresa con su vehículo deberá cancelar el valor del parqueadero"
+  utter_precio_INgreso_gratis:
+  - text: "No tiene ningún costo"
+
+# horarios
+  utter_horario_pachamama:
+  - text: "El horario de atención es de 8:30 AM a 20:30 PM"
+  utter_apertura_manos:
+  - text: "El horario de atención es de 8:00 AM a 20:30 PM"
+  utter_inicio_puenterioblanco:
+  - text: "El horario de atención es de 8:00 AM a 20:30 PM"
+  utter_atencion_fantasias_volar:
+  - text: "El horario de atención es de 9:00 AM a 18:00 PM"
+  utter_casadel_arbol:
+  - text: "El horario de atención es de 8:00 AM a 18:30 PM"
+  utter_horas_vuelo_delcondor:
+  - text: "El horario de atención es de 8:00 AM a 18:30 PM"
+  utter_horario_columpio_extremo:
+  - text: "El horario de atención es de 9:00 AM a 17:00 PM"
+  utter_horario_zoo_exotica:
+  - text: "El horario de atención es de 8:00 AM a 18:00 PM"
+  utter_horario_fabrica_chocolate:
+  - text: "El horario de atención es de 10:00 AM a 17:00 PM"
+  utter_horario_pailon:
+  - text: "El horario del Pailón del Diablo es de 9:00 AM a 23:00 PM"
+  utter_horario_zoo_martin:
+  - text: "El horario de atención del Zoo San Martín es de 8:00 AM a 17:30 PM"
+  # utter_horario_Manto_Novia:
+  # - text: "El horario de atención es de 7:00 AM a 16:00 PM"
+  utter_horario_Bosque_encantado:
+  - text: "El horario de atención es de lunes a miércoles de 14:00 a 20:00, jueves a domingo de 14:00 a 23:00"
+  utter_horario_Animal_Park:
+  - text: "El horario de atención es de 10:00 AM a 18:00 PM"
+  utter_horario_Discovery:
+  - text: "El horario de atención es de 10:00 AM a 20:00 PM"
+  utter_horario_Piqhur:
+  - text: "El horario de atención es de 9:00 AM a 22:00 PM"
+  utter_horario_Aldea_Magica:
+  - text: "El horario de atención es de lunes a viernes de 17:00 a 22:00, sábado a domingo de 10:00 a 22:00"
+  utter_horario_troll_Mountain:
+  - text: "El horario de atención es de 10:00 AM a 23:00 PM"
+  utter_horario_Caverna:
+  - text: "El horario de atención es de 9:00 AM a 23:00 PM"
+  utter_horario_Pies_Dios:
+  - text: "El horario de atención es de 8:00 AM a 23:00 PM"
+  utter_horario_cafe_giratorio:
+  - text: "El horario de atención es de 16:00 AM a 22:00 PM"
+  utter_horario_piscina_Virgen:
+  - text: "El horario de atención es de 5:00 a 16:00 y de 18:00 a 21:30"
+  utter_horario_Termas_Virgen:
+  - text: "El horario de atención es de miércoles a viernes de 14:00 a las 20:30 y los fines de semana de 10:00 a 20:30"
+  utter_horario_piscina_ElSalado:
+  - text: "El horario de atención es de 5:00 Am a 20:00 PM"
+  utter_horario_piscina_Santa_Ana:
+  - text: "El horario de atención es de 9:00 Am a 16:00 PM"
+  utter_horario_familia:
+  - text: "El horario de atención es de jueves a domingo de 8:00 a 18:00"
+
+# informacion Senderos
+
+  utter_camino_pondoa:
+  - text: "Distancia de aproximada de 8km, desnivel de 160 m, sendero de ida y vuelta y duración aproximada de 2h30 minutos.Se requiere una buena condición física para realizar este recorrido. El recorrido es por senderos estrecho con pocas zonas planas, piedras y un alto desnivel de terreno. Gran vista a la ciudad. [Cómo llegar](https://www.google.com/maps/place/Sendero+a+Pondoa/@-1.4007698,-78.4364347,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391d6436e7e6f:0x1c32fa521ad578f!8m2!3d-1.4007752!4d-78.434246)"
+
+  utter_mirador_virgen:
+  - text: "Distancia de 1.3 km, desnivel de 151 m, sendero de ida y vuelta y duración apriximada de 50 minutos. Pequeña caminata hacia el monumento a la Virgen María en los cerros de Baños de Agua Santa, con un mirador con vista a la ciudad. Al mismo se accede por una serie de escaleras de hormigón. [Cómo llegar](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/monumento-a-la-virgen-de-banos?mobileMap=false&ref=sidebar-static-map)"
+
+  utter_los_sauces:
+  - text: " Distancia aproximada de 6.8 km, desnivel de 308 m, sendero circular y duración aproximada de 2h15. El sendero de Los Sauces recorre la ruta Baños - Illuchi - Sauces, partiendo del sector de Illuchi. Es considerada una caminata sencilla que no exige demasiado esfuerzo, de manera que se recomienda para familias con una condición física normal. Está rodeada de árboles frutales y ofrece vistas de la ciudad de Baños, del volcán Tungurahua y de las cascadas que brotan del río Pastaza. [Cómo llegar](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/sendero-de-los-sauces?mobileMap=false&ref=sidebar-static-map)"
+
+  utter_luna_volcan:
+  - text: "Distancia de 8 km, desnivel de 770m, sendero circular y tiempo aproximado de 2 horas.Este recorrido es muy popular para hacer senderismo, MTB, paseos o caminatas, se puede disfrutar de un poco de paz. Un bonito paseo por algunas de las colinas de Baños, visitando el monumento a la Virgen y miradores de la ciudad. [Cómo llegar](https://es.wikiloc.com/rutas-senderismo/banos-luna-volcan-mirador-de-la-virgen-banos-a-bajo-ritmo-81822619)"
+
+  utter_sendero_casaarbol:
+  - text: "Distancia aproximada de 6.3 km, desnivel de 780 m, sendero de ida y vuelta y duración aproximada de 3h50. Es una caminata intensa pero divertida por caminos angostos con pocas secciones planas, empinado en su mayor parte y bastante resbaladizo, así que asegúrese de usar zapatos con algo de agarre. Grandes vistas de la ciudad y del volcán Tungurahua. [Cómo llegar](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/torre-al-cielo-y-casa-del-arbol?mobileMap=false&ref=sidebar-static-map)"
+
+  utter_contabandistas:
+  - text: "La ruta de los contrabandista posee una distancia de 12.2 km, desnivel de 717 m, camino de ida y vuelta y una duración de 3h45m. Ruta que comienza en la Represa de Agoyán y continúa por la ribera sur del río Postaza en dirección a la cascada del Manto de la Novia. Su nombre proviene de la época en que los contrabandistas de licor de caña de azúcar recorrían este sendero para huir de los guardias. [Cómo llegar](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/sendero-de-los-contrabandistas?mobileMap=false&ref=sidebar-static-map)"
+
+  utter_camino_bellavista:
+  - text: "Con una distancia de 2.7 km, un desnivel de 307 m, sendero de ida y vuelta y un tiempo estimado de 1h30. Recorrido corto y poco exigente que sale del centro de Baños y se dirige a la cima del mirador de la Cruz, permitiendo una espectacular vista de la ciudad de Baños. [Cómo llegar](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/mirador-la-cruz-bellavista?mobileMap=false&ref=sidebar-static-map)"
+
+# interacion botones atractivos
+
+  utter_info_manos_dios:
+  #- image: "https://images.hive.blog/DQmQ2Gy7vYpNWFZMteM3EaPDyLjgdC5i3cFTWoWtTGMK7Xv/image.png"
+  - text: "El mirador las manos de Dios, cuenta con: columpio iluminado, la casa del duende, unas alas gigantes, el pozo de los deseos, el columpio del amor, un hongo gigante y una zona de juegos. [Cómo llegar](https://www.google.com.ec/maps/place/%22Las+Manos+de+Dios%22+Ba%C3%B1os+de+Agua+Santa/@-1.378141,-78.4353729,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391a051945545:0x1e2d2fbc28f64501!8m2!3d-1.378141!4d-78.4353729?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "Precio manos de dios"
+      type: "postback"
+    - title: "Horario"
+      payload: "Horarios manos de dios"
+      type: "postback"
+  
+  utter_casa_en_arbol:
+  - text: "La Casa del Árbol en Baños se encuentra en el sector de Runtún, a 2600 metros sobre el nivel del mar, ha sido ganador de diversos premios de turismo y fotografía mundialmente reconocido. Su principal atractivo es la casa del árbol y sus columpios que oscilan hacia el acantilado y de fondo está el volcán Tungurahua. Para llegar a la casa del árbol puede tomar un taxi por $ 5 desde el centro de Baños, tomar el bus urbano. [Cómo llegar](https://www.google.com.ec/maps/place/La+Casa+del+Arbol/@-1.4182111,-78.4263339,17z/data=!3m1!4b1!4m5!3m4!1s0x91d396d429a823e3:0x88718e7ae34cd3a5!8m2!3d-1.4182111!4d-78.4263339?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio la casa del arbol "
+      type: "postback"
+    - title: "Horario"
+      payload: "/ horarios de la casa del arbol"
+      type: "postback"
+
+  utter_info_manos_pachamama:
+  #- image: "https://images.squarespace-cdn.com/content/v1/5a2eff3112abd936197728c6/1626387639488-Z6SS8CMI39JUMF04SPWF/La+Mano+de+la+Pachamama+-+El+Vuelo+del+Condor+-+Banos+Ecuador.jpeg"
+  - text: "El lugar dispone de diversos espacios para el descanso, fotos, comida y garaje. Dentro del complejo también se halla el columpio de vuelo del cóndor, un puente colgante y el camino de los duendes"
+    buttons:
+    - title: "Precio"
+      payload: "/Precio de la Pachamama"
+      type: "postback"
+    - title: "Horario"
+      payload: "/Horarios manos de la Pachamama"
+      type: "postback"
+
+  utter_columpio_extremo_deldiablo:
+  - text: "Columpio de 32 metros de alto y un péndulo de 62 metros. Altura de abismo de 120 metros sobre el río Pastaza. Ubicado en la parroquia de Río Verde en la Provincia de Tungurahua, un lugar donde te sentirás parte de la naturaleza y podrás disfrutar de los hermosos paisajes. [Cómo llegar](https://www.google.com/maps/place/COLUMPIO+EXTREMO+EL+ABISMO+DEL+DIABLO/@-1.402961,-78.298772,18z/data=!4m5!3m4!1s0x0:0xfbdccc75cc695000!8m2!3d-1.4035169!4d-78.2977725?hl=es-419)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio al columpio extremo del diablo"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del columpio extremo el abismo del diablo"
+      type: "postback"
+
+  utter_vuelo_del_condor:
+  - text: "El columpio se encuentra en el complejo El vuelo del cóndor, además de este columpio está el puente tibetano,desde una torre de 3 pisos podrá observar a la comunidad de Runtún. Todas estas actividades disponen de medidas de seguridad como arneses, cascos, guantes y otros elementos de protección para garantizar su integridad. [Cómo llegar](https://www.google.com.ec/maps/place/LA+MANO+DE+LA+PACHAMAMA/@-1.4119061,-78.4166448,17z/data=!4m5!3m4!1s0x91d3918bcddb68d1:0x6dc3f85d8e127eae!8m2!3d-1.4136115!4d-78.414352?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio al vuelo del cóndor"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios del vuelo del condor"
+      type: "postback"
+  
+  utter_Mega_Adventure_Park_rio_Blanco:
+  #- image: "https://www.directorio593.com/custom/domain_1/image_files/sitemgr_photo_35280.jpg"
+  - text: "Mega Adventure Park Río Blanco dispone con más atraccionescomo canopy, puente tibetano, columpios. Con una longitud de 300 m, y 20 m de vidrio repartidos en 3 tramos. Su altura es de 120 m y atraviesa el río Blanco. [Cómo llegar](https://www.google.com/maps/place/Mega+Adventure+Park+R%C3%ADo+Blanco/@-1.3993073,-78.3489977,17z/data=!3m1!4b1!4m5!3m4!1s0x91d39354abb33077:0xf040e636e8fffc47!8m2!3d-1.3993073!4d-78.3489977)"
+    buttons:
+    - title: "Precio"
+      payload: "/Precio Mega adventure Park"
+      type: "postback"
+    - title: "Horario"
+      payload: "/Horarios Mega adventure Park"
+      type: "postback"
+  
+  utter_fantasias_de_volar:
+  - text: "El columpio fantasías de volar cuenta con un péndulo de 60 metros, ubicado al borde de la montaña y con vistas a la ciudad. Es un columpio en el que puedes balancearte en el vacío y disfrutar de la adrenalina al máximo. Puede ir al columpio en un vehículo privado o en un tour de chivas. [Cómo llegar](https://www.google.com.ec/maps/place/Columpio+Fantasias+De+Volar/@-1.408059,-78.424434,15z/data=!4m5!3m4!1s0x91d391293662b1f9:0x8e02011f4a7c3c24!8m2!3d-1.408059!4d-78.424434?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio columpio fantasías de Volar"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios columpio fantasias de volar"
+      type: "postback"
+    
+  utter_sin_costo:
+  - text: "Dentro de Baños de Agua Santa se puede realizar actividades o visitar lugares sin consto o que cuentan con un valor minimo"
+    buttons:
+    - title: "Senderos"
+      payload: "/Senderos"
+      type: "postback"
+    - title: "Lugares"
+      payload: "/atractivos gratis"
+      type: "postback"
+# piscinas 
+
+  utter_piscinas_Virgen:
+  - text: "Son piscinas con aguas minerales, provenientes de las faldas del volcán Tungurahua. Son piscinas pensadas para adultos que buscan relajarse, hacer terapia, rehabilitación o simplemente disfrutar de los beneficios de las aguas termales. Es obligatorio el uso de gorro de baño. [Cómo llegar](https://www.google.com.ec/maps/place/Termas+de+la+Virgen/@-1.3982652,-78.4202581,17z/data=!4m5!3m4!1s0x91d39122c52c61fd:0xfaa0f21baa970208!8m2!3d-1.3987719!4d-78.4175783?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio piscinas de la virgen"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario de piscinas de la virgen"
+      type: "postback"
+  utter_Termas_virgen:
+  - text: "Es un complejo recreacional, posee piscinas de olas, toboganes, sauna, baño turco, hidromasaje y piscinas de agua termal. Está diseñado para familias que desean piscinas para niños y adultos. Estas piscinas disponen de un garaje, un snack bar, en su exterior existen puestos de comida y alquiler de trajes de baño. [Cómo llegar](https://www.google.com.ec/maps/place/Piscinas+Termas+De+La+Virgen+-+Ba%C3%B1os+Ecuador/@-1.3982652,-78.4202581,17z/data=!4m5!3m4!1s0x0:0x4c067c5ae04d1cd4!8m2!3d-1.3981689!4d-78.4185118?hl=es&shorturl=1&shorturl=1)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de las termas de la virgen"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario de las termas de la virgen"
+      type: "postback"
+  utter_Santa_clara:
+  - text: "Las piscinas forman parte de las piscinas municipales. Están ubicadas al lado del parque Montalvo, es una opción si estás buscando piscinas en Baños para familias y cerca del centro de la ciudad, esta es una buena opción. Tiene dos piscinas exteriores, zona húmeda con hidromasaje, sauna, baño turco, zona de masajes y bar. Cuenta con una piscina semiolímpica, piscina climatizada y bañera de hidromasaje exterior. [Cómo llegar](https://www.google.com.ec/maps/place/Balneario+Santa+Clara+(El+Cangrejo)/@-1.3979118,-78.4213715,17z/data=!4m5!3m4!1s0x0:0x5103de56b1fb15b6!8m2!3d-1.4006486!4d-78.4193153?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de las piscinas de santa clara"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario de las piscinas de santa clara"
+      type: "postback"
+  utter_El_Salado:
+  - text: "Las termas del Salado, son piscinas de agua termal provenientes de la fuente de agua del volcán Tungurahua. Son famosas por sus propiedades medicinales y terapéuticas. Se encuentra en el sector del Salado, a 3 minutos del centro de Baños, puede ir caminando o tomar un bus o taxi- El complejo tiene varias piscinas de agua termal, la temperatura del agua supera los 50 grados, Hay otras piscinas climatizadas ideales para niños, adultos. En el sitio hay un garaje privado y un bar. [Cómo llegar](https://www.google.com.ec/maps/place/Balneario+El+Salado/@-1.402449,-78.436153,16z/data=!4m5!3m4!1s0x91d390d82c079589:0x3a89a5ac6ad94ee6!8m2!3d-1.4045738!4d-78.4323045?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de las piscinas el salado"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario de las piscinas el salado"
+      type: "postback"
+  utter_Santa_Ana:
+  - text: "Las piscinas son especiales para disfrutar en familia en un día soleado. Existen varias piscinas de agua fría, y se agua caliente, las piscinas se encuentran al aire libre y en plena naturaleza Tiene espacios para preparar parrilladas, canchas de fútbol ybaloncesto. Un garaje, un snack bar, zonas verdes, en el complejo se puede llevar la comida y servirse al estilo picnic. [Cómo llegar](https://www.google.com.ec/maps/place/Complejo+Santa+Ana/@-1.3955988,-78.4113088,17z/data=!4m5!3m4!1s0x91d3913fd7090945:0xa536512b9305557!8m2!3d-1.3953593!4d-78.4092785?hl=es&shorturl=1&shorturl=1)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de las piscinas de santa ana"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horarios piscinas de santa ana"
+      type: "postback"
+# museo
+  utter_Fray_Enrique_Mideros:
+  - text: "El Museo Fray Enrique Mideros está situado al interior de la iglesia principal de Baños, el museo alberga principalmente historia religiosa, como vestimentas de la Virgen, joyas, objetos y vestimentas de los líderes de la Iglesia Católica. En sus pasillos se observan fotografías u objetos de la construcción de la basílica y otros elementos culturales religiosos. Además apreciar la arquitectura semigótica de laiglesia.[Cómo llegar](https://www.google.com.ec/maps/place/Museo+Fray+Enrique+Mideros/@-1.3973952,-78.4210431,17z/data=!3m1!4b1!4m5!3m4!1s0x91d39122fe8dffd5:0xafb55ec348545273!8m2!3d-1.3973952!4d-78.4210431?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "/precio de las museo fray enrique mideros"
+      type: "postback"
+    - title: "Horario"
+      payload: "/horario de las museo Fray Enrique Mideros"
+      type: "postback"
+#info ingles 
+  utter_ask_information_ingles:
+  - text: "Baños de Agua Santa have many tourist attractions, classified as: bridges, swings, extreme, waterfalls, zoo, gastronomy, parks, viewpoints, swimming pools, museum and free of charge."
+    buttons:
+    - title: "bridges"
+      payload: "bridges"
+      type: "postback"
+    - title: "Swings"
+      payload: "swings"
+      type: "postback"
+    - title: "extreme"
+      payload: "extreme"
+      type: "postback"
+    - title: "Swimming pools"
+      payload: "extreme"
+      type: "postback"
+    - title: "Waterfalls"
+      payload: "Waterfalls"
+      type: "postback"
+    - title: "Zoo"
+      payload: "zoo"
+      type: "postback"
+    - title: "Gastronomy"
+      payload: "gastronomy"
+      type: "postback"
+    - title: "Museum"
+      payload: "museum"
+      type: "postback"
+    - title: "Parks"
+      payload: "parks"
+      type: "postback"
+    - title: "Viewpoints"
+      payload: "viewpoints"
+      type: "postback"
+    - title: "Free"
+      payload: "free"
+    - title: "Trails"
+      payload: "trails"
+      type: "postback"
+#- waterfalls
+  utter_novia_waterfall:
+  - text: "The next waterfall is located 11 km from the bus terminal or just 3 minutes from the Agoyán waterfall. Along the way you can see the waterfall, you can stop at the parking areas and pose for photos, but I recommend you stop at the cable car and canopy stations, which are private businesses that offer these services. The cost of the canopy ranges from $10 per person, crossing in the cable car from $3 to $5. On the other side of the river there are different activities such as souvenir shops, food, walks and others. You can also go down to the banks of the Pastaza River and cross the suspension bridge and get closer to the waterfall for free. [get directions](https://www.google.com.ec/maps/place/Cascada+Manto+de+la+Novia/@-1.4038417,-78.3355075,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3935b9ecfb70b:0xc1dfa16ac3d791df!8m2!3d-1.4038417!4d-78.3355075?hl=es)"
+  utter_agoyan_waterfall:
+  - text: "located 7 km away on the road to Puyo. You can park your vehicle, take pictures, when you go in a chiva you have 15 to 20 minutes and continue to the next destination. At the Agoyán waterfall you can cross by tarabita and canopy. The flow of the waterfall can vary since it depends on the gates of the dam, if the gates are open you will see a more voluminous waterfall. Get closer to the waterfall for free and the cost of the canopy ranges from $10 per person, crossing in the cable car from $3 to $5. [get directions to the waterfall](https://www.google.com.ec/maps/place/1%C2%B023'56.7%22S+78%C2%B022'10.6%22W/@-1.3990833,-78.3696111,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0xcca17d10913a164e!7e2!8m2!3d-1.3990876!4d-78.3696065?hl=es)"
+  utter_pailon_waterfalls:
+  - text: "This waterfall is located 15.8 km. to access Pailón del Diablo you must follow the signs, there are 2 OPTIONS to enter the Pailón del Diablo. The first is the tour of the upper part of the waterfall, from where the waterfall is born and you see its fall. The SECOND option is to go under the waterfall and its surroundings. In both tours you have suspension bridges and impressive places for pictures. The price varies between $2 + the garage if you go by vehicle. REMEMBER, only the second option has access at night. You can see the waterfall illuminated in different colors, the bridge illuminated in the style of LED lights and the cafeteria that receives tourists at night. You can also go directly to the waterfall and pay the $5 entrance fee.. The price is per person. The schedule Monday to Thursday is at 19:00. Weekends the hours are from 19:00 - 23:00. [get directions](https://www.google.com/maps/place/Cascada+El+Pailon+(del+Diablo)/@-1.4044668,-78.297827,17z/data=!3m1!4b1!4m5!3m4!1s0x91d393fc6b20ad6d:0xbfc06a78c4bded53!8m2!3d-1.4044668!4d-78.297827)"
+  utter_waterfall_virgen_en:
+  - text: "In the center of the town of Baños de Agua Santa is La Cascada de la Virgen. It is located next to the hot springs and in the vicinity of the Sanga Hotel. An incredible view of the waterfall ideal for photographs. [get directions to the waterfall](https://www.google.com/maps/place/Cascada+de+la+Virgen/@-1.3991067,-78.4196862,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3913cba4fe99f:0x9098e08ddb2d3d9f!8m2!3d-1.3991067!4d-78.4174975?hl=es-419)"
+  utter_ines_maria_en:
+  - text: "From the waters of the Pastaza River emerges a beautiful waterfall, whose harmonious landscape invites us to a walk, during the walk we can appreciate the existing nature in the surroundings of the waterfall. You can appreciate the beautiful scenery optimal for photographs. [get directions](https://www.google.com/maps/place/Cascada+In%C3%A9s+Mar%C3%ADa+Ba%C3%B1os+Tungurahua/@-1.3957613,-78.4359408,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391f086f24d7b:0x9276d5515be8279!8m2!3d-1.3957613!4d-78.4359408?hl=es-419)"
+  utter_san_antonio_en:
+  - text: "The waterfall located in Baños de Agua Santa is characterized by the imposing waterfall that harmonizes with the sweetness of the surrounding flora and fauna, creating an environment conducive to relaxation. You will be able to enjoy a bath and nature. [Get directions](https://www.google.com/maps/place/Cascada+del+Silencio/@-1.4004158,-78.402847,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3914274759349:0x6bbf01636ad0542e!8m2!3d-1.4004158!4d-78.4006583?hl=es-419)"
+  utter_chamana_waterfall_en:
+  - text: "It is a group of 7 waterfalls, which are formed from the waters of the Chamana River, has a jump of 42 m of altitude, in its surroundings there is abundant flora and fauna. The entrance to the place is free and there is no entrance or exit timetable. You can enjoy a comforting bath on its banks. [Get directions](https://www.google.com/maps/place/Cascada+del+Silencio/@-1.4004158,-78.402847,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3914274759349:0x6bbf01636ad0542e!8m2!3d-1.4004158!4d-78.4006583?hl=es-419)"
+  #--parks
+  utter_forest_enchanted:
+  - text: "The enchanted forest in Baños is an outdoor space that has a magical theme, inspired by fantastic creatures, fairies, goblins, witches, dragons . The enchanted forest is a good option to go with the family during the day, at night the place lights up to the tone of led lights and bonfires. The enchanted forest has 10 magical stations as if they had come out of a story. Within the complex you will find a restaurant that serves fast food and craft beers. The place is located just 4 blocks from the city center, at the entrance to the Monte Selva inn. The Enchanted Forest opening hours are Monday to Wednesday from 2:00 p.m. to 8:00 p.m. and Thursday to Sunday until 11:00 p.m. The price is $4 for adults and $2 for children."
+  utter_park_AnimalPark_en:
+  - text: "Animal Park is an open zoo-type theme park that allows you to interact with animals. In the place there are cows, horses, ponies, ostriches, rabbits and more animals with which you can feed them, pet them, ride horses, collect eggs and of course take photos. In the park there are areas for games, live shows, restaurant, walks, viewpoints, children's games. The complex is located 8 km from the city center, in the Runtún sector. The travel time by vehicle is approximately 20 minutes. Animal Park opening hours are Monday to Sunday from 10:00 a.m. to 6:30 p.m., the live show is Saturday and Sunday from 1:00 p.m. to 4:00 p.m. The cost of the ticket is $4 adults and $2 children. "
+  utter_Discovery_atraction:
+  - text: "Discovery Baños is an amusement park that has mechanical games such as the famous ring, bumper cars, carousels, water boats, children's games and its main attraction KARTING. At Discovery Baños you can rent a karting cart and race on its own mini circuit. This park is ideal for the whole family, adults who prefer adrenaline games and for children a variety of children's games. The amusement park is located in the Agoyan sector on the route of the waterfalls before the first tunnel to the Puyo route. The cost of the ticket is based on the game you want to experience. From $1 to $5 is the price range. Discovery Baños is open from Monday to Sunday from 10:00 a.m. to 8:00 p.m"
+  utter_park_sanMartin:
+  - text: "The San Martin adventure park is the ideal place for adrenaline, it has several attractions such as the Tibetan bridge, the via ferrata, inclined stairs, climbing, rappelling, zipline. These activities are carried out on the Paztaza River, next to the San Martin canyon. All activities have security, allowing you to enjoy without risks. This space is ideal for families, children, solo travelers, pets, in addition there are green areas, cafeteria and spaces for unique photographs. The staff of the San Martin park takes pictures while you visit the attractions so you can share these unforgettable memories on your social networks. The cost of admission to the park is $20 per person, this includes the use of all the attractions. Opening hours are Monday through Sunday from 9:00 a.m. to 5:00 p.m."
+  utter_Dino_PArk:
+  - text: "The Dinosaur Park in Baños is a Jurassic themed complex . Its main attraction is the scale dinosaurs made of fiberglass, metal structure and mechanical parts. With a guided tour the dinosaurs are presented, the museum with real bones, clothes and objects for sale. In this place you can use your phone and see dinosaurs in augmented reality , you need to download their mobile app and start to exploring. The live show with the Tyrannosaurus Rex is one of the most anticipated in the dinosaur ride. The ticket cost is $3.50 for children and $6 for adults. Attention hours from Monday to Sunday from 9:00 to 18:00. It is located 5 km from Baños de Agua Santa, Runtún Bellavista sector."
+  utter_pueblos_mundo_ingles:
+  - text: "Pueblo del mundo is a tourist complex with different attractions such as photographic spaces and trails. The place brings together thematic spaces such as the statue of Egypt, the prison of El Chapo, UFOs, igloos and more objects that provide an international experience. A perfect space for photographs and memories that will undoubtedly look unique on social networks. They also have the largest slide in America . The tourist complex is located 6 km from the city, Runtun sector . The entrance costs 3 dollars and you have access to all the spaces including the slides. In the place there is a bar that offers snacks. Opening hours are Monday through Sunday from 10:00 a.m. to 6:30 p.m."
+  utter_piqchur_ingles:
+  - text: "PiQchur is a photo park that has photographic scenarios, its main objective is to capture an unforgettable memory in your photo gallery. A bicycle that points to the void, the doors to infinity , broken TVs and more perfect spots to take a picture of yourself and share it on your social networks. piQchur is located in the Las Antenas sector, 20 minutes from the city center, 5 minutes from the God's hands . The ticket price is $3 for adults and $2 for children. Opening hours are Monday through Sunday from 9:00 a.m. to 10:00 p.m."
+  utter_aldea_magica_Ingles:
+  - text: "The magical village is a museum garden of goblins . The Goblin Village offers a themed experience based on goblins, gnomes, elves, and fairies. For lovers of this magical style and who wish to bring a souvenir, you can buy handcrafted scale dolls. The magical village is an open-air goblin park. You can take a taxi or walk, it is only 2km from the city center near the municipal coliseum of Baños. Opening hours are Wednesday through Sunday from 9:30 a.m. to 7:00 p.m. Prices of the magical village: The ticket cost is $3 adults and $1.5 children and seniors. The house of the goblin is the store where you can buy souvenirs. The magical village is the name of the park. Click to get the location and contact of the Magical Village of Baños."
+  utter_Troll_Mountain_en:
+  - text: "The first open-air cinema in Baños is located in Troll Mountain, this attraction presents cinema performances at night. From 19:00 the projection of films begins on a giant screen. You can settle in the wooden seats or if you decide on its comfortable lawn. To consult the billboard you must enter your [social network profile](https://www.facebook.com/trollmountain.ec/). n addition to this attraction, there is the walk of the trolls , on this path giant wooden trolls are located, these characters of fantastic origin welcome tourists and invite them to take photos with their colossal bodies. Troll Mountain is located 30 meters from the bus terminal, crossing the San Francisco Bridge. Office hours are Wednesday through Monday from 10:00 a.m. to 11:00 p.m. The ticket price is $2 for adults and $1 for children.[Get directions](https://www.google.com/maps/place/Troll+Mountain/@-1.3927375,-78.4246551,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3912503a0a119:0x8ef81b133fb67ac2!8m2!3d-1.3927375!4d-78.4246551)"
+  utter_caverba_ingles:
+  - text: "The Sigsi Huayco caverns in Baños are a new tourist option, this natural cavity between rocks, was restored and open to the client with light decoration, water sources, corridors and resting places. This attraction tells legends and prehistoric stories about Atahualpa's treasure to the llanganates. The caverns are open from Monday to Sunday from 9:00 a.m. to 11:00 p.m. It is located 1 km from the bus terminal, just 5 minutes walking from the city center."
+  #- voiewpoints
+  utter_piesDios_Ingles:
+  - text: "Los pies de Dios is a viewpoint - restaurant. Its main attraction is its glass balcony. The viewpoint extends into the void, protruding from the mountain, achieving an incredible view of the city, the volcano and the Andes mountains. The glass bridge known as the Los pies de Dios is located in the Antenas sector, 10 minutes from downtown Baños. In the place there is a restaurant that serves a la carte dishes, barbecues, cafeteria to accompany your visit. The ticket cost is $2 if you access the glass bridge alone. If you eat at the restaurant , the entrance to the bridge is free. They are open from Monday to Sunday from 8:00 a.m. to 11:00 p.m."
+  utter_Sacha_360_en:
+  - text: "This viewpoint and cafeteria has a glass balcony that shows the city and its mountains, outdoor cafeteria, enclosed spaces and some special details to take pictures. This viewpoint has a garage and is located 15 minutes from downtown in the Bellavista sector. [Get directions](https://www.google.com.ec/maps/place/Mirador+Bellavista/@-1.4000673,-78.4141538,17.74z/data=!4m5!3m4!1s0x91d3913c1d36eb8b:0x2c9e1347581728e7!8m2!3d-1.3998779!4d-78.4145889?hl=es)"
+  utter_Bellavista_en:
+  - text: "Located in the sector of Bellavista, Runtún, where you can contemplate the panoramic view of the city of Baños. At night includes a canelazo, comedy show and you can admire the city around a bonfire. Baños. At night it includes a canelazo, comedy show and you can admire the city around a bonfire. It is located 15 minutes from downtown. You can visit it in chivas, to do so, go to any tourist server to buy tikerts. [Get directions](https://www.google.com.ec/maps/place/Mirador+Bellavista/@-1.4000673,-78.4141538,17.74z/data=!4m5!3m4!1s0x91d3913c1d36eb8b:0x2c9e1347581728e7!8m2!3d-1.3998779!4d-78.4145889?hl=es)"
+  utter_cafe_giratorio_ingles:
+  - text: "The revolving cafeteria in Baños is a new attraction and not seen before in the city. As its name says, it is a cafeteria built on a rotating base , that is, if we do not sit down to have a coffee with a view of the city, after 2 minutes we will be in another position with another view. The ticket cost to the place is $1, if you want to enter to the cafeteria it costs $3 and includes a simple coffee, you can consume other foods such as sandwiches, pizzas and others. You can only spend a maximum of 15 minutes inside the revolving cafeteria since there is a capacity of 40 people and others will want to enter. The rotating coffee turns 1 turn every 7 minutes. The revolving cafe in Baños is located in the Bellavista sector, at the entrance to the cross of Bellavista. Opening hours are from Friday to Sunday from 4:00 p.m. to 10:00 p.m."
+  utter_luna_ingles:
+  - text: "A viewpoint and restaurant located in the sector The Antenas. The attraction with a quarter moon fits with the background of the city or the Tungurahua volcano. You can visit it during the day or at night that is illuminated with LED lights. Access to the viewpoint costs $1, if you eat at the restaurant, admission to the viewpoint is free. The place is open every day. You can click on the location icon and get the addres, or click on theri social network. To get to the Moon's kiss you can take a taxi or buy a ticket for chivas route."
+  utter_ojosVolcan_ingles:
+  - text: "The eagle's nest is a viewpoint located in the Las Antenas sector. Also known as the eyes of the volcano viewpoint, it welcomes tourists with tourist attractions such as the eagle's wings swing, the heart of love , the eagle's nest and other spaces perfect for taking pictures with the Tungurahua volcano or the city in the background. On site there is also a restaurant serving à la carte dishes, hot drinks and snacks. The ticket price is $2 for adults and $1 for children. Business hours are Monday through Sunday from 8:00 a.m. to 11:00 p.m. The viewpoint of the eyes of the volcano can be reached by private vehicle or private tour."
+  utter_komg_ingles:
+  - text: "This is a viewpoint with a view of Baños de Santa accompanied by a giant gorilla . You can climb a ladder to his hand and take a photo to show off to your friends that you have been in King Kong's hand. The place is a viewpoint but they also have a restaurant that serves coffee, bolones de verde and more delicacies to enjoy the view. The Kong window is located in the Las Antenas sector. The price of admission is $2. They are open from Monday to Sunday from 9:00 a.m. to 11:00 p.m."
+  utter_cristo_ingles:
+  - text: "The Christ the Redeemer in Baños is a religious monument with the sculpture of Jesus. Religious tourism in Baños is one of the oldest in the city. The creation of new destinations with a religious topic has grown and Christ the Redeemer is one of them. The place is located in the Antenas sector, there are more decorative spaces, such as murals and spots to take pictures with the background of the city or the Tungurahua volcano. The statue of Jesus is a large monument over 2 meters high, sitting on a building that protrudes from the edge of the mountain. At night, the walks are illuminated with LED lights and its main attraction is illuminated with white lights. The cost of admission to the Cristo Redentor complex in Baños is $2. The place is open at all hours, but we recommend that you visit after 9:00 am."
+#--bridges
+  utter_manos_viewpoint:
+  - text: "Las Manos de Dios is a bridge-viewpoint supported by two structures in the shape of hands that have the city and the Tungurahua volcano in the background. located in the Las Antenas sector. From the city center it takes 20 to 30 minutes by car. The cost of entry into the hands of God is: $2 adults and $1 children. The place has several attractions, the main viewpoint is the hands of God, an illuminated swing, the elf's house, giant wings, a wishing well, a love swing, a giant mushroom and a space for children's games. Your ticket includes a complimentary drink. The place has a restaurant that prepares typical dishes and drinks. Opening hours are Monday through Sunday from 8 am - 10 pm."
+  utter_pachamama_hand:
+  - text: "The hand of the Pachamama in Baños is inside the tourist resort called The flight of the condor. The attraction is formed by two structures in the form of hands that stand out in the middle of the forest, decorated with glass balconies, colorful paintings, LED lights and more beautiful details. A glass bridge joins the 2 hands with the thematic heart of the resort. The hand of the Pachamama is located 7 km from Baños de Agua Santa, in Runtún sector . From the center of Baños the trip by vehicle takes approximately 15 minutes to the destination. The place has several spaces for rest, pictures, food and a garage. The opening hours from the hands of Pachamama are from Monday to Sunday from 8:30 am to 8:30 pm. The ticket cost is $5 for adults and $2.50 for children."
+  utter_mega_park_bridge:
+  - text: "This bridge has an extension of 300 meters, with 20 meters of glass distributed in 3 sections. It is at a height of 120 meters, it crosses over the Blanco River. The attraction has safety regulations that will make your experience unique and safe. From the city center it is 15 minutes by car. You can go by taxi, chiva (open bus) or city bus. It is located in the Rio Blanco sector, 9 km from the city center. The opening hours are from Monday to Sunday 9:00 - 18:00. The price to cross the bridge is $7 per person. The place is called Mega Adventure Park Rio Blanco and offers more attractions such as canopy, Tibetan bridge and swings"
+#--free
+  utter_parque_familia_en:
+  - image: "https://turismobanos2020.files.wordpress.com/2020/08/familia12.jpg?w=560"
+    text: "Located on the Baños-Puyo road, just 10 minutes from the center of the city of Baños, in the Agoyán sector.  You can appreciate the viewpoint to the Agoyán dam reservoir, bird watching, small animals, green spaces, picnic area. If you enter without a vehicle there is no charge, but if you enter with your vehicle you will be charged a small fee. It offers Agroecological farm, Animal Breeding and beautiful trails [Get directions](https://www.google.com.ec/maps/place/Parque+de+la+Familia+Ba%C3%B1os/@-1.3973445,-78.3816562,18z/data=!3m1!4b1!4m12!1m6!3m5!1s0x91d393e0df5e73a7:0x7ea2c1b415c3f560!2sParque+de+la+Familia+Ba%C3%B1os!8m2!3d-1.3973445!4d-78.3805619!3m4!1s0x91d393e0df5e73a7:0x7ea2c1b415c3f560!8m2!3d-1.3973445!4d-78.3805619?hl=es)"
+  utter_church_en:
+  - image: "http://static1.squarespace.com/static/605242bb8e9617719570c243/6089b5916b664907705470f6/625ee6c97523946fc8e8310e/1663070715278/Iglesia%2Bde%2BBanos%2BEcuador%2B-%2BBasilica%2Bde%2Bla%2BVirgen%2Bde%2BAgua%2BSanta.jpg?format=1500w"
+    text: "The Basilica or Sanctuary of the Virgin of Agua Santa represents one of the most important architectural infrastructures in the canton. It has a semi-gothic style, the decoration and the canvases with which the walls are adorned have been worked by Friar Enrique Mideros. Paintings depicting local miracles attributed to the Virgin of Agua Santa. [get directions](https://www.google.com.ec/maps/place/Santuario+y+Bas%C3%ADlica+Cat%C3%B3lica+Nuestra+Se%C3%B1ora+del+Rosario+de+Agua+Santa+de+Ba%C3%B1os/@-1.3974067,-78.4229707,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3912257227d11:0xa2908f10209f3f74!8m2!3d-1.3974067!4d-78.420782?hl=es) "
+  utter_malecon_rioVerde_en:
+  - image: "https://www.eluniverso.com/resizer/Ys1FwVC7b3VqzdTQsZpQLeckuys=/1435x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/CKHAHQVMVJHBXEADYI6RKQR22Q.jpg"
+    text: "In the parish of Rio Verde, approximately 25 minutes away. The typical meals of the place are ideal to recharge your energy after enjoying the various attractions of Rio Verde. You will be able to enjoy culinary tastings, enjoy the boats and the recreational places [get directions](https://www.google.com.ec/maps/place/R%C3%ADo+Verde/@-1.4031057,-78.3015991,18z/data=!3m1!4b1!4m6!3m5!1s0x91d3934e3e855e95:0x983621474f652d95!8m2!3d-1.40344!4d-78.3009985!16s%2Fg%2F1tfpwbl7?hl=es)"
+#--zoo
+  utter_vida_exo_zoo_en:
+  - text: "Vida Exotica Zoo is located in front of the San Martin zoo, this zoo presents another variety of animal species, at the entrance you will meet the serpentarium, a space with personalized environments that allow you to safely observe the different species of snakes, reptiles, arachnids and fish . Continuing with the tour you will find birds, mammals, among them a family of African lions, 2 adult lions and 2 cubs inhabit a wide space for their development. The place has informative posters, rest spaces, decorative murals for photography. This zoo is in the Lligua sector, 5 minutes from the city center. The cost of admission to the exotic life zoo is $3 for adults and $2 for children and seniors. Business hours are Monday through Sunday from 8am to 6pm."
+  utter_zoo_martin_en:
+  - text: "The San Martin Zoo is the oldest zoo in Baños, this wildlife conservation and management center is in charge of caring for and preserving many wild species. In the San Martin zoo you will be able to meet different animals in different areas, environments and cages. You can tour the entire zoo and learn about wildlife thanks to its information signs, discover new species and appreciate animal beauty. Among the most exotic animals are the white Bengal tigers, spectacled bears, jaguars, pumas and the emblematic condor. The San Martin zoo is located just 5 minutes from the center of Baños. You can go by bus for a cost of 30 cents and by taxi for $1.50. Office hours 8:00 a.m. to 5:30 p.m. every day. The cost of admission to the San Martin ecozoological is $4 for adults and $3 for children."
+#--museum
+  utter_museo_ingles:
+  - text: "The Fray Enrique Mideros Museum is located inside of the main Church of Baños, this museum contains mostly religious history, such as clothing of the Virgin, jewelry, objects and garments of leaders of the Catholic Church. You can see photographs or objects from the construction of the basilica and other religious cultural elements in the corridors. There are rooms dedicated to the exhibition of costumes and monuments, in the corridors you can find paintings and relics such as pianos, telephones, among others. But in addition to the religious theme there are rooms with stuffed animals, preserved animal remains, natural history and cultural objects from the history of Baños de Agua Santa. In addition to the museum space and its terraces, you can visit the church and appreciate the semi-Gothic architecture. The opening hours of the Fray Enrique Mideros museum are from Monday to Sunday from 8:00 a.m. to 6:00 p.m. Admission is $2 for adults and $1 for children."
+#--gastro
+  utter_factory_chocolate:
+  - text: "Tourists can learn about the entire process of making chocolates, drinks and desserts. Entrance to the magical chocolate factory is free. Inside the place you can buy the souvenirs, food and desserts you want. The tour of the chocolate factory is free, but you will surely crave one of their products. In the chocolate factory in Baños you can enjoy the whole process and make chocolate with your own hands, you can grind the cocoa in artisan stones, mold the chocolates and decorate your own cupcakes. The magic chocolate factory is ideal for families who want to walk with the little ones, there are unique spaces for pictures and souvenirs. The magic chocolate factory is at the Monte Selva Hotel, just 3 blocks from downtown Baños. The opening hours of the chocolate factory are from Monday to Sunday from 10:00 - 19:00."
+#--extreme
+  utter_rafting_practice:
+  - text: "Rafting in Baños de Agua Santa is an extreme sport that is practiced on large rivers. Rafting consists of getting on a boat with more people and one or 2 instructors, they go down the river to a specific point, they have to row to avoid obstacles and give direction to the boat, it is a teamwork that you will enjoy. it is safe, in the boat you will be accompanied by 2 instructors who will guide you, behind and in front of the boat there are kayaks that are responsible for picking up anyone who falls from the boat. Is an activity that has safety measures (floating jacket, guides and rescue equipment). This activity takes place on the Paztaza River, there are several levels of difficulty. Rafting lasts approximately 5 hours, the tour starts at 9:00am and ends at 2:00pm. The cost per person is $30. Includes transportation, neoprene suits, shoes, safety equipment."
+  utter_caypning_activity:
+  - text: "Canyoning in Baños is done in several waterfalls in the city. Canyoning is rappelling down a waterfall. For this activity, the agency provides you with all the safety equipment and the guide that will help you. By means of a rope secured to your harness you will go down the rock of the waterfall with the supervision and help of the guide. It seems that it sounds like a complicated and risky activity, but it is easier than you imagine. Canyoning in Baños can be done by children and adults. The price of the tour is $30 per person. The canyoning in Baños starts at 9:00 and returns at 12:30, there is also a schedule in the afternoon."
+  utter_rock_climbring:
+  - text: "Rock climbing is a tourist activity that takes place on various rocks or mountains of Baños. To climb in Baños de Agua Santa you must hire a specialized touris guide who will provide you with all the safety equipment such as ropes, shoes, harnesses, carabiners and other equipment. There are several places and routes to climb in Baños, the most popular is the rock of San Martin, its 5 minutes from the center of Baños you can climb several routes, do not worry if it is the first time you climb, it is an activity with measures security that will make your experience comfortable and fun. The price to climb in Baños is $30 per person, minimum 2 people. "
+  utter_bridge_jumping:
+  - text: "The adrenaline overflows just by looking from the bridge to the abyss, however, do not give up, do it and experience the best adventure. This is an extreme activity and should not be considered suitable for people with fear of heights, the minimum age is 14 years old, with a maximum weight of 90 kilograms. It is advisable to inform if you suffer from any medical condition."
+#-Swings
+  utter_fantasias_swing:
+  - text: "This swing has a 60-meter pendulum, located on the edge of a mountain overlooking the city. In this swing you can swing into the void and enjoy the adrenaline to the fullest. The extreme swing has harnesses and safety indications. It is located in the Runtún sector , 25 minutes by car. In the place there are viewpoints and areas for photographs with a view of the city, in addition, a garage, a restaurant. You can go to the swing in a private vehicle or on a chivas tour. The price of the swing is $10 per person. Business hours are Monday through Sunday from 9:00 a.m. to 6:00 p.m."
+  utter_tree_house:
+  - text: "The Tree House in Baños is located in the Runtun sector at 2600 meters above sea level. As its name says, its main attraction has been the tree house and its swings that swing towards the cliff. In the background you have the Tungurahua volcano. The place has received several improvements, now it has more photo spots and attractions, such as children's games, a restaurant and others. To get to the tree house you can: take a taxi for $5 from the center of Baños, take the bus at specific times (05:45-11:00-14:00-16:00). Admission is $3 for adults and half price for children. The opnening hours are from 7 am to 7 pm."
+  utter_condor_flight:
+  - text: "This giant swing is located in the complex The flight of the condor, in addition to the swing there is the Tibetan bridge, from a 3-story tower you can walk to the top of the swing that becomes a viewpoint towards the Runtún community. All these activities have security measures such as harnesses, helmets, gloves and other protections to guarantee your integrity. In the complex there are other tourist attractions such as the hand of the pachamama, but you can only access the swing if you wish. Office hours are Monday through Sunday 8:30 a.m. to 8:30 p.m. The ticket cost of the swing is $10."
+#-trails
+  utter_camino_bellavista_en:
+  - text: "With a distance of 2.7 km, a difference in altitude of 307 m, out and back trail and an estimated time of 1h30. Short and undemanding route that leaves from the center of Baños and goes to the top of the viewpoint of La Cruz, allowing a spectacular view of the city of Baños. [Get directions](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/mirador-la-cruz-bellavista?mobileMap=false&ref=sidebar-static-map)"
+  utter_los_sauces_en:
+  - text: "Approximate distance of 6.8 km, elevation gain of 308 m, circular trail and duration of approximately 2h15. The Los Sauces trail runs along the Baños - Illuchi - Sauces route, starting in the Illuchi sector. It is considered a simple hike that does not require too much effort, so it is recommended for families with normal physical condition. It is surrounded by fruit trees and offers views of the city of Baños, the Tungurahua volcano and the waterfalls that flow from the Pastaza River. [get direction](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/sendero-de-los-sauces?mobileMap=false&ref=sidebar-static-map)"
+  utter_mirador_virgen_en:
+  - text: "Distance of 1.3 km, 151 m elevation gain, out and back trail and approximate duration of 50 minutes. Short hike to the monument to the Virgin Mary in the hills of Baños de Agua Santa, with a viewpoint overlooking the city. It is accessed by a series of concrete stairs. [Get directions](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/monumento-a-la-virgen-de-banos?mobileMap=false&ref=sidebar-static-map)"
+  utter_camino_pondoa_en:
+  - text: "Distance of approximately 8km, elevation gain of 160 m, out and back trail and duration of approximately 2h30 minutes. A good physical condition is required to do this route. The route is on narrow trails with few flat areas, rocks and a high elevation gain. Great view of the city. [Get diretions](https://www.google.com/maps/place/Sendero+a+Pondoa/@-1.4007698,-78.4364347,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391d6436e7e6f:0x1c32fa521ad578f!8m2!3d-1.4007752!4d-78.434246)"
+  utter_luna_volcan_en:
+  - text: "Distance of 8 km, elevation gain of 770m, circular trail and approximate time of 2 hours.This route is very popular for hiking, MTB, walking or walking, you can enjoy some peace. A nice walk through some of the hills of Baños, visiting the monument to the Virgin and viewpoints of the city. [get directions](https://es.wikiloc.com/rutas-senderismo/banos-luna-volcan-mirador-de-la-virgen-banos-a-bajo-ritmo-81822619)"
+  utter_sendero_casaarbol_en:
+  - text: "Distance approximately 6.3 km, elevation gain of 780 m, out and back trail and duration approximately 3h50. It is an intense but fun hike on narrow trails with few flat sections, steep for the most part and quite slippery, so be sure to wear shoes with some grip. Great views of the city and the Tungurahua volcano. [get directions](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/torre-al-cielo-y-casa-del-arbol?mobileMap=false&ref=sidebar-static-map)"
+  utter_contabandistas_en:
+  - text: "Distance of 12.2 km, a 717 m difference in altitude, round trip and a duration of 3h45m. The route starts at the Agoyán dam and continues along the south bank of the Postaza River towards the Manto de la Novia waterfall. Its name comes from the time when cane liquor smugglers used to walk this trail to escape from the guards. [get directions](https://www.alltrails.com/es/explore/trail/ecuador/tungurahua/sendero-de-los-contrabandistas?mobileMap=false&ref=sidebar-static-map)"
+#--swimming pools
+  utter_pool_virgen_en:
+  - text: "The pools that contain mineral waters, many of them come from the slopes of the Tungurahua volcano. The Termas de la Virgen in Baños are two swimming pool complexes, the first being the classic Termas de la Virgen, pools with thermal water, cold water and especially medicinal water. They are located under the virgin's waterfall. The ticket price to the Termas de la Virgen is $4 for adults and $2 for children and seniors. These pools are designed for adults looking to relax, do therapy, rehabilitation or simply enjoy the benefits of hot springs. The opening hours are from 5:00 - 16:00 and in the afternoon from 18:00 - 21:30. It is mandatory to wear a bathing cap. The Termas de la Virgen in Baños are located 4 blocks from the city center, you can walk if you have stayed near the center."
+  utter_pool_termas:
+  - text: "This is a recreational complex, there are wave pools, slides, sauna, turkish bath, hydromassage and thermal water pools. It is designed for families looking for swimming pools for children and adults. It bears the same name Termas de la Virgen Complex. It is located next to the Termas de la Virgen Spa. The cost of the pools is $6 for adults and $3 for children and seniors. Opening hours from Wednesday to Friday from 2:00 p.m. to 8:30 p.m. and on weekends and holidays from 10:00 a.m. to 8:30 p.m. These pools have a garage, food bar, outside there are food stalls and bathing suit rentals and others. It is 4 blocks from the center of Baños , you can click on the address icon and get there so easily."
+  utter_sanClara_pool:
+  - text: " The Santa Clara pools in Baños are a complex consisting of 2 outdoor pools, a wet area with hydromassage, sauna, Turkish bath, massage area and bar. There is a semi-Olympic pool, heated pool, outdoor whirlpool. The Santa Clara pools in Baños or the ¨Crab¨ pools are located 3 blocks from the city center , 3 blocks from the Baños church, next to the Montalvo park, an option if you are looking for swimming pools in Baños for families and close to the accommodation this is a good option. The pools have a cost of $4 for adults and $2 for children and seniors. Opening hours are Monday through Friday from 2:00 p.m. to 9:30 p.m. and on weekends from 10:00 a.m. to 9:30 p.m."
+  utter_Elsalado_pool:
+  - text: "El Salado spa is a complex that has several pools of thermal water, the temperature of the water exceeds 50 degrees, it is not recommended for children, there are other heated pools ideal for children, adults. On the site there is a private garage and a bar for snacks or breakfast. The Salado hot springs are located in the Salado sector, 3 minutes from the center of Baños, you can walk or take a bus or taxi. The bus station is next to the central market and the taxi ride costs $1.25. If you want to go by private vehicle, just click on the direction button and it will be very easy for you to get there. The prices of the El Salado pools are $3 for adults and $1.50 for children. Opening hours are Monday to Sunday from 5:00 - 20:00."
+  utter_santaAna_pool:
+  - text: "Santa Ana swimming pools in Baños is an outdoor swimming pool complex. These pools are special to spend with the family on a sunny day. There are spaces to prepare barbecues, soccer and basketball courts. There are several pools of cold water as well as heated water. In the open air and in the middle of nature are the Santa Ana pools. In the complex there is a garage, a snack bar, green areas, you can bring your food and serve yourself a picnic. The Santa Ana pools are 5 minutes from the center of Baños, you can take a cab or the city bus. The opening hours are from Friday to Sunday from 9:00 to 16:00. The cost is $2 for adults and $1 for children."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

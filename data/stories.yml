@@ -1,0 +1,1168 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: principales_famosos
+  - action: action_list
+  - intent: punte_cristal
+  - action: utter_Mega_Adventure_Park_rio_Blanco
+  - intent: manos_de_dios
+  - action: utter_info_manos_dios
+  - intent: pacha_mama
+  - action: utter_info_manos_pachamama
+
+- story: sad
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: principales_famosos
+  - action: action_list
+  - intent: manos_de_dios
+  - action: utter_info_manos_dios
+  - intent: punte_cristal
+  - action: utter_Mega_Adventure_Park_rio_Blanco
+  - intent: pacha_mama
+  - action: utter_info_manos_pachamama
+
+- story: carusel
+  steps: 
+  - action: action_list
+  - intent: principales_famosos
+  - action: action_list
+  - intent: pacha_mama
+  - action: utter_info_manos_pachamama
+  - intent: pachamama_horario
+  - action: utter_horario_pachamama
+  - intent: manos_de_dios
+  - action: utter_info_manos_dios
+  - intent: medios_trasporte
+  - action: medios_trasportes
+
+- story: principales
+  steps: 
+  - intent: principales_famosos
+  - action: action_list
+  - intent: greet
+  - action: utter_greet
+  - intent: pachamama_horario
+  - action: utter_horario_pachamama
+  - intent: senderos_ciudad
+  - action: senderos_banios
+  - intent: Bellavista_camino
+  - action: utter_camino_bellavista
+  - intent: info_pondoa
+  - action: utter_camino_pondoa
+  - intent: mirador_virgen
+  - action: utter_mirador_virgen
+  - intent: los_sauces
+  - action: utter_los_sauces
+  - intent: ruta_lunavolcan
+  - action: utter_luna_volcan
+  - intent: sendero_casa_arbol
+  - action: utter_sendero_casaarbol
+  - intent: contabandistas
+  - action: utter_contabandistas
+  - intent: actividades_centro_banios
+  - action: centro_list
+
+- story: principales
+  steps:   
+  - intent: pacha_mama
+  - action: utter_info_manos_pachamama
+  - intent: pachamama_horario
+  - action: utter_horario_pachamama
+  - intent: manos_de_dios
+  - action: utter_info_manos_dios
+  - intent: medios_trasporte
+  - action: medios_trasportes
+
+- story: principales
+  steps:  
+  - intent: greet
+  - action: utter_greet
+  - intent: punte_cristal
+  - action: utter_Mega_Adventure_Park_rio_Blanco
+  - intent: inicio_mega_park
+  - action: utter_inicio_puenterioblanco
+  - intent: principales_famosos
+  - action: action_list
+  - intent: manos_de_dios
+  - action: utter_info_manos_dios
+  - intent: horario_manos_dios
+  - action: utter_apertura_manos
+  - intent: precio_dios
+  - action: utter_precio_manos_dios
+  - intent: actividades_centro_banios
+  - action: centro_list
+
+
+- story: precios
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: precio_dios
+  - action: utter_precio_manos_dios
+  - intent: horario_manos_dios
+  - action: utter_apertura_manos
+  - intent: valor_pachamama
+  - action: utter_precio_pachamama
+  - intent: pachamama_horario
+  - action: utter_horario_pachamama
+  - intent: tarifa_Precio_Mega_adventure_Park
+  - action: utter_valor_mega_park_rioblanco
+  - intent: inicio_mega_park
+  - action: utter_inicio_puenterioblanco
+  - intent: senderos_ciudad
+  - action: senderos_banios
+  - intent: actividades_centro_banios
+  - action: centro_list
+
+
+- story: preciosPopulares
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: inicio_mega_park
+  - action: utter_inicio_puenterioblanco
+  - intent: tarifa_Precio_Mega_adventure_Park
+  - action: utter_valor_mega_park_rioblanco
+  - intent: valor_pachamama
+  - action: utter_precio_pachamama
+  - intent: pachamama_horario
+  - action: utter_horario_pachamama
+  - intent: actividades_centro_banios
+  - action: centro_list
+
+- story: preciopachamama
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: valor_pachamama
+  - action: utter_precio_pachamama
+  - intent: pachamama_horario
+  - action: utter_horario_pachamama
+  - intent: tarifa_Precio_Mega_adventure_Park
+  - action: utter_valor_mega_park_rioblanco
+  - intent: inicio_mega_park
+  - action: utter_inicio_puenterioblanco
+
+- story: preciopachamama
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: medios_trasporte
+  - action: medios_trasportes
+
+- story: horarios
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pachamama_horario
+  - action: utter_horario_pachamama
+  - intent: horario_manos_dios
+  - action: utter_apertura_manos
+  - intent: inicio_mega_park
+  - action: utter_inicio_puenterioblanco
+
+- story: horarios
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: sincosto
+  - action: utter_sin_costo
+  - intent: senderos_ciudad
+  - action: senderos_banios
+
+
+- story: info_senderos
+  steps:
+  - intent: Bellavista_camino
+  - action: utter_camino_bellavista
+  - intent: info_pondoa
+  - action: utter_camino_pondoa
+  - intent: mirador_virgen
+  - action: utter_mirador_virgen
+  - intent: los_sauces
+  - action: utter_los_sauces
+  - intent: ruta_lunavolcan
+  - action: utter_luna_volcan
+  - intent: sendero_casa_arbol
+  - action: utter_sendero_casaarbol
+  - intent: contabandistas
+  - action: utter_contabandistas
+
+- story: senderos_dos
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: contabandistas
+  - action: utter_contabandistas
+  - intent: los_sauces
+  - action: utter_los_sauces
+  - intent: info_pondoa
+  - action: utter_camino_pondoa
+  - intent: Bellavista_camino
+  - action: utter_camino_bellavista
+
+- story: senderos_tres
+  steps:
+  - intent: info_pondoa
+  - action: utter_camino_pondoa
+  - intent: sendero_casa_arbol
+  - action: utter_sendero_casaarbol
+  - intent: ruta_lunavolcan
+  - action: utter_luna_volcan
+  - intent: Bellavista_camino
+  - action: utter_camino_bellavista
+
+- story: senderos_cuatro
+  steps:
+  - intent: mirador_virgen
+  - action: utter_mirador_virgen
+  - intent: ruta_lunavolcan
+  - action: utter_luna_volcan
+  - intent: los_sauces
+  - action: utter_los_sauces
+
+- story: alquiler
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: medios_trasporte
+  - action: medios_trasportes
+  - intent: alquiler
+  - action: utter_ask_alquiler
+  - intent: mas_info_alqui
+  - action: utter_mas_datos_renta
+
+- story: alquiler_dos
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: medios_trasporte
+  - action: medios_trasportes
+  - intent: mas_info_alqui
+  - action: utter_mas_datos_renta
+  - intent: alquiler
+  - action: utter_ask_alquiler
+
+- story: atractivos
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+
+- story: atractivos_dos
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Puentes
+  - action: list_puentes
+  - intent: Columpios
+  - action: Columpios_lista
+  - intent: actividades_extremas
+  - action: extremo_list
+  - intent: cascadas
+  - action: visitar_cascadas
+  - intent: zoologicos
+  - action: zoo_listas
+  - intent: lugares_gastronomia
+  - action: gastronomia
+  - intent: museos
+  - action: conteo_museos
+  - intent: parques_tematicos
+  - action: List_parques
+  - intent: miradores
+  - action: listar_miradores
+  - intent: piscinas_banios
+  - action: existencia_piscinas
+  - intent: sincosto_lugares
+  - action: listalugares_sincosto
+  - intent: nuevos_atractivos
+  - action: nuevos_atractivos
+  - intent: actividades_centro_banios
+  - action: centro_list
+
+- story: atractivos_nuevos
+  steps:
+  - intent: nuevos_atractivos
+  - action: nuevos_atractivos
+
+- story: atractivos_nuevo_dos
+  steps:
+  - intent: nuevos_atractivos
+  - action: nuevos_atractivos
+
+- story: lugares_por_visitar
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: sincosto_lugares
+  - action: listalugares_sincosto
+
+- story: lugares_por_visitar_dos
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: piscinas_banios
+  - action: existencia_piscinas
+
+- story: lugares_por_visitar_tres
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: miradores
+  - action: listar_miradores 
+  - intent: nuevos_atractivos
+  - action: nuevos_atractivos
+
+- story: lugares_por_visitar_cuatro
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: parques_tematicos
+  - action: List_parques
+
+- story: lugares_por_visitar_cinco
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: museos
+  - action: conteo_museos
+
+- story: lugares_por_visitar_seis
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: lugares_gastronomia
+  - action: gastronomia
+
+- story: lugares_por_visitar_siete
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: zoologicos
+  - action: zoo_listas
+
+- story: zoos
+  steps:  
+  - intent: zoologicos
+  - action: zoo_listas
+  - intent: zoo_san_martin
+  - action: utter_San_Martin_Zoo
+  - intent: vida_exotica
+  - action: utter_vida_exotica_zoo
+
+- story: lugares_por_visitar_ocho
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: cascadas
+  - action: visitar_cascadas
+
+- story: lugares_por_visitar_nueve
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: actividades_extremas
+  - action: extremo_list
+
+- story: lugares_por_visitar_diez
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Columpios
+  - action: Columpios_lista
+
+- story: columpios
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Columpios
+  - action: Columpios_lista
+  - intent: casa_del_arbol
+  - action: utter_casa_en_arbol
+  - intent: valor_casa_arbol
+  - action: utter_precio_cadadelarbol
+  - intent: hora_casaarbol
+  - action: utter_casadel_arbol
+
+- story: columpios_dos
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Columpios
+  - action: Columpios_lista
+  - intent: vuelo_del_condor
+  - action: utter_vuelo_del_condor
+  - intent: entrada_vuelodelcondor
+  - action: utter_tarifa_vuelo_condor
+  - intent: horarios_vuelo_condor
+  - action: utter_horas_vuelo_delcondor
+
+- story: columpios_tres
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Columpios
+  - action: Columpios_lista
+  - intent: columpio_abismo_del_diablo
+  - action: utter_columpio_extremo_deldiablo
+  - intent: entrada_abismo
+  - action: utter_costo_abismo_del_diablo
+  - intent: horarios_columpio_diablo
+  - action: utter_horario_columpio_extremo
+
+- story: lugares_por_visitar_veinte
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Columpios
+  - action: Columpios_lista
+  - intent: fantasias_volar
+  - action: utter_fantasias_de_volar
+  - intent: cuesta_columpio_fantasías_Volar
+  - action: utter_tarifa_fantasias_volar
+  - intent: horario_fantasías_Volar
+  - action: utter_atencion_fantasias_volar
+
+- story: actividades 
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: rafting
+  - action: utter_rafting
+  - intent: contrata_rafting
+  - action: utter_contratar_extremos
+  - intent: precio_rafting
+  - action: utter_rafting_precio
+
+- story: actividades_dos
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Canyoning
+  - action: utter_canyoning
+  - intent: contratar_Canyoning
+  - action: utter_contratar_extremos
+  - intent: precio_Canyoning
+  - action: utter_rafting_precio
+
+- story: actividades_tres
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: escalada_roca
+  - action: utter_escalada_en_roca
+  - intent: contrato_escaladaroca
+  - action: utter_contratar_extremos
+  - intent: cuesta_escalar
+  - action: utter_rafting_precio
+
+- story: actividades_cuatro
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Salto_puente
+  - action: utter_salto_delpuente
+  - intent: precticar_salto_puente
+  - action: utter_contratar_extremos
+  - intent: salto_puente_valor
+  - action: utter_saltopuente_precio
+
+- story: cascadas
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: manto_dela_novia
+  - action: utter_cascasa_manto_novia
+  - intent: precios_manto_novia
+  - action: utter_precio_cascadas
+  - action: utter_precios_canopy_tarabita
+
+- story: cascadas_dos
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: cascada_agoyan
+  - action: utter_agoyan_cascada
+  - intent: valores_cascada_del_agoyan
+  - action: utter_precio_cascadas
+  - action: utter_precios_canopy_tarabita
+
+- story: cascadas_tres
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: el_pailon
+  - action: utter_el_pailon_diablo
+  - intent: horarios_cascada_pailon
+  - action: utter_horario_pailon
+  - intent: entrada_pailon_deldiablo
+  - action: utter_elpailon_precios
+
+- story: cascadas_cuatro
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: cascada_virgen
+  - action: utter_cascada_virgen
+  - intent: precios_cascada_virgen
+  - action: utter_precio_cascadas
+
+- story: cascadas_cinco
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: ines_maria_cascada
+  - action: utter_ines_maria
+  - intent: tarifas_inesmaria
+  - action: utter_precio_cascadas
+
+- story: cascadas_seis
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: san_Antonio
+  - action: utter_san_antonio_cascada
+  - intent: precio_antonio
+  - action: utter_precio_cascadas
+
+- story: cascadas_seis
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: chamana
+  - action: utter_chamana_cascada
+  - intent: valor_cascada_chamana
+  - action: utter_precio_cascadas
+
+- story: zoologicos
+  steps:
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: zoo_san_martin
+  - action: utter_San_Martin_Zoo
+  - intent: precios_san_martin
+  - action: utter_precio_San_martin
+  - intent: hora_zoo_san_martin
+  - action: utter_horario_zoo_martin
+
+- story: zoologicos_dos
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: vida_exotica
+  - action: utter_vida_exotica_zoo
+  - intent: precios_vida_exotica
+  - action: utter_precio_exotica
+  - intent: horariosvida_exotica
+  - action: utter_horario_zoo_exotica
+
+- story: gastronomia
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: fabrica_chocolate
+  - action: utter_fabrica_de_chocolate
+  - intent: precios_fabrica
+  - action: utter_precio_fabrica
+  - intent: horarios_chocolate
+  - action: utter_horario_fabrica_chocolate
+
+- story: lugares_por_visitar_once
+  steps:  
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: Puentes
+  - action: list_puentes
+
+- story: atractivos_tres
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso  
+  - intent: Puentes
+  - action: list_puentes
+
+- story: atractivos_cinco
+  steps:  
+  - intent: actividades_extremas
+  - action: extremo_list
+
+- story: atractivos_seite
+  steps:
+  - intent: zoologicos
+  - action: zoo_listas
+
+- story: atractivos_ocho
+  steps: 
+  - intent: lugares_gastronomia
+  - action: gastronomia
+
+- story: atractivos_nueve
+  steps: 
+  - intent: museos
+  - action: conteo_museos
+
+- story: atractivos_dies
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: parques_tematicos
+  - action: List_parques
+
+- story: atractivos_once
+  steps: 
+  - intent: miradores
+  - action: listar_miradores
+
+- story: atractivos_doce
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: piscinas_banios
+  - action: existencia_piscinas
+
+- story: atractivos_trece
+  steps: 
+  - intent: sincosto_lugares
+  - action: listalugares_sincosto
+
+- story: piscinas
+  steps: 
+  - intent: piscinas_banios
+  - action: existencia_piscinas
+  - intent: Piscina_Virgen
+  - action: utter_piscinas_Virgen
+  - intent: Termas_dela_virgen
+  - action: utter_Termas_virgen
+  - intent: Santa_Clara
+  - action: utter_Santa_clara
+  - intent: Piscinas_Santa_Ana
+  - action: utter_Santa_Ana
+  - intent: El_Salado
+  - action: utter_El_Salado
+
+- story: piscinas_dos
+  steps: 
+  - intent: Piscina_Virgen
+  - action: utter_piscinas_Virgen
+  - intent: precios_Piscina_Virgen
+  - action: utter_precio_bosque_encatado
+  - intent: horarios_Piscina_Virgen
+  - action: utter_horario_piscina_Virgen
+
+- story: piscinas_tres
+  steps: 
+  - intent: Termas_dela_virgen
+  - action: utter_Termas_virgen
+  - intent: horarios_Termas_dela_virgen
+  - action: utter_horario_Termas_Virgen
+  - intent: precio_Termas_dela_virgen
+  - action: utter_precio_AnimalPark
+
+- story: piscinas_cuatro
+  steps: 
+  - intent: Santa_Clara
+  - action: utter_Santa_clara
+  - intent: precio_Santa_Clara
+  - action: utter_precio_bosque_encatado
+  - intent: horarios_Santa_Clara
+  - action: utter_horario_Termas_Virgen
+
+
+- story: piscinas_cinco
+  steps: 
+  - intent: El_Salado
+  - action: utter_El_Salado
+  - intent: precio_El_Salado
+  - action: utter_precio_Pueblo_Magico
+  - intent: horarios_El_Salado
+  - action: utter_horario_piscina_ElSalado
+
+- story: piscinas_seis
+  steps: 
+  - intent: Piscinas_Santa_Ana
+  - action: utter_Santa_Ana
+  - intent: horarios_Piscinas_Santa_Ana
+  - action: utter_horario_piscina_Santa_Ana
+  - intent: precio_Piscinas_Santa_Ana
+  - action: utter_precio_manos_dios
+
+- story: museoBanios
+  steps: 
+  - intent: Museo_Fray_Enrique_Mideros
+  - action: utter_Fray_Enrique_Mideros
+  - intent: precio_Museo_Fray_Enrique_Mideros
+  - action: utter_precio_manos_dios
+  - intent: horarios_Museo_Fray_Enrique_Mideros
+  - action: utter_casadel_arbol
+
+- story: museo_dos
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: Museo_Fray_Enrique_Mideros
+  - action: utter_Fray_Enrique_Mideros
+
+- story: tematicos
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: atractivos
+  - action: utter_ask_atractivos
+  - intent: parques_tematicos
+  - action: List_parques
+  - intent: bosque_encantado
+  - action: utter_boque_encantado
+  - intent: Animal_Park
+  - action: utter_Animal_Park
+  - intent: Discovery_Baños
+  - action: utter_Discovery
+  - intent: Parque_aventuras_San_Martín
+  - action: utter_parque_aventure_martin
+  - intent: Dinosaurios_Park
+  - action: utter_dinos_park
+  - intent: our_mundo_adventure
+  - action: utter_Our_mundo
+  - intent: PiQchur
+  - action: utter_PiQchur
+  - intent: Aldea_Magica
+  - action: utter_Pueblo_magicos
+  - intent: Troll_Mountain
+  - action: utter_Troll_Mountain
+  - intent: Cavernas_Sigsi_Huayco
+  - action: utter_Cavernas
+ 
+- story: tematicos
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: bosque_encantado
+  - action: utter_boque_encantado
+  - intent: precios_bosque_encantado
+  - action: utter_precio_bosque_encatado
+  - intent: horarios_bosque_encantado
+  - action: utter_horario_Bosque_encantado
+
+- story: tematicos:dos
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: Animal_Park
+  - action: utter_Animal_Park
+  - intent: precio_animal_park
+  - action: utter_precio_AnimalPark
+  - intent: horario_animal_park
+  - action: utter_horario_Animal_Park
+
+- story: tematicos:veinte
+  steps:  
+  - intent: Animal_Park
+  - action: utter_Animal_Park
+  - intent: precio_animal_park
+  - action: utter_precio_AnimalPark
+
+- story: tematicos:tres
+  steps:  
+  - intent: Discovery_Baños
+  - action: utter_Discovery
+  - intent: precio_discovery_baños
+  - action: utter_precio_Discovery
+  - intent: horario_discovery_baños
+  - action: utter_horario_Discovery
+
+- story: tematicos:cuatro
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: Parque_aventuras_San_Martín
+  - action: utter_parque_aventure_martin
+  - intent: precio_parque_aventuras_San_Martín
+  - action: utter_saltopuente_precio
+  - intent: horario_parque_aventuras_San_Martín
+  - action: utter_horario_columpio_extremo
+
+- story: tematicos:cisco
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: Dinosaurios_Park
+  - action: utter_dinos_park
+  - intent: precio_Dinosaurios_Park
+  - action: utter_precio_DinoPark
+  - intent: horario_Dinosaurios_Park
+  - action: utter_atencion_fantasias_volar
+
+- story: tematicos:seis
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_unhappy # respuesta como esta
+  - action: utter_cheer_up # grandioso
+  - intent: our_mundo_adventure
+  - action: utter_Our_mundo
+  - intent: precios_our_mundo_adventure
+  - action: utter_precio_Pueblos_Mundo
+  - intent: horarios_our_mundo_adventure
+  - action: utter_horario_Animal_Park
+
+- story: tematicos:siete
+  steps:  
+  - intent: PiQchur
+  - action: utter_PiQchur
+  - intent: precioPiQchur
+  - action: utter_precio_exotica
+  - intent: horarioPiQchur
+  - action: utter_horario_Piqhur
+
+- story: tematicos:ocho
+  steps:  
+  - intent: Aldea_Magica
+  - action: utter_Pueblo_magicos
+  - intent: precio_Aldea_Magica
+  - action: utter_precio_Pueblo_Magico
+  - intent: horario_Aldea_Magica
+  - action: utter_horario_Aldea_Magica
+
+- story: tematicos:nueve
+  steps:  
+  - intent: Troll_Mountain
+  - action: utter_Troll_Mountain
+  - intent: precioTroll_Mountain
+  - action: utter_precio_manos_dios
+  - intent: horario_TrollMountain
+  - action: utter_horario_troll_Mountain
+
+- story: tematicos:diez
+  steps:  
+  - intent: Cavernas_Sigsi_Huayco
+  - action: utter_Cavernas
+  - intent: precioCavernas_Sigsi_Huayco
+  - action: utter_precio_Cavernas
+  - intent: horarioCavernas
+  - action: utter_horario_Caverna
+
+- story: miradores
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: miradores
+  - action: listar_miradores
+  - intent: Los_pies_dios
+  - action: utter_Pies_de_Dios
+  - intent: Sacha_360
+  - action: utter_Sacha_360
+  - intent: mirador_Bellavista
+  - action: utter_Bellavista
+  - intent: Cafe_Giratorio
+  - action: utter_Cafeteria_giratoria
+  - intent: besode_la_luna
+  - action: utter_Beso_dela_luna
+  - intent: Los_ojos_volcán_nido_del_aguila
+  - action: utter_Ojosvolcan_nidoAgila
+  - intent: El_Ventanal_Kong
+  - action: utter_Ventanal_Kong
+  - intent: Cristo_Redentor
+  - action: utter_Cristo_redentor
+
+- story: miradores_uno
+  steps: 
+  - intent: Los_pies_dios
+  - action: utter_Pies_de_Dios
+  - intent: precio_Los_pies_dios
+  - action: utter_precio_Pies_Dios
+  - intent: horarioLos_pies_dios
+  - action: utter_horario_Pies_Dios
+
+- story: miradores_dos
+  steps: 
+  - intent: Sacha_360
+  - action: utter_Sacha_360
+  - intent: precioSacha_360
+  - action: utter_precio_Pies_Dios
+  - intent: horario_Sacha_360
+  - action: utter_horario_troll_Mountain
+
+- story: miradores_tres
+  steps: 
+  - intent: mirador_Bellavista
+  - action: utter_Bellavista
+  - intent: precio_mirador_Bellavista
+  - action: utter_precio_Bellavista
+  - intent: horario_mirador_Bellavista
+  - action: utter_horario_troll_Mountain
+
+- story: miradores_cuatro
+  steps: 
+  - intent: Cafe_Giratorio
+  - action: utter_Cafeteria_giratoria
+  - intent: Giratorio_precio
+  - action: utter_precio_Cafe_giratorio
+  - intent: Cafe_Giratorio_horario
+  - action: utter_horario_cafe_giratorio
+
+- story: miradores_cinco
+  steps: 
+  - intent: besode_la_luna
+  - action: utter_Beso_dela_luna
+  - intent: beso_de_la_luna_precio
+  - action: utter_precio_Beso_luna
+  - intent: besode_luna_horario
+  - action: utter_horario_troll_Mountain
+
+- story: miradores_seis
+  steps: 
+  - intent: Los_ojos_volcán_nido_del_aguila
+  - action: utter_Ojosvolcan_nidoAgila
+  - intent: Los_ojos_volcán_precio
+  - action: utter_precio_manos_dios
+  - intent: nido_del_aguila_horario
+  - action: utter_horario_Pies_Dios
+
+- story: miradores_siete
+  steps: 
+  - intent: El_Ventanal_Kong
+  - action: utter_Ventanal_Kong
+  - intent: horario_Ventanal_Kong
+  - action: utter_horario_Caverna
+  - intent: precio_El_Ventanal_Kong
+  - action: utter_precio_Pies_Dios
+
+- story: miradores_ocho
+  steps: 
+  - intent: Cristo_Redentor
+  - action: utter_Cristo_redentor
+  - intent: precio_Cristo_Redentor
+  - action: utter_precio_Pies_Dios
+  - intent: horarios_Cristo_Redentor
+  - action: utter_horario_Piqhur
+
+- story: lugares_sinCosto
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: sincosto_lugares
+  - action: listalugares_sincosto
+  - intent: Parque_familia
+  - action: utter_parque_familia
+  - intent: Santuario_Nuestra_Señora_Rosario
+  - action: utter_Santuario_Nuestra_Señora_Rosario
+  - intent: Balneario_Zuñag
+  - action: utter_balneario_Zuñag
+  - intent: malecon_rioVerde
+  - action: utter_malecon_rioVerde
+
+- story: lugares_sinCosto_dos
+  steps:  
+  - intent: Parque_familia
+  - action: utter_parque_familia
+  - intent: precio_Parque_familia
+  - action: utter_precio_parque_familia
+  - intent: horario_Parque_familia
+  - action: utter_horario_familia
+
+- story: lugares_sinCosto_tres
+  steps:  
+  - intent: Santuario_Nuestra_Señora_Rosario
+  - action: utter_Santuario_Nuestra_Señora_Rosario
+  - intent: precio_iglesia_baños
+  - action: utter_precio_INgreso_gratis
+
+- story: lugares_sinCosto_cuatro
+  steps:  
+  - intent: Balneario_Zuñag
+  - action: utter_balneario_Zuñag
+  - intent: precio_Balneario_Zuñag
+  - action: utter_precio_INgreso_gratis
+
+- story: lugares_sinCosto_cinco
+  steps:  
+  - intent: malecon_rioVerde
+  - action: utter_malecon_rioVerde
+  - intent: precios_malecon_rioVerde
+  - action: utter_precio_INgreso_gratis
+
+- story: mapa
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: mapa
+  - action: utter_mapa
+
+- story: mapa_dos
+  steps:  
+  - intent: mapa
+  - action: utter_mapa
+
+- story: clima
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: clima
+  - action: utter_clima
+
+- story: clima_dos
+  steps:  
+  - intent: clima
+  - action: utter_clima
+
+- story: cajeros
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: cajeros_banios
+  - action: utter_informacion_cajeros
+
+- story: cajeros_dos
+  steps:  
+  - intent: cajeros_banios
+  - action: utter_informacion_cajeros
+
+- story: denuncias
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: denuncias
+  - action: utter_denuncias
+
+- story: denuncias_dos
+  steps:  
+  - intent: denuncias
+  - action: utter_denuncias
+
+- story: denuncias
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: denuncias
+  - action: utter_denuncias
+
+- story: denuncias_dos
+  steps:  
+  - intent: denuncias
+  - action: utter_denuncias
+
+- story: recomendaciones
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: recomendaciones
+  - action: utter_recomendaciones
+
+- story: recomendaciones_dos
+  steps:  
+  - intent: recomendaciones
+  - action: utter_recomendaciones
+
+- story: buses
+  steps:  
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: trayectos_buses
+  - action: utter_buses_urbanos_uno
+
+- story: buses_dos
+  steps:  
+  - intent: trayectos_buses
+  - action: utter_buses_urbanos_uno
+
+- story: centro 
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: actividades_centro_banios
+  - action: centro_list

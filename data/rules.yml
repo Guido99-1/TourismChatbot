@@ -1,0 +1,459 @@
+version: "2.0"
+
+rules:
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: utter_satisfación
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: clima
+  steps:
+  - intent: clima
+  - action: utter_clima
+
+- rule: cajeros
+  steps:
+  - intent: cajeros_banios
+  - action: utter_informacion_cajeros
+
+- rule: denuncias
+  steps:
+  - intent: denuncias
+  - action: utter_denuncias
+
+- rule: recomendaciones
+  steps:
+  - intent: recomendaciones
+  - action: utter_recomendaciones
+
+- rule: buses
+  steps:
+  - intent: trayectos_buses
+  - action: utter_buses_urbanos_uno
+
+- rule: noche
+  steps:
+  - intent: actividades_nocturnas
+  - action: utter_Nocturnas
+
+- rule: hello
+  steps: 
+  - intent: saludo
+  - action: utter_saludo
+
+- rule: saludar mal
+  steps: 
+  - intent: contestar_mal
+  - action: utter_animar_turista
+  - action: utter_invitacion
+
+- rule: saludar bien
+  steps: 
+  - intent: contestar_bien
+  - action: utter_ingles_visitar
+
+- rule: despedida
+  steps: 
+  - intent: despedida
+  - action: utter_despedida_en
+  - action: utter_calificar_en
+
+- rule: que eres
+  steps: 
+  - intent: que_eres
+  - action: utter_soy_en
+
+- rule: parks
+  steps:
+  - intent: thematic_parks
+  - action: thematic_parks_list
+
+- rule: miradores para los turistas en idioma ingles 
+  steps:
+  - intent: viewpoints_text
+  - action: viewpoints_ingles
+
+- rule: waterfall
+  steps: 
+  - intent: waterfall
+  - action: waterfall_lis
+
+- rule: informacion 
+  steps: 
+  - intent: Information_banios
+  - action: utter_ask_information_ingles
+
+- rule: free places
+  steps: 
+  - intent: Free_places
+  - action: free_list
+
+- rule: zoo in the city
+  steps: 
+  - intent: zoological
+  - action: zoo_englis
+
+- rule: places gastronimy 
+  steps: 
+  - intent: gastronomy_place
+  - action: gastronomy_sites
+  
+- rule: extreme activities
+  steps: 
+  - intent: extreme
+  - action: extreme_activities
+  
+- rule: swings in banios
+  steps: 
+  - intent: swings_text
+  - action: swings_ingles_lis
+
+- rule: swings in banios
+  steps: 
+  - intent: swimming
+  - action: swimming_pool
+
+- rule: bridges in the city
+  steps: 
+  - intent: Bridges
+  - action: bridges_sites
+
+- rule: museums in the city
+  steps: 
+  - intent: museums
+  - action: museum_banios
+
+- rule: trails in the city
+  steps: 
+  - intent: city_trails_waks
+  - action: caminatas_ciudad
+
+- rule: novis waterfall
+  steps: 
+  - intent: novia_waterfall
+  - action: utter_novia_waterfall
+
+- rule: agoyan waterfall
+  steps: 
+  - intent: Waterfall_agoyan
+  - action: utter_agoyan_waterfall
+
+- rule: pailon del diablo waterfall
+  steps: 
+  - intent: devil_pailon
+  - action: utter_pailon_waterfalls
+
+- rule: la virgen waterfall
+  steps: 
+  - intent: virgin_waterfall
+  - action: utter_waterfall_virgen_en
+
+- rule: la virgen waterfall
+  steps: 
+  - intent: ines_maria_ingles
+  - action: utter_ines_maria_en
+
+- rule: ines maria waterfall
+  steps: 
+  - intent: ines_maria_ingles
+  - action: utter_ines_maria_en
+
+- rule: san antonio waterfall
+  steps: 
+  - intent: san_Antonio_ingles
+  - action: utter_san_antonio_en
+
+- rule: chamana waterfall
+  steps: 
+  - intent: chamana_waterfall_ingles
+  - action: utter_chamana_waterfall_en
+
+- rule: bosque encantado park
+  steps: 
+  - intent: enchanted_forest
+  - action: utter_forest_enchanted
+
+- rule: animal them park
+  steps: 
+  - intent: Animal_Park_ingles
+  - action: utter_park_AnimalPark_en
+
+- rule: discovery park
+  steps: 
+  - intent: Discovery_ingles
+  - action: utter_Discovery_atraction
+
+- rule: san martin park
+  steps: 
+  - intent: Adventure_San_Martín_ingles
+  - action: utter_park_sanMartin
+
+- rule: dinosaurios park
+  steps: 
+  - intent: Dinosaurs_Park_ingles
+  - action: utter_Dino_PArk
+
+- rule: pueblos del mundo park
+  steps: 
+  - intent: ourworldadventure_ingles
+  - action: utter_pueblos_mundo_ingles
+
+- rule: piqchur photo park
+  steps: 
+  - intent: PiQchur_ingles
+  - action: utter_piqchur_ingles
+
+- rule: aldea magical park
+  steps: 
+  - intent: Magic_Village_ingles
+  - action: utter_aldea_magica_Ingles
+
+- rule: el troll mountain park
+  steps: 
+  - intent: Troll_Mountain_ingles
+  - action: utter_Troll_Mountain_en
+
+- rule: caverna de sigsi park
+  steps: 
+  - intent: Caverns_Sigsi_Huayco_ingles
+  - action: utter_caverba_ingles
+
+- rule: los pies de dios viewpoint
+  steps: 
+  - intent: saludo
+  - action: utter_saludo
+  - intent: The_god_feet
+  - action: utter_piesDios_Ingles
+
+- rule: sacha viewpoint
+  steps: 
+  - intent: Sacha_360_ingles
+  - action: utter_Sacha_360_en
+
+- rule: bellavista viewpoint
+  steps: 
+  - intent: mirador_Bellavista_ingles
+  - action: utter_Bellavista_en
+
+- rule: cafe giratorio viewpoint
+  steps: 
+  - intent: Coffee_Turning_giratorio
+  - action: utter_cafe_giratorio_ingles
+
+- rule: beso de la luna viewpoint
+  steps: 
+  - intent: moon_kiss_mirador
+  - action: utter_luna_ingles
+
+- rule: nido del aguila viewpoint
+  steps: 
+  - intent: The_eyes_volcano
+  - action: utter_ojosVolcan_ingles
+
+- rule: kong ventanal viewpoint
+  steps: 
+  - intent: The_Window_Kong
+  - action: utter_komg_ingles
+
+- rule: el cristo viewpoint
+  steps: 
+  - intent: Cristo_Redentor_ingles
+  - action: utter_cristo_ingles
+
+- rule: manos de dios viewpoint
+  steps: 
+  - intent: hands_of_god
+  - action: utter_manos_viewpoint
+
+- rule: pachamama viewpoint
+  steps: 
+  - intent: pacha_mama_ingles
+  - action: utter_pachamama_hand
+
+- rule: puente de criatal viewpoint
+  steps: 
+  - intent: punte_cristal_ingles
+  - action: utter_mega_park_bridge
+
+- rule: pies de dios viewpoint
+  steps: 
+  - intent: The_god_feet
+  - action: utter_piesDios_Ingles
+
+- rule: parque de la familia free
+  steps: 
+  - intent: Family_park
+  - action: utter_parque_familia_en
+
+- rule: iglesia de baños free
+  steps: 
+  - intent: Sanctuary_Our_Lady_Rosary
+  - action: utter_church_en
+
+- rule: malecon rio verde free
+  steps: 
+  - intent: malecon_rioVerde_ingles
+  - action: utter_malecon_rioVerde_en
+
+- rule: vida exotica zoo
+  steps: 
+  - intent: zoo_vidaExotica
+  - action: utter_vida_exo_zoo_en
+
+- rule: san martin zoo
+  steps: 
+  - intent: zoo_san_martin_ingles
+  - action: utter_zoo_martin_en
+
+- rule: museum de banios
+  steps: 
+  - intent: Museum_ingles
+  - action: utter_museo_ingles
+
+- rule: chocolate banios
+  steps: 
+  - intent: chocolate_factory
+  - action: utter_factory_chocolate
+
+- rule: rafting extreme
+  steps: 
+  - intent: rafting_ingles
+  - action: utter_rafting_practice
+  - action: utter_contratar_extremos_en
+
+- rule: canyoning extreme
+  steps: 
+  - intent: Canyoning_ingles
+  - action: utter_caypning_activity
+  - action: utter_contratar_extremos_en
+
+- rule: rock climbing extreme
+  steps: 
+  - intent: rock_climbing
+  - action: utter_rock_climbring
+  - action: utter_contratar_extremos_en
+
+- rule: bridge jumping extreme
+  steps: 
+  - intent: Bridge_jumping
+  - action: utter_bridge_jumping
+  - action: utter_contratar_extremos_en
+
+- rule: fantasias swing
+  steps: 
+  - intent: fantasias_volar_ingles
+  - action: utter_fantasias_swing
+
+- rule: casa del arbol swing
+  steps: 
+  - intent: tree_house
+  - action: utter_tree_house
+
+- rule: vuelo del condor swing
+  steps: 
+  - intent: condor_flight
+  - action: utter_condor_flight
+
+- rule: bellavista trail
+  steps: 
+  - intent: Bellavista_trail
+  - action: utter_camino_bellavista_en
+
+- rule: los sauses trail
+  steps: 
+  - intent: the_sauces_trail
+  - action: utter_los_sauces_en
+
+- rule: la virgen trail
+  steps: 
+  - intent: virgin_trail
+  - action: utter_mirador_virgen_en
+
+- rule: pondoa trail
+  steps: 
+  - intent: pondoa_trail
+  - action: utter_camino_pondoa_en
+
+- rule: luna volcan trail
+  steps: 
+  - intent: lunavolcan_trail
+  - action: utter_luna_volcan_en
+
+- rule: casa del arbol trail
+  steps: 
+  - intent: tree_house_path
+  - action: utter_sendero_casaarbol_en
+
+- rule: los contrabandistas trail
+  steps: 
+  - intent: accountants
+  - action: utter_contabandistas_en
+
+- rule: santa clara swimming pools
+  steps: 
+  - intent: Santa_Clara_en
+  - action: utter_sanClara_pool
+
+- rule: Virnen swimming pools
+  steps: 
+  - intent: Virgin_Pool
+  - action: utter_pool_virgen_en
+
+- rule: termas de la virgen swimming pools
+  steps: 
+  - intent: Termas_dela_virgen_en
+  - action: utter_pool_termas
+
+- rule: el salado swimming pools
+  steps: 
+  - intent: The_Salado_thermal_pools
+  - action: utter_Elsalado_pool
+
+- rule: santa ana swimming pools
+  steps: 
+  - intent: Swimming_Pools_Santa_Ana
+  - action: utter_santaAna_pool
+
+- rule: amt in baños
+  steps: 
+  - intent: teller_banks
+  - action: utter_information_atm
+
+- rule: quejas en baños
+  steps: 
+  - intent: complaints
+  - action: utter_denuncias_en
+
+- rule: clima en baños
+  steps: 
+  - intent: weather
+  - action: utter_clima_en
+
+- rule: mapa de baños
+  steps: 
+  - intent: map_Tourist
+  - action: utter_mapa_en
+
+- rule: recomendaciones en baños
+  steps: 
+  - intent: recommendations
+  - action: utter_recommendations_en
+
+- rule: recomendaciones en baños
+  steps: 
+  - intent: bus_paths
+  - action: utter_buses_urbanos_en
+
+- rule: actividades en la noche baños
+  steps: 
+  - intent: night_activities
+  - action: utter_Nocturnas_en
+
+
