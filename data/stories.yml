@@ -1174,7 +1174,7 @@ stories:
   - intent: The_god_feet
   - action: utter_piesDios_Ingles
 
-  - story: pies_ingles_dos
+- story: pies_ingles_dos
   steps: 
   - intent: The_god_feet
   - action: utter_piesDios_Ingles
