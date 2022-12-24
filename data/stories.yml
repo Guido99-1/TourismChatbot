@@ -1167,9 +1167,14 @@ stories:
   - intent: actividades_centro_banios
   - action: centro_list
   
-- story: pies de dios ingles
+- story: pies_ingles
   steps: 
   - intent: saludo
   - action: utter_saludo
+  - intent: The_god_feet
+  - action: utter_piesDios_Ingles
+
+  - story: pies_ingles_dos
+  steps: 
   - intent: The_god_feet
   - action: utter_piesDios_Ingles

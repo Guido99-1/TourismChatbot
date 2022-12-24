@@ -225,11 +225,6 @@ rules:
   - intent: Caverns_Sigsi_Huayco_ingles
   - action: utter_caverba_ingles
 
-- rule: los pies de dios viewpoint
-  steps: 
-  - intent: The_god_feet
-  - action: utter_piesDios_Ingles
-
 - rule: sacha viewpoint
   steps: 
   - intent: Sacha_360_ingles
