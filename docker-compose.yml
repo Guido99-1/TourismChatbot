@@ -3,13 +3,14 @@ services:
 
   rasa-server:
     image: tourismchatbot:latest
-    working_dir: "/app"
+    working_dir: /app
     build: "./"
     restart: always
     volumes:
     - ./actions:/app/actions
     - ./data:/app/data
-    command: bash -c "rm -rf rasa/* && rasa train && rasa run --enable-api --cors \"*\" -p 8080"
+    - ./models:/app/models
+    command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
     ports:
     - '5005:8080'
     public: true
@@ -24,10 +25,9 @@ services:
     volumes:
     - ./actions:/app/actions
     - ./utils:/app/utils
-    command: bash -c "rasa run actions"
+    command: ["rasa", "run", "actions"]
     ports:
     - '5055:5055'
-    public: true
     networks:
     - all
 
