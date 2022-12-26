@@ -2011,6 +2011,45 @@ nlu:
     - hora apertura del cristo redentor
     - hora que cierra el cristo Redentor
 
+- intent: Torre_cristal
+  examples: |
+    - Torre
+    - Torre de cristal
+    - torre de cristal
+    - torre de cristal Baños
+    - mirador el torre de cristal Baños
+    - torre de cristal ubicación 
+    - torre de cristal información
+    - informacion torre de cristal
+    - información torre de cristal
+    - informacion de la torre de cristal
+    - conocer la torre de cristal
+    - saber de la torre de cristal
+    - la torre de cristal
+    
+- intent: precio_Torre_cristal
+  examples: |
+    - Precio de la torre de cristal
+    - precio de la torre de cristal
+    - cuanto cuesta la entrada a la torre de cristal
+    - precios de la torre de cristal
+    - valor de la torre de cristal
+    - cuanto cuenta por persona entrar a la torre de cristal
+    - la torre de cristal valor
+    - torre de cristal precios
+    - torre de cristal tarifas
+
+- intent: horarios_Torre_cristal
+  examples: |
+    - horarios de torre de cristal 
+    - programa de atencion de la torre de cristal 
+    - cual es el horario de la torre de cristal 
+    - horario de atención torre de cristal 
+    - a que hora abre la torre de cristal 
+    - a que hora cierra la torre de cristal 
+    - hora apertura de la torre de cristal 
+    - hora que cierra latorre de cristal 
+
 - intent: Parque_familia
   examples: |
     - Parque de la Familia Baños de Agua Santa

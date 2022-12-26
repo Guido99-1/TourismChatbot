@@ -36,6 +36,7 @@ stories:
 
 - story: carusel
   steps: 
+  - action: utter_inicio
   - action: action_list
   - intent: principales_famosos
   - action: action_list
@@ -49,7 +50,8 @@ stories:
   - action: medios_trasportes
 
 - story: principales
-  steps: 
+  steps:
+  - action: utter_inicio 
   - intent: principales_famosos
   - action: action_list
   - intent: greet
@@ -76,7 +78,8 @@ stories:
   - action: centro_list
 
 - story: principales
-  steps:   
+  steps:  
+  - action: utter_inicio 
   - intent: pacha_mama
   - action: utter_info_manos_pachamama
   - intent: pachamama_horario
@@ -87,7 +90,7 @@ stories:
   - action: medios_trasportes
 
 - story: principales
-  steps: 
+  steps:
   - action: utter_inicio
   - intent: greet
   - action: utter_greet
@@ -148,6 +151,7 @@ stories:
 
 - story: preciopachamama
   steps: 
+  - action: utter_inicio
   - intent: greet
   - action: utter_greet
   - intent: valor_pachamama
@@ -161,6 +165,7 @@ stories:
 
 - story: preciopachamama
   steps: 
+  - action: utter_inicio
   - intent: greet
   - action: utter_greet
   - intent: medios_trasporte
@@ -179,6 +184,7 @@ stories:
 
 - story: horarios
   steps: 
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
@@ -191,6 +197,7 @@ stories:
 
 - story: info_senderos
   steps:
+  - action: utter_inicio
   - intent: Bellavista_camino
   - action: utter_camino_bellavista
   - intent: info_pondoa
@@ -208,6 +215,7 @@ stories:
 
 - story: senderos_dos
   steps:
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
@@ -243,6 +251,7 @@ stories:
 
 - story: alquiler
   steps:
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
@@ -313,6 +322,7 @@ stories:
 
 - story: atractivos_nuevos
   steps:
+  - action: utter_inicio
   - intent: nuevos_atractivos
   - action: nuevos_atractivos
 
@@ -345,6 +355,7 @@ stories:
 
 - story: lugares_por_visitar_tres
   steps:  
+  - action: utter_inicio
   - intent: atractivos
   - action: utter_ask_atractivos
   - intent: miradores

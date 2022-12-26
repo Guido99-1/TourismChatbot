@@ -495,7 +495,7 @@ actions:
 
 responses:
   utter_inicio:
-  - text: "Opten informacion de los atractivos de Baños de Agua Santa, Opten información de los atractivos de Baños de Agua Santa, los cuales se clasifican en: puentes, columpios, extremo, cascadas, zoológico, gastronomía, parques, miradores, piscinas, museo y sin costo."
+  - text: "Opten información de los atractivos de Baños de Agua Santa, los cuales se clasifican en: puentes, columpios, extremo, cascadas, zoológico, gastronomía, parques, miradores, piscinas, museo y sin costo. RECUERDA los valores son aproximado"
   utter_greet:
   - text: "¡Hola! ¿Cómo estás?"
   utter_saludo:
