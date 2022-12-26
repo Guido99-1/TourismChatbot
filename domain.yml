@@ -491,6 +491,7 @@ actions:
   - utter_torrede_cristal
   - utter_horario_torre
   - utter_precio_torre
+  - utter_inicio
 
 responses:
   utter_inicio:
