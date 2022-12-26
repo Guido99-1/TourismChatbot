@@ -359,7 +359,8 @@ nlu:
     - visitar miradores 
     - ubicacion miradores 
     - informacion miradores
-    - precios miradores
+    - conocer miradores de baños
+    - información de los miradores de baños
 
 - intent: piscinas_banios
   examples: |
