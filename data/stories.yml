@@ -778,6 +778,7 @@ stories:
 
 - story: tematicos
   steps:  
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
@@ -926,6 +927,7 @@ stories:
 
 - story: miradores
   steps: 
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
@@ -1177,6 +1179,7 @@ stories:
 
 - story: torre 
   steps: 
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta

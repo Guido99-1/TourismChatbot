@@ -1,6 +1,7 @@
 version: "2.0"
 
 rules:
+
 - rule: inicio
   steps:
   - action: utter_inicio
