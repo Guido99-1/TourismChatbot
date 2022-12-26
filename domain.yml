@@ -1076,8 +1076,7 @@ responses:
       type: "postback"
 
   utter_info_manos_pachamama:
-  #- image: "https://images.squarespace-cdn.com/content/v1/5a2eff3112abd936197728c6/1626387639488-Z6SS8CMI39JUMF04SPWF/La+Mano+de+la+Pachamama+-+El+Vuelo+del+Condor+-+Banos+Ecuador.jpeg"
-  - text: "El lugar dispone de diversos espacios para el descanso, fotos, comida y garaje. Dentro del complejo también se halla el columpio de vuelo del cóndor, un puente colgante y el camino de los duendes. [Cómo llegar]https://www.google.com/maps/place/LA+MANO+DE+LA+PACHAMAMA/@-1.4136115,-78.4165407,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3918bcddb68d1:0x6dc3f85d8e127eae!8m2!3d-1.4136115!4d-78.414352"
+  - text: "El lugar dispone de diversos espacios para el descanso, fotos, comida y garaje. Dentro del complejo también se halla el columpio de vuelo del cóndor, un puente colgante y el camino de los duendes. [Cómo llegar](https://www.google.com/maps/place/LA+MANO+DE+LA+PACHAMAMA/@-1.4136115,-78.4165407,17z/data=!3m1!4b1!4m5!3m4!1s0x91d3918bcddb68d1:0x6dc3f85d8e127eae!8m2!3d-1.4136115!4d-78.414352)"
     buttons:
     - title: "Precio"
       payload: "/Precio de la Pachamama"

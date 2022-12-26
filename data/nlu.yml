@@ -1071,6 +1071,8 @@ nlu:
 - intent: Termas_dela_virgen
   examples: |
     - Termas de la virgen
+    - termas
+    - Termas
     - termas de la virgen
     - piscinas de las termas de la virgen
     - lugar de termas de la virgen
