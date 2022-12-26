@@ -178,6 +178,9 @@ intents:
   - cajeros_banios
   - actividades_centro_banios
   - actividades_nocturnas
+  - Torre_cristal
+  - precio_Torre_cristal
+  - horarios_Torre_cristal
   #####################################
   - saludo
   - contestar_bien
@@ -485,8 +488,13 @@ actions:
   - utter_buses_urbanos_en
   - utter_contratar_extremos_en
   - utter_Nocturnas_en
+  - utter_torrede_cristal
+  - utter_horario_torre
+  - utter_precio_torre
 
 responses:
+utter_inicio:
+  - text: "Opten informacion de los atractivos de Baños de Agua Santa, Opten información de los atractivos de Baños de Agua Santa, los cuales se clasifican en: puentes, columpios, extremo, cascadas, zoológico, gastronomía, parques, miradores, piscinas, museo y sin costo."
   utter_greet:
   - text: "¡Hola! ¿Cómo estás?"
   utter_saludo:
@@ -1006,7 +1014,20 @@ responses:
   - text: "El horario de atención es de 9:00 Am a 16:00 PM"
   utter_horario_familia:
   - text: "El horario de atención es de jueves a domingo de 8:00 a 18:00"
-
+#nuevo
+  utter_torrede_cristal:
+  - text: " La torre de cristal en Baños cuenta con 3 pisos en su parte alta, cada piso esta decorado con objetos y spots para fotografías. Sus grandes ventanales permite capturar la ciudad de fondo, balcones de vidrio, sillas decoradas, luces de neon y más objetos que embellecen las fotos que podrás capturar de recuerdo. Además cuenta con el servicio de cafetería, sirven bebidas calientes, tortas, picadas entre otros alimentos. El lugar ha sido decorado con detalles exclusivos y especiales para crear un ambiente agradable y fotográfico. [Cómo llegar](https://www.google.com.ec/maps/place/Torre+de+Cristal/@-1.3994808,-78.419905,17z/data=!3m1!4b1!4m5!3m4!1s0x91d391f64d45cbdb:0xaee2ff57d7d8159e!8m2!3d-1.3994726!4d-78.4199064?hl=es)"
+    buttons:
+    - title: "Precio"
+      payload: "Precio torre de cristal"
+      type: "postback"
+    - title: "Horario"
+      payload: "Horarios torre de cristal"
+      type: "postback"
+  utter_horario_torre:
+  - text: " Los horarios de atención es: Jueves de 4pm a 10pm, viernes de 4pm a 11:50pm, sábado desde 10am - 11:50pm y domingo 10am - 10pm."
+  utter_precio_torre:
+  - text: "El costo de la entrada a la torre de cristal en Baños es de $2.50 adultos y $1.50 niños. El costo de los alimentos va desde los 2$ en adelante, recomendamos disfrutar de la cafetería y su excelente vista"
 # informacion Senderos
 
   utter_camino_pondoa:

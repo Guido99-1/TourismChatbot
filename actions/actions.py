@@ -1109,7 +1109,7 @@ class ActionCarousel(Action):
                             },
                             {
                             "title": "Más información",
-                            "payload": "sacha cafe",
+                            "payload": "Mirador Sacha 360",
                             "type": "postback"
                             },
                             {

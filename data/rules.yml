@@ -344,10 +344,10 @@ rules:
   - intent: fantasias_volar_ingles
   - action: utter_fantasias_swing
 
-- rule: casa del arbol swing
-  steps: 
-  - intent: tree_house
-  - action: utter_tree_house
+# - rule: casa del arbol swing
+#   steps: 
+#   - intent: tree_house
+#   - action: utter_tree_house
 
 - rule: vuelo del condor swing
   steps: 

@@ -4,6 +4,7 @@ stories:
 
 - story: happy path
   steps:
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
@@ -19,6 +20,7 @@ stories:
 
 - story: sad
   steps:
+  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
@@ -85,7 +87,8 @@ stories:
   - action: medios_trasportes
 
 - story: principales
-  steps:  
+  steps: 
+  - action: utter_inicio
   - intent: greet
   - action: utter_greet
   - intent: punte_cristal
@@ -106,6 +109,7 @@ stories:
 
 - story: precios
   steps:
+  - action: utter_inicio
   - intent: greet
   - action: utter_greet
   - intent: precio_dios
@@ -128,6 +132,7 @@ stories:
 
 - story: preciosPopulares
   steps: 
+  - action: utter_inicio
   - intent: greet
   - action: utter_greet
   - intent: inicio_mega_park
@@ -1166,15 +1171,37 @@ stories:
   - action: utter_happy # grandioso
   - intent: actividades_centro_banios
   - action: centro_list
-  
+
+- story: torre 
+  steps: 
+  - intent: greet #saludo
+  - action: utter_greet # saludo
+  - intent: mood_great # respuesta como esta
+  - action: utter_happy # grandioso
+  - intent: Torre_cristal
+  - action: utter_torrede_cristal
+  - intent: horarios_Torre_cristal
+  - action: utter_horario_torre
+  - intent: precio_Torre_cristal
+  - action: utter_precio_torre
+
+- story: torre_dos
+  steps: 
+  - intent: Torre_cristal
+  - action: utter_torrede_cristal
+  - intent: horarios_Torre_cristal
+  - action: utter_horario_torre
+  - intent: precio_Torre_cristal
+  - action: utter_precio_torre
+
 - story: pies_ingles
   steps: 
   - intent: saludo
   - action: utter_saludo
-  - intent: The_god_feet
-  - action: utter_piesDios_Ingles
+  - intent: tree_house
+  - action: utter_tree_house
 
 - story: pies_ingles_dos
   steps: 
-  - intent: The_god_feet
-  - action: utter_piesDios_Ingles
+  - intent: tree_house
+  - action: utter_tree_house
