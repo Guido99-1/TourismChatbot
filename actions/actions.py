@@ -949,7 +949,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Parque temático Pueblos del mundo",
                         "subtitle": "Precio: $3",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/311151644_507032964766645_5478765215072115061_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHovd5t1v8Jdrn1G58Vo3_OB6EJrBqDRL4HoQmsGoNEvjQ6ZiEfYIco7N7uZVzkWQunJ8zglT_yM98Hb45v3mqo&_nc_ohc=JbIKrhWwLe4AX-c_HG1&_nc_ht=scontent.fatf4-1.fna&oh=00_AfC7S4PgajAru3iS3k_SdkC9wbTpi1p-wkeL_RzlU756Rw&oe=63A00236",
+                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/287528743_3068283230153316_7006248754419818901_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHjAUZX5XiMq_GnpqKTvfWCkiz_9vdYKYKSLP_291gpgjWgqJeKcRfn8PO8X7AKUkc7k99BeKoIO9ziCkgNNFCN&_nc_ohc=nFj4f8z4auMAX8rqm6y&_nc_ht=scontent.fatf4-1.fna&oh=00_AfC5m87ou135clc58hFtAflI2qen2PELBbZ2SD_zUEaTxw&oe=63ADE45B",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -1183,7 +1183,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Mirador Ojos Del Volcán-Nido Del Águila",
                         "subtitle": "Precio: $2 adultos y $1 niños",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/303608152_450446203774862_4472548587706350779_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGStWAYzig34D4vbfJSzxsdm_GvMLBOMwOb8a8wsE4zA5_4wSOZRmrLwKF7KSdnqqg8cKI62JCrZ3x4EEU_DnA9&_nc_ohc=y6uEwti3ITgAX-g6Fw7&_nc_ht=scontent.fatf4-1.fna&oh=00_AfCeA45NXocfJXe1WSa8t3bMrtH0ueSRjLAx4U1PS8vQcg&oe=63A3C27E",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipNsJpRk-xpUaLKWixLSzuMjXajnoKupBJpyHMYQ=w960-h960-n-o-v1",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -1804,41 +1804,42 @@ class ActionCarousel(Action):
                             "type": "web_url"
                             }
                         ]
-                    },
-                    {
-                        "title": "Sendero Piedra de la Luz",
-                        "subtitle": "Precio: $0",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t1.6435-9/104109618_2072162669594687_7823747376366681190_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGgLO453TYXXPmChz_sgO_uCdWdF87wZI4J1Z0XzvBkjmJlYN-RO6ik81VznEVCkbcO6pofkeJ-K8Ln1Honi-bT&_nc_ohc=vH_3K-665N8AX9C-50i&_nc_ht=scontent.fatf4-1.fna&oh=00_AfDYpi-cxM9keHfZryKhhoU5hCiz3HNftzQ4BWdn2zB8eA&oe=63C627A8",
-                        "buttons": [ 
-                            {
-                            "title": "Cómo llegar",
-                            "url": "",
-                            "type": "web_url"
-                            },
-                            {
-                            "title": "Más información",
-                            "payload": "piedra de a luz",
-                            "type": "postback"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Sendero Cara de Perro",
-                        "subtitle": "Precio: $0",
-                        "image_url": "https://s2.wklcdn.com/image_135/4068881/34192343/22060520.jpg",
-                        "buttons": [ 
-                            {
-                            "title": "Cómo llegar",
-                            "url": "https://es.wikiloc.com/rutas-senderismo/cara-de-perro-ulba-banos-de-agua-santa-34192343",
-                            "type": "web_url"
-                            },
-                            {
-                            "title": "Más información",
-                            "payload": "cara de perro",
-                            "type": "postback"
-                            }
-                        ]
                     }
+                    # ,
+                    # {
+                    #     "title": "Sendero Piedra de la Luz",
+                    #     "subtitle": "Precio: $0",
+                    #     "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t1.6435-9/104109618_2072162669594687_7823747376366681190_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGgLO453TYXXPmChz_sgO_uCdWdF87wZI4J1Z0XzvBkjmJlYN-RO6ik81VznEVCkbcO6pofkeJ-K8Ln1Honi-bT&_nc_ohc=vH_3K-665N8AX9C-50i&_nc_ht=scontent.fatf4-1.fna&oh=00_AfDYpi-cxM9keHfZryKhhoU5hCiz3HNftzQ4BWdn2zB8eA&oe=63C627A8",
+                    #     "buttons": [ 
+                    #         {
+                    #         "title": "Cómo llegar",
+                    #         "url": "",
+                    #         "type": "web_url"
+                    #         },
+                    #         {
+                    #         "title": "Más información",
+                    #         "payload": "piedra de a luz",
+                    #         "type": "postback"
+                    #         }
+                    #     ]
+                    # },
+                    # {
+                    #     "title": "Sendero Cara de Perro",
+                    #     "subtitle": "Precio: $0",
+                    #     "image_url": "https://s2.wklcdn.com/image_135/4068881/34192343/22060520.jpg",
+                    #     "buttons": [ 
+                    #         {
+                    #         "title": "Cómo llegar",
+                    #         "url": "https://es.wikiloc.com/rutas-senderismo/cara-de-perro-ulba-banos-de-agua-santa-34192343",
+                    #         "type": "web_url"
+                    #         },
+                    #         {
+                    #         "title": "Más información",
+                    #         "payload": "cara de perro",
+                    #         "type": "postback"
+                    #         }
+                    #     ]
+                    # }
                 ]
                 }
         }
@@ -2434,7 +2435,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Our Mundo Adventure",
                         "subtitle": "Price: $3",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/311151644_507032964766645_5478765215072115061_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHovd5t1v8Jdrn1G58Vo3_OB6EJrBqDRL4HoQmsGoNEvjQ6ZiEfYIco7N7uZVzkWQunJ8zglT_yM98Hb45v3mqo&_nc_ohc=JbIKrhWwLe4AX-c_HG1&_nc_ht=scontent.fatf4-1.fna&oh=00_AfC7S4PgajAru3iS3k_SdkC9wbTpi1p-wkeL_RzlU756Rw&oe=63A00236",
+                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/287528743_3068283230153316_7006248754419818901_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHjAUZX5XiMq_GnpqKTvfWCkiz_9vdYKYKSLP_291gpgjWgqJeKcRfn8PO8X7AKUkc7k99BeKoIO9ziCkgNNFCN&_nc_ohc=nFj4f8z4auMAX8rqm6y&_nc_ht=scontent.fatf4-1.fna&oh=00_AfC5m87ou135clc58hFtAflI2qen2PELBbZ2SD_zUEaTxw&oe=63ADE45B",
                         "buttons": [ 
                             {
                             "title": "Get directions",
@@ -2669,7 +2670,7 @@ class ActionCarousel(Action):
                     {
                         "title": "The Eagle's Nest | Volcano Eyes",
                         "subtitle": "Precio: $2 adultos y $1 niños",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/303608152_450446203774862_4472548587706350779_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGStWAYzig34D4vbfJSzxsdm_GvMLBOMwOb8a8wsE4zA5_4wSOZRmrLwKF7KSdnqqg8cKI62JCrZ3x4EEU_DnA9&_nc_ohc=y6uEwti3ITgAX-g6Fw7&_nc_ht=scontent.fatf4-1.fna&oh=00_AfCeA45NXocfJXe1WSa8t3bMrtH0ueSRjLAx4U1PS8vQcg&oe=63A3C27E",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipNsJpRk-xpUaLKWixLSzuMjXajnoKupBJpyHMYQ=w960-h960-n-o-v1",
                         "buttons": [ 
                             {
                             "title": "Get directions",
