@@ -163,6 +163,10 @@ stories:
   - intent: medios_trasporte
   - action: medios_trasportes
 
+- story: mensaje de inicio
+  steps: 
+  - action: utter_inicio
+
 - story: horarios
   steps:
   - intent: greet
