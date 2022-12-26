@@ -2,6 +2,7 @@ version: "2.0"
 
 intents:
   - greet
+  - utter_inicio
   - goodbye
   - mood_great
   - mood_unhappy
@@ -491,11 +492,20 @@ actions:
   - utter_torrede_cristal
   - utter_horario_torre
   - utter_precio_torre
-  - utter_inicio
+
 
 responses:
+
   utter_inicio:
-  - text: "Opten información de los atractivos de Baños de Agua Santa, los cuales se clasifican en: puentes, columpios, extremo, cascadas, zoológico, gastronomía, parques, miradores, piscinas, museo y sin costo. RECUERDA los valores son aproximado"
+  - text: "Opten información de los atractivos de Baños de Agua Santa. RECUERDA los valores son aproximados"
+    buttons:
+    - title: "Información de atractivos"
+      payload: "informacion"
+      type: "postback"
+    - title: "Information about attractions"
+      payload: "information"
+      type: "postback"
+
   utter_greet:
   - text: "¡Hola! ¿Cómo estás?"
   utter_saludo:
@@ -562,7 +572,7 @@ responses:
 # clacificacion de atractivos
 
   utter_ask_atractivos:
-  - text: "Baños de Agua Santa cuenta con múltiples atractivos turísticos, los cuales se clasifican en: puentes, columpios, extremo, cascadas, zoológico, gastronomía, parques, miradores, piscinas, museo y sin costo."
+  - text: "Baños de Agua Santa cuenta con múltiples atractivos turísticos, los cuales se clasifican en: "
     buttons:
     - title: "Puentes"
       payload: "puentes"
@@ -1127,7 +1137,7 @@ responses:
       type: "postback"
     
   utter_sin_costo:
-  - text: "Dentro de Baños de Agua Santa se puede realizar actividades o visitar lugares sin consto o que cuentan con un valor minimo"
+  - text: "Dentro de Baños de Agua Santa se puede realizar actividades o visitar lugares sin costo o que cuentan con un valor minimo"
     buttons:
     - title: "Senderos"
       payload: "/Senderos"
@@ -1194,7 +1204,7 @@ responses:
       type: "postback"
 #info ingles 
   utter_ask_information_ingles:
-  - text: "Baños de Agua Santa have many tourist attractions, classified as: bridges, swings, extreme, waterfalls, zoo, gastronomy, parks, viewpoints, swimming pools, museum and free of charge."
+  - text: "Baños de Agua Santa have many tourist attractions, classified as: REMEMBER the values are approximate."
     buttons:
     - title: "bridges"
       payload: "bridges"

@@ -1100,7 +1100,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Sacha 360º Mirador & Café",
                         "subtitle": "Precio: $2",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/319631363_6170749956291448_5480702493938879090_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFwL8i9cFodQQWJEzdrn3ndJizhHkBeG9wmLOEeQF4b3EE6vjFZHTbvwPBmfIoO9T7glGO2VyXTQ4olCtxrMYu8&_nc_ohc=8ZHwicL8ks4AX-Knwk2&_nc_ht=scontent.fatf4-1.fna&oh=00_AfDPwIQozhcV3dx7EtuAoqtuB704qi7Om7zTthaERtOqFw&oe=63A8F95B",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipP-AxU9wTNJvSp3dMDG15KzEFm7kvKoMhg0YLCQ=s680-w680-h510",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",

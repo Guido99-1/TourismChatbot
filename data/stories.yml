@@ -157,14 +157,15 @@ stories:
 
 - story: preciopachamama
   steps: 
-  - action: utter_inicio
-  - intent: greet
+
   - action: utter_greet
+  - action: utter_inicio
   - intent: medios_trasporte
   - action: medios_trasportes
 
 - story: mensaje de inicio
   steps: 
+  - intent: greet
   - action: utter_inicio
 
 - story: horarios
@@ -180,9 +181,9 @@ stories:
 
 - story: horarios
   steps: 
-  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
+  - action: utter_inicio
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
   - intent: sincosto
@@ -347,7 +348,6 @@ stories:
 
 - story: lugares_por_visitar_tres
   steps:  
-  - action: utter_inicio
   - intent: atractivos
   - action: utter_ask_atractivos
   - intent: miradores
@@ -778,7 +778,6 @@ stories:
 
 - story: tematicos
   steps:  
-  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
@@ -927,9 +926,9 @@ stories:
 
 - story: miradores
   steps: 
-  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
+  - action: utter_inicio
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
   - intent: miradores
@@ -1179,9 +1178,9 @@ stories:
 
 - story: torre 
   steps: 
-  - action: utter_inicio
   - intent: greet #saludo
   - action: utter_greet # saludo
+  - action: utter_inicio
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
   - intent: Torre_cristal
