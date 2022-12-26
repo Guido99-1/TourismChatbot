@@ -1200,14 +1200,26 @@ stories:
   - intent: precio_Torre_cristal
   - action: utter_precio_torre
 
-- story: pies_ingles
+- story: manos_dios_en
   steps: 
   - intent: saludo
   - action: utter_saludo
   - intent: tree_house
   - action: utter_tree_house
 
-- story: pies_ingles_dos
+- story: manos_dios_en_dos
   steps: 
   - intent: tree_house
   - action: utter_tree_house
+
+- story: pies_viewpoint
+  steps: 
+  - intent: saludo
+  - action: utter_saludo
+  - intent: The_god_feet
+  - action: utter_piesDios_Ingles
+
+- story: pies_viewpoint_dos
+  steps: 
+  - intent: The_god_feet
+  - action: utter_piesDios_Ingles

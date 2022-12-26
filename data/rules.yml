@@ -279,6 +279,11 @@ rules:
   - intent: punte_cristal_ingles
   - action: utter_mega_park_bridge
 
+- rule: pies de dios viewpoint
+  steps: 
+  - intent: The_god_feet
+  - action: utter_piesDios_Ingles
+
 - rule: parque de la familia free
   steps: 
   - intent: Family_park
@@ -343,10 +348,6 @@ rules:
   - intent: fantasias_volar_ingles
   - action: utter_fantasias_swing
 
-# - rule: casa del arbol swing
-#   steps: 
-#   - intent: tree_house
-#   - action: utter_tree_house
 
 - rule: vuelo del condor swing
   steps: 
