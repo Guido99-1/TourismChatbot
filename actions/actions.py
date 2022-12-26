@@ -1786,7 +1786,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Sacha 360º Mirador & Café",
                         "subtitle": "Precio: $2",
-                        "image_url": "https://www.google.com.ec/maps/place/Mirador+Bellavista/@-1.4000673,-78.4141538,17.74z/data=!4m5!3m4!1s0x91d3913c1d36eb8b:0x2c9e1347581728e7!8m2!3d-1.3998779!4d-78.4145889?hl=es",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipP-GGFUDcPJbOtidJP0ONQmwPDMQc2cBZTjZ3EJ=s680-w680-h510",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -2587,7 +2587,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Sacha 360º Mirador & Café",
                         "subtitle": "Price: $2",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/319631363_6170749956291448_5480702493938879090_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFwL8i9cFodQQWJEzdrn3ndJizhHkBeG9wmLOEeQF4b3EE6vjFZHTbvwPBmfIoO9T7glGO2VyXTQ4olCtxrMYu8&_nc_ohc=yDeKXHc8LZoAX8phTSt&_nc_ht=scontent.fatf4-1.fna&oh=00_AfCZSy0RBruyBAbrsEcHpnxD47OvlpEOGFJ8I_aovFzArA&oe=63A30A9B",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipP-GGFUDcPJbOtidJP0ONQmwPDMQc2cBZTjZ3EJ=s680-w680-h510",
                         "buttons": [ 
                             {
                             "title": "Get directions",
