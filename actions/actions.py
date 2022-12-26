@@ -1769,7 +1769,7 @@ class ActionCarousel(Action):
                     {
                         "title": "La Torre Shaya",
                         "subtitle": "Ingreso: $0",
-                        "image_url": "https://thumbs.dreamstime.com/b/torre-en-banos-ecuador-110690957.jpg",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipPCZnHHfQyeif77y7wK2vnUBmSEI2bsEAse1GmQ=s680-w680-h510",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",

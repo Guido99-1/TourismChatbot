@@ -278,11 +278,6 @@ rules:
   - intent: punte_cristal_ingles
   - action: utter_mega_park_bridge
 
-- rule: pies de dios viewpoint
-  steps: 
-  - intent: The_god_feet
-  - action: utter_piesDios_Ingles
-
 - rule: parque de la familia free
   steps: 
   - intent: Family_park
