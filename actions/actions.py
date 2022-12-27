@@ -1767,8 +1767,8 @@ class ActionCarousel(Action):
                 "template_type": "generic",
                 "elements": [
                     {
-                        "title": "La Torre Shaya",
-                        "subtitle": "Ingreso: $0",
+                        "title": "La Torre de cristal",
+                        "subtitle": "Precio: $2.50 adultos y $1.50 niños",
                         "image_url": "https://lh3.googleusercontent.com/p/AF1QipPCZnHHfQyeif77y7wK2vnUBmSEI2bsEAse1GmQ=s680-w680-h510",
                         "buttons": [ 
                             {
@@ -1843,7 +1843,7 @@ class ActionCarousel(Action):
                 ]
                 }
         }
-        dispatcher.utter_message(text="Lista de los nuevos atractivos de la cuidad",attachment=new_carousel)
+        dispatcher.utter_message(text="Lista de los nuevos atractivos de la ciudad",attachment=new_carousel)
         return []
 # chivas
 class ActionCarousel(Action):
@@ -3425,7 +3425,7 @@ class ActionCarousel(Action):
                         "image_url": "https://i.pinimg.com/originals/17/f2/c4/17f2c40b4f48b539cd9385f704443bed.jpg",
                         "buttons": [ 
                             {
-                            "title": "Get informations",
+                            "title": "Get directions",
                             "url": "https://www.google.com.ec/maps/place/Termas+de+la+Virgen/@-1.3982652,-78.4202581,17z/data=!4m5!3m4!1s0x91d39122c52c61fd:0xfaa0f21baa970208!8m2!3d-1.3987719!4d-78.4175783?hl=es",
                             "type": "web_url"
                             },
@@ -3442,7 +3442,7 @@ class ActionCarousel(Action):
                         "image_url": "https://img.goraymi.com/2018/11/15/e5bc0af5084578b889a30f0cf7e16896_xl.jpg",
                         "buttons": [ 
                             {
-                            "title": "Get informations",
+                            "title": "Get directions",
                             "url": "https://www.google.com.ec/maps/place/Piscinas+Termas+De+La+Virgen+-+Ba%C3%B1os+Ecuador/@-1.3982652,-78.4202581,17z/data=!4m5!3m4!1s0x0:0x4c067c5ae04d1cd4!8m2!3d-1.3981689!4d-78.4185118?hl=es&shorturl=1&shorturl=1",
                             "type": "web_url"
                             },
@@ -3459,7 +3459,7 @@ class ActionCarousel(Action):
                         "image_url": "https://img.goraymi.com/2018/11/15/974392d06c3f723d04e88225e08b35c1_lg.jpg",
                         "buttons": [ 
                             {
-                            "title": "Get informations",
+                            "title": "Get directions",
                             "url": "https://www.google.com.ec/maps/place/Balneario+Santa+Clara+(El+Cangrejo)/@-1.3979118,-78.4213715,17z/data=!4m5!3m4!1s0x0:0x5103de56b1fb15b6!8m2!3d-1.4006486!4d-78.4193153?hl=es",
                             "type": "web_url"
                             },
@@ -3476,13 +3476,13 @@ class ActionCarousel(Action):
                         "image_url": "https://images.squarespace-cdn.com/content/v1/5d23b57617786c0001fcbeda/1572902830025-QDYPG9EQJPRM0XAJ5PS4/Termas%2BEl%2BSalado%2BBanos%2B2.jpg",
                         "buttons": [ 
                             {
-                            "title": "Cómo llegar",
+                            "title": "Get directions",
                             "url": "https://www.google.com.ec/maps/place/Balneario+El+Salado/@-1.402449,-78.436153,16z/data=!4m5!3m4!1s0x91d390d82c079589:0x3a89a5ac6ad94ee6!8m2!3d-1.4045738!4d-78.4323045?hl=es",
                             "type": "web_url"
                             },
                             {
-                            "title": "Más información",
-                            "payload": "piscinas el salado ",
+                            "title": "About",
+                            "payload": "El Salado thermal pools",
                             "type": "postback"
                             }
                         ]
@@ -3493,13 +3493,13 @@ class ActionCarousel(Action):
                         "image_url": "https://img.goraymi.com/2018/11/15/d2de0f2f75de9f27db3d115f912eb2d1_xl.jpg",
                         "buttons": [ 
                             {
-                            "title": "Cómo llegar",
+                            "title": "Get directions",
                             "url": "https://www.google.com.ec/maps/place/Complejo+Santa+Ana/@-1.3955988,-78.4113088,17z/data=!4m5!3m4!1s0x91d3913fd7090945:0xa536512b9305557!8m2!3d-1.3953593!4d-78.4092785?hl=es",
                             "type": "web_url"
                             },
                             {
-                            "title": "Más información",
-                            "payload": "piscinas santa ana",
+                            "title": "About",
+                            "payload": "santa ana swimming pools",
                             "type": "postback"
                             }
                         ]

@@ -1217,7 +1217,7 @@ responses:
       payload: "extreme"
       type: "postback"
     - title: "Swimming pools"
-      payload: "extreme"
+      payload: "swimming pools"
       type: "postback"
     - title: "Waterfalls"
       payload: "Waterfalls"
