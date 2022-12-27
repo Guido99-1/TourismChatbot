@@ -1,6 +1,14 @@
 version: "2.0"
 nlu:
+
 - intent: greet
+  examples: |
+    - inicio 
+    - arranque 
+    - pricipio 
+    - home 
+
+- intent: sal_inicial
   examples: |
     - hey
     - hola

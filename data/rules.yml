@@ -2,6 +2,11 @@ version: "2.0"
 
 rules:
 
+- rule: home
+  steps:
+  - intent: greet
+  - action: utter_inicio
+
 - rule: goodbye
   steps:
   - intent: goodbye

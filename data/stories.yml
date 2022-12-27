@@ -4,7 +4,7 @@ stories:
 
 - story: happy path
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -19,7 +19,7 @@ stories:
 
 - story: sad
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -50,7 +50,7 @@ stories:
   steps:
   - intent: principales_famosos
   - action: action_list
-  - intent: greet
+  - intent: sal_inicial
   - action: utter_greet
   - intent: pachamama_horario
   - action: utter_horario_pachamama
@@ -86,7 +86,7 @@ stories:
 
 - story: principales
   steps:
-  - intent: greet
+  - intent: sal_inicial
   - action: utter_greet
   - intent: punte_cristal
   - action: utter_Mega_Adventure_Park_rio_Blanco
@@ -106,7 +106,7 @@ stories:
 
 - story: precios
   steps:
-  - intent: greet
+  - intent: sal_inicial
   - action: utter_greet
   - intent: precio_dios
   - action: utter_precio_manos_dios
@@ -129,7 +129,7 @@ stories:
 - story: preciosPopulares
   steps: 
   
-  - intent: greet
+  - intent: sal_inicial
   - action: utter_greet
   - intent: inicio_mega_park
   - action: utter_inicio_puenterioblanco
@@ -144,7 +144,7 @@ stories:
 
 - story: preciopachamama
   steps: 
-  - intent: greet
+  - intent: sal_inicial
   - action: utter_greet
   - intent: valor_pachamama
   - action: utter_precio_pachamama
@@ -157,20 +157,12 @@ stories:
 
 - story: preciopachamama
   steps: 
-
-  - action: utter_greet
-  - action: utter_inicio
   - intent: medios_trasporte
   - action: medios_trasportes
 
-- story: mensaje de inicio
-  steps: 
-  - intent: greet
-  - action: utter_inicio
-
 - story: horarios
   steps:
-  - intent: greet
+  - intent: sal_inicial
   - action: utter_greet
   - intent: pachamama_horario
   - action: utter_horario_pachamama
@@ -181,9 +173,8 @@ stories:
 
 - story: horarios
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
-  - action: utter_inicio
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
   - intent: sincosto
@@ -211,7 +202,7 @@ stories:
 
 - story: senderos_dos
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -246,7 +237,7 @@ stories:
 
 - story: alquiler
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -259,7 +250,7 @@ stories:
 
 - story: alquiler_dos
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -272,7 +263,7 @@ stories:
 
 - story: atractivos
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -281,7 +272,7 @@ stories:
 
 - story: atractivos_dos
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -326,7 +317,7 @@ stories:
 
 - story: lugares_por_visitar
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -337,7 +328,7 @@ stories:
 
 - story: lugares_por_visitar_dos
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -364,7 +355,7 @@ stories:
 
 - story: lugares_por_visitar_cinco
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -375,7 +366,7 @@ stories:
 
 - story: lugares_por_visitar_seis
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -497,7 +488,7 @@ stories:
 
 - story: actividades_tres
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -533,7 +524,7 @@ stories:
 
 - story: cascadas_dos
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -576,7 +567,7 @@ stories:
 
 - story: cascadas_seis
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso  
@@ -598,7 +589,7 @@ stories:
 
 - story: zoologicos
   steps:
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso  
@@ -642,7 +633,7 @@ stories:
 
 - story: atractivos_tres
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso  
@@ -671,7 +662,7 @@ stories:
 
 - story: atractivos_dies
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -685,7 +676,7 @@ stories:
 
 - story: atractivos_doce
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -769,7 +760,7 @@ stories:
 
 - story: museo_dos
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -778,7 +769,7 @@ stories:
 
 - story: tematicos
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -809,7 +800,7 @@ stories:
  
 - story: tematicos
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -822,7 +813,7 @@ stories:
 
 - story: tematicos:dos
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -851,7 +842,7 @@ stories:
 
 - story: tematicos:cuatro
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -864,7 +855,7 @@ stories:
 
 - story: tematicos:cisco
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -877,7 +868,7 @@ stories:
 
 - story: tematicos:seis
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_unhappy # respuesta como esta
   - action: utter_cheer_up # grandioso
@@ -926,9 +917,8 @@ stories:
 
 - story: miradores
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
-  - action: utter_inicio
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
   - intent: miradores
@@ -1024,7 +1014,7 @@ stories:
 
 - story: lugares_sinCosto
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1071,7 +1061,7 @@ stories:
 
 - story: mapa
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1085,7 +1075,7 @@ stories:
 
 - story: clima
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1099,7 +1089,7 @@ stories:
 
 - story: cajeros
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1113,7 +1103,7 @@ stories:
 
 - story: denuncias
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1127,7 +1117,7 @@ stories:
 
 - story: denuncias
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1141,7 +1131,7 @@ stories:
 
 - story: recomendaciones
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1155,7 +1145,7 @@ stories:
 
 - story: buses
   steps:  
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1169,7 +1159,7 @@ stories:
 
 - story: centro 
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
@@ -1178,9 +1168,8 @@ stories:
 
 - story: torre 
   steps: 
-  - intent: greet #saludo
+  - intent: sal_inicial #saludo
   - action: utter_greet # saludo
-  - action: utter_inicio
   - intent: mood_great # respuesta como esta
   - action: utter_happy # grandioso
   - intent: Torre_cristal
