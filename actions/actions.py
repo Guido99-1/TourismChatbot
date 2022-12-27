@@ -1078,7 +1078,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Los Pies de Dios",
                         "subtitle": "Precio: $2",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/281362098_156223570268463_3917025565137347655_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeGZet7D-vEelFU4AyAj6lItzi2i-NNJGYbOLaL400kZhgE2kwsPhGNDqZ4kevRXlm_o6C7dbUOkikvMkMONPSnl&_nc_ohc=NJiIUFELRKkAX-4Ywn1&_nc_ht=scontent.fatf4-1.fna&oh=00_AfCSskVjIQ9wb9zPioIE0nICWBBkpDlI8CtFlNqrZJtkiA&oe=63A37E74",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipNt6PT8_hsKRx64GrWmlmJBjC6pjtW7XBZieP31=w768-h768-n-o-v1",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
