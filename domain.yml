@@ -498,7 +498,7 @@ actions:
 responses:
 
   utter_inicio:
-  - text: "Opten información de los atractivos de Baños de Agua Santa. RECUERDA los valores son aproximados"
+  - text: "Opten información de los diferentes atractivos turísticos de Baños de Agua Santa. RECUERDA los valores son aproximados"
     buttons:
     - title: "Información de atractivos"
       payload: "informacion"
