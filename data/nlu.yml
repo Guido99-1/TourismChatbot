@@ -32,15 +32,14 @@ nlu:
     - good evening
     - good evening
     - let's go
-    - how are you
     - hi
     - hello bot
     - hello friend
-    - howdy
 
 - intent: goodbye
   examples: |
     - adiós
+    - adios
     - que tengas un buen día
     - nos vemos
     - hasta luego
@@ -53,6 +52,7 @@ nlu:
     - see you later
     - see you later
     - bye
+    - by
 
 - intent: clima 
   examples: |
@@ -182,6 +182,9 @@ nlu:
     - eres un humano
     - estoy hablando con un bot
     - estoy hablando con un humano
+    - que eres?
+    - quien eres
+    - eres una persona 
 
 - intent: que_eres
   examples: |
@@ -198,6 +201,8 @@ nlu:
     - I am talking to a bot
     - I am talking to a human
     - What are you?
+    - who you are
+    - you are a person 
 
 - intent: atractivos
   examples: |
@@ -218,6 +223,7 @@ nlu:
     - atractivos turisticos
     - necesito información 
     - informacion 
+    - infromación
     - información 
     - busco información 
     - estoy buscando información 
@@ -428,6 +434,7 @@ nlu:
     - manos de dios 
     - manos dios
     - Manos de Dios
+    - como llegar a las manos de dios
 
 - intent: precio_dios
   examples: |
@@ -457,6 +464,7 @@ nlu:
     - Más información manos de la Pachamama
     - Pachamama
     - manos pachamama
+    - como llegar a las manos de la pachamama
 
 - intent: valor_pachamama
   examples: |
@@ -485,6 +493,7 @@ nlu:
     - punte cristal rios blanco
     - mega park rio blanco 
     - Más información puente de cristal
+    - como llegar al puente de cristal
 
 - intent: tarifa_Precio_Mega_adventure_Park
   examples: |
@@ -528,6 +537,8 @@ nlu:
     - atractivo fantasias de volar
     - lugar fantasias de volar
     - columpio fantasías de volar
+    - como llegar al culumpio fantasias de volar
+    - como llegar fantasias de volar
 
 - intent: cuesta_columpio_fantasías_Volar
   examples: |
@@ -559,6 +570,8 @@ nlu:
     - columpio casa del arbol
     - casa albol
     - la casa en el arbol
+    - como llegar a la casa del arbol
+    - como llegar casa del arbol
 
 - intent: valor_casa_arbol
   examples: |
@@ -590,6 +603,8 @@ nlu:
     - lugar vuelo del condor
     - columpio vuelo del cóndor
     - el vuelo del condor
+    - como llegar al vuelo del condor
+    - como llegar vuelo del condor
 
 - intent: entrada_vuelodelcondor
   examples: |
@@ -623,6 +638,8 @@ nlu:
     - lugar columpio extremo el abismo del diablo
     - columpio extremo del diablo
     - el abismo extremo del diablo
+    - como llegar al columpio el abismo del diablo
+    - como llegar al abismo del diablo
 
 - intent: entrada_abismo
   examples: |
@@ -784,6 +801,8 @@ nlu:
     - atractivo el manto de la novia
     - lugar cascada manto de la novia
     - la cascada el manto de la novia
+    - como llegar al manto de la novia 
+    - direccion manto de la novia
 
 - intent: precios_manto_novia
   examples: |
@@ -803,6 +822,9 @@ nlu:
     - atractivo la cascada de agoyan
     - lugar cascada de agoyan
     - la cascada de agoyan
+    - como llegar a la cascada de agoyan
+    - como llegar cascada de agoyan
+    - direccion de la cascada de agoyan
 
 - intent: valores_cascada_del_agoyan
   examples: |
@@ -823,6 +845,9 @@ nlu:
     - atractivo el el pailon del diablo
     - lugar el pailon del diablo
     - el pailon del diablo
+    - como llegar al pailon del diablo 
+    - como llegar pailon del diablo
+    - direccion del pailon del diablo
 
 - intent: entrada_pailon_deldiablo
   examples: |
@@ -856,6 +881,9 @@ nlu:
     - atractivo la cascada de la virgen
     - lugar la cascada de la virgen
     - la cascada de la virgen
+    - como llegar a la cascada de la virgen 
+    - como llegar cascada de la virgen
+    - direccion de la cascada de la virgen
 
 - intent: precios_cascada_virgen
   examples: |
@@ -878,6 +906,9 @@ nlu:
     - en cascada de ines maría
     - atractivo la cascada de ines maría
     - lugar la cascada de ines maría
+    - direccion de la cascada ines maria 
+    - como llegar a la cascada ines maria
+    - como llegar cascada ines maria
 
 - intent: tarifas_inesmaria
   examples: |
@@ -901,6 +932,9 @@ nlu:
     - san antonio
     - atractivo la cascada de san antonio
     - lugar la cascada de san antonio
+    - como llegar a la cascada san antonio
+    - como llegar cascada san antonio
+    - direcion de la cascada san antonio
 
 - intent: precio_antonio
   examples: |
@@ -924,6 +958,9 @@ nlu:
     - chamana
     - atractivo la cascada de chamana
     - lugar cascada de chamana
+    - como llegar a la cascada san antonio
+    - como llegar cascada san antonio
+    - direccion de la cascada san antonio
 
 - intent: valor_cascada_chamana
   examples: |
@@ -947,6 +984,9 @@ nlu:
     - lugar zoologico san martin
     - El zoologico san martin
     - zoologico san martin
+    - como llegar al zoologico san martin
+    - como llegar zoologico san martin
+    - direccion del zoologico san martin
 
 - intent: precios_san_martin
   examples: |
@@ -983,6 +1023,13 @@ nlu:
     - sitio zoologico vida exotica 
     - zoologico vida exotica 
     - vida exotica 
+    - como llegar al zoologico vida exotica 
+    - serpentario 
+    - como llegar al sepentario 
+    - como llegar al zoologico vida exotica san martin
+    - direccion del zoologico vida exotica 
+    - direccion del serpentario 
+    - direccion del zoologico vida exotica san martin
 
 - intent: precios_vida_exotica 
   examples: |
@@ -1018,6 +1065,9 @@ nlu:
     - la fabrica de chocolate
     - fabrica de chocolate
     - fabrica 
+    - direccion de la fabrica de chocolate 
+    - como llegar a la fabrica de chocolate
+    - como llegar fabrica de chocolate
 
 - intent: precios_fabrica
   examples: |
@@ -1050,6 +1100,10 @@ nlu:
     - piscinas de la virgen baños
     - lugar piscinas de la virgen
     - piscina de la virgen
+    - direccion de las piscinas de la virgen
+    - dirección piscinas de la virgen
+    - como llegar a las pisicnas de la virgen
+    - como llergar piscinas de la virgen
 
 - intent: precios_Piscina_Virgen
   examples: |
@@ -1085,6 +1139,10 @@ nlu:
     - piscinas de las termas de la virgen
     - lugar de termas de la virgen
     - piscina de las termas de la virgen
+    - direccion de las termas de la virgen
+    - dirección termas de la virgen
+    - como llegar a las termas de la virgen
+    - como llergar termas de la virgen
 
 - intent: precio_Termas_dela_virgen
   examples: |
@@ -1096,7 +1154,7 @@ nlu:
     - valor de las termas de la virgen
     - cuanto cuenta por persona entrar a la termas de la virgen
     - termas de la virgen valor
-    - ptermas de la virgen precios
+    - termas de la virgen precios
     - termas de la virgen tarifas
 
 - intent: horarios_Termas_dela_virgen
@@ -1118,6 +1176,10 @@ nlu:
     - piscinas de Santa Clara
     - piscinas de las piscinas de santa clara
     - lugar de piscinas de santa clara
+    - direccion de las piscinas de santa clara
+    - dirección piscinas de santa clara
+    - como llegar a las piscinas de santa clara
+    - como llergar piscinas de santa clara
 
 - intent: precio_Santa_Clara
   examples: |
@@ -1156,6 +1218,10 @@ nlu:
     - informacion de las piscinas del salado 
     - conocer piscinas el salado
     - saber de las piscinas el salado
+    - direccion de las piscinas del salado 
+    - dirección piscinas del salado 
+    - como llegar a las piscinas del salado 
+    - como llergar piscinas del salado 
 
 - intent: precio_El_Salado
   examples: |
@@ -1193,6 +1259,10 @@ nlu:
     - informacion de las piscinas de santa ana 
     - conocer piscinas de Santa Ana
     - saber de las piscinas de santa ana
+    - direccion de las piscinas de Santa Ana
+    - dirección piscinas de Santa Ana
+    - como llegar a las piscinas de Santa Ana
+    - como llergar piscinas de Santa Ana
 
 - intent: precio_Piscinas_Santa_Ana
   examples: |
@@ -1230,6 +1300,10 @@ nlu:
     - informacion museo fray enrique mideros
     - conocer el museo fray enrique mideros
     - saber del museo fray enrique mideros
+    - direccion del museo fray enrique mideros
+    - dirección museo fray enrique mideros
+    - como llegar al museo fray enrique mideros
+    - como llergar museo fray enrique mideros
 
 - intent: precio_Museo_Fray_Enrique_Mideros
   examples: |
@@ -1272,6 +1346,10 @@ nlu:
     - conocer el bosque encandado
     - bosque 
     - encandado
+    - direccion del bosque encandado
+    - dirección bosque encandado
+    - como llegar al bosque encandado
+    - como llergar bosque encandado
 
 - intent: precios_bosque_encantado
   examples: |
@@ -1314,6 +1392,10 @@ nlu:
     - conocer animal park
     - animal 
     - park
+    - direccion de animal park
+    - dirección animal park
+    - como llegar a animal park
+    - como llergar animal park
 
 - intent: precio_animal_park
   examples: |
@@ -1353,6 +1435,10 @@ nlu:
     - saber de discovery baños
     - conocer discovery baños
     - discovery 
+    - direccion de discovery baños
+    - dirección discovery baños
+    - como llegar a discovery baños
+    - como llergar discovery baños
 
 - intent: precio_discovery_baños
   examples: |
@@ -1392,6 +1478,10 @@ nlu:
     - saber del parque de aventuras de san martin 
     - conocer el parque de aventuras de san martin 
     - parque de aventuras
+    - direccion del parque de aventuras de san martin 
+    - dirección parque de aventuras de san martin 
+    - como llegar al parque de aventuras de san martin 
+    - como llergar parque de aventuras de san martin 
 
 - intent: precio_parque_aventuras_San_Martín 
   examples: |
@@ -1434,6 +1524,10 @@ nlu:
     - saber de parque de dinosaurios
     - conocer parque de dinosaurios
     - dinosaurios
+    - direccion de dinosaurios park
+    - dirección dinosaurios park
+    - como llegar a dinosaurios park
+    - como llergar dinosaurios park
 
 - intent: precio_Dinosaurios_Park
   examples: |
@@ -1474,6 +1568,10 @@ nlu:
     - conocer mas de our mundo adventure
     - saber de pueblos del mundo
     - conocer parque our mundo adventure
+    - direccion de pueblos del mundo
+    - dirección pueblos del mundo
+    - como llegar a pueblos del mundo
+    - como llergar pueblos del mundo
 
 - intent: precios_our_mundo_adventure
   examples: |
@@ -1529,6 +1627,10 @@ nlu:
     - conocer mas de PiQchur
     - saber de piQchur
     - conocer PiQchur
+    - direccion del parque fotográfico PiQchur
+    - dirección PiQchur
+    - como llegar al parque fotográfico PiQchur
+    - como llergar a PiQchur
 
 - intent: precioPiQchur
   examples: |
@@ -1588,7 +1690,11 @@ nlu:
     - aldea mágica
     - aldea
     - La Aldea
-    
+    - direccion de la aldea magica
+    - dirección aldea magica
+    - como llegar a la aldea magica
+    - como llergar aldea magica
+
 - intent: precio_Aldea_Magica
   examples: |
     - Precio de la aldea mágica
@@ -1629,7 +1735,11 @@ nlu:
     - Trollmountain
     - cine al aire libre
     - cine
-    
+    - direccion de Troll mountain
+    - dirección troll mountain
+    - como llegar a Troll mountain
+    - como llergar troll mountain
+
 - intent: precioTroll_Mountain
   examples: |
     - Precio de Troll mountain
@@ -1672,7 +1782,11 @@ nlu:
     - conocer mas de las cavernas Sigsi Huayco
     - saber de las cavernas sigsi huayco
     - conocer las cavernas Sigsi Huayco
-    
+    - direccion de las cavernas sigsi huayco
+    - dirección cavernas sigsi huayco
+    - como llegar a las cavernas sigsi huayco
+    - como llergar cavernas sigsi huayco
+
 - intent: precioCavernas_Sigsi_Huayco
   examples: |
     - Precio de las cavernas Sigsi Huayco
@@ -1714,7 +1828,11 @@ nlu:
     - conocer mas de los pies de dios
     - saber de los pies de Dios
     - conocer los pies de dios
-    
+    - direccion de los pies de Dios
+    - dirección pies de Dios
+    - como llegar a los pies de Dios
+    - como llergar pies de Dios
+
 - intent: precio_Los_pies_dios 
   examples: |
     - Precio de los pies de Dios 
@@ -1754,7 +1872,11 @@ nlu:
     - conocer mas de sacha 360 
     - saber de Sacha 360 
     - conocer sacha 360 
-    
+    - direccion del mirador sacha 360 
+    - dirección sacha 360 
+    - como llegar al mirador sacha 360 
+    - como llergar a sacha 360 
+
 - intent: precioSacha_360 
   examples: |
     - Precio de sacha 360 
@@ -1793,7 +1915,11 @@ nlu:
     - conocer mas del mirador Bellavista
     - saber del mirador Bellavista
     - conocer mirador Bellavista 
-    
+    - direccion del mirador Bellavista
+    - dirección mirador Bellavista
+    - como llegar al mirador Bellavista
+    - como llergar a Bellavista    
+
 - intent: precio_mirador_Bellavista
   examples: |
     - Precio del mirador Bellavista
@@ -1833,7 +1959,10 @@ nlu:
     - conocer mas cafe giratorio
     - saber del cafe giratorio
     - conocer café giratorio
-    
+    - direccion del café giratorio
+    - dirección café giratorio
+    - como llegar al café giratorio
+
 - intent: Giratorio_precio 
   examples: |
     - Precio del mirador cafe giratorio
@@ -1872,7 +2001,11 @@ nlu:
     - conocer beso de la luna 
     - saber del mirador beso de la luna 
     - conocer beso de la luna 
-    
+    - direccion del mirador beso de la luna 
+    - dirección beso de la luna 
+    - como llegar al mirador beso de la luna 
+    - como llergar al beso de la luna 
+
 - intent: beso_de_la_luna_precio 
   examples: |
     - Precio del mirador beso de la luna 
@@ -1916,7 +2049,11 @@ nlu:
     - conocer mirador los ojos de volcán nido del águila
     - saber del mirador los ojos de volcán nido del águila 
     - conocer los ojos de volcán nido del águila
-    
+    - direccion del mirador los ojos de volcán nido del águila
+    - dirección del mirador los ojos de volcán
+    - como llegar al mirador los ojos de volcán nido del águila
+    - como llergar al mirador los ojos de volcán
+
 - intent: Los_ojos_volcán_precio 
   examples: |
     - Precio del mirador los ojos de volcán nido del águila
@@ -1957,7 +2094,11 @@ nlu:
     - conocer el ventanal de kong
     - saber del mirador el ventanal de kong
     - conocer el ventanal de kong
-    
+    - direccion del ventanal de kong
+    - dirección ventanal de kong
+    - como llegar al ventanal de kong
+    - como llergar ventanal de kong
+
 - intent: precio_El_Ventanal_Kong
   examples: |
     - Precio del mirador el ventanal de kong
@@ -1997,7 +2138,11 @@ nlu:
     - conocer el cristo Redentor
     - saber del mirador el cristo Redentor
     - conocer el cristo redentor
-    
+    - direccion del mirador cristo Redentor
+    - dirección mirador cristo Redentor
+    - como llegar al mirador cristo Redentor
+    - como llergar mirador cristo Redentor
+
 - intent: precio_Cristo_Redentor
   examples: |
     - Precio del mirador cristo redentor
@@ -2036,7 +2181,11 @@ nlu:
     - conocer la torre de cristal
     - saber de la torre de cristal
     - la torre de cristal
-    
+    - direccion la torre de cristal 
+    - dirección torre de cristal 
+    - como llegar a la torre de cristal 
+    - como llergar torre de cristal 
+
 - intent: precio_Torre_cristal
   examples: |
     - Precio de la torre de cristal
@@ -2071,7 +2220,11 @@ nlu:
     - conocer el parque de la familia 
     - saber del parque de la familia 
     - conocer el parque de la familia 
-    
+    - direccion el parque de la familia 
+    - dirección parque de la familia 
+    - como llegar al parque de la familia 
+    - como llergar parque de la familia 
+
 - intent: precio_Parque_familia
   examples: |
     - Precio del parque de la familia 
@@ -2119,7 +2272,11 @@ nlu:
     - conocer el Santuario de la Virgen
     - saber del Santuario de la Virgen
     - conocer el Santuario de la Virgen
-    
+    - direccion de la iglesia de baños
+    - dirección iglesia de baños
+    - como llegar a la iglesia de baños
+    - como llergar iglesia de baños
+
 - intent: precio_iglesia_baños
   examples: |
     - Precio de la iglesia
@@ -2148,7 +2305,11 @@ nlu:
     - conocer el balneario zuñag
     - saber del balneario zuñag
     - conocer el balneario zuñag
-    
+    - direccion del balneario zuñag
+    - dirección balneario zuñag
+    - como llegar al balneario zuñag
+    - como llergar balneario zuñag
+
 - intent: precio_Balneario_Zuñag
   examples: |
     - Precio del balneario zuñag
@@ -2172,7 +2333,11 @@ nlu:
     - conocer el malecón de río verde
     - saber del malecón de río verde
     - conocer el malecón de río verde
-    
+    - direccion del malecón de río verde
+    - dirección malecón de río verde
+    - como llegar al malecón de río verde
+    - como llergar malecón de río verde
+
 - intent: precios_malecon_rioVerde
   examples: |
     - Precio del malecón de río verde
@@ -2292,11 +2457,20 @@ nlu:
     - ir al sendero de Bellavista
     - mas inforación sendero Bellavista
     - necesito inforación sendero Bellavista
+    - direccion del sendero Bellavista
+    - dirección sendero Bellavista
+    - como llegar al sendero Bellavista
+    - como llergar sendero Bellavista
+    - direccion del camino a Bellavista
+    - dirección camino a Bellavista
+    - como llegar al camino a Bellavista
+    - como llergar camino a Bellavista     
 
 - intent: info_pondoa
   examples: |
     - inforación sendero pondoa
     - sendero pondoa
+    - sendero a pondoa
     - camino a pondoa
     - ruta a pondoa
     - como llegar a pondoa 
@@ -2306,6 +2480,14 @@ nlu:
     - ir al sendero de Pondoa
     - mas inforación sendero pondoa
     - necesito inforación sendero pondoa
+    - direccion del sendero a pondoa
+    - dirección sendero a pondoa
+    - como llegar al sendero de pondoa
+    - como llergar sendero a pondoa
+    - direccion del camino a pondoa
+    - dirección camino a pondoa
+    - como llegar al camino a pondoa
+    - como llergar camino a pondoa
 
 - intent: mirador_virgen
   examples: |
@@ -2322,6 +2504,10 @@ nlu:
     - más información del mirador de la virgen
     - necesito información del sendero de la virgen
     - mas información del camino de la virgen
+    - direccion camino hacia la virgen
+    - dirección hacia la virgen
+    - como llegar al camino hacia la virgen
+    - como llergar hacia la virgen
 
 - intent: los_sauces
   examples: |
@@ -2343,6 +2529,10 @@ nlu:
     - más información del sendero de los sauces
     - necesito información del sendero de los sauces
     - mas información del camino de los sauces
+    - direccion del camino de los sauces
+    - dirección de la ruta los sauces
+    - como llegar al camino de los sauces
+    - como llergar ruta los sauces
 
 - intent: ruta_lunavolcan
   examples: |
@@ -2375,6 +2565,10 @@ nlu:
     - más información del camino a la casa del arbol
     - necesito información del sendero de la casa del arbol
     - mas información del camino de la casa del arbol
+    - direccion del sendero a la casa del arbol
+    - dirección sendero a la casa del arbol
+    - como llegar sendero a la casa del arbol
+    - como llergar al sendero a la casa del arbol
 
 - intent: contabandistas
   examples: |
@@ -2389,21 +2583,25 @@ nlu:
     - caminata de los contabandistas
     - como llegar a la ruta de los contabandistas
     - ruta de los contabandistas inicio 
+    - direccion del camino de los contabandistas
+    - dirección de la ruta de los contabandistas
+    - como llegar al camino de los contabandistas
+    - como llergar a la ruta de los contabandistas
 
-# - intent: seguridad_banios
-#   examples: |
-#     - ¿Baños es seguro? 
-#     - seguridas
-#     - que tan seguro es baños
-#     - es seguro baños
-#     - es inseguro baños
-#     - hay inseguridas en baños 
-#     - seguridad
-#     - la seguridad
-#     - informacion de seguridad 
-#     - como maneja baños la seguridad 
-#     - informacion de seguridad 
-#     - como asegura baños al turista 
+- intent: seguridad_banios
+  examples: |
+    - ¿Baños es seguro? 
+    - seguridas
+    - que tan seguro es baños
+    - es seguro baños
+    - es inseguro baños
+    - hay inseguridas en baños 
+    - seguridad
+    - la seguridad
+    - informacion de seguridad 
+    - como maneja baños la seguridad 
+    - informacion de seguridad 
+    - como asegura baños al turista 
   
 - intent: cajeros_banios
   examples: |
@@ -2422,36 +2620,31 @@ nlu:
     - cajero
     - cajeros 
 
-# - intent: festividades_banios
-#   examples: |
-#     - ¿Calendarios festivos?
-#     - fechas de las festividades de baños
-#     - calendario de fiestas
-#     - calendario festivo 
-#     - eventos baños 
-#     - agenda de fiestas 
-#     - acividades por fiestas de baños
-#     - fechas de eventos en baños 
-#     - dias festivos 
-#     - fechas festivas 
-#     - actividades festivas 
-#     - fiestas 
-#     - fiestas baños
-#     - que hace baños para sus fiestas 
-#     - festiviades en baños
-#     - días de fiesta 
-#     - festejos baños 
-#     - dias festivos
-
-
-# - intent: tradiciones_banios
-#   examples: |
-#     - ¿Tradiciones entre los Baneños?  
-#     - tradiciones 
-#     - tradiciones de los baneños 
-#     - tipicas tradiciones 
-#     - costumbres
-    
+- intent: festividades_banios
+  examples: |
+    - ¿Calendarios festivos?
+    - fechas de las festividades de baños
+    - calendario de fiestas
+    - calendario festivo 
+    - eventos baños 
+    - agenda de fiestas 
+    - acividades por fiestas de baños
+    - fechas de eventos en baños 
+    - dias festivos 
+    - fechas festivas 
+    - actividades festivas 
+    - fiestas 
+    - fiestas baños
+    - que hace baños para sus fiestas 
+    - festiviades en baños
+    - días de fiesta 
+    - festejos baños 
+    - dias festivos
+    - ¿Tradiciones entre los Baneños?  
+    - tradiciones 
+    - tradiciones de los baneños 
+    - tipicas tradiciones 
+    - costumbres
 
 - intent: actividades_nocturnas
   examples: |
@@ -2572,6 +2765,8 @@ nlu:
     - I would like information 
     - I was looking for information
     - give me information 
+    - I would like information
+    - I wish information
 
 - intent: waterfall
   examples: |
@@ -4325,3 +4520,24 @@ nlu:
     - what to do at night
     - night bathing
     - night attractions
+
+- intent: error_understand
+  examples: |
+    - rhsthshsgh 
+    - gnnraj5uw54tjyt
+    - kursrehtbfsn
+    - coiybH87fye9V V
+    - oyvgR VYGDIV646 GDVI
+    - 791437YORYIEHFDK
+    - 847FGFUBTEAFEAGFBOHRAUIF
+    - DYUGBFGIGFIAT
+    - 2RJHFBIARFUORGIAHFNG
+    - GSRTNTSTSB
+    - thsgnstjyjdsrrtrgnsn
+    - tshsthgnbg ysnstbst
+    - uwi6i87idukhydtcrh
+    - tshthtsndgcy
+    - tshthcyhjyjdy
+    - sthgxhstys5tyt
+    - styh6yhcgnujfuyt
+    - tsyudytjhdtyghe65rtyg

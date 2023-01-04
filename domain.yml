@@ -1,6 +1,7 @@
 version: "2.0"
 
 intents:
+  - error_understand
   - sal_inicial
   - greet
   - goodbye
@@ -262,6 +263,8 @@ intents:
   - recommendations
   - bus_paths
   - night_activities
+  - seguridad_banios
+  - festividades_banios
 
 actions:
   - action_list
@@ -493,7 +496,9 @@ actions:
   - utter_horario_torre
   - utter_precio_torre
   - utter_inicio
-
+  - utter_error_understand
+  - utter_seguridad_banios
+  - utter_festividades_banios
 
 responses:
 
@@ -506,9 +511,14 @@ responses:
     - title: "Information about attractions"
       payload: "information"
       type: "postback"
-
+  utter_error_understand:
+  - text: "disculpa no entendí, I'm sorry, I don't understand"
+  utter_festividades_banios:
+  - text: "Baños de Agua Santa un cantón organizado para vivir sus tradiciones y celebraciones De manera general las celebraciones de mayor renombre en el cantón son: ENERO - Fiesta del Retorno, FEBRERO o MARZO - Carnaval, MAYO - Mes de Deportes de Aventura, AGOSTO - Mes de Las Artes y La Cultura, SEPTIEMBRE - Mes de Las Artes y La Cultura, OCTUBRE - Mes de Las Artes y La Cultura, DICIEMBRE - Mes de Las Artes y La Cultura"
   utter_greet:
   - text: "¡Hola! ¿Cómo estás?"
+  utter_seguridad_banios:
+  - text: "Baños de Agua Santa Destino Seguro” es la campaña que fomenta la contratación de servicios formales de operadoras turísticas, agencias de viaje, hospedaje, alimentos y bebidas, trasporte y servicios turísticos. De esta manera, el Ministerio de Turismo consolida a Baños de Agua Santa como un destino predilecto y seguro para los turista"
   utter_saludo:
   - text: "Hello! How are you doing?"
   utter_cheer_up:

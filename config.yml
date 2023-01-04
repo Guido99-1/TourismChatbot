@@ -2,7 +2,7 @@
 # https://rasa.com/docs/rasa/nlu/components/
 # recipe: defaukt.v1
 
-language: en
+language: es
 
 pipeline:
   - name: WhitespaceTokenizer
@@ -27,7 +27,7 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 5
+    max_history: 110
     epochs: 200
   - name: RulePolicy
 

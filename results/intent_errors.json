@@ -1,0 +1,154 @@
+[
+  {
+    "text": "how are you",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "que_eres",
+      "confidence": 0.35755306482315063
+    }
+  },
+  {
+    "text": "la casa en el arbol",
+    "intent": "casa_del_arbol",
+    "intent_prediction": {
+      "name": "sendero_casa_arbol",
+      "confidence": 0.38565510511398315
+    }
+  },
+  {
+    "text": "Columpio vuelo del condor",
+    "intent": "vuelo_del_condor",
+    "intent_prediction": {
+      "name": "condor_flight",
+      "confidence": 0.37538427114486694
+    }
+  },
+  {
+    "text": "vuelo del condor",
+    "intent": "vuelo_del_condor",
+    "intent_prediction": {
+      "name": "condor_flight",
+      "confidence": 0.48096799850463867
+    }
+  },
+  {
+    "text": "Vuelo del cóndor",
+    "intent": "vuelo_del_condor",
+    "intent_prediction": {
+      "name": "condor_flight",
+      "confidence": 0.41015711426734924
+    }
+  },
+  {
+    "text": "el vuelo del condor",
+    "intent": "vuelo_del_condor",
+    "intent_prediction": {
+      "name": "condor_flight",
+      "confidence": 0.45359233021736145
+    }
+  },
+  {
+    "text": "el pailon del diablo",
+    "intent": "el_pailon",
+    "intent_prediction": {
+      "name": "devil_pailon",
+      "confidence": 0.5222963690757751
+    }
+  },
+  {
+    "text": "atractivo el el pailon del diablo",
+    "intent": "el_pailon",
+    "intent_prediction": {
+      "name": "devil_pailon",
+      "confidence": 0.3615814447402954
+    }
+  },
+  {
+    "text": "lugar el pailon del diablo",
+    "intent": "el_pailon",
+    "intent_prediction": {
+      "name": "devil_pailon",
+      "confidence": 0.4001980125904083
+    }
+  },
+  {
+    "text": "zoo San Martin",
+    "intent": "zoo_san_martin",
+    "intent_prediction": {
+      "name": "zoo_san_martin_ingles",
+      "confidence": 0.39289018511772156
+    }
+  },
+  {
+    "text": "Termas de la virgen",
+    "intent": "Termas_dela_virgen",
+    "intent_prediction": {
+      "name": "Termas_dela_virgen_en",
+      "confidence": 0.37832167744636536
+    }
+  },
+  {
+    "text": "termas de la virgen",
+    "intent": "Termas_dela_virgen",
+    "intent_prediction": {
+      "name": "Termas_dela_virgen_en",
+      "confidence": 0.38504040241241455
+    }
+  },
+  {
+    "text": "malecon de rio verde",
+    "intent": "malecon_rioVerde",
+    "intent_prediction": {
+      "name": "malecon_rioVerde_ingles",
+      "confidence": 0.4599980413913727
+    }
+  },
+  {
+    "text": "attractive manto de la novia",
+    "intent": "novia_waterfall",
+    "intent_prediction": {
+      "name": "manto_dela_novia",
+      "confidence": 0.4009907841682434
+    }
+  },
+  {
+    "text": "place la cascada de la virgen",
+    "intent": "virgin_waterfall",
+    "intent_prediction": {
+      "name": "cascada_virgen",
+      "confidence": 0.3568425476551056
+    }
+  },
+  {
+    "text": "in san antonio",
+    "intent": "san_Antonio_ingles",
+    "intent_prediction": {
+      "name": "san_Antonio",
+      "confidence": 0.41975095868110657
+    }
+  },
+  {
+    "text": "opening hours of mirador beso de la luna",
+    "intent": "moon_kiss_mirador",
+    "intent_prediction": {
+      "name": "besode_la_luna",
+      "confidence": 0.38220006227493286
+    }
+  },
+  {
+    "text": "zoologico vida exotica prices",
+    "intent": "zoo_vidaExotica",
+    "intent_prediction": {
+      "name": "vida_exotica",
+      "confidence": 0.38928842544555664
+    }
+  },
+  {
+    "text": "la virgen swimming pools",
+    "intent": "Termas_dela_virgen_en",
+    "intent_prediction": {
+      "name": "Virgin_Pool",
+      "confidence": 0.7425296306610107
+    }
+  }
+]

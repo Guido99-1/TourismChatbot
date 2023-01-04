@@ -19,6 +19,5 @@ RUN pip install rasa==3.3.3
 ADD config.yml config.yml
 ADD domain.yml domain.yml
 ADD config.yml config.yml 
-#ADD actions.py actions.py
 ADD credentials.yml credentials.yml
 ADD endpoints.yml endpoints.yml
