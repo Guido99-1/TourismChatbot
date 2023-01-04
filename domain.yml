@@ -265,6 +265,14 @@ intents:
   - night_activities
   - seguridad_banios
   - festividades_banios
+  - gracias_chat
+  - thank_chat
+  - help_search
+  - buscar_ayuda
+  - negar
+  - afirmar
+  - deny
+  - affirm
 
 actions:
   - action_list
@@ -499,6 +507,19 @@ actions:
   - utter_error_understand
   - utter_seguridad_banios
   - utter_festividades_banios
+  - utter_gracias
+  - utter_thanks
+  - utter_ayuda_en
+  - utter_ayuda_turista
+  - utter_clima_informacion
+  - utter_busca_clima
+  - utter_busca_festividades
+  - utter_festividades_en
+  - utter_info_mapa
+  - utter_info_mapa_en
+  - utter_info_denuncias
+  - utter_info_denuncias_en
+  - utter_traditions_en
 
 responses:
 
@@ -513,8 +534,34 @@ responses:
       type: "postback"
   utter_error_understand:
   - text: "disculpa no entendí, I'm sorry, I don't understand"
+  utter_gracias:
+  - text: "De nada, espero que la información facilitada le sea útil."
+  utter_thanks:
+  - text: "You are welcome, I hope you find the information provided useful."
+  utter_ayuda_turista:
+  - text: "¿Necesita información sobre atracciones turísticas?"
+  utter_ayuda_en:
+  - text: "Need information about tourist attractions?" 
+  utter_clima_informacion:
+  - text: "Necesita información meteorológica?"
+  utter_busca_clima:
+  - text: "needs weather information?"
+  utter_busca_festividades:
+  - text: "¿necesita información de festividades?"
+  utter_festividades_en:
+  - text: "you need information about holidays?"
+  utter_info_mapa:
+  - text: "¿Necesita un mapa de la ciudad?"
+  utter_info_mapa_en:
+  - text: "you need a city map?"
+  utter_info_denuncias:
+  - text: "¿Necesita hacer una denuncia?"
+  utter_info_denuncias_en:
+  - text: "you need to make a complaint?"
   utter_festividades_banios:
   - text: "Baños de Agua Santa un cantón organizado para vivir sus tradiciones y celebraciones De manera general las celebraciones de mayor renombre en el cantón son: ENERO - Fiesta del Retorno, FEBRERO o MARZO - Carnaval, MAYO - Mes de Deportes de Aventura, AGOSTO - Mes de Las Artes y La Cultura, SEPTIEMBRE - Mes de Las Artes y La Cultura, OCTUBRE - Mes de Las Artes y La Cultura, DICIEMBRE - Mes de Las Artes y La Cultura"
+  utter_traditions_en:
+  - text: "Baños de Agua Santa a canton organized to live its traditions and celebrations In general, the most renowned celebrations in the canton are: JANUARY - Fiesta del Retorno, FEBRUARY or MARCH - Carnival, MAY - Month of Adventure Sports, AUGUST - Month of Arts and Culture, SEPTEMBER - Month of Arts and Culture, OCTOBER - Month of Arts and Culture, DECEMBER - Month of Arts and Culture."
   utter_greet:
   - text: "¡Hola! ¿Cómo estás?"
   utter_seguridad_banios:
@@ -553,7 +600,7 @@ responses:
   utter_denuncias:
   - text: "Si usted se siente perjudicado por algún provedor de servicios turísticos, por favor complete el [formulario](https://www.banos-ecuador.com/formulario-de-denuncias/) "
   utter_denuncias_en:
-  - text: "If you feel aggrieved by any tourism service provider, please fill in the [form](https://www.banos-ecuador.com/formulario-de-denuncias/) "
+  - text: "If you feel aggrieved by any tourism service provider, please fill in the [form](https://www.banos-ecuador.com/formulario-de-denuncias/)"
   utter_clima:
   - text: "El clima de Baños es una razón más por la que deberías visitar este encanto, como es de esperarse el clima de Ecuador en sí siempre es muy variado puede pasar de un sol incandescente a una tarde lluviosa, pero esto es lo que lo hace ser único. Entonces debido a esto el clima promedio del lugar oscila entre los 28° y 82°. [predicciones del clima](https://forecast7.com/es/n1d39n78d43/banos/)"
   utter_clima_en:

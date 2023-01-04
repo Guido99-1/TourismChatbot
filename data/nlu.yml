@@ -8,6 +8,44 @@ nlu:
     - pricipio 
     - home 
 
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: afirmar
+  examples: |
+    - sí
+    - si
+    - s
+    - por supuesto
+    - por supuesto
+    - Eso suena bien.
+    - correcto
+
+- intent: negar
+  examples: |
+    - no
+    - n
+    - nunca
+    - no me parece
+    - no me gusta
+    - de ninguna manera
+    - en realidad no
+
 - intent: sal_inicial
   examples: |
     - hey
@@ -958,9 +996,9 @@ nlu:
     - chamana
     - atractivo la cascada de chamana
     - lugar cascada de chamana
-    - como llegar a la cascada san antonio
-    - como llegar cascada san antonio
-    - direccion de la cascada san antonio
+    - como llegar a la cascada de chamana
+    - como llegar cascada de chamana
+    - direccion de la cascada de chamana
 
 - intent: valor_cascada_chamana
   examples: |
@@ -2560,7 +2598,6 @@ nlu:
     - sendero de la casa del arbol
     - camino hacia la casa del arbol
     - ruta a la casa del arbol
-    - como llegar a la casa del arbol
     - ir al sendero de la casa del arbol
     - más información del camino a la casa del arbol
     - necesito información del sendero de la casa del arbol
@@ -4541,3 +4578,56 @@ nlu:
     - sthgxhstys5tyt
     - styh6yhcgnujfuyt
     - tsyudytjhdtyghe65rtyg
+    - agargartr
+    - apofubryfarg p
+    - avrbfyrnfr rafybrf rybfrof rgbysrngf
+    - aefhbaytfb4rofun 
+    - arfobyisrnfbp
+    - anrfuyorifguybv
+    - an8br7yfrgfb
+    - neabouyrfgarf
+    - abfybgby672368vteowefbab83v
+    - 837bfbif aoyfaybfnb
+    - an'fubarodf 
+    - $(%&)HGFC$%&/(nhb)
+    - ?=UHFR%&/(UIJHBVCGFghjk)
+    - ghjbkj876tglkjhgfhdfgh)
+    - kiuoyg)(/)&dfvbnjhgfdfcgv
+    - '098fghhJKDCVgyiuojl
+    - (jhgvb%&/(HbvfcvbnjkuiytufgKHJUIYG)
+
+- intent: gracias_chat
+  examples: |
+    - gracias
+    - muchas gracias
+    - gracias por todo 
+    - gracias por la información
+    - muchas gracias bot
+
+- intent: thank_chat
+  examples: |
+    - thank you
+    - thank you very much
+    - thank you for everything 
+    - thank you for the information
+    - thank you very much bot
+    - thanks
+
+- intent: buscar_ayuda
+  examples: |
+    - puedes ayudarme 
+    - ayuda
+    - necestito ayuda 
+    - me ayudan 
+    - auxilio
+    - socorro
+    - por favor me ayudas
+
+- intent: help_search
+  examples: |
+    - can you help me ?
+    - help
+    - I need help 
+    - help me 
+    - help
+    - please help me

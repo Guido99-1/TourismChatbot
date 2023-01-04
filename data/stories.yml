@@ -46,6 +46,108 @@ stories:
   - intent: medios_trasporte
   - action: medios_trasportes
 
+- story: informacion de atractivos 
+  steps: 
+  - intent: buscar_ayuda
+  - action: utter_ayuda_turista
+  - intent: afirmar
+  - action: utter_ask_atractivos
+  - intent: gracias_chat 
+  - action: utter_gracias
+
+- story: preguntas del bot
+  steps: 
+  - action: utter_clima_informacion
+  - intent: negar
+  - action: utter_busca_festividades
+  - intent: negar
+  - action: utter_info_mapa
+  - intent: negar
+  - action: utter_info_denuncias
+  - intent: afirmar
+  - action: utter_denuncias
+  - intent: gracias_chat 
+  - action: utter_gracias
+
+- story: preguntas del bot dos
+  steps: 
+  - action: utter_clima_informacion
+  - intent: negar
+  - action: utter_busca_festividades
+  - intent: negar
+  - action: utter_info_mapa
+  - intent: afirmar
+  - action: utter_mapa
+  - intent: gracias_chat 
+  - action: utter_gracias
+
+- story: preguntas del bot tress
+  steps: 
+  - action: utter_busca_festividades
+  - intent: afirmar
+  - action: utter_festividades_banios
+  - intent: gracias_chat 
+  - action: utter_gracias
+
+- story: preguntas del bot cuatro
+  steps: 
+  - action: utter_busca_festividades
+  - intent: afirmar
+  - action: utter_festividades_banios
+
+- story: busca informacion cinco
+  steps: 
+  - action: utter_clima_informacion
+  - intent: afirmar
+  - action: utter_clima
+  - intent: gracias_chat 
+  - action: utter_gracias
+
+- story: informacion ingles
+  steps: 
+  - intent: help_search
+  - action: utter_ayuda_en
+  - intent: affirm
+  - action: utter_ask_information_ingles
+
+- story: informacion ingles dos
+  steps: 
+  - intent: help_search
+  - action: utter_ayuda_en
+  - intent: deny
+  - action: utter_info_mapa_en
+  - intent: deny
+  - action: utter_info_denuncias_en
+  - intent: affirm
+  - action: utter_denuncias_en  
+
+- story: informacion ingles tres
+  steps: 
+  - intent: help_search
+  - action: utter_ayuda_en
+  - intent: deny
+  - action: utter_busca_clima
+  - intent: affirm
+  - action: utter_clima_en
+
+- story: informacion ingles cuatro
+  steps: 
+  - intent: help_search
+  - action: utter_ayuda_en
+  - intent: deny
+  - action: utter_info_mapa_en
+  - intent: affirm
+  - action: utter_mapa_en  
+
+- story: informacion ingles cinco
+  steps: 
+  - intent: help_search
+  - action: utter_ayuda_en
+  - intent: deny
+  - action: utter_festividades_en
+  - intent: affirm
+  - action: utter_traditions_en  
+
 - story: principales
   steps:
   - intent: principales_famosos

@@ -947,9 +947,9 @@ class ActionCarousel(Action):
                         ]
                     },
                     {
-                        "title": "Parque temático Pueblos del mundo",
+                        "title": "Pueblos del mundo",
                         "subtitle": "Precio: $3",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t39.30808-6/287528743_3068283230153316_7006248754419818901_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHjAUZX5XiMq_GnpqKTvfWCkiz_9vdYKYKSLP_291gpgjWgqJeKcRfn8PO8X7AKUkc7k99BeKoIO9ziCkgNNFCN&_nc_ohc=nFj4f8z4auMAX8rqm6y&_nc_ht=scontent.fatf4-1.fna&oh=00_AfC5m87ou135clc58hFtAflI2qen2PELBbZ2SD_zUEaTxw&oe=63ADE45B",
+                        "image_url": "https://lh5.googleusercontent.com/p/AF1QipMczs7WuxsqxsVRINgJkUaUqYMlOZUOY20dFqDk=w253-h285-k-no",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",

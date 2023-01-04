@@ -23,6 +23,16 @@ rules:
   - intent: clima
   - action: utter_clima
 
+- rule: agradecimiento del chat
+  steps:
+  - intent: gracias_chat
+  - action: utter_gracias
+
+- rule: agradecer en ingles
+  steps:
+  - intent: thank_chat
+  - action: utter_thanks
+
 - rule: festividades de baños
   steps:
   - intent: festividades_banios
