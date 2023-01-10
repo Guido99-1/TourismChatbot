@@ -19,7 +19,7 @@ nlu:
 
 - intent: deny
   examples: |
-    - no
+    - No
     - never
     - I don't think so
     - don't like that
@@ -39,7 +39,6 @@ nlu:
 - intent: negar
   examples: |
     - no
-    - n
     - nunca
     - no me parece
     - no me gusta
@@ -223,6 +222,8 @@ nlu:
     - que eres?
     - quien eres
     - eres una persona 
+    - con quien hablo 
+    - hablo con alguien capacitado 
 
 - intent: que_eres
   examples: |

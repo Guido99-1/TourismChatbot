@@ -22,8 +22,8 @@ stories:
   - intent: mood_unhappy  # predicted: contestar_mal: not good
   - action: utter_cheer_up
   - action: utter_did_that_help  # predicted: action_listen
-  - intent: affirm  # predicted: nlu_fallback: yes
-  - action: utter_happy  # predicted: action_default_fallback
+  - intent: affirm
+  - action: utter_happy  # predicted: utter_ask_information_ingles
 - story: sad path 2 (.\tests\test_stories.yml)
   steps:
   - intent: greet  # predicted: saludo: hello
@@ -31,7 +31,7 @@ stories:
   - intent: mood_unhappy  # predicted: contestar_mal: not good
   - action: utter_cheer_up
   - action: utter_did_that_help  # predicted: action_listen
-  - intent: deny  # predicted: contestar_mal: not really
+  - intent: deny
   - action: utter_goodbye  # predicted: action_default_fallback
 - story: sad path 3 (.\tests\test_stories.yml)
   steps:
@@ -40,7 +40,7 @@ stories:
   - intent: mood_unhappy  # predicted: nlu_fallback: very terrible
   - action: utter_cheer_up
   - action: utter_did_that_help  # predicted: action_listen
-  - intent: deny  # predicted: mood_unhappy: no
+  - intent: deny  # predicted: nlu_fallback: no
   - action: utter_goodbye  # predicted: action_default_fallback
 - story: say goodbye (.\tests\test_stories.yml)
   steps:
