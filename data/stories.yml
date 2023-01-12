@@ -20,6 +20,7 @@ stories:
 - story: interactive_story_2
   steps:
   - intent: goodbye
+  - action: utter_goodbye
   - action: utter_indicaciones
   - action: basic_form
   - active_loop: basic_form
