@@ -11,10 +11,78 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from typing import Any, Text, Dict, List
+from rasa_sdk import Tracker, FormValidationAction
+from rasa_sdk.types import DomainDict
 from rasa_sdk.events import SlotSet
-
+import psycopg2
 # #
+rangecalification = ["cinco", "cuatro", "tres", "dos", "una"]
+CSAT = ["Si", "NO", "si", "no"]
+tiempoChatbot = ["1", "2", "3", "4", "5"]
+
+class ValidateBasicForm(FormValidationAction):
+    def name(self) -> Text:
+        return "validate_basic_form"
+
+    def validate_song(
+        self,
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        """Validate `song` value."""
+
+        if slot_value.lower() not in rangecalification:
+            dispatcher.utter_message(text=f"se acepta cinco-cuatro-tres-dos-una estrella.")
+            return {"song": None}
+        dispatcher.utter_message(text=f"Gracias! por sus {slot_value} estrellas.")
+        
+        return {"song": slot_value}
+
+    def validate_num_coffee(
+        self,
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        """Validate `num_coffee` value."""
+
+        if slot_value not in CSAT:
+            dispatcher.utter_message(text=f"se acepta Si - No.")
+            return {"num_coffee": None}
+        dispatcher.utter_message(text=f"Gracias! por sus respuesta.")
+        return {"num_coffee": slot_value}
+    
+    def validate_pregunta_tres(
+        self,
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        """Validate `pregunta_tres` value."""
+
+        if slot_value not in tiempoChatbot:
+            dispatcher.utter_message(text=f"se acepta 1-2-3-4-5.")
+            return {"pregunta_tres": None}
+        dispatcher.utter_message(text=f"Gracias! por su calidicacion de: {slot_value} ")
+        db = psycopg2.connect(
+                host="snuffleupagus.db.elephantsql.com",
+                database="mqdxoaeo",
+                user="mqdxoaeo",
+                password="Dse4GRiTHf0zfTO7KQuQMwt6KDsiEhgV"
+                )
+        mycursor = db.cursor()
+        postgres_insert_query = "INSERT INTO calificaciones(pregunta1,pregunta2,pregunta3) VALUES (%s,%s,%s);"
+
+        preguntas = (tracker.get_slot("song"),tracker.get_slot("num_coffee"),tracker.get_slot("pregunta_tres"))
+        #print(type(preguntas))
+        mycursor.execute(postgres_insert_query,preguntas)
+        db.commit()
+        return {"pregunta_tres": slot_value}
+
 class ActionCarousel(Action):
     def name(self) -> Text:
         return "action_list"
@@ -267,7 +335,7 @@ class ActionCarousel(Action):
                     {
                         "title": "El vuelo del cóndor",
                         "subtitle": "Precio: $10 por persona",
-                        "image_url": "https://goecuador.net/archivos/minegocio/el-vuelo-del-condor-banos-de-agua-santa-ecuador_2.jpg",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipPi7i4oFG3toq8pvJnl2WMAgRVEIyl5D6nRzuQW=s1360-w1360-h1020",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -1489,7 +1557,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Baños Bellavista",
                         "subtitle": "Precios: $0,50",
-                        "image_url": "https://th.bing.com/th/id/R.bcb30384c27819ec4f3708d362e9223d?rik=j3D3V0r3oDp%2bhA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-sLkfaGJhvg8%2fU1RZgRbQdDI%2fAAAAAAAACcs%2f46T7AzGA8ro%2fs1600%2fDSC_0408_EatPrayCureTravel.JPG&ehk=gdM3eLaWN%2fK7XE%2fkQvyyyeG4TNN5eEoj9%2b8us6YRSis%3d&risl=&pid=ImgRaw&r=0",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipMNpCQHW8ENBDjZuZt-tTgLAQf1imcWo9pWnhWU=s1360-w1360-h1020",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -3208,7 +3276,7 @@ class ActionCarousel(Action):
                     {
                         "title": "El Vuelo del Cóndor",
                         "subtitle": "Price: $10",
-                        "image_url": "https://goecuador.net/archivos/minegocio/el-vuelo-del-condor-banos-de-agua-santa-ecuador_2.jpg",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipPi7i4oFG3toq8pvJnl2WMAgRVEIyl5D6nRzuQW=s1360-w1360-h1020",
                         "buttons": [ 
                             {
                             "title": "Get directions",
@@ -3249,7 +3317,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Bellavista trail",
                         "subtitle": "Price: $0,50",
-                        "image_url": "https://th.bing.com/th/id/R.bcb30384c27819ec4f3708d362e9223d?rik=j3D3V0r3oDp%2bhA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-sLkfaGJhvg8%2fU1RZgRbQdDI%2fAAAAAAAACcs%2f46T7AzGA8ro%2fs1600%2fDSC_0408_EatPrayCureTravel.JPG&ehk=gdM3eLaWN%2fK7XE%2fkQvyyyeG4TNN5eEoj9%2b8us6YRSis%3d&risl=&pid=ImgRaw&r=0",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipMNpCQHW8ENBDjZuZt-tTgLAQf1imcWo9pWnhWU=s1360-w1360-h1020",
                         "buttons": [ 
                             {
                             "title": "Get directions",

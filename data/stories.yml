@@ -17,6 +17,25 @@ stories:
   - intent: pacha_mama
   - action: utter_info_manos_pachamama
 
+- story: interactive_story_2
+  steps:
+  - intent: goodbye
+  - action: utter_indicaciones
+  - action: basic_form
+  - active_loop: basic_form
+  - slot_was_set:
+    - requested_slot: song
+  - slot_was_set:
+    - song: cuatro
+  - slot_was_set:
+    - requested_slot: num_coffee
+  - slot_was_set:
+    - num_coffee: si
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_slots_values
+
 - story: sad
   steps:
   - intent: sal_inicial #saludo

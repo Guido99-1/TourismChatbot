@@ -8,6 +8,25 @@ nlu:
     - pricipio 
     - home 
 
+- intent: inform
+  examples: |
+    - [cuatro](song) estrellas
+    - [cinco](song) estrellas
+    - [dos](song) estrellas
+    - [tres](song) estrellas
+    - [una](song) estrella
+
+    - [si](num_coffee) recomendaria
+    - claro que [Si](num_coffee) 
+    - [NO](num_coffee) recomendaria
+    - [no](num_coffee) recommend
+  
+    - le pongo[1](pregunta_tres) 
+    - su calificacion es [2](pregunta_tres) 
+    - [3](pregunta_tres)
+    - [4](pregunta_tres)
+    - [5](pregunta_tres)
+
 - intent: affirm
   examples: |
     - yes
@@ -19,7 +38,6 @@ nlu:
 
 - intent: deny
   examples: |
-    - No
     - never
     - I don't think so
     - don't like that
@@ -533,6 +551,8 @@ nlu:
     - mega park rio blanco 
     - Más información puente de cristal
     - como llegar al puente de cristal
+    - puente de cristal
+    - puente
 
 - intent: tarifa_Precio_Mega_adventure_Park
   examples: |
