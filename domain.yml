@@ -289,24 +289,24 @@ intents:
   - parejas
 
 entities:
-- song
+- pregunta_uno
 - num_coffee
 - pregunta_tres
 
 forms:
   basic_form:
     required_slots:
-        - song
+        - pregunta_uno
         - num_coffee
         - pregunta_tres
 
 slots:
-  song:
+  pregunta_uno:
     type: text
     influence_conversation: false
     mappings:
     - type: from_entity
-      entity: song
+      entity: pregunta_uno
   num_coffee:
     type: text
     influence_conversation: false
@@ -588,7 +588,7 @@ responses:
 
   utter_slots_values:
   - text: "Resumen:\n
-           - calificacion 1: {song}\n
+           - calificacion 1: {pregunta_uno}\n
            - calificacion 2: {num_coffee}\n
            - calificacion 3: {pregunta_tres}\n"
 
@@ -613,13 +613,15 @@ responses:
   utter_chiva_bellavista:
   - text: "Horario nocturno de 19:00 y 21:00. Tour que inicia en el centro de Baños y de ahí parten hasta el sector de Runtún. Donde podrá apreciar una vista nocturna de la ciudad de Baños, el ingreso al mirador es de $0,50 incluye un canelazo. La chiva se informará al momento de regresar a la ciudad"
   utter_indicaciones:
-  - text: "1.- Indique con uno siendo la menor calificación y cinco la más alta \n 2.- Indique Si - NO \n 3.- Indique con 1 siendo la menor calificación y 5 la más alta \n"
-  utter_ask_basic_form_song:
-  - text: "1.-¿El chatbot le proporciona los detalles que necesita con respecto a los atractivos turísticos y comprende de sus peticiones?"        
+  - text: "1.- Indique en una escala de uno al cinco para indicar las estrellas de satisfacción\n
+          2.- Indique en una escala del 1 al 10\n
+          3.- Indique con si o no\n"  
+  utter_ask_basic_form_pregunta_uno:
+  - text: "¿El chatbot le proporciona los detalles que necesita con respecto a los atractivos turísticos y comprende de sus peticiones?"        
   utter_ask_basic_form_num_coffee:
-  - text: "2.-¿Recomendaría usted el uso del chatbot a sus amigos o conocidos?"
+  - text: "En una escala del 1 al 10, ¿Qué probabilidad hay de que nos recomiende con amigos y conocidos?"
   utter_ask_basic_form_pregunta_tres:
-  - text: "3.-¿Califique el tiempo de respuesta del chatbot?"  
+  - text: "3.- ¿Condidera que el tiempo de respuesta del chatbot es adecuado?" 
   utter_inicio:
   - text: "Opten información de los diferentes atractivos turísticos de Baños de Agua Santa. RECUERDA los valores son aproximados"
     buttons:

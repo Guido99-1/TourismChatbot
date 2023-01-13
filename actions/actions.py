@@ -17,43 +17,45 @@ from rasa_sdk.events import SlotSet
 import psycopg2
 # #
 rangecalification = ["cinco", "cuatro", "tres", "dos", "una"]
-CSAT = ["Si", "NO", "si", "no"]
-tiempoChatbot = ["1", "2", "3", "4", "5"]
+#questionEn1 = ["one", "two", "three", "four", "five"]
+CSAT = ["1", "2", "3", "4", "5","6","7","8","9","10"]
+#CSATENGLISH = ["Yes", "NO", "no", "yes"]
+tiempoChatbot = ["Si", "NO", "si", "no"]
 
 class ValidateBasicForm(FormValidationAction):
     def name(self) -> Text:
         return "validate_basic_form"
 
-    def validate_song(
+    def validate_pregunta_uno(
         self,
         slot_value: Any,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: DomainDict,
     ) -> Dict[Text, Any]:
-        """Validate `song` value."""
+        """Validate `pregunta_uno` value."""
 
-        if slot_value not in rangecalification:
+        if slot_value.lower() not in rangecalification:
             dispatcher.utter_message(text=f"se acepta cinco-cuatro-tres-dos-una estrella.")
-            return {"song": None}
+            return {"pregunta_uno": None}
         dispatcher.utter_message(text=f"Gracias! por sus {slot_value} estrellas.")
         
-        return {"song": slot_value}
+        return {"pregunta_uno": slot_value}
 
     def validate_num_coffee(
         self,
-        slot_value: Any,
+        num_coffee: Any,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: DomainDict,
     ) -> Dict[Text, Any]:
         """Validate `num_coffee` value."""
 
-        if slot_value not in CSAT:
-            dispatcher.utter_message(text=f"se acepta Si - No.")
+        if num_coffee not in CSAT:
+            dispatcher.utter_message(text=f"se aceptan valores del 1 al 10.")
             return {"num_coffee": None}
         dispatcher.utter_message(text=f"Gracias! por sus respuesta.")
-        return {"num_coffee": slot_value}
+        return {"num_coffee": num_coffee}
     
     def validate_pregunta_tres(
         self,
@@ -65,9 +67,9 @@ class ValidateBasicForm(FormValidationAction):
         """Validate `pregunta_tres` value."""
 
         if slot_value not in tiempoChatbot:
-            dispatcher.utter_message(text=f"se acepta 1-2-3-4-5.")
+            dispatcher.utter_message(text=f"se acepta Si o No.")
             return {"pregunta_tres": None}
-        dispatcher.utter_message(text=f"Gracias! por su calidicacion de: {slot_value} ")
+        dispatcher.utter_message(text=f"Gracias! por su calidicacion")
         db = psycopg2.connect(
                 host="snuffleupagus.db.elephantsql.com",
                 database="mqdxoaeo",
@@ -77,7 +79,7 @@ class ValidateBasicForm(FormValidationAction):
         mycursor = db.cursor()
         postgres_insert_query = "INSERT INTO calificaciones(pregunta1,pregunta2,pregunta3) VALUES (%s,%s,%s);"
 
-        preguntas = (tracker.get_slot("song"),tracker.get_slot("num_coffee"),tracker.get_slot("pregunta_tres"))
+        preguntas = (tracker.get_slot("pregunta_uno"),tracker.get_slot("num_coffee"),tracker.get_slot("pregunta_tres"))
         #print(type(preguntas))
         mycursor.execute(postgres_insert_query,preguntas)
         db.commit()

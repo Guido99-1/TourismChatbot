@@ -10,20 +10,25 @@ nlu:
 
 - intent: inform
   examples: |
-    - [cuatro](song) estrellas
-    - [cinco](song) estrellas
-    - [dos](song) estrellas
-    - [tres](song) estrellas
-    - [una](song) estrella
-    - [si](num_coffee) recomendaria
-    - claro que [Si](num_coffee) 
-    - [NO](num_coffee) recomendaria
-    - [no](num_coffee) recommend
-    - [1](pregunta_tres) 
-    - [2](pregunta_tres) 
-    - [3](pregunta_tres)
-    - [4](pregunta_tres)
-    - [5](pregunta_tres)
+    - [cuatro](pregunta_uno) estrellas
+    - [cinco](pregunta_uno) estrellas
+    - [dos](pregunta_uno) estrellas
+    - [tres](pregunta_uno) estrellas
+    - [uno](pregunta_uno) estrella
+    - [1](num_coffee) 
+    - [2](num_coffee) 
+    - [3](num_coffee) 
+    - [4](num_coffee) 
+    - [5](num_coffee)
+    - [6](num_coffee)
+    - [7](num_coffee)
+    - [8](num_coffee)
+    - [9](num_coffee)
+    - [10](num_coffee)
+    - [si](pregunta_tres) es adecuado
+    - [Si](pregunta_tres) es rapido
+    - [NO](pregunta_tres) es muy lento 
+    - [no](pregunta_tres) lo es
 
 - intent: ruta_chivias_cascadas
   examples: |
