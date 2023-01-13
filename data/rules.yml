@@ -9,7 +9,7 @@ rules:
 
 - rule: activate basic form
   steps:
-  - intent: goodbye
+  - intent: goodbye_español
   - action: utter_goodbye
   - action: utter_indicaciones
   - action: basic_form
@@ -29,12 +29,61 @@ rules:
 #   steps:
 #   - intent: goodbye
 #   - action: utter_goodbye
-#   - action: utter_satisfación
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: chivas uno
+  steps:
+  - intent: ruta_chivas_Bellavista
+  - action: utter_chiva_bellavista
+
+- rule: chivas dos
+  steps:
+  - intent: ruta_chivas_pailon
+  - action: utter_chivas_pailon
+
+- rule: chivas tres
+  steps:
+  - intent: ruta_chivas_LasAntenas
+  - action: utter_ruta_chivas_lasAntenas
+
+- rule: chivas cuatro
+  steps:
+  - intent: ruta_chivas_casaArbol
+  - action: utter_ruta_chivas_casaArbol
+
+- rule: chivas cinco
+  steps:
+  - intent: ruta_chivias_cascadas
+  - action: utter_ruta_chivas_cascadas
+
+- rule: actividades
+  steps:
+  - intent: cosas_cuando_llueve
+  - action: utter_lluvia
+
+- rule: actividades dos
+  steps:
+  - intent: disfrutar_banios
+  - action: utter_disfrutar
+
+- rule: actividades tres
+  steps:
+  - intent: disfrutar_conninos
+  - action: utter_actividadesninios
+
+- rule: actividades cuatro
+  steps:
+  - intent: quehacer_enFamilia
+  - action: utter_familia_actividades
+
+- rule: actividades cinco
+  steps:
+  - intent: parejas
+  - action: utter_parejas
 
 - rule: clima
   steps:

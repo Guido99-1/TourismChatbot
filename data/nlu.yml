@@ -15,17 +15,51 @@ nlu:
     - [dos](song) estrellas
     - [tres](song) estrellas
     - [una](song) estrella
-
     - [si](num_coffee) recomendaria
     - claro que [Si](num_coffee) 
     - [NO](num_coffee) recomendaria
     - [no](num_coffee) recommend
-  
-    - le pongo[1](pregunta_tres) 
-    - su calificacion es [2](pregunta_tres) 
+    - [1](pregunta_tres) 
+    - [2](pregunta_tres) 
     - [3](pregunta_tres)
     - [4](pregunta_tres)
     - [5](pregunta_tres)
+
+- intent: ruta_chivias_cascadas
+  examples: |
+    - ruta de las cascadas
+    - la ruta de las cascadas en chivas
+    - tour de las cascadas
+
+- intent: ruta_chivas_casaArbol
+  examples: |
+    - ruta de la casa del arbol
+    - la casa del arbol en chivas
+    - tour de la casa del arbol
+
+- intent: ruta_chivas_LasAntenas
+  examples: |
+    - ruta de las antenas
+    - las entenas en chivas
+    - tour de las antenas
+    - tour de las manos de dios
+    - ruta de las manos de dios
+
+- intent: ruta_chivas_pailon
+  examples: |
+    - ruta en chivas al pailon del diablo
+    - ruta al pailon del diablo
+    - el pailon del diablo en chivas
+    - el pailon en chivas
+    - tour al pailon del diablo
+    - ruta al pailon del diablo
+
+- intent: ruta_chivas_Bellavista
+  examples: |
+    - ruta en chivas a bellavista
+    - visitar bellavista en chivas
+    - bellavista en chivas
+    - tour a bellavista en chiva
 
 - intent: affirm
   examples: |
@@ -91,7 +125,7 @@ nlu:
     - hello bot
     - hello friend
 
-- intent: goodbye
+- intent: goodbye_español
   examples: |
     - adiós
     - adios
@@ -108,6 +142,47 @@ nlu:
     - see you later
     - bye
     - by
+
+- intent: parejas 
+  examples: |
+    - que hacer en pareja en baños
+    - parejas
+    - cosas que hacer en parejas
+    - actividades en parejas 
+
+- intent: quehacer_enFamilia 
+  examples: |
+    - que hacer en familia
+    - actividades en familia
+    - cosas que hacer en familia
+    - lugares para visitar en familia
+
+- intent: disfrutar_conninos 
+  examples: |
+    - ¿Cómo disfrutar Baños de Agua Santa con niños?
+    - que actiidades hacer con niños
+    - lugares para visitar con niños
+    - actividades con niños
+    - cosas que hacer con niños
+    - lugares y actividades con niños
+
+- intent: disfrutar_banios
+  examples: |
+    - ¿Cómo puedo disfrutar de la ciudad de Baños?
+    - disfrutar
+    - como divertirse en baños
+    - actividades divertidas en baños
+    - cosas divertidas para hacer en baños
+    - lugares y actividades divertidas
+
+- intent: cosas_cuando_llueve
+  examples: |
+    - ¿Qué hacer en Baños cuando hay lluvia?
+    - Qué hacer en Baños cuando hay lluvia
+    - como divertirse en baños
+    - lluvia
+    - cosas que hacer cuando llueve
+    - lugares y actividades para hacer cuando llueve
 
 - intent: clima 
   examples: |

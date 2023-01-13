@@ -1,11 +1,14 @@
-version: "2.0"
+version: "3.0"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 
 intents:
   - inform
   - error_understand
   - sal_inicial
   - greet
-  - goodbye
+  - goodbye_español
   - mood_great
   - mood_unhappy
   - bot_challenge
@@ -274,6 +277,16 @@ intents:
   - afirmar
   - deny
   - affirm
+  - ruta_chivas_Bellavista
+  - ruta_chivas_pailon
+  - ruta_chivas_LasAntenas
+  - ruta_chivas_casaArbol
+  - ruta_chivias_cascadas
+  - cosas_cuando_llueve
+  - disfrutar_banios
+  - disfrutar_conninos
+  - quehacer_enFamilia
+  - parejas
 
 entities:
 - song
@@ -556,6 +569,20 @@ actions:
   - utter_info_denuncias
   - utter_info_denuncias_en
   - utter_traditions_en
+  - utter_ask_basic_form_pregunta_tres
+  - utter_ask_basic_form_num_coffee
+  - utter_ask_basic_form_song
+  - utter_ruta_chivas_cascadas
+  - utter_ruta_chivas_casaArbol
+  - utter_ruta_chivas_lasAntenas
+  - utter_chivas_pailon
+  - utter_chiva_bellavista
+  - utter_parejas
+  - utter_familia_actividades
+  - utter_actividadesninios
+  - utter_disfrutar
+  - utter_lluvia
+  - chivas_acction
 
 responses:
 
@@ -565,16 +592,34 @@ responses:
            - calificacion 2: {num_coffee}\n
            - calificacion 3: {pregunta_tres}\n"
 
+  utter_parejas:
+  - text: "Las opciones que nosotros recomendamos hacer en pareja es visitar: La Casa del Árbol, Caminar por el centro de Baños de Agua Santa. Baños es una ciudad relativamente segura, así que siéntete tranquilo caminando por Baños tanto de día como de noche. Disfrutar de los Balnearios de Aguas Termales, visitar la aldea Mágica un museo a cielo abierto acoplado en un Jardín de Duendes llenos de encanto que te invitan a conectar con la naturaleza."
+  utter_familia_actividades:
+  - text: "En Baños de Agua Santa es el lugar ideal para realizar muchas actividades familiares desde subirte a una tarabita, balancearse en el columpio del mundo, visitar el Pailón del Diablo, tomar un baño en las aguas termales, realizar la Ruta de las Cascadas, Las Manos de Dios, Beso de la Luna, La Ofrenda del Inca hasta realizar deportes de aventura y un paseo a caballo será la mejor actividad turística para los amantes de la aventura, no hay nada mejor para disfrutar, a lomos del caballo, de los majestuosos paisajes que ofrecen Baños y sus alrededores. Una recomendacion especial es visitar el parque de la Familia de Baños de Agua Santa"
+  utter_actividadesninios:
+  - text: "Ya sabemos que no hay nada más estimulante para un niño que salir al aire libre, saltar, correr, trepar y liberar su mente haciendo un sinnúmero de preguntas, y baños te ofrece muchos lugares donde adultos y niños puedan desarrollar su conocimiento.  Baños de Agua Santa tienen el privilegio de contar con parques, fantásticamente adaptados a niños y mayores, hemos seleccionado a continuación, algunos de ellos en los que podrás disfrutar con los niños al aire libre dando un buen paseo o visitando algunos rincones. Nuestra recomendacion es visitar los parques publicos: Parque Juan Montalvo, Parque Central Palomino Flores y parque de la Basílica. Además, visitar lugares tenaticos como: Aldea Mágica, Zoológico San Martín, Fábrica de chocolate y el Bosque encantado "
+  utter_disfrutar:
+  - text: "Baños de Agua Santa te ofrece varias alternativas como: La ruta de las Cascadas: efusivamente te recomiendo realizarlo en bicicleta, puesto que de esta manera eres el dueño de tu tiempo, la vez que realice este tour lo realice con Geotours, ellos me explicaron la ruta y las cascadas que puedo ver, me sorprendió mucho llegar al Pailón del Diablo y ver la inmensidad de la naturaleza, una experiencia inolvidable. Miradores: Actualmente existen varios miradores para todos los gustos, atractivos para niños, parejas y familias, tienen una vista increíble y con costos muy accesibles, dentro de los que te recomiendo están: La casa de Árbol, La Ofrenda del Inca, Las Manos de Dios, Las manos de la Pachamama."
+  utter_lluvia:
+  - text: " En caso de que llueva, puedes aprovechar y probar la deliciosa gastronomía del país y adentrarte en los sabores locales que puedes encontrar en el Mercado de la ciudad o existe la opción de encontrar pequeños locales de comida. Puedes probar platos, como: cuy asado, yahuarlocro, caldo de pata, llapingachos, mote, guatita, hornado, chochos con cuero, cevichochos, jugo de caña con frutas, melcochas (dulces de caña), entre otros. Y si prefieres comida internacional, tienes a tu disposición un sinnumero de restaurantes dependiendo tu paladar y puedes encontrar desde comida mexicana hasta italiana, cafeterías y bares"
+  utter_ruta_chivas_cascadas:
+  - text: "Sin duda este tour no te lo puedes perder , debe estar en tu lista de lugares a visitar en tu estadía en Baños de Agua Santa. Horarios: 10:30 - 13:30 - 15:30. la ruta de las cascadas donde observaron distintos atractivos como :La represa Hidroeléctrica Agoyan, Cascada del Agoyan y Guamag, Casa de Máquinas de la Represa Hidroeléctrica Agoyan, La cascada de Cullebrillas, Cascadas la Esperanza, Cascada Puertas del Cielo, Rostro de Cristo, Canopy doble o Triple, Puente de Cristal, Cascada Manto de la Novia ( En este lugar tomaremos una parada para usar la tarabita). Fábrica de dulces tradicionales y La Magnifica Cascada El Pailón del Diablo"
+  utter_ruta_chivas_casaArbol:
+  - text: "horarios: 8:00, 12:00 y 4:00. En este viaje podremos observar el volcán Tungurahua, el más activo en Ecuador, también observaremos 2 parques nacionales como el Sangay y el Llanganates hasta llegar al famoso lugar de la casa del árbol. La chiva espera a los turistas para que puedan ingresar a la casa del árbol"
+  utter_ruta_chivas_lasAntenas:
+  - text: "Horarios de 8:00 hasta las 16:00. Las chivas salen en los horarios específicos de 8:00, 10:00, 12:00, 14:00 y 16:00. En la noche las chivas salen  a las 19:00 y 21:00. El tour pasa por muchos atractivos para que pueda visitar cada uno de ellos."
+  utter_chivas_pailon:
+  - text: "Horario nocturno  de 19:00 y 21:00. Tour que inicia en el centro de Baños y de ahí parten hasta la parroquia Río Verde en donde se encuentra el Pailón del Diablo. Los turistas podrán disfrutar de una caminata de alrededor de 10 minutos, para ello contarán con un guía y el equipo necesario para evitar cualquier tipo de inconveniente. Posteriormente, pasarán a la cafetería en donde degustarán de un coctel, con o sin licor, y podrán disfrutar de un momento ameno."
+  utter_chiva_bellavista:
+  - text: "Horario nocturno de 19:00 y 21:00. Tour que inicia en el centro de Baños y de ahí parten hasta el sector de Runtún. Donde podrá apreciar una vista nocturna de la ciudad de Baños, el ingreso al mirador es de $0,50 incluye un canelazo. La chiva se informará al momento de regresar a la ciudad"
   utter_indicaciones:
-  - text: "1.- Indique con uno siendo la menos calificación y cinco la más alta\n
-          2.- Indique Si - NO\n
-          3.- Indique con 1 siendo la menor calificación y 5 la más alta\n"
+  - text: "1.- Indique con uno siendo la menor calificación y cinco la más alta \n 2.- Indique Si - NO \n 3.- Indique con 1 siendo la menor calificación y 5 la más alta \n"
   utter_ask_basic_form_song:
-  - text: "¿El chatbot le proporciona los detalles que necesita con respecto a los atractivos turísticos y comprende de sus peticiones?"        
-  utter_ask_num_coffee:
-  - text: "¿Recomendaría usted el uso del chatbot a sus amigos o conocidos?"
+  - text: "1.-¿El chatbot le proporciona los detalles que necesita con respecto a los atractivos turísticos y comprende de sus peticiones?"        
+  utter_ask_basic_form_num_coffee:
+  - text: "2.-¿Recomendaría usted el uso del chatbot a sus amigos o conocidos?"
   utter_ask_basic_form_pregunta_tres:
-  - text: "¿Califique el tiempo de respuesta del chatbot?"  
+  - text: "3.-¿Califique el tiempo de respuesta del chatbot?"  
   utter_inicio:
   - text: "Opten información de los diferentes atractivos turísticos de Baños de Agua Santa. RECUERDA los valores son aproximados"
     buttons:
@@ -675,7 +720,7 @@ responses:
   utter_contratar_extremos_en:
   - text: "Contract this service through an authorized agency"
   utter_Nocturnas:
-  - text: "Al llegar la noche Baños de Agua Santa se transforma en una ciudad con nuevos atractivos, para disfrutar de un paseo nocturno en familia. Las cascadas como el Manto de la Novia, Cabellera de la Virgen, el Pailón del Diablo, multiples miradores y otros atractivos, que en la noche habían estado ocultas, ahora son visibles para los visitantes"
+  - text: "Al llegar la noche Baños de Agua Santa se transforma en una ciudad con nuevos atractivos, para disfrutar de un paseo nocturno en familia. Las cascadas como el Manto de la Novia, Cabellera de la Virgen, el Pailón del Diablo, multiples miradores y otros atractivos, que en la noche habían estado ocultas ahora son visibles para los visitantes. Visita de algunos bares discotecas con varios ambientes como: Leprechaun Bar, Mongos y Cherusker "
   utter_Nocturnas_en:
   - text: "At night Baños de Agua Santa is transformed into a city with new attractions to enjoy a night walk with the family. Waterfalls such as the Manto de la Novia, Cabellera de la Virgen, Pailón del Diablo, multiple viewpoints and other attractions, which had been hidden at night, are now visible to visitors."
 
@@ -1474,6 +1519,3 @@ responses:
   - text: "El Salado spa is a complex that has several pools of thermal water, the temperature of the water exceeds 50 degrees, it is not recommended for children, there are other heated pools ideal for children, adults. On the site there is a private garage and a bar for snacks or breakfast. The Salado hot springs are located in the Salado sector, 3 minutes from the center of Baños, you can walk or take a bus or taxi. The bus station is next to the central market and the taxi ride costs $1.25. If you want to go by private vehicle, just click on the direction button and it will be very easy for you to get there. The prices of the El Salado pools are $3 for adults and $1.50 for children. Opening hours are Monday to Sunday from 5:00 - 20:00. \n[Get ditections](https://www.google.com.ec/maps/place/Balneario+El+Salado/@-1.402449,-78.436153,16z/data=!4m5!3m4!1s0x91d390d82c079589:0x3a89a5ac6ad94ee6!8m2!3d-1.4045738!4d-78.4323045?hl=es)"
   utter_santaAna_pool:
   - text: "Santa Ana swimming pools in Baños is an outdoor swimming pool complex. These pools are special to spend with the family on a sunny day. There are spaces to prepare barbecues, soccer and basketball courts. There are several pools of cold water as well as heated water. In the open air and in the middle of nature are the Santa Ana pools. In the complex there is a garage, a snack bar, green areas, you can bring your food and serve yourself a picnic. The Santa Ana pools are 5 minutes from the center of Baños, you can take a cab or the city bus. The opening hours are from Friday to Sunday from 9:00 to 16:00. The cost is $2 for adults and $1 for children.\n [Get ditections](https://www.google.com.ec/maps/place/Complejo+Santa+Ana/@-1.3955988,-78.4113088,17z/data=!4m5!3m4!1s0x91d3913fd7090945:0xa536512b9305557!8m2!3d-1.3953593!4d-78.4092785?hl=es&shorturl=1&shorturl=1)"
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true

@@ -33,7 +33,7 @@ class ValidateBasicForm(FormValidationAction):
     ) -> Dict[Text, Any]:
         """Validate `song` value."""
 
-        if slot_value.lower() not in rangecalification:
+        if slot_value not in rangecalification:
             dispatcher.utter_message(text=f"se acepta cinco-cuatro-tres-dos-una estrella.")
             return {"song": None}
         dispatcher.utter_message(text=f"Gracias! por sus {slot_value} estrellas.")
@@ -1916,7 +1916,7 @@ class ActionCarousel(Action):
 # chivas
 class ActionCarousel(Action):
     def name(self) -> Text:
-        return "chivas"
+        return "chivas_acction"
     
     def run(self, dispatcher:CollectingDispatcher, 
             tracker: Tracker, 
@@ -1928,43 +1928,43 @@ class ActionCarousel(Action):
                 "template_type": "generic",
                 "elements": [
                     {
-                        "title": "Recorrido:",
-                        "subtitle": "Precio: $2",
-                        "image_url": "",
+                        "title": "Ruta: las Cascadas:",
+                        "subtitle": "Precio:$2 - $4",
+                        "image_url": "https://www.rubenyelmundo.com/wp-content/uploads/2021/10/Captura-de-pantalla-2021-10-04-a-las-20.16.56.jpg",
                         "buttons": [
                             {
                             "title": "Cómo llegar",
-                            "url": "",
+                            "url": "https://goo.gl/maps/9uxsvievPBQQJXEN6",
                             "type": "web_url"
                             },
                             {
                             "title": "Más información",
-                            "payload": "",
+                            "payload": "ruta de las cascadas",
                             "type": "postback"
                             }
                         ]
                     },
                     {
-                        "title": "Recorrido:",
-                        "subtitle": "Precio: $2",
-                        "image_url": "",
+                        "title": "Ruta: Casa del arbol",
+                        "subtitle": "Precio:$2 - $4",
+                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t1.6435-9/46520475_2088458037872182_2482989313294336000_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHAbPR3k3i0BEUPOcKC6WkpxME_-vTdNZLEwT_69N01kh0EWWDCSKoanK_5hCXcfaL6fxfgTzttL3Ls6ttI3w8s&_nc_ohc=DhxKN7v3iEUAX9Z6caK&tn=ZIOy2dN4pviN0Vbn&_nc_ht=scontent.fatf4-1.fna&oh=00_AfBj6mGmO2-o73nYo_khfNgjussmcRyHty3gLr5Dn5UsOQ&oe=63E7AB92",
                         "buttons": [
                             {
                             "title": "Cómo llegar",
-                            "url": "",
+                            "url": "https://goo.gl/maps/9uxsvievPBQQJXEN6",
                             "type": "web_url"
                             },
                             {
                             "title": "Más información",
-                            "payload": "sacha cafe",
+                            "payload": "tour casa del arbol",
                             "type": "postback"
                             }
                         ]
                     },
                     {
-                        "title": "Recorrido:",
-                        "subtitle": "Precio: $0",
-                        "image_url": "",
+                        "title": "Ruta: Las Antenas",
+                        "subtitle": "Precio:$2 - $4",
+                        "image_url": "https://samarispa.com/wp-content/uploads/2021/06/mirador-ojos-del-volcan-1536x864.jpeg",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -1973,24 +1973,42 @@ class ActionCarousel(Action):
                             },
                             {
                             "title": "Más información",
-                            "payload": "piedra de a luz",
+                            "payload": "ruta de las antenas",
                             "type": "postback"
                             }
                         ]
                     },
                     {
-                        "title": "Recorrido:",
-                        "subtitle": "Precio: $2",
-                        "image_url": "",
+                        "title": "Ruta: Pailon del diablo",
+                        "subtitle": "Precio:$2 - $5",
+                        "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/33/7e/d2/cascada-de-rio-verde.jpg",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
-                            "url": "https://www.google.com/maps/place/TERMINAL+TUR%C3%8DSTICO+DE+CHIVAS/@-1.3959865,-78.4250798,17z/data=!3m1!4b1!4m5!3m4!1s0x91d39138623b5fcb:0x25ec44f1a46c2efb!8m2!3d-1.3959865!4d-78.4228858",
+                            "url": "https://goo.gl/maps/9uxsvievPBQQJXEN6",
                             "type": "web_url"
                             },
                             {
                             "title": "Más información",
-                            "payload": "cara de perro",
+                            "payload": "el pailon en chivas",
+                            "type": "postback"
+                            }
+                        ]
+                    }
+                    ,
+                    {
+                        "title": "Ruta: Bellavista",
+                        "subtitle": "Precio: $2 - $4",
+                        "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/7c/e8/b2/chiva.jpg?w=1200&h=-1&s=1",
+                        "buttons": [ 
+                            {
+                            "title": "Cómo llegar",
+                            "url": "https://goo.gl/maps/9uxsvievPBQQJXEN6",
+                            "type": "web_url"
+                            },
+                            {
+                            "title": "Más información",
+                            "payload": "tour a bellavista en chiva",
                             "type": "postback"
                             }
                         ]
