@@ -12,6 +12,7 @@ nlu:
   examples: |
     - [cuatro](pregunta_uno) estrellas
     - [cinco](pregunta_uno) estrellas
+    - [cinco](pregunta_uno)
     - [dos](pregunta_uno) estrellas
     - [tres](pregunta_uno) estrellas
     - [uno](pregunta_uno) estrella

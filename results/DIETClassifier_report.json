@@ -1,19 +1,19 @@
 {
-  "pregunta_tres": {
+  "num_coffee": {
     "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
     "confused_with": {}
   },
-  "num_coffee": {
+  "pregunta_tres": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 4,
     "confused_with": {}
   },
-  "song": {
+  "pregunta_uno": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -22,21 +22,21 @@
   },
   "micro avg": {
     "precision": 1.0,
-    "recall": 0.9285714285714286,
-    "f1-score": 0.962962962962963,
-    "support": 14
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19
   },
   "macro avg": {
     "precision": 1.0,
-    "recall": 0.9333333333333332,
-    "f1-score": 0.9629629629629629,
-    "support": 14
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19
   },
   "weighted avg": {
     "precision": 1.0,
-    "recall": 0.9285714285714286,
-    "f1-score": 0.9603174603174603,
-    "support": 14
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19
   },
-  "accuracy": 0.9999415853729774
+  "accuracy": 1.0
 }

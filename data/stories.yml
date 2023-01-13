@@ -37,6 +37,14 @@ stories:
 #   - active_loop: null
 #   - action: utter_slots_values
 
+- story: festividades de baños
+  steps:
+  - intent: festividades_banios
+  - action: utter_festividades_banios
+  - intent: seguridad_banios
+  - action: utter_seguridad_banios
+
+
 - story: sad
   steps:
   - intent: sal_inicial #saludo
@@ -66,62 +74,62 @@ stories:
   - intent: medios_trasporte
   - action: medios_trasportes
 
-- story: informacion de atractivos 
-  steps: 
-  - intent: buscar_ayuda
-  - action: utter_ayuda_turista
-  - intent: afirmar
-  - action: utter_ask_atractivos
-  - intent: gracias_chat 
-  - action: utter_gracias
+# - story: informacion de atractivos 
+#   steps: 
+#   - intent: buscar_ayuda
+#   - action: utter_ayuda_turista
+#   - intent: afirmar
+#   - action: utter_ask_atractivos
+#   - intent: gracias_chat 
+#   - action: utter_gracias
 
-- story: preguntas del bot
-  steps: 
-  - action: utter_clima_informacion
-  - intent: negar
-  - action: utter_busca_festividades
-  - intent: negar
-  - action: utter_info_mapa
-  - intent: negar
-  - action: utter_info_denuncias
-  - intent: afirmar
-  - action: utter_denuncias
-  - intent: gracias_chat 
-  - action: utter_gracias
+# - story: preguntas del bot
+#   steps: 
+#   - action: utter_clima_informacion
+#   - intent: negar
+#   - action: utter_busca_festividades
+#   - intent: negar
+#   - action: utter_info_mapa
+#   - intent: negar
+#   - action: utter_info_denuncias
+#   - intent: afirmar
+#   - action: utter_denuncias
+#   - intent: gracias_chat 
+#   - action: utter_gracias
 
-- story: preguntas del bot dos
-  steps: 
-  - action: utter_clima_informacion
-  - intent: negar
-  - action: utter_busca_festividades
-  - intent: negar
-  - action: utter_info_mapa
-  - intent: afirmar
-  - action: utter_mapa
-  - intent: gracias_chat 
-  - action: utter_gracias
+# - story: preguntas del bot dos
+#   steps: 
+#   - action: utter_clima_informacion
+#   - intent: negar
+#   - action: utter_busca_festividades
+#   - intent: negar
+#   - action: utter_info_mapa
+#   - intent: afirmar
+#   - action: utter_mapa
+#   - intent: gracias_chat 
+#   - action: utter_gracias
 
-- story: preguntas del bot tress
-  steps: 
-  - action: utter_busca_festividades
-  - intent: afirmar
-  - action: utter_festividades_banios
-  - intent: gracias_chat 
-  - action: utter_gracias
+# - story: preguntas del bot tress
+#   steps: 
+#   - action: utter_busca_festividades
+#   - intent: afirmar
+#   - action: utter_festividades_banios
+#   - intent: gracias_chat 
+#   - action: utter_gracias
 
-- story: preguntas del bot cuatro
-  steps: 
-  - action: utter_busca_festividades
-  - intent: afirmar
-  - action: utter_festividades_banios
+# - story: preguntas del bot cuatro
+#   steps: 
+#   - action: utter_busca_festividades
+#   - intent: afirmar
+#   - action: utter_festividades_banios
 
-- story: busca informacion cinco
-  steps: 
-  - action: utter_clima_informacion
-  - intent: afirmar
-  - action: utter_clima
-  - intent: gracias_chat 
-  - action: utter_gracias
+# - story: busca informacion cinco
+#   steps: 
+#   - action: utter_clima_informacion
+#   - intent: afirmar
+#   - action: utter_clima
+#   - intent: gracias_chat 
+#   - action: utter_gracias
 
 # - story: informacion ingles
 #   steps: 

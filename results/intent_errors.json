@@ -1,18 +1,50 @@
 [
   {
-    "text": "Me siento muy bien",
-    "intent": "mood_great",
+    "text": "ruta de la casa del arbol",
+    "intent": "ruta_chivas_casaArbol",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.4838235378265381
+      "name": "sendero_casa_arbol",
+      "confidence": 0.5941066741943359
     }
   },
   {
-    "text": "very good",
-    "intent": "contestar_bien",
+    "text": "la casa del arbol en chivas",
+    "intent": "ruta_chivas_casaArbol",
     "intent_prediction": {
-      "name": "contestar_mal",
-      "confidence": 0.3296624720096588
+      "name": "sendero_casa_arbol",
+      "confidence": 0.28122377395629883
+    }
+  },
+  {
+    "text": "tour de la casa del arbol",
+    "intent": "ruta_chivas_casaArbol",
+    "intent_prediction": {
+      "name": "sendero_casa_arbol",
+      "confidence": 0.41119423508644104
+    }
+  },
+  {
+    "text": "como divertirse en baños",
+    "intent": "cosas_cuando_llueve",
+    "intent_prediction": {
+      "name": "disfrutar_banios",
+      "confidence": 0.45278847217559814
+    }
+  },
+  {
+    "text": "pachamama",
+    "intent": "pacha_mama",
+    "intent_prediction": {
+      "name": "pacha_mama_ingles",
+      "confidence": 0.37003129720687866
+    }
+  },
+  {
+    "text": "Pachamama",
+    "intent": "pacha_mama",
+    "intent_prediction": {
+      "name": "pacha_mama_ingles",
+      "confidence": 0.361053466796875
     }
   },
   {
@@ -20,63 +52,39 @@
     "intent": "punte_cristal",
     "intent_prediction": {
       "name": "punte_cristal_ingles",
-      "confidence": 0.3441007435321808
+      "confidence": 0.5730825662612915
     }
   },
   {
-    "text": "punte de cristal",
+    "text": "mega park rio blanco",
     "intent": "punte_cristal",
     "intent_prediction": {
       "name": "punte_cristal_ingles",
-      "confidence": 0.3830852508544922
+      "confidence": 0.3803115487098694
     }
   },
   {
-    "text": "como llegar a la casa del arbol",
-    "intent": "casa_del_arbol",
+    "text": "punte cristal rios blanco",
+    "intent": "punte_cristal",
     "intent_prediction": {
-      "name": "sendero_casa_arbol",
-      "confidence": 0.4493618905544281
+      "name": "punte_cristal_ingles",
+      "confidence": 0.4150870144367218
     }
   },
   {
-    "text": "hacer canyoning",
-    "intent": "contratar_Canyoning",
+    "text": "rafting",
+    "intent": "rafting",
     "intent_prediction": {
-      "name": "Canyoning",
-      "confidence": 0.36946895718574524
+      "name": "rafting_ingles",
+      "confidence": 0.37750229239463806
     }
   },
   {
-    "text": "quiero hacer canyoning",
-    "intent": "contratar_Canyoning",
+    "text": "Rafting",
+    "intent": "rafting",
     "intent_prediction": {
-      "name": "Canyoning",
-      "confidence": 0.3454248607158661
-    }
-  },
-  {
-    "text": "escalada en roca",
-    "intent": "escalada_roca",
-    "intent_prediction": {
-      "name": "contrato_escaladaroca",
-      "confidence": 0.4436057507991791
-    }
-  },
-  {
-    "text": "escalada de roca",
-    "intent": "escalada_roca",
-    "intent_prediction": {
-      "name": "contrato_escaladaroca",
-      "confidence": 0.4928351938724518
-    }
-  },
-  {
-    "text": "actividad extrema escalada de roca",
-    "intent": "escalada_roca",
-    "intent_prediction": {
-      "name": "contrato_escaladaroca",
-      "confidence": 0.45822399854660034
+      "name": "rafting_ingles",
+      "confidence": 0.37536385655403137
     }
   },
   {
@@ -84,7 +92,15 @@
     "intent": "escalada_roca",
     "intent_prediction": {
       "name": "contrato_escaladaroca",
-      "confidence": 0.5103740096092224
+      "confidence": 0.37103429436683655
+    }
+  },
+  {
+    "text": "chamana",
+    "intent": "chamana",
+    "intent_prediction": {
+      "name": "chamana_waterfall_ingles",
+      "confidence": 0.33724460005760193
     }
   },
   {
@@ -92,15 +108,31 @@
     "intent": "zoo_san_martin",
     "intent_prediction": {
       "name": "zoo_san_martin_ingles",
-      "confidence": 0.7255091667175293
+      "confidence": 0.5229414701461792
     }
   },
   {
-    "text": "como llegar a Bellavista",
-    "intent": "Bellavista_camino",
+    "text": "lugar de psicinas el salado",
+    "intent": "El_Salado",
     "intent_prediction": {
-      "name": "mirador_Bellavista",
-      "confidence": 0.4986976385116577
+      "name": "The_Salado_thermal_pools",
+      "confidence": 0.4573605954647064
+    }
+  },
+  {
+    "text": "malecon de rio verde",
+    "intent": "malecon_rioVerde",
+    "intent_prediction": {
+      "name": "malecon_rioVerde_ingles",
+      "confidence": 0.39550963044166565
+    }
+  },
+  {
+    "text": "museum prices",
+    "intent": "museums",
+    "intent_prediction": {
+      "name": "Museum_ingles",
+      "confidence": 0.3975907266139984
     }
   },
   {
@@ -108,15 +140,7 @@
     "intent": "san_Antonio_ingles",
     "intent_prediction": {
       "name": "san_Antonio",
-      "confidence": 0.4788232445716858
-    }
-  },
-  {
-    "text": "Our Mundo Adventure",
-    "intent": "ourworldadventure_ingles",
-    "intent_prediction": {
-      "name": "our_mundo_adventure",
-      "confidence": 0.40209802985191345
+      "confidence": 0.34820735454559326
     }
   },
   {
@@ -124,7 +148,7 @@
     "intent": "Termas_dela_virgen_en",
     "intent_prediction": {
       "name": "Virgin_Pool",
-      "confidence": 0.7198491096496582
+      "confidence": 0.70265132188797
     }
   }
 ]

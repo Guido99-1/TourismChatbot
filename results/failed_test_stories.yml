@@ -13,40 +13,38 @@ stories:
   - intent: mood_great  # predicted: contestar_bien: amazing
   - action: utter_happy
   - intent: goodbye  # predicted: despedida: bye-bye!
-  - action: utter_goodbye
-  - action: action_listen  # predicted: utter_indicaciones
+  - action: utter_goodbye  # predicted: action_default_fallback
 - story: sad path 1 (.\tests\test_stories.yml)
   steps:
   - intent: greet  # predicted: saludo: hello
   - action: utter_greet  # predicted: utter_inicio
-  - intent: mood_unhappy  # predicted: nlu_fallback: not good
+  - intent: mood_unhappy  # predicted: contestar_mal: not good
   - action: utter_cheer_up
   - action: utter_did_that_help  # predicted: action_listen
   - intent: affirm
-  - action: utter_happy  # predicted: utter_ask_information_ingles
+  - action: utter_happy  # predicted: action_default_fallback
 - story: sad path 2 (.\tests\test_stories.yml)
   steps:
   - intent: greet  # predicted: saludo: hello
   - action: utter_greet  # predicted: utter_inicio
-  - intent: mood_unhappy  # predicted: nlu_fallback: not good
+  - intent: mood_unhappy  # predicted: contestar_mal: not good
   - action: utter_cheer_up
   - action: utter_did_that_help  # predicted: action_listen
   - intent: deny
-  - action: utter_goodbye  # predicted: utter_info_mapa_en
+  - action: utter_goodbye  # predicted: action_default_fallback
 - story: sad path 3 (.\tests\test_stories.yml)
   steps:
   - intent: greet  # predicted: saludo: hi
   - action: utter_greet  # predicted: utter_inicio
-  - intent: mood_unhappy  # predicted: nlu_fallback: very terrible
+  - intent: mood_unhappy  # predicted: contestar_mal: very terrible
   - action: utter_cheer_up
   - action: utter_did_that_help  # predicted: action_listen
   - intent: deny  # predicted: negar: no
-  - action: utter_goodbye  # predicted: utter_info_mapa_en
+  - action: utter_goodbye  # predicted: action_default_fallback
 - story: say goodbye (.\tests\test_stories.yml)
   steps:
   - intent: goodbye  # predicted: despedida: bye-bye!
-  - action: utter_goodbye
-  - action: action_listen  # predicted: utter_indicaciones
+  - action: utter_goodbye  # predicted: action_default_fallback
 - story: bot challenge (.\tests\test_stories.yml)
   steps:
   - intent: bot_challenge  # predicted: que_eres: are you a bot?

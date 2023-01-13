@@ -100,15 +100,6 @@ rules:
   - intent: thank_chat
   - action: utter_thanks
 
-- rule: festividades de baños
-  steps:
-  - intent: festividades_banios
-  - action: utter_festividades_banios
-
-- rule: seguridad en baños de agua santa
-  steps:
-  - intent: seguridad_banios
-  - action: utter_seguridad_banios
 
 - rule: understand
   steps:
