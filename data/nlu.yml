@@ -10,26 +10,37 @@ nlu:
 
 - intent: inform
   examples: |
-    - [cuatro](pregunta_uno) estrellas
-    - [cinco](pregunta_uno) estrellas
-    - [cinco](pregunta_uno)
-    - [dos](pregunta_uno) estrellas
-    - [tres](pregunta_uno) estrellas
-    - [uno](pregunta_uno) estrella
-    - [1](num_coffee) 
-    - [2](num_coffee) 
-    - [3](num_coffee) 
-    - [4](num_coffee) 
-    - [5](num_coffee)
-    - [6](num_coffee)
-    - [7](num_coffee)
-    - [8](num_coffee)
-    - [9](num_coffee)
-    - [10](num_coffee)
-    - [si](pregunta_tres) es adecuado
-    - [Si](pregunta_tres) es rapido
-    - [NO](pregunta_tres) es muy lento 
-    - [no](pregunta_tres) lo es
+    - [5](pregu]nta_uno) 
+    - [4](pregunta_uno) 
+    - [3](pregunta_uno) 
+    - [2](pregunta_uno) 
+    - [1](pregunta_uno) 
+    - [cinco](question_dos) 
+    - [cuatro](question_dos) 
+    - [tres](question_dos) 
+    - [dos](question_dos) 
+    - [uno](question_dos) 
+    - [a](info_tres) 
+    - [b](info_tres) 
+    - [c](info_tres) 
+    - [d](info_tres) 
+    - [e](info_tres) 
+    - [v](conocer_cuatro) 
+    - [w](conocer_cuatro) 
+    - [x](conocer_cuatro) 
+    - [y](conocer_cuatro) 
+    - [z](conocer_cuatro)
+
+- intent: info_chivas
+  examples: |
+    - informaciones de chivas
+    - chivas 
+    - viaje en chivas
+    - costo del viaje en chivas 
+    - ubicacion de chivas
+    - terminal de chivas
+    - viajar en chivas 
+    - conocer baños en chivas 
 
 - intent: ruta_chivias_cascadas
   examples: |

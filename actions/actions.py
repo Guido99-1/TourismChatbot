@@ -16,11 +16,10 @@ from rasa_sdk.types import DomainDict
 from rasa_sdk.events import SlotSet
 import psycopg2
 # #
-rangecalification = ["cinco", "cuatro", "tres", "dos", "una"]
-#questionEn1 = ["one", "two", "three", "four", "five"]
-CSAT = ["1", "2", "3", "4", "5","6","7","8","9","10"]
-#CSATENGLISH = ["Yes", "NO", "no", "yes"]
-tiempoChatbot = ["Si", "NO", "si", "no"]
+calidarslots = ["1", "2", "3", "4", "5"]
+validarpreguntados = ["uno", "dos", "tres", "cuatro", "cinco"]
+validarpreguntatres = ["a", "b", "c", "d", "e"]
+validarpreguntacuatro = ["v", "w", "x", "y", "z"]
 
 class ValidateBasicForm(FormValidationAction):
     def name(self) -> Text:
@@ -35,55 +34,115 @@ class ValidateBasicForm(FormValidationAction):
     ) -> Dict[Text, Any]:
         """Validate `pregunta_uno` value."""
 
-        if slot_value.lower() not in rangecalification:
-            dispatcher.utter_message(text=f"se acepta cinco-cuatro-tres-dos-una estrella.")
+        if slot_value.lower() not in calidarslots:
+            dispatcher.utter_message(text=f"se acepta solo valores del 1 al 5")
             return {"pregunta_uno": None}
-        dispatcher.utter_message(text=f"Gracias! por sus {slot_value} estrellas.")
-        
+        #dispatcher.utter_message(text=f"Gracias! por su respuesta")
         return {"pregunta_uno": slot_value}
 
-    def validate_num_coffee(
-        self,
-        num_coffee: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,
-    ) -> Dict[Text, Any]:
-        """Validate `num_coffee` value."""
 
-        if num_coffee not in CSAT:
-            dispatcher.utter_message(text=f"se aceptan valores del 1 al 10.")
-            return {"num_coffee": None}
-        dispatcher.utter_message(text=f"Gracias! por sus respuesta.")
-        return {"num_coffee": num_coffee}
-    
-    def validate_pregunta_tres(
+    def validate_question_dos(
         self,
         slot_value: Any,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: DomainDict,
     ) -> Dict[Text, Any]:
-        """Validate `pregunta_tres` value."""
+        """Validate `question_dos` value."""
 
-        if slot_value not in tiempoChatbot:
+        if slot_value.lower() not in validarpreguntados:
+            dispatcher.utter_message(text=f"se acepta valores del 1 al 5")
+            return {"question_dos": None}
+        #dispatcher.utter_message(text=f"Gracias! por su respuesta.")
+        #print("si entra al slot 2")
+        return {"question_dos": slot_value}
+    
+    def validate_info_tres(
+        self,
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        """Validate `info_tres` value."""
+
+        if slot_value.lower() not in validarpreguntatres:
+            dispatcher.utter_message(text=f"se acepta valores del 1 al 5")
+            return {"info_tres": None}
+        return {"info_tres": slot_value}
+    
+    def validate_conocer_cuatro(
+        self,
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> Dict[Text, Any]:
+        """Validate `conocer_cuatro` value."""
+
+        if slot_value.lower() not in validarpreguntacuatro:
             dispatcher.utter_message(text=f"se acepta Si o No.")
-            return {"pregunta_tres": None}
-        dispatcher.utter_message(text=f"Gracias! por su calidicacion")
-        db = psycopg2.connect(
+            return {"conocer_cuatro": None}
+        #dispatcher.utter_message(text=f"Gracias por su respuesta")
+        
+        if tracker.get_slot("pregunta_uno") == "1":
+            pregunta1="1"
+        elif tracker.get_slot("pregunta_uno") == "2":
+            pregunta1="2"
+        elif tracker.get_slot("pregunta_uno") == "3":
+            pregunta1="3"
+        elif tracker.get_slot("pregunta_uno") == "4":
+            pregunta1="4"     
+        else: 
+            pregunta1="5" 
+        
+        if tracker.get_slot("question_dos") == "uno":
+            pregunta2="1"
+        elif tracker.get_slot("question_dos") == "dos":
+            pregunta2="2"
+        elif tracker.get_slot("question_dos") == "tres":
+            pregunta2="3"
+        elif tracker.get_slot("question_dos") == "cuatro":
+            pregunta2="4"     
+        else: 
+            pregunta2="5"  
+            
+        if tracker.get_slot("info_tres") == "a":
+            pregunta3="1"
+        elif tracker.get_slot("info_tres") == "b":
+            pregunta3="2"
+        elif tracker.get_slot("info_tres") == "c":
+            pregunta3="3"
+        elif tracker.get_slot("info_tres") == "d":
+            pregunta3="4"     
+        else: 
+            pregunta3="5"
+        
+        if tracker.get_slot("conocer_cuatro") == "v":
+            pregunta4="1"
+        elif tracker.get_slot("conocer_cuatro") == "w":
+            pregunta4="2"
+        elif tracker.get_slot("conocer_cuatro") == "x":
+            pregunta4="3"
+        elif tracker.get_slot("conocer_cuatro") == "y":
+            pregunta4="4"     
+        else: 
+            pregunta4="5"   
+            
+        db2 = psycopg2.connect(
                 host="snuffleupagus.db.elephantsql.com",
                 database="mqdxoaeo",
                 user="mqdxoaeo",
                 password="Dse4GRiTHf0zfTO7KQuQMwt6KDsiEhgV"
                 )
-        mycursor = db.cursor()
-        postgres_insert_query = "INSERT INTO calificaciones(pregunta1,pregunta2,pregunta3) VALUES (%s,%s,%s);"
+        mycursor2 = db2.cursor()
+        postgres_insert_query2 = "INSERT INTO calificaciones(pregunta1,pregunta2,pregunta3,pregunta4) VALUES (%s,%s,%s,%s);"
 
-        preguntas = (tracker.get_slot("pregunta_uno"),tracker.get_slot("num_coffee"),tracker.get_slot("pregunta_tres"))
+        preguntas2 = (pregunta1,pregunta2,pregunta3,pregunta4)
         #print(type(preguntas))
-        mycursor.execute(postgres_insert_query,preguntas)
-        db.commit()
-        return {"pregunta_tres": slot_value}
+        mycursor2.execute(postgres_insert_query2,preguntas2)
+        db2.commit()
+        return {"conocer_cuatro": slot_value}
 
 class ActionCarousel(Action):
     def name(self) -> Text:

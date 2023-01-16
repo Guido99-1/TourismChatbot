@@ -35,6 +35,11 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: chivas 
+  steps: 
+  - intent: info_chivas
+  - action: chivas_acction
+
 - rule: chivas uno
   steps:
   - intent: ruta_chivas_Bellavista

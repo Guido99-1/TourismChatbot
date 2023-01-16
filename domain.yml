@@ -287,18 +287,21 @@ intents:
   - disfrutar_conninos
   - quehacer_enFamilia
   - parejas
+  - info_chivas
 
 entities:
 - pregunta_uno
-- num_coffee
-- pregunta_tres
+- question_dos
+- info_tres
+- conocer_cuatro
 
 forms:
   basic_form:
     required_slots:
         - pregunta_uno
-        - num_coffee
-        - pregunta_tres
+        - question_dos
+        - info_tres
+        - conocer_cuatro
 
 slots:
   pregunta_uno:
@@ -307,18 +310,23 @@ slots:
     mappings:
     - type: from_entity
       entity: pregunta_uno
-  num_coffee:
+  question_dos:
+    type: text
+    mappings: 
+    - type: from_entity
+      entity: question_dos
+  info_tres:
     type: text
     influence_conversation: false
     mappings:
     - type: from_entity
-      entity: num_coffee
-  pregunta_tres:
+      entity: info_tres
+  conocer_cuatro:
     type: text
     influence_conversation: true
     mappings:
     - type: from_entity
-      entity: pregunta_tres
+      entity: conocer_cuatro
 
 actions:
   - validate_basic_form
@@ -586,12 +594,6 @@ actions:
 
 responses:
 
-  utter_slots_values:
-  - text: "Resumen:\n
-           - calificacion 1: {pregunta_uno}\n
-           - calificacion 2: {num_coffee}\n
-           - calificacion 3: {pregunta_tres}\n"
-
   utter_parejas:
   - text: "Las opciones que nosotros recomendamos hacer en pareja es visitar: La Casa del Árbol, Caminar por el centro de Baños de Agua Santa. Baños es una ciudad relativamente segura, así que siéntete tranquilo caminando por Baños tanto de día como de noche. Disfrutar de los Balnearios de Aguas Termales, visitar la aldea Mágica un museo a cielo abierto acoplado en un Jardín de Duendes llenos de encanto que te invitan a conectar con la naturaleza."
   utter_familia_actividades:
@@ -612,16 +614,62 @@ responses:
   - text: "Horario nocturno  de 19:00 y 21:00. Tour que inicia en el centro de Baños y de ahí parten hasta la parroquia Río Verde en donde se encuentra el Pailón del Diablo. Los turistas podrán disfrutar de una caminata de alrededor de 10 minutos, para ello contarán con un guía y el equipo necesario para evitar cualquier tipo de inconveniente. Posteriormente, pasarán a la cafetería en donde degustarán de un coctel, con o sin licor, y podrán disfrutar de un momento ameno."
   utter_chiva_bellavista:
   - text: "Horario nocturno de 19:00 y 21:00. Tour que inicia en el centro de Baños y de ahí parten hasta el sector de Runtún. Donde podrá apreciar una vista nocturna de la ciudad de Baños, el ingreso al mirador es de $0,50 incluye un canelazo. La chiva se informará al momento de regresar a la ciudad"
+ utter_slots_values:
+  - text: "Muchas gracias por rersponder a cada una de las preguntas"
   utter_indicaciones:
-  - text: "1.- Indique en una escala de uno al cinco para indicar las estrellas de satisfacción\n
-          2.- Indique en una escala del 1 al 10\n
-          3.- Indique con si o no\n"  
+  - text: "Indique en una escala del 1 al 5 siendo 1 la calificacion más baja y 5 la mas alta"
   utter_ask_basic_form_pregunta_uno:
-  - text: "¿El chatbot le proporciona los detalles que necesita con respecto a los atractivos turísticos y comprende de sus peticiones?"        
-  utter_ask_basic_form_num_coffee:
-  - text: "En una escala del 1 al 10, ¿Qué probabilidad hay de que nos recomiende con amigos y conocidos?"
-  utter_ask_basic_form_pregunta_tres:
-  - text: "3.- ¿Condidera que el tiempo de respuesta del chatbot es adecuado?" 
+  - text: "1.-¿El chatbot brinda información correcta de los diferentes atractivos turísticos?"
+    buttons:
+    - title: "1"
+      payload: "1"
+    - title: "2"
+      payload: "2"
+    - title: "3"
+      payload: "3"
+    - title: "4"
+      payload: "4"
+    - title: "5"
+      payload: "5"
+  utter_ask_basic_form_question_dos:
+  - text: "2.-¿El chatbot comprende y responde sus peticiones?"
+    buttons:
+    - title: "1"
+      payload: "uno"
+    - title: "2"
+      payload: "dos"
+    - title: "3"
+      payload: "tres"
+    - title: "4"
+      payload: "cuatro"
+    - title: "5"
+      payload: "cinco"
+  utter_ask_basic_form_info_tres:
+  - text: "3.-¿El tiempo de respuesta del chatbot es adecuado?"
+    buttons:
+    - title: "1"
+      payload: "a"
+    - title: "2"
+      payload: "b"
+    - title: "3"
+      payload: "c"
+    - title: "4"
+      payload: "d"
+    - title: "5"
+      payload: "e"
+  utter_ask_basic_form_conocer_cuatro:
+  - text: "4.-¿Recomendaría a sus amigos, compañeros y conocidos el uso del chatbot?"
+    buttons:
+    - title: "1"
+      payload: "v"
+    - title: "2"
+      payload: "w"
+    - title: "3"
+      payload: "x"
+    - title: "4"
+      payload: "y"
+    - title: "5"
+      payload: "z"
   utter_inicio:
   - text: "Opten información de los diferentes atractivos turísticos de Baños de Agua Santa. RECUERDA los valores son aproximados"
     buttons:
