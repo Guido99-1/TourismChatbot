@@ -128,6 +128,15 @@ nlu:
     - hola bot
     - hola amigo
     - que tal
+    - olaaa
+    - olaa
+    - ola
+    - ¿Cómo estás?
+    - Buenos días
+    - bueno días
+    - ¿Cómo te va?
+    - Encantado
+    - encantado
 
 - intent: saludo
   examples: |
@@ -141,6 +150,15 @@ nlu:
     - hi
     - hello bot
     - hello friend
+    - How are things?
+    - How are you doing?
+    - How are you?
+    - How do you do?
+    - How’s it going?
+    - What’s going on?
+    - What’s new?
+    - What’s up? 
+    - What’s happening?
 
 - intent: goodbye_español
   examples: |
