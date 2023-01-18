@@ -41,6 +41,10 @@ nlu:
     - terminal de chivas
     - viajar en chivas 
     - conocer baños en chivas 
+    - información de chivas
+    - tours en chivas
+    - como ir en chivas
+    - Chivas
 
 - intent: ruta_chivias_cascadas
   examples: |
@@ -234,6 +238,8 @@ nlu:
     - Quiero saber el tiempo de hoy
     - Dime el pronóstico del tiempo
     - ¿Cómo está el clima hoy?
+    - Está nublado? 
+    - Está soleado? 
 
 - intent: mapa
   examples: |
