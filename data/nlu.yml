@@ -25,11 +25,11 @@ nlu:
     - [c](info_tres) 
     - [d](info_tres) 
     - [e](info_tres) 
-    - [v](conocer_cuatro) 
-    - [w](conocer_cuatro) 
-    - [x](conocer_cuatro) 
-    - [y](conocer_cuatro) 
-    - [z](conocer_cuatro)
+    - [vv](conocer_cuatro) 
+    - [ww](conocer_cuatro) 
+    - [xx](conocer_cuatro) 
+    - [yy](conocer_cuatro) 
+    - [zz](conocer_cuatro)
 
 - intent: info_chivas
   examples: |

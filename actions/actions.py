@@ -18,8 +18,8 @@ import psycopg2
 # #
 calidarslots = ["1", "2", "3", "4", "5"]
 validarpreguntados = ["uno", "dos", "tres", "cuatro", "cinco"]
-validarpreguntatres = ["a", "b", "c", "d", "e"]
-validarpreguntacuatro = ["v", "w", "x", "y", "z"]
+validarpreguntatres = ["aa", "bb", "cc", "dd", "ee"]
+validarpreguntacuatro = ["vv", "ww", "xx", "yy", "zz"]
 
 class ValidateBasicForm(FormValidationAction):
     def name(self) -> Text:
@@ -107,24 +107,24 @@ class ValidateBasicForm(FormValidationAction):
         else: 
             pregunta2="5"  
             
-        if tracker.get_slot("info_tres") == "a":
+        if tracker.get_slot("info_tres") == "aa":
             pregunta3="1"
-        elif tracker.get_slot("info_tres") == "b":
+        elif tracker.get_slot("info_tres") == "bb":
             pregunta3="2"
-        elif tracker.get_slot("info_tres") == "c":
+        elif tracker.get_slot("info_tres") == "cc":
             pregunta3="3"
-        elif tracker.get_slot("info_tres") == "d":
+        elif tracker.get_slot("info_tres") == "de":
             pregunta3="4"     
         else: 
             pregunta3="5"
         
-        if tracker.get_slot("conocer_cuatro") == "v":
+        if tracker.get_slot("conocer_cuatro") == "vv":
             pregunta4="1"
-        elif tracker.get_slot("conocer_cuatro") == "w":
+        elif tracker.get_slot("conocer_cuatro") == "ww":
             pregunta4="2"
-        elif tracker.get_slot("conocer_cuatro") == "x":
+        elif tracker.get_slot("conocer_cuatro") == "xx":
             pregunta4="3"
-        elif tracker.get_slot("conocer_cuatro") == "y":
+        elif tracker.get_slot("conocer_cuatro") == "yy":
             pregunta4="4"     
         else: 
             pregunta4="5"   
