@@ -19,7 +19,7 @@ import psycopg2
 calidarslots = ["1", "2", "3", "4", "5"]
 validarpreguntados = ["uno", "dos", "tres", "cuatro", "cinco"]
 validarpreguntatres = ["aa", "bb", "cc", "dd", "ee"]
-validarpreguntacuatro = ["vv", "ww", "xx", "yy", "zz"]
+validarpreguntacuatro = ["vv", "ww", "xx", "kk", "zz"]
 
 class ValidateBasicForm(FormValidationAction):
     def name(self) -> Text:
@@ -124,7 +124,7 @@ class ValidateBasicForm(FormValidationAction):
             pregunta4="2"
         elif tracker.get_slot("conocer_cuatro") == "xx":
             pregunta4="3"
-        elif tracker.get_slot("conocer_cuatro") == "yy":
+        elif tracker.get_slot("conocer_cuatro") == "kk":
             pregunta4="4"     
         else: 
             pregunta4="5"   
