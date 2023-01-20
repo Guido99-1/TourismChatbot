@@ -1,12 +1,312 @@
 [
   {
-    "text": "le pongo1",
+    "text": "5",
     "entities": [
       {
-        "start": 8,
-        "end": 9,
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "entity": "pregu]nta_uno"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "num_coffee",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9918741583824158,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "4",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "4",
+        "entity": "pregunta_uno"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "num_coffee",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9918741583824158,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "3",
+        "entity": "pregunta_uno"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "num_coffee",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9918741583824158,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "pregunta_uno"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "num_coffee",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9918741583824158,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
         "value": "1",
-        "entity": "pregunta_tres"
+        "entity": "pregunta_uno"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "num_coffee",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9918741583824158,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cinco",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "cinco",
+        "entity": "question_dos"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pregunta_uno",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9344121217727661,
+        "value": "cinco",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cuatro",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "cuatro",
+        "entity": "question_dos"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pregunta_uno",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.8789302706718445,
+        "value": "cuatro",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tres",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tres",
+        "entity": "question_dos"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dos",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "dos",
+        "entity": "question_dos"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "uno",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "uno",
+        "entity": "question_dos"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pregunta_uno",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.6940038800239563,
+        "value": "uno",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "aa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "aa",
+        "entity": "info_tres"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bb",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "bb",
+        "entity": "info_tres"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "cc",
+        "entity": "info_tres"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dd",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "dd",
+        "entity": "info_tres"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ee",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "ee",
+        "entity": "info_tres"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "vv",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "vv",
+        "entity": "conocer_cuatro"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ww",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "ww",
+        "entity": "conocer_cuatro"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "xx",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "xx",
+        "entity": "conocer_cuatro"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kk",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "kk",
+        "entity": "conocer_cuatro"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "zz",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "zz",
+        "entity": "conocer_cuatro"
       }
     ],
     "predicted_entities": []

@@ -1,5 +1,189 @@
 [
   {
+    "text": "dos",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "principales_famosos",
+      "confidence": 0.2538357079029083
+    }
+  },
+  {
+    "text": "aa",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "afirmar",
+      "confidence": 0.18158049881458282
+    }
+  },
+  {
+    "text": "bb",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.17750191688537598
+    }
+  },
+  {
+    "text": "cc",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "afirmar",
+      "confidence": 0.19107595086097717
+    }
+  },
+  {
+    "text": "dd",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "afirmar",
+      "confidence": 0.5402372479438782
+    }
+  },
+  {
+    "text": "ee",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "viewpoints_text",
+      "confidence": 0.17415055632591248
+    }
+  },
+  {
+    "text": "vv",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "afirmar",
+      "confidence": 0.5172466039657593
+    }
+  },
+  {
+    "text": "ww",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "sal_inicial",
+      "confidence": 0.31242215633392334
+    }
+  },
+  {
+    "text": "xx",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "afirmar",
+      "confidence": 0.2901284992694855
+    }
+  },
+  {
+    "text": "kk",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "Sacha_360",
+      "confidence": 0.10468271374702454
+    }
+  },
+  {
+    "text": "zz",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "sal_inicial",
+      "confidence": 0.22702118754386902
+    }
+  },
+  {
+    "text": "informaciones de chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivias_cascadas",
+      "confidence": 0.21524262428283691
+    }
+  },
+  {
+    "text": "chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivias_cascadas",
+      "confidence": 0.13378915190696716
+    }
+  },
+  {
+    "text": "viaje en chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivas_Bellavista",
+      "confidence": 0.12301613390445709
+    }
+  },
+  {
+    "text": "costo del viaje en chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "precio_dios",
+      "confidence": 0.07583636045455933
+    }
+  },
+  {
+    "text": "ubicacion de chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivas_Bellavista",
+      "confidence": 0.12042474746704102
+    }
+  },
+  {
+    "text": "terminal de chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "los_sauces",
+      "confidence": 0.18428704142570496
+    }
+  },
+  {
+    "text": "viajar en chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivas_Bellavista",
+      "confidence": 0.08060652017593384
+    }
+  },
+  {
+    "text": "conocer baños en chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivas_Bellavista",
+      "confidence": 0.1440194994211197
+    }
+  },
+  {
+    "text": "información de chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivas_Bellavista",
+      "confidence": 0.17704086005687714
+    }
+  },
+  {
+    "text": "tours en chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivas_Bellavista",
+      "confidence": 0.21301214396953583
+    }
+  },
+  {
+    "text": "como ir en chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivas_Bellavista",
+      "confidence": 0.215336412191391
+    }
+  },
+  {
+    "text": "Chivas",
+    "intent": "info_chivas",
+    "intent_prediction": {
+      "name": "ruta_chivias_cascadas",
+      "confidence": 0.13230334222316742
+    }
+  },
+  {
     "text": "ruta de la casa del arbol",
     "intent": "ruta_chivas_casaArbol",
     "intent_prediction": {
@@ -24,11 +208,147 @@
     }
   },
   {
+    "text": "olaaa",
+    "intent": "sal_inicial",
+    "intent_prediction": {
+      "name": "mapa",
+      "confidence": 0.07694466412067413
+    }
+  },
+  {
+    "text": "olaa",
+    "intent": "sal_inicial",
+    "intent_prediction": {
+      "name": "mapa",
+      "confidence": 0.06324160099029541
+    }
+  },
+  {
+    "text": "¿Cómo estás?",
+    "intent": "sal_inicial",
+    "intent_prediction": {
+      "name": "senderos_ciudad",
+      "confidence": 0.15392832458019257
+    }
+  },
+  {
+    "text": "¿Cómo te va?",
+    "intent": "sal_inicial",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.10070503503084183
+    }
+  },
+  {
+    "text": "Encantado",
+    "intent": "sal_inicial",
+    "intent_prediction": {
+      "name": "bosque_encantado",
+      "confidence": 0.6427371501922607
+    }
+  },
+  {
+    "text": "encantado",
+    "intent": "sal_inicial",
+    "intent_prediction": {
+      "name": "bosque_encantado",
+      "confidence": 0.6442428231239319
+    }
+  },
+  {
+    "text": "How are things?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "swings_text",
+      "confidence": 0.4121156334877014
+    }
+  },
+  {
+    "text": "How are you doing?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "que_eres",
+      "confidence": 0.47125402092933655
+    }
+  },
+  {
+    "text": "How are you?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "que_eres",
+      "confidence": 0.6072912216186523
+    }
+  },
+  {
+    "text": "How do you do?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "que_eres",
+      "confidence": 0.32451334595680237
+    }
+  },
+  {
+    "text": "How’s it going?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "contestar_bien",
+      "confidence": 0.5794162750244141
+    }
+  },
+  {
+    "text": "What’s going on?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "contestar_bien",
+      "confidence": 0.19132257997989655
+    }
+  },
+  {
+    "text": "What’s new?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "sal_inicial",
+      "confidence": 0.09002935886383057
+    }
+  },
+  {
+    "text": "What’s up?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "sal_inicial",
+      "confidence": 0.07646067440509796
+    }
+  },
+  {
+    "text": "What’s happening?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "enchanted_forest",
+      "confidence": 0.2154971808195114
+    }
+  },
+  {
     "text": "como divertirse en baños",
     "intent": "cosas_cuando_llueve",
     "intent_prediction": {
       "name": "disfrutar_banios",
       "confidence": 0.45278847217559814
+    }
+  },
+  {
+    "text": "Está nublado?",
+    "intent": "clima",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.06964538246393204
+    }
+  },
+  {
+    "text": "Está soleado?",
+    "intent": "clima",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.07721494883298874
     }
   },
   {
@@ -149,6 +469,30 @@
     "intent_prediction": {
       "name": "Virgin_Pool",
       "confidence": 0.70265132188797
+    }
+  },
+  {
+    "text": "Can I ask a favor?",
+    "intent": "help_search",
+    "intent_prediction": {
+      "name": "buscar_ayuda",
+      "confidence": 0.2702840566635132
+    }
+  },
+  {
+    "text": "Can I ask you for a favor?",
+    "intent": "help_search",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.05021700635552406
+    }
+  },
+  {
+    "text": "Could you do me a favor?",
+    "intent": "help_search",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.18493568897247314
     }
   }
 ]
