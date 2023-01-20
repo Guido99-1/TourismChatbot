@@ -18,8 +18,8 @@ import psycopg2
 # #
 calidarslots = ["1", "2", "3", "4", "5"]
 validarpreguntados = ["uno", "dos", "tres", "cuatro", "cinco"]
-validarpreguntatres = ["aa", "bb", "cc", "dd", "ee"]
-validarpreguntacuatro = ["vv", "ww", "xx", "kk", "zz"]
+validarpreguntatres = ["g", "b", "c", "d", "e"]
+validarpreguntacuatro = ["v", "w", "x", "k", "z"]
 
 class ValidateBasicForm(FormValidationAction):
     def name(self) -> Text:
@@ -107,24 +107,24 @@ class ValidateBasicForm(FormValidationAction):
         else: 
             pregunta2="5"  
             
-        if tracker.get_slot("info_tres") == "aa":
+        if tracker.get_slot("info_tres") == "g":
             pregunta3="1"
-        elif tracker.get_slot("info_tres") == "bb":
+        elif tracker.get_slot("info_tres") == "b":
             pregunta3="2"
-        elif tracker.get_slot("info_tres") == "cc":
+        elif tracker.get_slot("info_tres") == "c":
             pregunta3="3"
-        elif tracker.get_slot("info_tres") == "de":
+        elif tracker.get_slot("info_tres") == "d":
             pregunta3="4"     
         else: 
             pregunta3="5"
         
-        if tracker.get_slot("conocer_cuatro") == "vv":
+        if tracker.get_slot("conocer_cuatro") == "v":
             pregunta4="1"
-        elif tracker.get_slot("conocer_cuatro") == "ww":
+        elif tracker.get_slot("conocer_cuatro") == "w":
             pregunta4="2"
-        elif tracker.get_slot("conocer_cuatro") == "xx":
+        elif tracker.get_slot("conocer_cuatro") == "x":
             pregunta4="3"
-        elif tracker.get_slot("conocer_cuatro") == "kk":
+        elif tracker.get_slot("conocer_cuatro") == "k":
             pregunta4="4"     
         else: 
             pregunta4="5"   
@@ -351,7 +351,7 @@ class ActionCarousel(Action):
                 "elements": [
                     {
                         "title": "Columpio Fantasías de Volar",
-                        "subtitle": "Precios: $  10 por persona",
+                        "subtitle": "Precios: $10 por persona",
                         "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/12/3a/ef/5d/volando-sobre-banos-de.jpg",
                         "buttons": [ 
                             {
@@ -373,7 +373,7 @@ class ActionCarousel(Action):
                     },
                     {
                         "title": "Casa del árbol",
-                        "subtitle": "Precios: e $1 por persona",
+                        "subtitle": "Precios: $1 por persona",
                         "image_url": "https://i.pinimg.com/originals/09/44/c8/0944c8a8a067ebb71458e2b8626339b7.jpg",
                         "buttons": [ 
                             {
@@ -418,7 +418,7 @@ class ActionCarousel(Action):
                     {
                         "title": "columpio extremo el abismo del diablo",
                         "subtitle": "Precio: $10 por persona",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t1.6435-9/123370627_634293370579396_2611973146868467534_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEkEwbtja3l4WA0Puk9Jg-pzsOnH-gMe8bOw6cf6Ax7xpKGOoCOOnQHRJXh6dQ2b-nseDK269G20a-9ScILaHYm&_nc_ohc=QhKY74QPaP4AX-2Y6Vo&_nc_ht=scontent.fatf4-1.fna&oh=00_AfCrKiBc7TwfsaMEupHU13HhiIkcgAtrShHzvE_3FUinuQ&oe=63C1A362",
+                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t1.6435-9/123370627_634293370579396_2611973146868467534_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEkEwbtja3l4WA0Puk9Jg-pzsOnH-gMe8bOw6cf6Ax7xpKGOoCOOnQHRJXh6dQ2b-nseDK269G20a-9ScILaHYm&_nc_ohc=34q01d9SvNcAX8XzV2_&tn=ZIOy2dN4pviN0Vbn&_nc_ht=scontent.fatf4-1.fna&oh=00_AfAY229ycANjoM1OUhwrevbf0IOxA4NldtPl30UA124JJQ&oe=63F189E2",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
