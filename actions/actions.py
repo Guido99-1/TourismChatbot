@@ -19,7 +19,7 @@ import psycopg2
 calidarslots = ["1", "2", "3", "4", "5"]
 validarpreguntados = ["uno", "dos", "tres", "cuatro", "cinco"]
 validarpreguntatres = ["g", "b", "c", "d", "e"]
-validarpreguntacuatro = ["v", "w", "x", "k", "z"]
+validarpreguntacuatro = ["v", "w", "x", "ñ", "z"]
 
 class ValidateBasicForm(FormValidationAction):
     def name(self) -> Text:
@@ -81,7 +81,7 @@ class ValidateBasicForm(FormValidationAction):
         """Validate `conocer_cuatro` value."""
 
         if slot_value.lower() not in validarpreguntacuatro:
-            dispatcher.utter_message(text=f"se acepta Si o No.")
+            dispatcher.utter_message(text=f"se acepta valores del 1 al 5")
             return {"conocer_cuatro": None}
         #dispatcher.utter_message(text=f"Gracias por su respuesta")
         
@@ -124,7 +124,7 @@ class ValidateBasicForm(FormValidationAction):
             pregunta4="2"
         elif tracker.get_slot("conocer_cuatro") == "x":
             pregunta4="3"
-        elif tracker.get_slot("conocer_cuatro") == "k":
+        elif tracker.get_slot("conocer_cuatro") == "ñ":
             pregunta4="4"     
         else: 
             pregunta4="5"   
