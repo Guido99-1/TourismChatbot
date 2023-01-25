@@ -49,8 +49,12 @@ nlu:
 - intent: ruta_chivias_cascadas
   examples: |
     - ruta de las cascadas
+    - ruta de las cascadas en chivas
     - la ruta de las cascadas en chivas
     - tour de las cascadas
+    - tour de las cascadas en chiva
+    - la  ruta de las cascadas en chiva 
+    - las cascadas en chivas
 
 - intent: ruta_chivas_casaArbol
   examples: |
@@ -158,11 +162,11 @@ nlu:
     - How are you doing?
     - How are you?
     - How do you do?
-    - How’s it going?
-    - What’s going on?
-    - What’s new?
-    - What’s up? 
-    - What’s happening?
+    - How's it going?
+    - What's going on?
+    - What's new?
+    - What's up? 
+    - What's happening?
 
 - intent: goodbye_español
   examples: |
@@ -172,6 +176,7 @@ nlu:
     - nos vemos
     - hasta luego
     - chao
+    - hasta la proxima
 
 - intent: despedida
   examples: |
@@ -571,12 +576,16 @@ nlu:
 - intent: sincosto_lugares
   examples: |
     - gratis
+    - sin costo
+    - atractivos sin costo
     - gratis
     - atractivos gratis
     - lugares gratis
+    - lugares sin costo
     - atractivos gratis
     - lugares gratis
     - gratis en Baños
+    - sin costo en baños
     - cuantos lugares gratis tiene Baños
     - hay atractivos o lugares gratis en baños 
     - visitar lugares gratis 

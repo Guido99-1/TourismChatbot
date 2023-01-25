@@ -600,7 +600,7 @@ class ActionCarousel(Action):
                             },
                             {
                             "title": "Más información",
-                            "payload": "más información chamana",
+                            "payload": "cascada de chamana",
                             "type": "postback"
                             }
                         ]
@@ -2000,7 +2000,7 @@ class ActionCarousel(Action):
                             },
                             {
                             "title": "Más información",
-                            "payload": "ruta de las cascadas",
+                            "payload": "ruta de las cascadas en chivas",
                             "type": "postback"
                             }
                         ]
