@@ -19,7 +19,7 @@ import psycopg2
 calidarslots = ["1", "2", "3", "4", "5"]
 validarpreguntados = ["uno", "dos", "tres", "cuatro", "cinco"]
 validarpreguntatres = ["g", "b", "c", "d", "e"]
-validarpreguntacuatro = ["v", "w", "x", "ñ", "z"]
+validarpreguntacuatro = ["w", "x", "z", "q", "j"]
 
 class ValidateBasicForm(FormValidationAction):
     def name(self) -> Text:
@@ -118,13 +118,13 @@ class ValidateBasicForm(FormValidationAction):
         else: 
             pregunta3="5"
         
-        if tracker.get_slot("conocer_cuatro") == "v":
+        if tracker.get_slot("conocer_cuatro") == "w":
             pregunta4="1"
-        elif tracker.get_slot("conocer_cuatro") == "w":
-            pregunta4="2"
         elif tracker.get_slot("conocer_cuatro") == "x":
+            pregunta4="2"
+        elif tracker.get_slot("conocer_cuatro") == "z":
             pregunta4="3"
-        elif tracker.get_slot("conocer_cuatro") == "ñ":
+        elif tracker.get_slot("conocer_cuatro") == "q":
             pregunta4="4"     
         else: 
             pregunta4="5"   
@@ -523,7 +523,7 @@ class ActionCarousel(Action):
                     {
                         "title": "El pailón del diablo",
                         "subtitle": "Precio: $2,50",
-                        "image_url": "https://www.laflorestahotel.com/archivos/blogs/pailon-del-diablo-banos-ecuador.jpg",
+                        "image_url": "https://lh3.googleusercontent.com/p/AF1QipNw_0fLVURJjpKzzoAowtgGLA5magLjfqmf8lxO=s680-w680-h510",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -1684,7 +1684,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Baños Pondoa",
                         "subtitle": "Precio: $ 0",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t1.6435-9/196548864_2130913640540454_2609577053806143772_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEyeczG7tA_cAhCLeMu8ZK8GO7g8uZozgcY7uDy5mjOBykjh_n8Xshudnogdw1PR-d0XFVFxCh7q6lGUV_5NaRz&_nc_ohc=9G8EPfKfBEcAX-A35RI&_nc_ht=scontent.fatf4-1.fna&oh=00_AfDgZ3rf9j7pg8DiK2fzeF1ehW7TolgQhE07Hd0Ge-Ppxg&oe=63C0E286",
+                        "image_url": "https://lh5.googleusercontent.com/p/AF1QipPwTq_r2BINYfQq2xHBkbvU555DV7DfiYHxZDrq=w1080-k-no",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",
@@ -1750,7 +1750,7 @@ class ActionCarousel(Action):
                     {
                         "title": "Ruta de los Contrabandistas",
                         "subtitle": "Precio: $0",
-                        "image_url": "https://scontent.fatf4-1.fna.fbcdn.net/v/t1.6435-9/37737585_233076270667185_1514949331688357888_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEWqZM7XUKKPDsBmJVdFYc9JVBCoqD0gD4lUEKioPSAPpsnXopNzYxj4redVQ5VZJdWRktURc4g1d6BqkoPQXEi&_nc_ohc=kNg6ypTInMsAX-IFRsL&_nc_ht=scontent.fatf4-1.fna&oh=00_AfCVYdF1TnHdzE4yeYE2NPI6xkMMXK-UDsLv4QSDVA5RLg&oe=63C0EEA4",
+                        "image_url": "https://img.goraymi.com/2018/06/11/101ad925f8cbe96ab69e4b68d4936be8_xl.jpg",
                         "buttons": [ 
                             {
                             "title": "Cómo llegar",

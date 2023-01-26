@@ -615,7 +615,7 @@ responses:
   utter_chiva_bellavista:
   - text: "Horario nocturno de 19:00 y 21:00. Tour que inicia en el centro de Baños y de ahí parten hasta el sector de Runtún. Donde podrá apreciar una vista nocturna de la ciudad de Baños, el ingreso al mirador es de $0,50 incluye un canelazo. La chiva se informará al momento de regresar a la ciudad"
   utter_slots_values:
-  - text: "Muchas gracias por rersponder a cada una de las preguntas"
+  - text: "Muchas gracias por responder a cada una de las preguntas"
   utter_indicaciones:
   - text: "Indique en una escala del 1 al 5 siendo 1 la calificacion más baja y 5 la mas alta"
   utter_ask_basic_form_pregunta_uno:
